@@ -29,8 +29,6 @@
     <link rel="icon" href="/favicon.png">
   
   
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
   <link rel="stylesheet" href="/css/style.css">
 </head>
 </html>
@@ -74,6 +72,64 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-highlightjs" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/20/highlightjs/" class="article-date">
+  <time datetime="2019-02-20T12:37:41.000Z" itemprop="datePublished">2019-02-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/highlight/">highlight</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/20/highlightjs/">Hexo EJS highlight</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>_config.yml</p>
+<pre><code class="yaml">...
+highlight:
+  enable: false
+...
+</code></pre>
+<p>footer.ejs</p>
+<pre><code class="ejs">&lt;% if (config.highlight != true) { %&gt;
+    &lt;!-- Highlight.js --&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/atom-one-dark.min.css&quot;&gt;
+    &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js&quot;&gt;&lt;/script&gt;
+    &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
+  &lt;% } %&gt;
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjsd6u16o0001k4uwu52on85n" class="article-share-link">Share</a>
+      
+        <a href="https://jakeuj.github.io/2019/02/20/highlightjs/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-test-my-site" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/20/test-my-site/" class="article-date">
@@ -101,18 +157,35 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>_confid.yml</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus_shortname:</span> <span class="string">jakeuj</span></span><br></pre></td></tr></table></figure>
+<pre><code class="yaml"># Disqus
+disqus_shortname: jakeuj
+</code></pre>
 <p>themes/xxxx/layout/_widget/recent_comment.ejs</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.comments)&#123; %&gt;</span><br><span class="line">&lt;section id=&quot;comment&quot;&gt;</span><br><span class="line">  &lt;h1 class=&quot;title&quot;&gt;&lt;%= __(&apos;comment&apos;) %&gt;&lt;/h1&gt;</span><br><span class="line">  &lt;% if (theme.comment_provider == &quot;facebook&quot;) &#123;</span><br><span class="line">      if (theme.facebook) &#123; %&gt;</span><br><span class="line">      &lt;%- partial(&apos;_partial/facebook_comment&apos;, &#123;fbConfig: theme.facebook&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;% &#125; else if(config.disqus_shortname) &#123; %&gt;</span><br><span class="line">  &lt;div id=&quot;disqus_thread&quot;&gt;</span><br><span class="line">    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;//disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;% &#125; %&gt;</span><br><span class="line">&lt;/section&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<pre><code class="ejs">&lt;% if (page.comments){ %&gt;
+&lt;section id=&quot;comment&quot;&gt;
+  &lt;h1 class=&quot;title&quot;&gt;&lt;%= __(&#39;comment&#39;) %&gt;&lt;/h1&gt;
+  &lt;% if (theme.comment_provider == &quot;facebook&quot;) {
+      if (theme.facebook) { %&gt;
+      &lt;%- partial(&#39;_partial/facebook_comment&#39;, {fbConfig: theme.facebook}) %&gt;
+      &lt;% } %&gt;
+  &lt;% } else if(config.disqus_shortname) { %&gt;
+  &lt;div id=&quot;disqus_thread&quot;&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;//disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+  &lt;/div&gt;
+  &lt;% } %&gt;
+&lt;/section&gt;
+&lt;% } %&gt;
+</code></pre>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsd5j9je0001m8uwy2jwpdnz" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsd6u16r0002k4uwamj9f6ir" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/test-my-site/#disqus_thread" class="article-comment-link">Comments</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 
     </footer>
   </div>
@@ -144,19 +217,23 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy
+</code></pre>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsd5j9j70000m8uwukaoj6ws" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsd6u16h0000k4uwoy769lfi" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -178,7 +255,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/highlight/">highlight</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -188,7 +265,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
     </div>
   </div>
 
@@ -198,7 +275,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/test/" style="font-size: 10px;">test</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
     </div>
   </div>
 
@@ -218,6 +295,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/02/20/highlightjs/">Hexo EJS highlight</a>
+          </li>
         
           <li>
             <a href="/2019/02/20/test-my-site/">Hexo 啟用評論 comments</a>
@@ -248,6 +329,12 @@
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
+  
+	<!-- Highlight.js -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+  
 </footer>
     </div>
     <nav id="mobile-nav">

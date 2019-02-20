@@ -7,18 +7,18 @@
   
   <title>Hexo 啟用評論 comments | Jake&#39;s Hexo Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="_confid.yml 12# Disqusdisqus_shortname: jakeuj themes/xxxx/layout/_widget/recent_comment.ejs 1234567891011121314&amp;lt;% if (page.comments)&amp;#123; %&amp;gt;&amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;  &amp;lt;h1 class">
-<meta name="keywords" content="test">
+  <meta name="description" content="_confid.yml # Disqus disqus_shortname: jakeuj  themes/xxxx/layout/_widget/recent_comment.ejs &amp;lt;% if (page.comments){ %&amp;gt; &amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;   &amp;lt;h1 class=&amp;quot;title&amp;quot;&amp;gt;">
+<meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 啟用評論 comments">
 <meta property="og:url" content="https://jakeuj.github.io/2019/02/20/test-my-site/index.html">
 <meta property="og:site_name" content="Jake&#39;s Hexo Blog">
-<meta property="og:description" content="_confid.yml 12# Disqusdisqus_shortname: jakeuj themes/xxxx/layout/_widget/recent_comment.ejs 1234567891011121314&amp;lt;% if (page.comments)&amp;#123; %&amp;gt;&amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;  &amp;lt;h1 class">
+<meta property="og:description" content="_confid.yml # Disqus disqus_shortname: jakeuj  themes/xxxx/layout/_widget/recent_comment.ejs &amp;lt;% if (page.comments){ %&amp;gt; &amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;   &amp;lt;h1 class=&amp;quot;title&amp;quot;&amp;gt;">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-02-20T12:06:11.962Z">
+<meta property="og:updated_time" content="2019-02-20T12:38:45.919Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 啟用評論 comments">
-<meta name="twitter:description" content="_confid.yml 12# Disqusdisqus_shortname: jakeuj themes/xxxx/layout/_widget/recent_comment.ejs 1234567891011121314&amp;lt;% if (page.comments)&amp;#123; %&amp;gt;&amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;  &amp;lt;h1 class">
+<meta name="twitter:description" content="_confid.yml # Disqus disqus_shortname: jakeuj  themes/xxxx/layout/_widget/recent_comment.ejs &amp;lt;% if (page.comments){ %&amp;gt; &amp;lt;section id=&amp;quot;comment&amp;quot;&amp;gt;   &amp;lt;h1 class=&amp;quot;title&amp;quot;&amp;gt;">
 <meta name="twitter:creator" content="@jakeuj">
 <link rel="publisher" href="jakeuj">
 <meta property="fb:admins" content="1039528989">
@@ -29,8 +29,6 @@
   
     <link rel="icon" href="/favicon.png">
   
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   
   <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -100,24 +98,50 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p>_confid.yml</p>
-<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Disqus</span></span><br><span class="line"><span class="attr">disqus_shortname:</span> <span class="string">jakeuj</span></span><br></pre></td></tr></table></figure>
+<pre><code class="yaml"># Disqus
+disqus_shortname: jakeuj
+</code></pre>
 <p>themes/xxxx/layout/_widget/recent_comment.ejs</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (page.comments)&#123; %&gt;</span><br><span class="line">&lt;section id=&quot;comment&quot;&gt;</span><br><span class="line">  &lt;h1 class=&quot;title&quot;&gt;&lt;%= __(&apos;comment&apos;) %&gt;&lt;/h1&gt;</span><br><span class="line">  &lt;% if (theme.comment_provider == &quot;facebook&quot;) &#123;</span><br><span class="line">      if (theme.facebook) &#123; %&gt;</span><br><span class="line">      &lt;%- partial(&apos;_partial/facebook_comment&apos;, &#123;fbConfig: theme.facebook&#125;) %&gt;</span><br><span class="line">      &lt;% &#125; %&gt;</span><br><span class="line">  &lt;% &#125; else if(config.disqus_shortname) &#123; %&gt;</span><br><span class="line">  &lt;div id=&quot;disqus_thread&quot;&gt;</span><br><span class="line">    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;//disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;% &#125; %&gt;</span><br><span class="line">&lt;/section&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<pre><code class="ejs">&lt;% if (page.comments){ %&gt;
+&lt;section id=&quot;comment&quot;&gt;
+  &lt;h1 class=&quot;title&quot;&gt;&lt;%= __(&#39;comment&#39;) %&gt;&lt;/h1&gt;
+  &lt;% if (theme.comment_provider == &quot;facebook&quot;) {
+      if (theme.facebook) { %&gt;
+      &lt;%- partial(&#39;_partial/facebook_comment&#39;, {fbConfig: theme.facebook}) %&gt;
+      &lt;% } %&gt;
+  &lt;% } else if(config.disqus_shortname) { %&gt;
+  &lt;div id=&quot;disqus_thread&quot;&gt;
+    &lt;noscript&gt;Please enable JavaScript to view the &lt;a href=&quot;//disqus.com/?ref_noscript&quot;&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;
+  &lt;/div&gt;
+  &lt;% } %&gt;
+&lt;/section&gt;
+&lt;% } %&gt;
+</code></pre>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsd5j9je0001m8uwy2jwpdnz" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsd6u16r0002k4uwamj9f6ir" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/test-my-site/#disqus_thread" class="article-comment-link">Comments</a>
       
       
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/test/">test</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
 
     </footer>
   </div>
   
     
 <nav id="article-nav">
+  
+    <a href="/2019/02/20/highlightjs/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Hexo EJS highlight
+        
+      </div>
+    </a>
   
   
     <a href="/2019/02/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
@@ -144,7 +168,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/highlight/">highlight</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -154,7 +178,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/test/">test</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
     </div>
   </div>
 
@@ -164,7 +188,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/test/" style="font-size: 10px;">test</a>
+      <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
     </div>
   </div>
 
@@ -184,6 +208,10 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/02/20/highlightjs/">Hexo EJS highlight</a>
+          </li>
         
           <li>
             <a href="/2019/02/20/test-my-site/">Hexo 啟用評論 comments</a>
@@ -214,6 +242,12 @@
       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
+  
+	<!-- Highlight.js -->
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/atom-one-dark.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+  
 </footer>
     </div>
     <nav id="mobile-nav">
