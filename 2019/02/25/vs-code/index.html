@@ -16,7 +16,7 @@
 <meta property="og:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
 <meta property="og:locale" content="zh">
 <meta property="og:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
-<meta property="og:updated_time" content="2019-02-25T13:27:22.894Z">
+<meta property="og:updated_time" content="2019-02-25T13:46:48.521Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VS Code Hexo">
 <meta name="twitter:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
@@ -108,13 +108,24 @@
     &quot;version&quot;: &quot;2.0.0&quot;,
     &quot;tasks&quot;: [
         {
-            &quot;label&quot;: &quot;Hexo Clean&quot;,
-            &quot;type&quot;: &quot;shell&quot;,
-            &quot;command&quot;: &quot;hexo clean&quot;,
+            &quot;label&quot;: &quot;Hexo Deploy&quot;,
+            &quot;dependsOn&quot;: [&quot;Hexo Clean&quot;, &quot;Hexo Generate&quot;],
+            &quot;command&quot;: &quot;hexo d&quot;,
             &quot;group&quot;: {
                 &quot;kind&quot;: &quot;build&quot;,
                 &quot;isDefault&quot;: true
             },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Clean&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo c&quot;,
+            &quot;group&quot;: &quot;build&quot;,
             &quot;presentation&quot;: {
                 &quot;echo&quot;: true,
                 &quot;reveal&quot;: &quot;always&quot;,
@@ -124,25 +135,8 @@
         {
             &quot;label&quot;: &quot;Hexo Generate&quot;,
             &quot;type&quot;: &quot;shell&quot;,
-            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
-            &quot;group&quot;: {
-                &quot;kind&quot;: &quot;build&quot;,
-                &quot;isDefault&quot;: true
-            },
-            &quot;presentation&quot;: {
-                &quot;echo&quot;: true,
-                &quot;reveal&quot;: &quot;always&quot;,
-                &quot;panel&quot;: &quot;new&quot;
-            }
-        },
-        {
-            &quot;label&quot;: &quot;Hexo Post&quot;,
-            &quot;dependsOn&quot;: [&quot;Hexo Clean&quot;, &quot;Hexo Generate&quot;],
-            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
-            &quot;group&quot;: {
-                &quot;kind&quot;: &quot;build&quot;,
-                &quot;isDefault&quot;: true
-            },
+            &quot;command&quot;: &quot;hexo g&quot;,
+            &quot;group&quot;: &quot;build&quot;,
             &quot;presentation&quot;: {
                 &quot;echo&quot;: true,
                 &quot;reveal&quot;: &quot;always&quot;,
@@ -171,7 +165,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjskdtxy3000l2cuwi1bzz0ea" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsker9sk0005dguwxx7ap7mx" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
