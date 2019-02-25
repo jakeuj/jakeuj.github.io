@@ -72,6 +72,118 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-vs-code" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/25/vs-code/" class="article-date">
+  <time datetime="2019-02-25T04:55:29.739Z" itemprop="datePublished">2019-02-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/VS/">VS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/25/vs-code/">VS Code Hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a href="https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-hexo-utils#overview" target="_blank" rel="noopener">VS Code HEXO 擴充套件</a></p>
+<p><img src="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif" alt="Demo"></p>
+<p>tasks.json</p>
+<pre><code class="json">{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    &quot;version&quot;: &quot;2.0.0&quot;,
+    &quot;tasks&quot;: [
+        {
+            &quot;label&quot;: &quot;Hexo Clean&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo clean&quot;,
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Generate&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Post&quot;,
+            &quot;dependsOn&quot;: [&quot;Hexo Clean&quot;, &quot;Hexo Generate&quot;],
+            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Preview&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo server&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;test&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        }
+    ]
+}
+</code></pre>
+<p><a href="https://blog.vlitter.top/blog/Make-VSCode-be-the-best-editor-for-Hexo.html" target="_blank" rel="noopener">將VS Code打造成Hexo博客的最佳編輯器</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjskdskno0005fwuw2dgdky19" class="article-share-link">Share</a>
+      
+        <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-highlightjs" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/20/highlightjs/" class="article-date">
@@ -116,7 +228,7 @@ highlight:
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjsd6u16o0001k4uwu52on85n" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjskdsknh0001fwuw3jikh4om" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/highlightjs/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -180,7 +292,7 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsd6u16r0002k4uwamj9f6ir" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjskdsknm0004fwuwymc80jnp" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/test-my-site/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -197,9 +309,13 @@ disqus_shortname: jakeuj
     <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/20/hello-world/" class="article-date">
-  <time datetime="2019-02-20T07:29:37.648Z" itemprop="datePublished">2019-02-20</time>
+  <time datetime="2019-02-19T16:00:00.000Z" itemprop="datePublished">2019-02-20</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/test/">test</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -233,11 +349,13 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsd6u16h0000k4uwoy769lfi" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjskdskn90000fwuwt96kcqtj" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
     </footer>
   </div>
   
@@ -255,7 +373,7 @@ disqus_shortname: jakeuj
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/highlight/">highlight</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/VS/">VS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/highlight/">highlight</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/test/">test</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -295,6 +413,10 @@ disqus_shortname: jakeuj
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2019/02/25/vs-code/">VS Code Hexo</a>
+          </li>
         
           <li>
             <a href="/2019/02/20/highlightjs/">Hexo EJS highlight</a>

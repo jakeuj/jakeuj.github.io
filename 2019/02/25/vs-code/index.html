@@ -5,20 +5,22 @@
   
 
   
-  <title>Hexo EJS highlight | Jake&#39;s Hexo Blog</title>
+  <title>VS Code Hexo | Jake&#39;s Hexo Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="_config.yml ... highlight:   enable: false ...  footer.ejs &amp;lt;% if (config.highlight != true) { %&amp;gt;     &amp;lt;!-- Highlight.js --&amp;gt;     &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;//cdnjs.cloudf">
+  <meta name="description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
 <meta name="keywords" content="Hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo EJS highlight">
-<meta property="og:url" content="https://jakeuj.github.io/2019/02/20/highlightjs/index.html">
+<meta property="og:title" content="VS Code Hexo">
+<meta property="og:url" content="https://jakeuj.github.io/2019/02/25/vs-code/index.html">
 <meta property="og:site_name" content="Jake&#39;s Hexo Blog">
-<meta property="og:description" content="_config.yml ... highlight:   enable: false ...  footer.ejs &amp;lt;% if (config.highlight != true) { %&amp;gt;     &amp;lt;!-- Highlight.js --&amp;gt;     &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;//cdnjs.cloudf">
+<meta property="og:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
 <meta property="og:locale" content="zh">
-<meta property="og:updated_time" content="2019-02-25T12:58:51.980Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
+<meta property="og:updated_time" content="2019-02-25T13:27:22.894Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo EJS highlight">
-<meta name="twitter:description" content="_config.yml ... highlight:   enable: false ...  footer.ejs &amp;lt;% if (config.highlight != true) { %&amp;gt;     &amp;lt;!-- Highlight.js --&amp;gt;     &amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;//cdnjs.cloudf">
+<meta name="twitter:title" content="VS Code Hexo">
+<meta name="twitter:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
 <meta name="twitter:creator" content="@jakeuj">
 <link rel="publisher" href="jakeuj">
 <meta property="fb:admins" content="1039528989">
@@ -71,14 +73,14 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-highlightjs" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-vs-code" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2019/02/20/highlightjs/" class="article-date">
-  <time datetime="2019-02-20T12:37:41.000Z" itemprop="datePublished">2019-02-20</time>
+    <a href="/2019/02/25/vs-code/" class="article-date">
+  <time datetime="2019-02-25T04:55:29.739Z" itemprop="datePublished">2019-02-25</time>
 </a>
     
   <div class="article-category">
-    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/highlight/">highlight</a>
+    <a class="article-category-link" href="/categories/Hexo/">Hexo</a>►<a class="article-category-link" href="/categories/Hexo/VS/">VS</a>
   </div>
 
   </div>
@@ -89,7 +91,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo EJS highlight
+      VS Code Hexo
     </h1>
   
 
@@ -97,27 +99,81 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>_config.yml</p>
-<pre><code class="yaml">...
-highlight:
-  enable: false
-...
+        <p><a href="https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-hexo-utils#overview" target="_blank" rel="noopener">VS Code HEXO 擴充套件</a></p>
+<p><img src="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif" alt="Demo"></p>
+<p>tasks.json</p>
+<pre><code class="json">{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    &quot;version&quot;: &quot;2.0.0&quot;,
+    &quot;tasks&quot;: [
+        {
+            &quot;label&quot;: &quot;Hexo Clean&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo clean&quot;,
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Generate&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Post&quot;,
+            &quot;dependsOn&quot;: [&quot;Hexo Clean&quot;, &quot;Hexo Generate&quot;],
+            &quot;command&quot;: &quot;hexo generate --deploy&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;build&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Preview&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;command&quot;: &quot;hexo server&quot;,       
+            &quot;group&quot;: {
+                &quot;kind&quot;: &quot;test&quot;,
+                &quot;isDefault&quot;: true
+            },
+            &quot;presentation&quot;: {
+                &quot;echo&quot;: true,
+                &quot;reveal&quot;: &quot;always&quot;,
+                &quot;panel&quot;: &quot;new&quot;
+            }
+        }
+    ]
+}
 </code></pre>
-<p>footer.ejs</p>
-<pre><code class="ejs">&lt;% if (config.highlight != true) { %&gt;
-    &lt;!-- Highlight.js --&gt;
-    &lt;link rel=&quot;stylesheet&quot; href=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/styles/atom-one-dark.min.css&quot;&gt;
-    &lt;script src=&quot;//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.14.2/highlight.min.js&quot;&gt;&lt;/script&gt;
-    &lt;script&gt;hljs.initHighlightingOnLoad();&lt;/script&gt;
-  &lt;% } %&gt;
-</code></pre>
+<p><a href="https://blog.vlitter.top/blog/Make-VSCode-be-the-best-editor-for-Hexo.html" target="_blank" rel="noopener">將VS Code打造成Hexo博客的最佳編輯器</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjskdsknh0001fwuw3jikh4om" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjskdskno0005fwuw2dgdky19" class="article-share-link">Share</a>
       
-        <a href="https://jakeuj.github.io/2019/02/20/highlightjs/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -128,19 +184,10 @@ highlight:
     
 <nav id="article-nav">
   
-    <a href="/2019/02/25/vs-code/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          VS Code Hexo
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/02/20/test-my-site/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/02/20/highlightjs/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hexo 啟用評論 comments</div>
+      <div class="article-nav-title">Hexo EJS highlight</div>
     </a>
   
 </nav>
@@ -259,7 +306,7 @@ highlight:
 <script>
   var disqus_shortname = 'jakeuj';
   
-  var disqus_url = 'https://jakeuj.github.io/2019/02/20/highlightjs/';
+  var disqus_url = 'https://jakeuj.github.io/2019/02/25/vs-code/';
   
   (function(){
     var dsq = document.createElement('script');
