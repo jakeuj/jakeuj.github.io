@@ -108,39 +108,19 @@
     &quot;tasks&quot;: [
         {
             &quot;label&quot;: &quot;Hexo Deploy&quot;,
-            &quot;dependsOn&quot;: [&quot;Hexo Clean&quot;, &quot;Hexo Generate&quot;],
-            &quot;command&quot;: &quot;hexo d&quot;,
+            &quot;type&quot;: &quot;shell&quot;,
+            &quot;dependsOn&quot;: &quot;Hexo Clean&quot;,
+            &quot;command&quot;: &quot;hexo g --d&quot;,
             &quot;group&quot;: {
                 &quot;kind&quot;: &quot;build&quot;,
                 &quot;isDefault&quot;: true
-            },
-            &quot;presentation&quot;: {
-                &quot;echo&quot;: true,
-                &quot;reveal&quot;: &quot;always&quot;,
-                &quot;panel&quot;: &quot;new&quot;
             }
         },
         {
             &quot;label&quot;: &quot;Hexo Clean&quot;,
             &quot;type&quot;: &quot;shell&quot;,
-            &quot;command&quot;: &quot;hexo c&quot;,
-            &quot;group&quot;: &quot;build&quot;,
-            &quot;presentation&quot;: {
-                &quot;echo&quot;: true,
-                &quot;reveal&quot;: &quot;always&quot;,
-                &quot;panel&quot;: &quot;new&quot;
-            }
-        },
-        {
-            &quot;label&quot;: &quot;Hexo Generate&quot;,
-            &quot;type&quot;: &quot;shell&quot;,
-            &quot;command&quot;: &quot;hexo g&quot;,
-            &quot;group&quot;: &quot;build&quot;,
-            &quot;presentation&quot;: {
-                &quot;echo&quot;: true,
-                &quot;reveal&quot;: &quot;always&quot;,
-                &quot;panel&quot;: &quot;new&quot;
-            }
+            &quot;command&quot;: &quot;hexo clean&quot;,
+            &quot;group&quot;: &quot;build&quot;
         },
         {
             &quot;label&quot;: &quot;Hexo Preview&quot;,
@@ -149,11 +129,6 @@
             &quot;group&quot;: {
                 &quot;kind&quot;: &quot;test&quot;,
                 &quot;isDefault&quot;: true
-            },
-            &quot;presentation&quot;: {
-                &quot;echo&quot;: true,
-                &quot;reveal&quot;: &quot;always&quot;,
-                &quot;panel&quot;: &quot;new&quot;
             }
         }
     ]
@@ -164,7 +139,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsker9sk0005dguwxx7ap7mx" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjskesjlk0005j8uw4ortgnal" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -222,7 +197,7 @@ highlight:
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjsker9si0004dguw1ngt9wzb" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjskesjlb0001j8uwi39wc9np" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/highlightjs/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -286,7 +261,7 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsker9sd0001dguwuc3j9lw7" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjskesjlh0004j8uwk12wafzr" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/test-my-site/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -343,7 +318,7 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsker9s50000dguw598bc0qe" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjskesjkz0000j8uwi5qglgpr" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
