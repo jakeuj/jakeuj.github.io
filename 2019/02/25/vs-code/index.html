@@ -16,7 +16,7 @@
 <meta property="og:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
 <meta property="og:locale" content="zh">
 <meta property="og:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
-<meta property="og:updated_time" content="2019-02-26T07:21:38.185Z">
+<meta property="og:updated_time" content="2019-02-26T08:21:14.215Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="VS Code Hexo">
 <meta name="twitter:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
@@ -124,9 +124,19 @@
             &quot;group&quot;: &quot;build&quot;
         },
         {
-            &quot;label&quot;: &quot;Hexo Preview&quot;,
+            &quot;label&quot;: &quot;Hexo Server&quot;,
             &quot;type&quot;: &quot;shell&quot;,
             &quot;command&quot;: &quot;hexo server&quot;,       
+            &quot;group&quot;:&quot;test&quot;,
+        },
+        {
+            &quot;label&quot;: &quot;Hexo Preview&quot;,
+            &quot;type&quot;: &quot;process&quot;,
+            &quot;dependsOn&quot;: &quot;Hexo Server&quot;,
+            &quot;args&quot;: [&quot;http://localhost:4000/&quot;],
+            &quot;windows&quot;: {
+                &quot;command&quot;: &quot;C:/Program Files (x86)/Google/Chrome/Application/chrome.exe&quot;
+            },
             &quot;group&quot;: {
                 &quot;kind&quot;: &quot;test&quot;,
                 &quot;isDefault&quot;: true
@@ -140,7 +150,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjslghvw800066cuwvu7m89ga" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsli5tf10006pkuw6p9fg1vc" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
