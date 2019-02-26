@@ -72,6 +72,88 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-VS Code Tasks Chrome" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/02/26/VS Code Tasks Chrome/" class="article-date">
+  <time datetime="2019-02-26T00:27:19.572Z" itemprop="datePublished">2019-02-26</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/VS-Code/">VS Code</a>►<a class="article-category-link" href="/categories/VS-Code/Tasks/">Tasks</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/02/26/VS Code Tasks Chrome/">VS Code Tasks Chrome</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>自動開啟瀏覽器來打開指定網址</p>
+<pre><code class="JSON">{
+    &quot;label&quot;: &quot;Chrome&quot;,
+    &quot;type&quot;: &quot;process&quot;,
+    &quot;args&quot;: [&quot;http://localhost:4000/&quot;],
+    &quot;windows&quot;: {
+        &quot;command&quot;: &quot;C:/Program Files (x86)/Google/Chrome/Application/chrome.exe&quot;
+    },
+    &quot;group&quot;:&quot;test&quot;,
+}
+</code></pre>
+<p>想在build或test的tasks完成後自動打開目標頁面可以加上dependsOn</p>
+<pre><code class="json">{
+    &quot;label&quot;: &quot;Hexo Server&quot;,
+    &quot;type&quot;: &quot;shell&quot;,
+    &quot;command&quot;: &quot;hexo server&quot;,       
+    &quot;group&quot;:&quot;test&quot;,
+},
+{
+    &quot;label&quot;: &quot;Chrome&quot;,
+    &quot;type&quot;: &quot;process&quot;,
+    &quot;args&quot;: [&quot;http://localhost:4000/&quot;],
+    &quot;windows&quot;: {
+        &quot;command&quot;: &quot;C:/Program Files (x86)/Google/Chrome/Application/chrome.exe&quot;
+    },
+    &quot;group&quot;:&quot;test&quot;,
+},
+{
+    &quot;label&quot;: &quot;Hexo Preview&quot;,
+    &quot;type&quot;: &quot;process&quot;,
+    &quot;dependsOn&quot;: [&quot;Hexo Server&quot;,&quot;Chrome&quot;],
+    &quot;group&quot;: {
+        &quot;kind&quot;: &quot;test&quot;,
+        &quot;isDefault&quot;: true
+    }
+}
+</code></pre>
+<p>這樣會在Tasks:Hexo Server完成後開啟瀏覽器來看結果</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://jakeuj.github.io/2019/02/26/VS Code Tasks Chrome/" data-id="cjsljz99h0005vguwin5kh344" class="article-share-link">Share</a>
+      
+        <a href="https://jakeuj.github.io/2019/02/26/VS Code Tasks Chrome/#disqus_thread" class="article-comment-link">Comments</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/VS-Code/">VS Code</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-MarkDown Editor" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/02/26/MarkDown Editor/" class="article-date">
@@ -106,7 +188,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/26/MarkDown Editor/" data-id="cjsli5teq0001pkuwtal4oqhb" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/26/MarkDown Editor/" data-id="cjsljz9970001vguwsejukgw3" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/26/MarkDown Editor/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -153,7 +235,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/26/Hexo Img/" data-id="cjsli5tei0000pkuwgryrj3bv" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/26/Hexo Img/" data-id="cjsljz98z0000vguwz6cc8by8" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/26/Hexo Img/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -244,7 +326,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsli5tf10006pkuw6p9fg1vc" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsljz99n000cvguwazlggnpi" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -302,7 +384,7 @@ highlight:
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjsli5tez0005pkuw6j01z9le" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/highlightjs/" data-id="cjsljz99i0006vguwjwdxs247" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/highlightjs/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -366,7 +448,7 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsli5tf3000apkuw17h6adkg" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/test-my-site/" data-id="cjsljz99l000avguw3pntpag9" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/test-my-site/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -423,7 +505,7 @@ disqus_shortname: jakeuj
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsli5tev0004pkuwho289n9k" class="article-share-link">Share</a>
+      <a data-url="https://jakeuj.github.io/2019/02/20/hello-world/" data-id="cjsljz99c0004vguw5ry4qvr3" class="article-share-link">Share</a>
       
         <a href="https://jakeuj.github.io/2019/02/20/hello-world/#disqus_thread" class="article-comment-link">Comments</a>
       
@@ -447,7 +529,7 @@ disqus_shortname: jakeuj
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/HighLight/">HighLight</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Img/">Img</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Test/">Test</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/VS-Code/">VS Code</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/">MarkDown</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/Editor/">Editor</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/HighLight/">HighLight</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Img/">Img</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Test/">Test</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/VS-Code/">VS Code</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/">MarkDown</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/Editor/">Editor</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/">VS Code</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/Tasks/">Tasks</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -457,7 +539,7 @@ disqus_shortname: jakeuj
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MarkDown/">MarkDown</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/MarkDown/">MarkDown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/VS-Code/">VS Code</a></li></ul>
     </div>
   </div>
 
@@ -467,7 +549,7 @@ disqus_shortname: jakeuj
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a>
+      <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/MarkDown/" style="font-size: 10px;">MarkDown</a> <a href="/tags/VS-Code/" style="font-size: 10px;">VS Code</a>
     </div>
   </div>
 
@@ -489,6 +571,10 @@ disqus_shortname: jakeuj
       <ul>
         
           <li>
+            <a href="/2019/02/26/VS Code Tasks Chrome/">VS Code Tasks Chrome</a>
+          </li>
+        
+          <li>
             <a href="/2019/02/26/MarkDown Editor/">MarkDown Editor Typora</a>
           </li>
         
@@ -502,10 +588,6 @@ disqus_shortname: jakeuj
         
           <li>
             <a href="/2019/02/20/highlightjs/">Hexo EJS highlight</a>
-          </li>
-        
-          <li>
-            <a href="/2019/02/20/test-my-site/">Hexo 啟用評論 comments</a>
           </li>
         
       </ul>
