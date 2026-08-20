@@ -1,11 +1,11 @@
 ---
 name: hexo-static-site
-description: Maintain and validate the published Hexo static site in jakeuj.github.io. Use when editing this repository's HTML, CSS, JavaScript, images, post indexes, taxonomy pages, archives, or deployment documentation; do not assume the Hexo source project is present.
+description: Maintain and validate the published Hexo static site at blog.jakeuj.com. Use when editing this repository's HTML, CSS, JavaScript, images, post indexes, taxonomy pages, archives, or deployment documentation; do not assume the Hexo source project is present.
 ---
 
 # Hexo Static Site
 
-Maintain this repository as the published output of Jake's Hexo Blog at `https://jakeuj.github.io/`.
+Maintain this repository as the published output of Jakeuj 技術筆記 at `https://blog.jakeuj.com/`.
 
 ## Repository Context
 

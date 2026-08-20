@@ -1,6 +1,6 @@
-# Jake's Hexo Blog
+# Jakeuj 技術筆記
 
-這是 [Jake's Hexo Blog](https://jakeuj.github.io/) 的 GitHub Pages repository，內容由 Hexo 3.8.0 產生，主要記錄 Hexo、VS Code 與 Markdown 相關筆記。
+這是 [Jakeuj 技術筆記](https://blog.jakeuj.com/) 的 GitHub Pages repository，內容由 Hexo 3.8.0 產生，主要記錄 Hexo、VS Code 與 Markdown 相關筆記。
 
 ## Repository 內容
 
@@ -10,6 +10,7 @@
 - `2019/`：依日期整理的文章頁面
 - `categories/`、`tags/`、`archives/`：分類、標籤與文章封存頁面
 - `css/`、`js/`、`fancybox/`：網站樣式、腳本與圖片瀏覽元件
+- `robots.txt`、`sitemap.xml`、`favicon.svg`：搜尋引擎探索與網站識別檔案
 
 ## 本機預覽
 

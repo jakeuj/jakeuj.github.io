@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" role="img" aria-labelledby="title">
+  <title id="title">Jakeuj 技術筆記</title>
+  <rect width="96" height="96" rx="20" fill="#258fb8"/>
+  <path fill="#fff" d="M48 22h14v43c0 13-8 21-22 21-11 0-19-6-22-16l13-5c2 6 5 9 10 9 5 0 7-3 7-9V22z"/>
+</svg>

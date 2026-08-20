@@ -1,40 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head><meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   
 
   
-  <title>VS Code Hexo | Jake&#39;s Hexo Blog</title>
+  <title>VS Code Hexo | Jakeuj 技術筆記</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
-<meta name="keywords" content="Hexo">
+  <meta name="description" content="使用 VS Code tasks.json 自動執行 Hexo clean、generate、deploy、server 與 Chrome 預覽。">
+<link rel="canonical" href="https://blog.jakeuj.com/2019/02/25/vs-code/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="VS Code Hexo">
-<meta property="og:url" content="https://jakeuj.github.io/2019/02/25/vs-code/index.html">
-<meta property="og:site_name" content="Jake&#39;s Hexo Blog">
-<meta property="og:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
-<meta property="og:locale" content="zh">
+<meta property="og:title" content="VS Code Hexo | Jakeuj 技術筆記">
+<meta property="og:url" content="https://blog.jakeuj.com/2019/02/25/vs-code/">
+<meta property="og:site_name" content="Jakeuj 技術筆記">
+<meta property="og:description" content="使用 VS Code tasks.json 自動執行 Hexo clean、generate、deploy、server 與 Chrome 預覽。">
+<meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
 <meta property="og:updated_time" content="2019-02-26T08:21:14.215Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="VS Code Hexo">
-<meta name="twitter:description" content="VS Code HEXO 擴充套件  tasks.json {     // See https://go.microsoft.com/fwlink/?LinkId=733558      // for the documentation about the tasks.json format     &amp;quot;version&amp;quot;: &amp;quot;2.0.0&amp;quot;,     &amp;quo">
+<meta name="twitter:title" content="VS Code Hexo | Jakeuj 技術筆記">
+<meta name="twitter:description" content="使用 VS Code tasks.json 自動執行 Hexo clean、generate、deploy、server 與 Chrome 預覽。">
 <meta name="twitter:image" content="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif">
 <meta name="twitter:creator" content="@jakeuj">
-<link rel="publisher" href="jakeuj">
 <meta property="fb:admins" content="1039528989">
 <meta property="fb:app_id" content="363495580660737">
   
-    <link rel="alternate" href="/atom.xml" title="Jake&#39;s Hexo Blog" type="application/atom+xml">
   
-  
-    <link rel="icon" href="/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   
   
   <link rel="stylesheet" href="/css/style.css">
 </head>
-</html>
 <body>
   <div id="container">
     <div id="wrap">
@@ -43,7 +39,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Jake&#39;s Hexo Blog</a>
+        <a href="/" id="logo">Jakeuj 技術筆記</a>
       </h1>
       
         <h2 id="subtitle-wrap">
@@ -62,12 +58,10 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
         <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://jakeuj.github.io"></form>
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://blog.jakeuj.com"></form>
       </div>
     </div>
   </div>
@@ -100,7 +94,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><a href="https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-hexo-utils#overview" target="_blank" rel="noopener">VS Code HEXO 擴充套件</a></p>
-<p><img src="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif" alt="Demo"></p>
+<p><img src="https://raw.githubusercontent.com/cwxyz007/vscode-hexo-utils/master/docs-images/screen.gif" alt="VS Code Hexo 擴充套件示範"></p>
 <p>tasks.json</p>
 <pre><code class="json">{
     // See https://go.microsoft.com/fwlink/?LinkId=733558 
@@ -150,9 +144,9 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://jakeuj.github.io/2019/02/25/vs-code/" data-id="cjsljz99n000cvguwazlggnpi" class="article-share-link">Share</a>
+      <a data-url="https://blog.jakeuj.com/2019/02/25/vs-code/" data-id="cjsljz99n000cvguwazlggnpi" class="article-share-link">Share</a>
       
-        <a href="https://jakeuj.github.io/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="https://blog.jakeuj.com/2019/02/25/vs-code/#disqus_thread" class="article-comment-link">Comments</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -197,7 +191,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Categories</h3>
     <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/HighLight/">HighLight</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Img/">Img</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Test/">Test</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/VS-Code/">VS Code</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/">MarkDown</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/Editor/">Editor</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/">VS Code</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/Tasks/">Tasks</a></li></ul></li></ul>
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/">Hexo</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Comments/">Comments</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/highlight/">HighLight</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/Img/">Img</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/test/">Test</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Hexo/VS-Code/">VS Code</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/">MarkDown</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/MarkDown/Editor/">Editor</a></li></ul></li><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/">VS Code</a><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/VS-Code/Tasks/">Tasks</a></li></ul></li></ul>
     </div>
   </div>
 
@@ -298,7 +292,7 @@
 <script>
   var disqus_shortname = 'jakeuj';
   
-  var disqus_url = 'https://jakeuj.github.io/2019/02/25/vs-code/';
+  var disqus_url = 'https://blog.jakeuj.com/2019/02/25/vs-code/';
   
   (function(){
     var dsq = document.createElement('script');
