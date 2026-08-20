@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hexo Static Site"
+  short_description: "維護此 Hexo 產生的 GitHub Pages 靜態網站"
+  default_prompt: "Use $hexo-static-site to update and validate this published static blog."
