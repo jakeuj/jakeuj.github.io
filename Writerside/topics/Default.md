@@ -10,6 +10,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 最新文章
 
+- [用 sshuttle 透過第二台 Linux 主機的乾淨外網,繞過受限網路封鎖](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
+
+  受限網路擋掉遊戲或特定服務的連線時,若有一台同時連著受限網路與另一條乾淨外網的 Linux 主機,可用 sshuttle 把本機流量透明導出去,只需 SSH、不用在主機上安裝或設定。
+
 - [塔防山賊模擬器存檔修改器：山寨帳房的用法與實作](bandit-save-editor.md) — 2026-10-27
 
   《塔防山賊模擬器》存檔是 Construct 3 Array 的三維 JSON；山寨帳房在瀏覽器本機讀取 .dat、只替換改到的值並匯出副本，整理使用步驟、修改限制、離線安裝與 macOS ARM64 原生啟動方式。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Wi-Fi 7 路由器單房間升級：1G 光世代該買哪一台](wifi-7-router-single-room-upgrade.md) — 2026-10-16
 
   單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。
-
-- [領取 Claude Max 與 Team 方案每月免費 API 額度](claude-max-team-monthly-api-credits.md) — 2026-10-13
-
-  說明 Claude Max 5x、Max 20x 與 Team 方案每月附贈的 Claude Platform API 額度金額、資格、如何把 claude.ai 帳號連結到 Console 組織完成領取，以及自動儲值與額度不累積等注意事項。
 
 [查看所有近期文章](recent-posts.md)
 

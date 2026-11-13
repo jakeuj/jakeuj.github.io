@@ -8,6 +8,10 @@
 
 ## 2026 {#year-2026-1}
 
+- [用 sshuttle 透過第二台 Linux 主機的乾淨外網,繞過受限網路封鎖](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
+
+  受限網路擋掉遊戲或特定服務的連線時,若有一台同時連著受限網路與另一條乾淨外網的 Linux 主機,可用 sshuttle 把本機流量透明導出去,只需 SSH、不用在主機上安裝或設定。
+
 - [塔防山賊模擬器存檔修改器：山寨帳房的用法與實作](bandit-save-editor.md) — 2026-10-27
 
   《塔防山賊模擬器》存檔是 Construct 3 Array 的三維 JSON；山寨帳房在瀏覽器本機讀取 .dat、只替換改到的值並匯出副本，整理使用步驟、修改限制、離線安裝與 macOS ARM64 原生啟動方式。
@@ -44,11 +48,11 @@
 
   單房間搭配 1G 光世代，升級 Wi-Fi 7 優先看 6GHz 與裝置能力；比較台灣三頻路由器價格、Wi-Fi 8 草案產品與等待價值，整理 Quest 3 無線 PC VR、頻段分配及 RT-AX82U 的 AiMesh 接線。
 
+## 2026（續 1） {#year-2026-2}
+
 - [領取 Claude Max 與 Team 方案每月免費 API 額度](claude-max-team-monthly-api-credits.md) — 2026-10-13
 
   說明 Claude Max 5x、Max 20x 與 Team 方案每月附贈的 Claude Platform API 額度金額、資格、如何把 claude.ai 帳號連結到 Console 組織完成領取，以及自動儲值與額度不累積等注意事項。
-
-## 2026（續 1） {#year-2026-2}
 
 - [Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入](azure-cli-login-subscription-selector.md) — 2026-10-12
 
@@ -86,11 +90,11 @@
 
   FramePack Windows 一鍵包內建 torch 2.6.0+cu126，在 RTX 5090 等 Blackwell（sm_120）顯卡會出現 no kernel image 錯誤；用一鍵包內建 Python 升級到 torch 2.10.0+cu128，再加裝 triton-windows 與 SageAttention 即可正常生成並加速。
 
+## 2026（續 2） {#year-2026-3}
+
 - [Gradio 在 Windows 反覆出現 WinError 10022 的原因與修正](gradio-asyncio-winerror-10022.md) — 2026-10-06
 
   在 Windows 用 Python 3.10 執行 Gradio（例如 FramePack）時，console 反覆出現 _call_connection_lost 的 OSError WinError 10022；這是 asyncio Proactor 在連線已斷開後呼叫 shutdown 失敗，可以用 sitecustomize.py 只包住這個呼叫來修正。
-
-## 2026（續 2） {#year-2026-3}
 
 - [ROG Astral LC RTX 5090 冷排風扇不亮、不轉：磁吸接頭暫時恢復後復發](rog-astral-lc-rtx5090-fan-connector.md) — 2026-10-06
 
@@ -128,11 +132,11 @@
 
   從零開始建立一個 Codex plugin：了解 repo 結構、plugin.json、agents/openai.yaml、skills、MCP、apps、hooks 與 marketplace 的完整工作流程。
 
+## 2026（續 3） {#year-2026-4}
+
 - [在 oMLX 設定 Claude Code Desktop 與 CLI 使用本地模型](omlx-claude-code-desktop-setup.md) — 2026-07-02
 
   說明如何在 oMLX 設定 claude-\* 模型別名，讓 Claude Code Desktop 與 Claude Code CLI 直接連線到本地 macOS Apple Silicon 上運行的 Claude 系列模型，包含 API 連線設定、環境變數與 cc-switch 模型切換工具。
-
-## 2026（續 3） {#year-2026-4}
 
 - [Apple Silicon Mac 跑本地 LLM 時，MLX、Ollama、LM Studio、oMLX 怎麼選](apple-silicon-mlx-local-llm-tools.md) — 2026-07-01
 
@@ -170,11 +174,11 @@
 
   ABP 分離式 Auth/API 專案部署到 Azure App Service 並經 Akamai 對外服務時，用這份檢查表對齊 hostname、TLS/SNI、OpenIddict redirect URI、SelfUrl 與前端 OIDC 設定。
 
+## 2026（續 4） {#year-2026-5}
+
 - [Akamai Forward Host Header 對 App Service redirect 與 cookie 的影響](akamai-origin-host-header-app-service.md) — 2026-06-10
 
   釐清 Akamai Forward Host Header 如何影響 App Service 登入轉址、cookie 與公開網域設定。
-
-## 2026（續 4） {#year-2026-5}
 
 - [macOS SSH 連線遇到 hostname 無法解析時，用 mDNS 或 hosts 處理](macos-mdns-ssh-hostname-resolution.md) — 2026-05-29
 

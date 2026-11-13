@@ -1,6 +1,12 @@
 {
   "posts": [
     {
+      "topic": "sshuttle-bypass-restricted-network-via-linux-host.md",
+      "url": "https://jakeuj.com/sshuttle-bypass-restricted-network-via-linux-host.html",
+      "published": "2026-11-13",
+      "date_basis": "建立筆記日期；2026-11-13，整理以 sshuttle 透過第二台同時連著受限網路與乾淨外網的 Linux 主機繞過封鎖的做法，環境已去識別化；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
       "topic": "bandit-save-editor.md",
       "url": "https://jakeuj.com/bandit-save-editor.html",
       "published": "2026-10-27",
