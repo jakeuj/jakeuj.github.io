@@ -18,6 +18,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
   用 Python 標準函式庫每小時抓原價屋含稅報價、GitHub Actions 只在價格變動時 commit，再以純靜態 GitHub Pages 做可換零件的估價網站；整張估價單壓縮進網址 hash 分享，附 Big5 解碼、品名對照、價格歷史與帶單回原價屋的做法與坑。
 
+- [TOML 繁中翻譯爭議紀實：事件經過與開源 AI 貢獻的教訓](toml-zh-tw-ai-translation-dispute.md) — 2026-10-27
+
+  整理 2026 年 10 月 toml.io 繁體中文翻譯提案因 AI 協助被關閉的事件時間線、各方主張與可查核事實，以及向開源專案送 AI 輔助翻譯 PR 前該注意的慣例、審校證據與溝通方式；附紀實網站的靜態建置與來源差異查核做法。
+
 - [GitHub Projects 草稿不顯示：用 gh 查證與原地轉成 Issue](github-projects-draft-issue-not-visible.md) — 2026-10-23
 
   GitHub Projects 清單為空但草稿仍能依 ID 讀取時，先排除篩選與封存，再用 gh 原地轉換單張 Draft issue，分別驗證資料、清單與畫面，避免重複新增。
@@ -45,10 +49,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [領取 Claude Max 與 Team 方案每月免費 API 額度](claude-max-team-monthly-api-credits.md) — 2026-10-13
 
   說明 Claude Max 5x、Max 20x 與 Team 方案每月附贈的 Claude Platform API 額度金額、資格、如何把 claude.ai 帳號連結到 Console 組織完成領取，以及自動儲值與額度不累積等注意事項。
-
-- [Azure CLI az login 訂閱選擇器：觸發條件、關閉方式與快速登入](azure-cli-login-subscription-selector.md) — 2026-10-12
-
-  Azure CLI az login 出現 Announcements 與訂閱選擇器時，依互動登入、TTY 與 core.login_experience_v2 判斷觸發條件，並用 --subscription、--skip-subscription-discovery 或關閉設定讓登入更快、腳本不卡住。
 
 [查看所有近期文章](recent-posts.md)
 

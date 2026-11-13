@@ -30,6 +30,7 @@
             <toc-element topic="codex-skill-vs-plugin.md" toc-title="Codex Skill vs Plugin"/>
             <toc-element topic="codex-plugin-build-guide.md"/>
             <toc-element topic="graphify-knowledge-graph-github-pages.md" toc-title="graphify 知識圖發布 GitHub Pages"/>
+            <toc-element topic="toml-zh-tw-ai-translation-dispute.md" toc-title="TOML 繁中翻譯 AI 貢獻爭議"/>
             <toc-element topic="auggie-cli-rules.md"/>
             <toc-element topic="auggie-cli-skills.md"/>
             <toc-element topic="auggie-user-rules-example.md"/>
