@@ -2,7 +2,7 @@
 
 <web-summary>整理 2026 年 10 月 toml.io 繁體中文翻譯提案因 AI 協助被關閉的事件時間線、各方主張與可查核事實，以及向開源專案送 AI 輔助翻譯 PR 前該注意的慣例、審校證據與溝通方式；附紀實網站的靜態建置與來源差異查核做法。</web-summary>
 
-想替開源專案送 AI 輔助的翻譯 PR，先照既有語系 PR 的慣例縮小範圍、只動語系檔，並主動說明工具用途與人工審校方式；被倉促關閉時先在原串或向其他維護者詢問，不要先拉到社群平台。這些做法來自 2026 年 10 月 `toml-lang/toml.io` 繁中翻譯提案的爭議，完整逐則紀錄整理在 [TOML 繁中翻譯爭議：事件全紀錄](https://doggy8088.jakeuj.com/)（[GitHub repo](https://github.com/jakeuj/toml-zh-tw-chronicle)）。
+想替開源專案送 AI 輔助的翻譯 PR，先照既有語系 PR 的慣例縮小範圍、只動語系檔，並主動說明工具用途與人工審校方式；被倉促關閉時先在原串或向其他維護者詢問，不要先拉到社群平台。這些做法來自 2026 年 10 月 `toml-lang/toml.io` 繁中翻譯提案的爭議，完整逐則紀錄整理在 [TOML 繁中翻譯爭議：事件全紀錄](https://jakeuj.com/toml-zh-tw-chronicle/)（[GitHub repo](https://github.com/jakeuj/toml-zh-tw-chronicle)）。
 
 <tldr>
 <p>翻譯 PR 先比照同專案已合併的語系 PR，說明寫短，不順手改共用模板。</p>
@@ -77,7 +77,7 @@ else if (hash !== saved.bodySha256) failures.push(`來源內容已變更：${ite
 
 ## 參考資料 {#references}
 
-- [TOML 繁中翻譯爭議：事件全紀錄](https://doggy8088.jakeuj.com/)
+- [TOML 繁中翻譯爭議：事件全紀錄](https://jakeuj.com/toml-zh-tw-chronicle/)
 - [jakeuj/toml-zh-tw-chronicle](https://github.com/jakeuj/toml-zh-tw-chronicle)
 - [toml-lang/toml.io Issue #97](https://github.com/toml-lang/toml.io/issues/97)
 - [toml-lang/toml.io PR #98](https://github.com/toml-lang/toml.io/pull/98)

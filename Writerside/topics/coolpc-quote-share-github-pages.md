@@ -2,7 +2,7 @@
 
 <web-summary>用 Python 標準函式庫每小時抓原價屋含稅報價、GitHub Actions 只在價格變動時 commit，再以純靜態 GitHub Pages 做可換零件的估價網站；整張估價單壓縮進網址 hash 分享，附 Big5 解碼、品名對照、價格歷史與帶單回原價屋的做法與坑。</web-summary>
 
-想做一個「免登入、不用伺服器、連結就是估價單」的配電腦網站，最省事的組合是：GitHub Actions 定時抓原價屋估價頁並解析成 JSON，GitHub Pages 放純靜態網頁，分享時把整張單（分類、品名、當時價格、日期）壓縮後寫進網址 `#` 後面。以下以 [原價屋估價單分享](https://pc.jakeuj.com/)（[原始碼](https://github.com/jakeuj/architect-pc-builder)）為例，整理做法與實際踩到的坑。
+想做一個「免登入、不用伺服器、連結就是估價單」的配電腦網站，最省事的組合是：GitHub Actions 定時抓原價屋估價頁並解析成 JSON，GitHub Pages 放純靜態網頁，分享時把整張單（分類、品名、當時價格、日期）壓縮後寫進網址 `#` 後面。以下以 [原價屋估價單分享](https://jakeuj.com/coolpc-quote/)（[原始碼](https://github.com/jakeuj/coolpc-quote)）為例，整理做法與實際踩到的坑。
 
 <tldr>
 <p>抓價：每小時 <code>fetch_coolpc.py</code> 抓 Big5 頁面解析成 JSON，<code>git diff --cached --quiet</code> 有變才 commit</p>
@@ -158,7 +158,7 @@ hash 不會送到伺服器，所以估價單完全不經過任何後端；GitHub
 
 ## 店家模式：用原價屋報價開自家估價單 {#store-mode}
 
-電腦店老闆或業務可以開[店家模式](https://pc.jakeuj.com/#store)幫客人報價：估價單抬頭換成店名與聯絡方式，以原價屋合計為基準填一個本店價、加組裝費等服務，也能隱藏原價屋單價，再複製一段含本店合計與連結的訊息傳給客人。整套仍然沒有後端，店家資料存在自己的瀏覽器，報價跟著分享連結走。
+電腦店老闆或業務可以開[店家模式](https://jakeuj.com/coolpc-quote/#store)幫客人報價：估價單抬頭換成店名與聯絡方式，以原價屋合計為基準填一個本店價、加組裝費等服務，也能隱藏原價屋單價，再複製一段含本店合計與連結的訊息傳給客人。整套仍然沒有後端，店家資料存在自己的瀏覽器，報價跟著分享連結走。
 
 ### 資料放在哪 {#store-mode-data}
 
@@ -264,8 +264,8 @@ python3 -m http.server 8765 --directory docs
 
 ## 參考資料 {#references}
 
-- [原價屋估價單分享](https://pc.jakeuj.com/)
-- [jakeuj/architect-pc-builder](https://github.com/jakeuj/architect-pc-builder)
+- [原價屋估價單分享](https://jakeuj.com/coolpc-quote/)
+- [jakeuj/architect-pc-builder](https://github.com/jakeuj/coolpc-quote)
 - [原價屋線上估價](https://www.coolpc.com.tw/evaluate.php)
 - [Compression Streams API（MDN）](https://developer.mozilla.org/en-US/docs/Web/API/Compression_Streams_API)
 - [Events that trigger workflows: schedule（GitHub Docs）](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule)

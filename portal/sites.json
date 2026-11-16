@@ -179,9 +179,12 @@
       "name": "Nevergrind Online 攻略 DB 繁中版",
       "description": "整理職業、裝備、符文、配方、地城與來源索引，方便查攻略並對照原站資料。",
       "category": "games",
-      "url": "https://ngo.jakeuj.com/",
-      "repo": "NevergrindOnline",
-      "sitemap": true
+      "url": "https://jakeuj.com/nevergrind-online/",
+      "repo": "nevergrind-online",
+      "sitemap": true,
+      "aliases": [
+        "NevergrindOnline"
+      ]
     },
     {
       "slug": "sango3838",

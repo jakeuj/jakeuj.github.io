@@ -2,7 +2,7 @@
 
 <web-summary>用 graphify 把 repo 的程式、文件與截圖整理成可互動的知識圖，補上 viewport、noindex 與返回連結後發布到 GitHub Pages；附建圖 token 成本實測、增量更新做法，以及 AST 與 LLM 節點 ID 對不上的修法。</web-summary>
 
-在 repo 根目錄用 Claude Code 跑 `/graphify .`，會產生一個資料內嵌的 `graphify-out/graph.html`，可以直接放上 GitHub Pages。不過它是給本機看的：沒有 viewport、標題是檔案路徑，所以發布前要補上手機版面、`noindex` 與返回連結，並用 `.graphifyignore` 排除發布出去的那一頁，免得下次建圖把它抽回圖裡。以下以 [原價屋估價單分享](https://pc.jakeuj.com/) 為例，成品在 [pc.jakeuj.com/graph/](https://pc.jakeuj.com/graph/)。
+在 repo 根目錄用 Claude Code 跑 `/graphify .`，會產生一個資料內嵌的 `graphify-out/graph.html`，可以直接放上 GitHub Pages。不過它是給本機看的：沒有 viewport、標題是檔案路徑，所以發布前要補上手機版面、`noindex` 與返回連結，並用 `.graphifyignore` 排除發布出去的那一頁，免得下次建圖把它抽回圖裡。以下以 [原價屋估價單分享](https://jakeuj.com/coolpc-quote/) 為例，成品在 [jakeuj.com/coolpc-quote/graph/](https://jakeuj.com/coolpc-quote/graph/)。
 
 <tldr>
 <p>第一次建圖：<code>/graphify .</code>；之後只重抽有改的檔案：<code>/graphify . --update</code></p>
@@ -100,7 +100,7 @@ docs/graph/
 - 節點的 `source_file` 是 repo 相對路徑，沒有本機絕對路徑；發布前仍可以用 `grep -c '/Users/' graph.html` 確認是 0。
 - 這個 repo 的圖約 80 萬 bytes，gzip 後約 5.9 萬 bytes，而且只有點進該頁才會載入，不影響主網站。
 
-要補的是 metadata 與手機版面。我寫了一支 [publish_graph.py](https://github.com/jakeuj/architect-pc-builder/blob/main/scripts/publish_graph.py) 讀 `graphify-out/graph.html`，修改後寫到 `docs/graph/index.html`。核心是幾個「只取代一次、找不到就報錯」的替換，graphify 改版導致格式不同時會直接失敗，不會悄悄發布一頁壞掉的圖：
+要補的是 metadata 與手機版面。我寫了一支 [publish_graph.py](https://github.com/jakeuj/coolpc-quote/blob/main/scripts/publish_graph.py) 讀 `graphify-out/graph.html`，修改後寫到 `docs/graph/index.html`。核心是幾個「只取代一次、找不到就報錯」的替換，graphify 改版導致格式不同時會直接失敗，不會悄悄發布一頁壞掉的圖：
 
 ```python
 def replace_once(text, pattern, repl, what):
@@ -164,7 +164,7 @@ git commit -m "更新專案知識圖"
 ## 參考資料 {#references}
 
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
-- [scripts/publish_graph.py](https://github.com/jakeuj/architect-pc-builder/blob/main/scripts/publish_graph.py)
-- [專案知識圖成品](https://pc.jakeuj.com/graph/)
+- [scripts/publish_graph.py](https://github.com/jakeuj/coolpc-quote/blob/main/scripts/publish_graph.py)
+- [專案知識圖成品](https://jakeuj.com/coolpc-quote/graph/)
 - [Google Search Central：使用 noindex 封鎖搜尋索引](https://developers.google.com/search/docs/crawling-indexing/block-indexing)
 - [Side Projects](Side-Projects.md)

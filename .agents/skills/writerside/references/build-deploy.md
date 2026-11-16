@@ -109,7 +109,9 @@
 3. `deploy`
    - 解壓文件產物
    - 複製 `robots.txt` 與 `CNAME` 到 Pages artifact 根目錄
-   - 發布到 GitHub Pages
+   - 正規化 SEO metadata（語系、description）
+   - 執行 `portal/build_portal.py --site dir`：產生 `/` 的入口網站（取代舊的跳轉頁）、舊 repo 名稱的轉址頁，把首頁加進 `sitemap.xml`，把專案 sitemap 與 `disallow` 規則加進 `robots.txt`（資料來源 `portal/sites.json`，說明見 `portal/README.md`）
+   - 驗證 artifact，產生 RSS 後發布到 GitHub Pages
 4. `publish-indexes`
    - 讀取 Algolia artifact
    - 更新 Algolia 索引
@@ -173,7 +175,7 @@ curl -I https://jakeuj.com/sitemap-index.xml
 Sitemap: https://jakeuj.com/sitemap.xml
 ```
 
-目前站台只有單一 sitemap，Search Console 應提交 `https://jakeuj.com/sitemap.xml`。
+Writerside 筆記只有單一 sitemap `https://jakeuj.com/sitemap.xml`；各專案站（`https://jakeuj.com/<repo>/`）的 sitemap 由入口網站產生器依 `portal/sites.json` 附加在 `robots.txt`，不要手動寫進 repo 根目錄的 `robots.txt`。repo 自 2026-11-16 起名為 `jakeuj/jakeuj.github.io`（原 `jakeuj/writerside`），是 GitHub 使用者站。
 `https://jakeuj.com/sitemap-index.xml` 回傳 404 是預期狀態，除非未來 sitemap 超過 50,000 URLs、未壓縮超過 50MB，或刻意拆成多個 sitemap。
 
 另外，這個 repo 目前的 [buildprofiles.xml](/Users/jakeuj/WritersideProjects/writerside/Writerside/cfg/buildprofiles.xml) 還沒有啟用 `<llms-txt>`，表示現況並不會額外產生 llms export。

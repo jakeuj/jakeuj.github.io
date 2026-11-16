@@ -2,7 +2,7 @@
 
 <web-summary>《聖火降魔錄 萬縷千絲》（萬紫千紅）的角色成長是個人、職業與坐騎成長率逐級擲骰，職業補正只在當下職業生效；從遊戲內目前的等級、職業與實際能力值出發預測轉職路線，並整理凱伊篇坐騎與戰車兵的成長加成規則。</web-summary>
 
-要預測角色練到某個等級的能力，要從**遊戲內目前的等級、職業、坐騎與實際能力值**開始算，再逐段套用之後各職業的成長率，結果才會貼近遊戲。我把這個流程做成繁中網頁：[萬紫千紅 培養計算器](https://fe-banshisenko-calc.jakeuj.com/)，除了期望值與機率區間，也算進凱伊篇坐騎的成長加成。
+要預測角色練到某個等級的能力，要從**遊戲內目前的等級、職業、坐騎與實際能力值**開始算，再逐段套用之後各職業的成長率，結果才會貼近遊戲。我把這個流程做成繁中網頁：[萬紫千紅 培養計算器](https://jakeuj.com/fe-banshisenko-calc/)，除了期望值與機率區間，也算進凱伊篇坐騎的成長加成。
 
 <tldr>
 <p>每級成長率 = 個人 + 職業 + 坐騎成長 × 倍率；戰車兵的坐騎成長加成 ×2。</p>
@@ -112,7 +112,7 @@ gh api -X PUT repos/<owner>/<repo>/pages -F https_enforced=true
 
 ## 參考資料 {#references}
 
-- [萬紫千紅 培養計算器](https://fe-banshisenko-calc.jakeuj.com/)
+- [萬紫千紅 培養計算器](https://jakeuj.com/fe-banshisenko-calc/)
 - [fe-banshisenko-calc 原始碼（GitHub）](https://github.com/jakeuj/fe-banshisenko-calc)
 - [game8.jp：ソフィアの育成おすすめと兵種・スカウト条件（內嵌育成方針計算ツール）](https://game8.jp/fe-banshisenko/816448)
 - [game8.jp：捕獲・飼育](https://game8.jp/fe-banshisenko/816904)

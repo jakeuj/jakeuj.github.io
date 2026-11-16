@@ -2,7 +2,7 @@
 
 <web-summary>《塔防山賊模擬器》存檔是 Construct 3 Array 的三維 JSON；山寨帳房在瀏覽器本機讀取 .dat、只替換改到的值並匯出副本，整理使用步驟、修改限制、離線安裝與 macOS ARM64 原生啟動方式。</web-summary>
 
-要改《塔防山賊模擬器》的存檔，打開 [山寨帳房](https://bandit.jakeuj.com/)，選取 `ea3save.dat` 這類進度檔，修改後匯出副本，結束遊戲再用副本換掉原檔即可。存檔全程只在瀏覽器本機處理，不會上傳；匯出時只替換改到的值，其他原始 JSON 文字原封不動。
+要改《塔防山賊模擬器》的存檔，打開 [山寨帳房](https://jakeuj.com/bandit-save-editor/)，選取 `ea3save.dat` 這類進度檔，修改後匯出副本，結束遊戲再用副本換掉原檔即可。存檔全程只在瀏覽器本機處理，不會上傳；匯出時只替換改到的值，其他原始 JSON 文字原封不動。
 
 <tldr>
 <p>選 <code>eaNsave.dat</code> 進度檔，不要選 <code>saveinfo.dat</code>。</p>
@@ -14,7 +14,7 @@
 
 ## 使用步驟 {#usage}
 
-1. 開啟 [bandit.jakeuj.com](https://bandit.jakeuj.com/)，選取要修改的遊戲進度檔，例如 `ea3save.dat`。
+1. 開啟 [jakeuj.com/bandit-save-editor](https://jakeuj.com/bandit-save-editor/)，選取要修改的遊戲進度檔，例如 `ea3save.dat`。
 2. 修改資源、角色或裝備。需要預覽的操作先確認結果再套用，最後在「檢視變更」核對。
 3. 下載原檔備份，再匯出修改副本，例如 `ea3save.modified.dat`。
 4. 結束遊戲，另外備份原始存檔，把修改副本改回原檔名，放回取出時的同一個位置。
@@ -101,8 +101,8 @@ python3 launcher/prepare-macos.py --source <windows-game-dir> --output ~/bandit-
 
 ## 參考資料 {#references}
 
-- [山寨帳房（線上修改器）](https://bandit.jakeuj.com/)
-- [Mac 原生執行指南](https://bandit.jakeuj.com/mac.html)
+- [山寨帳房（線上修改器）](https://jakeuj.com/bandit-save-editor/)
+- [Mac 原生執行指南](https://jakeuj.com/bandit-save-editor/mac.html)
 - [bandit-save-editor 原始碼（GitHub）](https://github.com/jakeuj/bandit-save-editor)
 - [山寨帳房 Wiki：操作教學與常見問題](https://github.com/jakeuj/bandit-save-editor/wiki)
 - [Construct 3 Manual：Array](https://www.construct.net/en/make-games/manuals/construct-3/plugin-reference/array)

@@ -12,7 +12,7 @@
 
 已通過 Raidcore 初始審查並公開列於 Nexus Addon Library（ID 128）的 Guild Wars 2 addon。它透過官方 API 掃描帳號內裝備的符文與法印，比較 Trading Post 即時價格並提供拆解建議；目前穩定版為 `v1.0.5`，支援英文與繁體中文，可直接從 Nexus 遊戲內的 Addon Library 安裝。
 
-- 連結：[GitHub](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value)｜[專案網站](https://gw2-value.jakeuj.com/)｜[Nexus Addon Library](https://raidcore.gg/gw2/addons/upgrade-value)｜[穩定版 v1.0.5](https://github.com/jakeuj/GW2-Nexus-Upgrade-Value/releases/tag/v1.0.5)
+- 連結：[GitHub](https://github.com/jakeuj/gw2-upgrade-value)｜[專案網站](https://jakeuj.com/gw2-upgrade-value/)｜[Nexus Addon Library](https://raidcore.gg/gw2/addons/upgrade-value)｜[穩定版 v1.0.5](https://github.com/jakeuj/gw2-upgrade-value/releases/tag/v1.0.5)
 - 語言與技術：`C++` `GW2 Nexus` `GW2 API` `GitHub Actions`
 
 ![GW2-Nexus-Upgrade-Value last commit](https://img.shields.io/github/last-commit/jakeuj/GW2-Nexus-Upgrade-Value)
@@ -22,7 +22,7 @@
 支援 Path of Exile 1 與 2 的瀏覽器擴充功能，可在 poe.ninja 角色頁面一鍵讀取 PoB、上傳至編年史、開啟中文 PoB 頁面，並將分享連結複製至剪貼簿。
 
 - 發布狀態：截至 2026-08-20，[Chrome Web Store](https://chromewebstore.google.com/detail/poe-ninja-to-chronicles-p/aidenhnleibhchnhilkpbpkgeanmeedh?hl=zh-TW) 約有 1,000 位使用者、5.0 評分（2 則評分），目前版本為 `1.2.1`
-- 連結：[GitHub](https://github.com/jakeuj/ChromeExtensionPobZh)｜[產品網站](https://poe.jakeuj.com/)｜[Chrome Web Store](https://chromewebstore.google.com/detail/poe-ninja-to-chronicles-p/aidenhnleibhchnhilkpbpkgeanmeedh?hl=zh-TW)｜[Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ilpjikgeonkegldnjdgpmcdiibmlabng)｜[v1.2.1 release](https://github.com/jakeuj/ChromeExtensionPobZh/releases/tag/v1.2.1)
+- 連結：[GitHub](https://github.com/jakeuj/poe-pob-sharer)｜[產品網站](https://jakeuj.com/poe-pob-sharer/)｜[Chrome Web Store](https://chromewebstore.google.com/detail/poe-ninja-to-chronicles-p/aidenhnleibhchnhilkpbpkgeanmeedh?hl=zh-TW)｜[Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ilpjikgeonkegldnjdgpmcdiibmlabng)｜[v1.2.1 release](https://github.com/jakeuj/poe-pob-sharer/releases/tag/v1.2.1)
 - 語言與技術：`JavaScript` `Manifest V3` `Chrome Extension` `Edge Extension` `GitHub Actions`
 
 ![ChromeExtensionPobZh last commit](https://img.shields.io/github/last-commit/jakeuj/ChromeExtensionPobZh)
@@ -40,7 +40,7 @@
 
 以 Astro Starlight 建立的 Nevergrind Online 繁體中文攻略資料庫，整理攻略、職業、裝備、配方與互動式武器 DPS 計算工具。
 
-- 連結：[GitHub](https://github.com/jakeuj/NevergrindOnline)｜[攻略網站](https://ngo.jakeuj.com/)
+- 連結：[GitHub](https://github.com/jakeuj/nevergrind-online)｜[攻略網站](https://jakeuj.com/nevergrind-online/)
 - 語言與技術：`Astro` `JavaScript` `MDX` `SEO` `GitHub Pages`
 
 ![NevergrindOnline last commit](https://img.shields.io/github/last-commit/jakeuj/NevergrindOnline)
@@ -60,7 +60,7 @@
 
 《聖火降魔錄 萬縷千絲》（萬紫千紅）的繁體中文角色培養計算器。從遊戲內目前的等級、職業、坐騎與實際能力值出發，預測轉職路線的期望值與機率區間，並提供成長判定、凱伊篇坐騎與戰車兵的成長加成，以及依能力權重的自動推薦；計算與 game8 計算器的輸出逐值一致，部分數值以遊戲內成長畫面修正。
 
-- 連結：[GitHub](https://github.com/jakeuj/fe-banshisenko-calc)｜[培養計算器](https://fe-banshisenko-calc.jakeuj.com/)｜[公式與坐騎加成筆記](fire-emblem-fortunes-weave-growth-calculator.md)
+- 連結：[GitHub](https://github.com/jakeuj/fe-banshisenko-calc)｜[培養計算器](https://jakeuj.com/fe-banshisenko-calc/)｜[公式與坐騎加成筆記](fire-emblem-fortunes-weave-growth-calculator.md)
 - 語言與技術：`JavaScript` `Static Site` `Node.js` `GitHub Pages` `Fire Emblem`
 
 ![fe-banshisenko-calc last commit](https://img.shields.io/github/last-commit/jakeuj/fe-banshisenko-calc)
@@ -78,7 +78,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 維護自 Blish HUD Community Module Pack 的 fork，加入繁體中文 Events module、遊戲術語、事件獎勵資訊、可自訂聊天訊息與 fork release 自動更新流程。
 
-- 連結：[維護中的 fork](https://github.com/jakeuj/Community-Module-Pack)｜[upstream](https://github.com/blish-hud/Community-Module-Pack)
+- 連結：[維護中的 fork](https://github.com/jakeuj/gw2-module-pack)｜[upstream](https://github.com/blish-hud/Community-Module-Pack)
 - 語言與技術：`C#` `Blish HUD` `Guild Wars 2` `Localization` `Release Automation`
 
 ![Community-Module-Pack last commit](https://img.shields.io/github/last-commit/jakeuj/Community-Module-Pack)
@@ -87,7 +87,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 以 Merc 2.2 為核心重寫「輔大三國歪傳之降龍伏虎」，延續 UTF-8 轉換成果，並整理 Docker、Apple Silicon 與現代 Linux／macOS 開發環境。
 
-- 連結：[GitHub](https://github.com/jakeuj/merc-fju-3.0)｜[2.0 UTF-8 歷史版本](https://github.com/jakeuj/merc-fju-2.0-utf8)
+- 連結：[GitHub](https://github.com/jakeuj/merc-fju)｜[2.0 UTF-8 歷史版本](https://github.com/jakeuj/merc-fju-2.0-utf8)
 - 語言與技術：`C` `MUD` `UTF-8` `Docker` `Apple Silicon`
 
 ![merc-fju-3.0 last commit](https://img.shields.io/github/last-commit/jakeuj/merc-fju-3.0)
@@ -96,7 +96,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 維護自三國歪傳網站的 fork，補上 GitHub Pages 入口、玩家指南、技能文件與可展開的知識庫內容。
 
-- 連結：[維護中的 fork](https://github.com/jakeuj/3yWebsite)｜[upstream](https://github.com/EndeavorYen/3yWebsite)｜[文件網站](https://3y.jakeuj.com/)
+- 連結：[維護中的 fork](https://github.com/jakeuj/sango3838)｜[upstream](https://github.com/EndeavorYen/3yWebsite)｜[文件網站](https://jakeuj.com/sango3838/)
 - 語言與技術：`HTML` `MUD` `Documentation` `GitHub Pages`
 
 ![3yWebsite last commit](https://img.shields.io/github/last-commit/jakeuj/3yWebsite)
@@ -118,7 +118,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 可安裝為 PWA，首次完成快取後可離線轉換、預覽、複製與下載；文章不會儲存或上傳，原始 Markdown 需另外保存。外部圖片載入與巴哈發文仍需連線，貼上結果需依實際編輯器確認。
 
-- 連結：[GitHub](https://github.com/jakeuj/bahamut-markdown-converter)｜[轉換器網站](https://bahamut-markdown-converter.jakeuj.com/)
+- 連結：[GitHub](https://github.com/jakeuj/bahamut-markdown-converter)｜[轉換器網站](https://jakeuj.com/bahamut-markdown-converter/)
 - 語言與技術：`TypeScript` `Vite` `markdown-it` `highlight.js` `PWA` `Workbox` `GitHub Pages`
 
 ![bahamut-markdown-converter last commit](https://img.shields.io/github/last-commit/jakeuj/bahamut-markdown-converter)
@@ -129,7 +129,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 提供七套文書與遊戲主機配置作為起點，支援原價屋全部 30 類商品及帶單至官方估價頁；店家模式可加入店名與聯絡方式、本店價、服務費、報價期限及備註。報價快照由 GitHub Actions 排程每小時更新，實際資料時間會標示在網頁上。
 
-- 連結：[GitHub](https://github.com/jakeuj/architect-pc-builder)｜[估價網站](https://pc.jakeuj.com/)｜[店家模式](https://pc.jakeuj.com/#store)｜[網站做法筆記](coolpc-quote-share-github-pages.md)｜[專案知識圖做法筆記](graphify-knowledge-graph-github-pages.md)
+- 連結：[GitHub](https://github.com/jakeuj/coolpc-quote)｜[估價網站](https://jakeuj.com/coolpc-quote/)｜[店家模式](https://jakeuj.com/coolpc-quote/#store)｜[網站做法筆記](coolpc-quote-share-github-pages.md)｜[專案知識圖做法筆記](graphify-knowledge-graph-github-pages.md)
 - 語言與技術：`Python` `JavaScript` `HTML` `CSS` `GitHub Actions` `GitHub Pages`
 
 ![architect-pc-builder last commit](https://img.shields.io/github/last-commit/jakeuj/architect-pc-builder)
@@ -147,7 +147,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 提供 Path of Exile 與 Path of Exile 2 在 Apple Silicon Mac 執行 Windows client 時使用的 DirectX 12 設定檔範本。
 
-- 連結：[GitHub](https://github.com/jakeuj/poe_production_Config)｜[設定檔網站](https://poe-mac.jakeuj.com/)
+- 連結：[GitHub](https://github.com/jakeuj/poe-mac-config)｜[設定檔網站](https://jakeuj.com/poe-mac-config/)
 - 語言與技術：`Path of Exile` `macOS` `Apple Silicon` `DirectX 12` `Configuration`
 
 ![poe_production_Config last commit](https://img.shields.io/github/last-commit/jakeuj/poe_production_Config)
@@ -167,7 +167,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 維護自 GW2 ArcDPS 繁體中文介面的 fork，補上設定保存、啟動與 hook lifecycle 修正、建置發布流程，以及網站與安裝文件。
 
-- 連結：[維護中的 fork](https://github.com/jakeuj/GW2-ArcDPS-TChineseUI)｜[upstream](https://github.com/m21248074/GW2-ArcDPS-TChineseUI)｜[專案網站](https://gw2.jakeuj.com/)
+- 連結：[維護中的 fork](https://github.com/jakeuj/gw2-arcdps-zh-tw)｜[upstream](https://github.com/m21248074/GW2-ArcDPS-TChineseUI)｜[專案網站](https://jakeuj.com/gw2-arcdps-zh-tw/)
 - 語言與技術：`C++` `Guild Wars 2` `ArcDPS` `Traditional Chinese` `CI/CD`
 
 ![GW2-ArcDPS-TChineseUI last commit](https://img.shields.io/github/last-commit/jakeuj/GW2-ArcDPS-TChineseUI)
@@ -185,7 +185,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 維護自 LibGGPK3 的 fork，持續改善 Path of Exile Content.ggpk library 的相容性、效能與工具使用體驗，並將變更回饋 upstream。
 
-- 連結：[維護中的 fork](https://github.com/jakeuj/LibGGPK3)｜[upstream](https://github.com/aianlinb/LibGGPK3)｜[upstream PR #50](https://github.com/aianlinb/LibGGPK3/pull/50)
+- 連結：[維護中的 fork](https://github.com/jakeuj/poe-chinese)｜[upstream](https://github.com/aianlinb/LibGGPK3)｜[upstream PR #50](https://github.com/aianlinb/LibGGPK3/pull/50)
 - 語言與技術：`C#` `.NET` `Path of Exile` `Parser` `Library`
 
 ![LibGGPK3 last commit](https://img.shields.io/github/last-commit/jakeuj/LibGGPK3)
@@ -196,7 +196,7 @@ Guild Wars 2 Blish HUD Pathing marker packs 的繁體中文在地化專案，先
 
 - **MUD 與遊戲**：[JakeMud](https://github.com/jakeuj/JakeMud)、[JakeMudDotNet](https://github.com/jakeuj/JakeMudDotNet)、[JakeujMud](https://github.com/jakeuj/JakeujMud)、[MyKirito](https://github.com/jakeuj/MyKirito)
 - **.NET 與 ABP**：[Microsoft.Extensions.Logging.Log4Net](https://github.com/jakeuj/Microsoft.Extensions.Logging.Log4Net)、[AbpAzureSample](https://github.com/jakeuj/AbpAzureSample)、[abp-console-samples](https://github.com/jakeuj/abp-console-samples)、[BlazorOnGitHubPages](https://github.com/jakeuj/BlazorOnGitHubPages)、[PowerShellNetCoreQueue](https://github.com/jakeuj/PowerShellNetCoreQueue)、[MyAbpProject](https://github.com/jakeuj/MyAbpProject)、[LINQPad-Queries](https://github.com/jakeuj/LINQPad-Queries)、[Drone](https://github.com/jakeuj/Drone)
-- **Web、DevOps 與實驗工具**：[DockerSys](https://github.com/jakeuj/DockerSys)、[AiPlaform](https://github.com/jakeuj/AiPlaform)、[TestDocker](https://github.com/jakeuj/TestDocker)、[electron](https://github.com/jakeuj/electron)、[edge-extension](https://github.com/jakeuj/edge-extension)
+- **Web、DevOps 與實驗工具**：[DockerSys](https://github.com/jakeuj/DockerSys)、[AiPlaform](https://github.com/jakeuj/AiPlaform)、[TestDocker](https://github.com/jakeuj/TestDocker)、[electron](https://github.com/jakeuj/electron)、[edge-extension](https://github.com/jakeuj/edge-attendance-tracker)
 - **曾維護的 fork**：[pixer](https://github.com/jakeuj/pixer)、[FramePack](https://github.com/jakeuj/FramePack)
 
 ## 合作與交流
