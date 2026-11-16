@@ -27,10 +27,13 @@ class BuildPortalTest(unittest.TestCase):
         self.tmp.cleanup()
 
     def test_build_is_idempotent_and_complete(self):
+        def snapshot():
+            return {str(p.relative_to(self.site)): p.read_text(encoding="utf-8") for p in self.site.rglob("*") if p.is_file()}
+
         build_portal.build(self.site)
-        first = {p.name: p.read_text(encoding="utf-8") for p in self.site.iterdir()}
+        first = snapshot()
         build_portal.build(self.site)
-        second = {p.name: p.read_text(encoding="utf-8") for p in self.site.iterdir()}
+        second = snapshot()
         self.assertEqual(first, second)
 
         page = second["index.html"]
@@ -44,9 +47,18 @@ class BuildPortalTest(unittest.TestCase):
         self.assertEqual(second["sitemap.xml"].count("<loc>https://jakeuj.com/</loc>"), 1)
         robots = second["robots.txt"]
         self.assertTrue(robots.endswith("\n"))
-        for url in build_portal.project_sitemaps(build_portal.load_sites()["sites"]):
+        sites = build_portal.load_sites()["sites"]
+        for url in build_portal.project_sitemaps(sites):
             self.assertEqual(robots.count(f"Sitemap: {url}\n"), 1)
             self.assertTrue(url.startswith("https://jakeuj.com/"))
+        for rule in build_portal.robots_disallows(sites):
+            self.assertEqual(robots.count(rule + "\n"), 1)
+            self.assertLess(robots.index(rule), robots.index("Sitemap:"))
+        for s in sites:
+            for alias in s.get("aliases", []) if build_portal.on_main_host(s) else []:
+                stub = second[f"{alias}/index.html"]
+                self.assertIn(f'href="{s["url"]}"', stub)
+                self.assertIn('content="noindex"', stub)
 
     def test_rejects_duplicate_slug(self):
         data = build_portal.load_sites()
@@ -71,6 +83,13 @@ class BuildPortalTest(unittest.TestCase):
             {"slug": "c", "url": "https://jakeuj.com/c/"},
         ]
         self.assertEqual(build_portal.project_sitemaps(sites), ["https://jakeuj.com/a/sitemap.xml"])
+
+    def test_alias_must_not_overwrite_real_page(self):
+        sites = [{"slug": "a", "url": "https://jakeuj.com/a/", "aliases": ["old"]}]
+        (self.site / "old").mkdir()
+        (self.site / "old" / "index.html").write_text("<p>real</p>", encoding="utf-8")
+        with self.assertRaises(ValueError):
+            build_portal.write_aliases(self.site, sites)
 
 
 if __name__ == "__main__":

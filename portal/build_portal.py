@@ -202,7 +202,7 @@ def load_sites(path=PORTAL / "sites.json"):
     category_ids = [c["id"] for c in categories]
     if len(set(category_ids)) != len(category_ids):
         raise ValueError("Duplicate category id")
-    slugs = set()
+    slugs, aliases = set(), set()
     for site in data["sites"]:
         missing = [k for k in REQUIRED if not str(site.get(k, "")).strip()]
         if missing:
@@ -222,11 +222,60 @@ def load_sites(path=PORTAL / "sites.json"):
             raise ValueError(f"jakeuj.com URL must be /{slug}/: {site['url']}")
         if "sitemap" in site and not isinstance(site["sitemap"], bool):
             raise ValueError(f"sitemap must be true/false: {slug}")
+        for alias in site.get("aliases", []):
+            if not alias or "/" in alias or alias.startswith(".") or alias in aliases:
+                raise ValueError(f"Bad or duplicate alias for {slug}: {alias!r}")
+            aliases.add(alias)
+        for path in site.get("disallow", []):
+            if not path or path.startswith("/") or not path.endswith("/"):
+                raise ValueError(f"disallow entries are relative directories ending in '/': {slug}: {path!r}")
+    if aliases & slugs:
+        raise ValueError(f"Alias collides with a slug: {sorted(aliases & slugs)}")
     return data
 
 
 def on_main_host(site):
     return urlsplit(site["url"]).netloc == "jakeuj.com"
+
+
+ALIAS_PAGE = Template("""<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex">
+<title>已搬到新網址</title>
+<link rel="canonical" href="$target">
+<script>location.replace("$path" + location.search + location.hash);</script>
+<meta http-equiv="refresh" content="0; url=$path">
+</head>
+<body>
+<p>這個頁面已搬到 <a href="$path">$target</a>。</p>
+</body>
+</html>
+""")
+
+
+def write_aliases(site_dir, sites):
+    """Old repo names become /<alias>/index.html redirect stubs (jakeuj.github.io/<OldRepo>/ links)."""
+    written = []
+    for s in sites:
+        if not on_main_host(s):
+            continue
+        for alias in s.get("aliases", []):
+            folder = Path(site_dir) / alias
+            page = folder / "index.html"
+            if folder.exists() and not page.exists():
+                raise ValueError(f"Alias path already used by the site: /{alias}/")
+            if page.exists() and "已搬到新網址" not in page.read_text(encoding="utf-8"):
+                raise ValueError(f"Alias would overwrite a real page: /{alias}/")
+            folder.mkdir(exist_ok=True)
+            page.write_text(ALIAS_PAGE.substitute(path=f"/{s['slug']}/", target=s["url"]), encoding="utf-8")
+            written.append(alias)
+    return written
+
+
+def robots_disallows(sites):
+    return [f"Disallow: /{s['slug']}/{d}" for s in sites if on_main_host(s) for d in s.get("disallow", [])]
 
 
 def project_sitemaps(sites):
@@ -326,13 +375,20 @@ def update_sitemap(path):
     return True
 
 
-def update_robots(path, sitemaps):
+def update_robots(path, sitemaps, disallows=()):
     lines = path.read_text(encoding="utf-8").rstrip("\n").split("\n")
     present = {line.strip() for line in lines}
+    new_rules = [rule for rule in disallows if rule not in present]
+    if new_rules:
+        start = next(i for i, line in enumerate(lines) if line.strip().lower() == "user-agent: *")
+        end = start + 1
+        while end < len(lines) and lines[end].strip() and not lines[end].lower().startswith("sitemap:"):
+            end += 1
+        lines[end:end] = new_rules
     added = [f"Sitemap: {url}" for url in sitemaps if f"Sitemap: {url}" not in present]
-    if added:
+    if added or new_rules:
         path.write_text("\n".join(lines + added) + "\n", encoding="utf-8")
-    return added
+    return added + new_rules
 
 
 def build(site, root=ROOT, sites_path=PORTAL / "sites.json", now=None):
@@ -344,8 +400,9 @@ def build(site, root=ROOT, sites_path=PORTAL / "sites.json", now=None):
     now = now or datetime.now(timezone(timedelta(hours=8)))
     (site / "index.html").write_text(render_page(data, posts, now.year), encoding="utf-8")
     update_sitemap(site / "sitemap.xml")
-    added = update_robots(site / "robots.txt", project_sitemaps(data["sites"]))
-    return {"sites": len(data["sites"]), "robots_added": added}
+    added = update_robots(site / "robots.txt", project_sitemaps(data["sites"]), robots_disallows(data["sites"]))
+    aliases = write_aliases(site, data["sites"])
+    return {"sites": len(data["sites"]), "robots_added": added, "aliases": aliases}
 
 
 def main():
@@ -364,7 +421,7 @@ def main():
     except (ValueError, KeyError, OSError, json.JSONDecodeError) as e:
         print(f"Portal build failed: {e}", file=sys.stderr)
         return 1
-    print(f"Portal build: OK ({result['sites']} sites, robots +{len(result['robots_added'])})")
+    print(f"Portal build: OK ({result['sites']} sites, robots +{len(result['robots_added'])}, aliases {len(result['aliases'])})")
     return 0
 
 
