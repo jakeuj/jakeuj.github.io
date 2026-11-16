@@ -4,8 +4,8 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <variables>
         <web-root>https://jakeuj.com/</web-root>
-        <download-page>https://www.jetbrains.com/writerside/download/</download-page>
-        <download-title>Get Writerside</download-title>
+        <download-page>https://jakeuj.com/</download-page>
+        <download-title>回到首頁</download-title>
         <showDownloadButton>true</showDownloadButton>
         <primary-color>strawberry</primary-color>
         <header-logo>hatsune-miku-seeklogo.svg</header-logo>

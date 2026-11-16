@@ -10,6 +10,7 @@ on:
       - "!Writerside/**/AGENTS.md"
       - "data/posts.json"
       - "scripts/publication.py"
+      - "portal/**"
       - "robots.txt"
       - "CNAME"
       - ".github/workflows/deploy.yml"
@@ -57,6 +58,11 @@ jobs:
         run: |
           python3 scripts/publication.py check
           python3 -m unittest discover -s scripts/tests -p "test_publication.py"
+
+      - name: Check portal data and tests
+        run: |
+          python3 portal/build_portal.py --check
+          python3 -m unittest discover -s portal -p "test_*.py"
 
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
@@ -142,20 +148,6 @@ jobs:
         import html
         import json
         import re
-        import textwrap
-
-        SITE_URL = "https://jakeuj.com/"
-        TARGET_URL = "https://jakeuj.com/default.html"
-        OG_IMAGE = "https://jakeuj.com/images/og-image.png"
-        DEFAULT_TITLE = "Jakeuj 筆記本 | Jakeuj's Notes"
-        DEFAULT_DESCRIPTION = "Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與開發環境疑難排解，提供可公開查閱的實作筆記與排錯紀錄。"
-
-        def attr_escape(value):
-            return html.escape(value, quote=True)
-
-        def extract(pattern, text, default=""):
-            match = re.search(pattern, text, re.DOTALL)
-            return html.unescape(match.group(1)) if match else default
 
         def normalize_language(text):
             updated = re.sub(r'<html lang="[^"]+"', '<html lang="zh-TW"', text, count=1)
@@ -205,79 +197,11 @@ jobs:
                 page.write_text(updated, encoding="utf-8")
                 patched += 1
 
-        default_page = Path("dir/default.html")
-        index_page = Path("dir/index.html")
-        if default_page.exists():
-            default_html = default_page.read_text(encoding="utf-8")
-            title = extract(r"<title>(.*?)</title>", default_html, DEFAULT_TITLE)
-            description = extract(
-                r'<meta name="description" content="([^"]*)">',
-                default_html,
-                DEFAULT_DESCRIPTION,
-            ) or DEFAULT_DESCRIPTION
-            image = extract(
-                r'<meta property="og:image" content="([^"]*)">',
-                default_html,
-                OG_IMAGE,
-            ) or OG_IMAGE
-            schema = {
-                "@context": "http://schema.org",
-                "@type": "WebPage",
-                "@id": f"{TARGET_URL}#webpage",
-                "url": TARGET_URL,
-                "name": title,
-                "description": description,
-                "image": image,
-                "inLanguage": "zh-TW",
-            }
-            website_schema = {
-                "@context": "http://schema.org",
-                "@type": "WebSite",
-                "@id": f"{SITE_URL}#website",
-                "url": SITE_URL,
-                "name": "Jakeuj's Notes Help",
-                "inLanguage": "zh-TW",
-            }
-            index_page.write_text(
-                textwrap.dedent(f"""\
-                    <!DOCTYPE html>
-                    <html lang="zh-TW">
-                    <head>
-                    <meta charset="UTF-8">
-                    <title>{attr_escape(title)}</title>
-                    <meta name="description" content="{attr_escape(description)}">
-                    <link rel="canonical" href="{TARGET_URL}">
-                    <meta http-equiv="refresh" content="0; url=default.html">
-                    <meta name="image" content="{attr_escape(image)}">
-                    <meta property="og:title" content="{attr_escape(title)}">
-                    <meta property="og:description" content="{attr_escape(description)}">
-                    <meta property="og:image" content="{attr_escape(image)}">
-                    <meta property="og:site_name" content="Jakeuj's Notes Help">
-                    <meta property="og:type" content="website">
-                    <meta property="og:locale" content="zh_TW">
-                    <meta property="og:url" content="{TARGET_URL}">
-                    <meta name="twitter:card" content="summary_large_image">
-                    <meta name="twitter:site" content="@jakeuj">
-                    <meta name="twitter:title" content="{attr_escape(title)}">
-                    <meta name="twitter:description" content="{attr_escape(description)}">
-                    <meta name="twitter:creator" content="@jakeuj">
-                    <meta name="twitter:image:src" content="{attr_escape(image)}">
-                    <script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>
-                    <script type="application/ld+json">{json.dumps(website_schema, ensure_ascii=False)}</script>
-                    </head>
-                    <body>
-                    <h1>Redirecting...</h1>
-                    <a href="default.html">Click here if you are not redirected.</a>
-                    <script>location = "default.html"</script>
-                    </body>
-                    </html>
-                    """),
-                encoding="utf-8",
-            )
-            patched += 1
-
         print(f"Patched SEO metadata in {patched} HTML files")
         PY
+
+    - name: Build portal home page
+      run: python3 portal/build_portal.py --site dir
 
     - name: Validate Pages artifact SEO metadata
       run: |
@@ -300,6 +224,21 @@ jobs:
 
         if ! grep -q "Sitemap: https://jakeuj.com/sitemap.xml" dir/robots.txt; then
           echo "::error file=dir/robots.txt::robots.txt is missing the sitemap directive"
+          exit 1
+        fi
+
+        if ! grep -q '<link rel="canonical" href="https://jakeuj.com/">' dir/index.html; then
+          echo "::error file=dir/index.html::portal index.html must be canonical to https://jakeuj.com/"
+          exit 1
+        fi
+
+        if grep -q 'http-equiv="refresh"' dir/index.html; then
+          echo "::error file=dir/index.html::portal index.html must not redirect"
+          exit 1
+        fi
+
+        if ! grep -q "<loc>https://jakeuj.com/</loc>" dir/sitemap.xml; then
+          echo "::error file=dir/sitemap.xml::sitemap.xml is missing the portal root URL"
           exit 1
         fi
 

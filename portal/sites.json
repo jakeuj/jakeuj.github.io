@@ -1,0 +1,160 @@
+{
+  "categories": [
+    {"id": "tools", "name": "實用工具", "description": "瀏覽器就能用的小工具與擴充套件。"},
+    {"id": "gw2", "name": "Guild Wars 2", "description": "激戰 2 的繁體中文化、插件與模組。"},
+    {"id": "poe", "name": "Path of Exile", "description": "流亡黯道的中文化、PoB 分享與 Mac 設定。"},
+    {"id": "games", "name": "其他遊戲", "description": "存檔修改器、培養計算器與攻略資料庫。"},
+    {"id": "sango", "name": "三國歪傳 MUD", "description": "三國歪傳之降龍伏虎的資料整理與開發文件。"},
+    {"id": "records", "name": "紀錄", "description": "事件整理與來源對照。"}
+  ],
+  "sites": [
+    {
+      "slug": "coolpc-quote",
+      "name": "原價屋估價單分享",
+      "description": "用原價屋含稅報價配電腦，零件可替換並提示相容性，整張估價單存成一條連結，日後還看得到漲跌。",
+      "category": "tools",
+      "url": "https://pc.jakeuj.com/",
+      "repo": "architect-pc-builder"
+    },
+    {
+      "slug": "bahamut-markdown-converter",
+      "name": "巴哈姆特 Markdown 轉換器",
+      "description": "把 Markdown 轉成巴哈姆特哈拉區可以直接貼上的原始碼格式。",
+      "category": "tools",
+      "url": "https://bahamut-markdown-converter.jakeuj.com/",
+      "repo": "bahamut-markdown-converter"
+    },
+    {
+      "slug": "edge-attendance-tracker",
+      "name": "技嘉出勤時間追蹤器",
+      "description": "Microsoft Edge 擴充套件，顯示當日打卡、預計下班時間與剩餘時間。",
+      "category": "tools",
+      "url": "https://edge.jakeuj.com/",
+      "repo": "edge-extension"
+    },
+    {
+      "slug": "gw2-module-pack",
+      "name": "GW2 Events and Metas Observer 繁中版",
+      "description": "Blish HUD 活動時程模組的台灣繁中版：官方 Wiki 時程、雙語事件名稱、已查核獎勵與安全自動更新。",
+      "category": "gw2",
+      "url": "https://gw.jakeuj.com/",
+      "repo": "Community-Module-Pack",
+      "sitemap": true
+    },
+    {
+      "slug": "gw2-arcdps-zh-tw",
+      "name": "ArcDPS 繁體中文 UI",
+      "description": "ArcDPS 中文介面外掛：繁體轉換、保存偏好，附安裝、診斷與安全回復指引。",
+      "category": "gw2",
+      "url": "https://gw2.jakeuj.com/",
+      "repo": "GW2-ArcDPS-TChineseUI",
+      "sitemap": true
+    },
+    {
+      "slug": "gw2-upgrade-value",
+      "name": "Upgrade Value",
+      "description": "Nexus 插件：掃描異域裝備上的符文與印記，顯示交易所即時價格並建議拆解工具。",
+      "category": "gw2",
+      "url": "https://gw2-value.jakeuj.com/",
+      "repo": "GW2-Nexus-Upgrade-Value",
+      "sitemap": true
+    },
+    {
+      "slug": "gw2-pathing-zh-tw",
+      "name": "GW2 Pathing 繁體中文化",
+      "description": "追蹤 Blish HUD Pathing 標記包繁中化的授權、書面許可與分包發布條件。",
+      "category": "gw2",
+      "url": "https://gw2-pathing.jakeuj.com/",
+      "repo": "gw2-pathing-zh-tw",
+      "sitemap": true
+    },
+    {
+      "slug": "poe-pob-sharer",
+      "name": "PoE Ninja to Chronicles PoB Sharer",
+      "description": "Chrome／Edge 擴充套件，在 poe.ninja 角色頁一鍵建立編年史中文 PoB 分享連結。",
+      "category": "poe",
+      "url": "https://poe.jakeuj.com/",
+      "repo": "ChromeExtensionPobZh",
+      "sitemap": true
+    },
+    {
+      "slug": "poe-chinese",
+      "name": "PoeChinese3 中文化工具",
+      "description": "基於 LibGGPK3 的繁體中文化工具，支援 macOS ARM NativeAOT、內建繁中字型與 GGPK 路徑記憶。",
+      "category": "poe",
+      "url": "https://poechinese.jakeuj.com/",
+      "repo": "LibGGPK3",
+      "sitemap": true
+    },
+    {
+      "slug": "poe-mac-config",
+      "name": "PoE Mac DX12 設定檔",
+      "description": "Path of Exile 1／2 在 Apple Silicon Mac 跑 Windows 版時可套用的 DirectX 12 設定檔與安裝重點。",
+      "category": "poe",
+      "url": "https://poe-mac.jakeuj.com/",
+      "repo": "poe_production_Config",
+      "sitemap": true
+    },
+    {
+      "slug": "bandit-save-editor",
+      "name": "山寨帳房",
+      "description": "《塔防山賊模擬器》繁中存檔修改器：資源、角色養成、裝備檢視與存檔比對，在瀏覽器本機修改、原檔保留。",
+      "category": "games",
+      "url": "https://bandit.jakeuj.com/",
+      "repo": "bandit-save-editor",
+      "sitemap": true
+    },
+    {
+      "slug": "fe-banshisenko-calc",
+      "name": "萬紫千紅 培養計算器",
+      "description": "《聖火降魔錄 萬縷千絲》角色培養計算器：從目前能力值預測轉職路線的期望值與機率區間。",
+      "category": "games",
+      "url": "https://fe-banshisenko-calc.jakeuj.com/",
+      "repo": "fe-banshisenko-calc",
+      "sitemap": true
+    },
+    {
+      "slug": "wow-forever-professions",
+      "name": "魔獸世界：永恆 專業分配",
+      "description": "主號雙採集、小號雙製造的全專業與 18 點製造傳承規劃，含多條聖騎士路線比較。",
+      "category": "games",
+      "url": "https://jakeuj.com/wow-forever-professions/",
+      "repo": "wow-forever-professions",
+      "sitemap": true
+    },
+    {
+      "slug": "nevergrind-online",
+      "name": "Nevergrind Online 攻略 DB 繁中版",
+      "description": "整理職業、裝備、符文、配方、地城與來源索引，方便查攻略並對照原站資料。",
+      "category": "games",
+      "url": "https://ngo.jakeuj.com/",
+      "repo": "NevergrindOnline",
+      "sitemap": true
+    },
+    {
+      "slug": "sango3838",
+      "name": "Sango3838 資料索引",
+      "description": "三國歪傳之降龍伏虎網站鏡像，整理成可查詢的知識庫。",
+      "category": "sango",
+      "url": "https://3y.jakeuj.com/",
+      "repo": "3yWebsite"
+    },
+    {
+      "slug": "merc-fju",
+      "name": "Merc FJU 3.0 文件",
+      "description": "merc-fju-3.0 遊戲現況與執行環境的開發文件。",
+      "category": "sango",
+      "url": "https://sango.jakeuj.com/",
+      "repo": "merc-fju-3.0"
+    },
+    {
+      "slug": "toml-zh-tw-chronicle",
+      "name": "TOML 繁中翻譯爭議始末",
+      "description": "逐則整理 TOML 繁中翻譯提案、PR 與公開留言，對照各方說法、技術審查及原始來源。",
+      "category": "records",
+      "url": "https://doggy8088.jakeuj.com/",
+      "repo": "toml-zh-tw-chronicle",
+      "sitemap": true
+    }
+  ]
+}
