@@ -13,7 +13,7 @@ Evennia 是用 Python 開發 MUD、MUSH、MUX、MU* 等文字多人遊戲的框�
 
 以下為繁體中文 Evennia 文件網站，可與本文互相對照：
 
-- [Evennia 文件（evennia.jakeuj.com）](https://evennia.jakeuj.com/) - 繁體中文文件，涵蓋安裝、教學與核心元件；自動生成的 API 參考仍維持英文。
+- [Evennia 繁中手冊](https://jakeuj.com/evennia/) - 機器翻譯的繁體中文文件，涵蓋安裝、教學與核心元件；自動生成的 API 參考仍維持英文。
 
 截至本次檢視，中文站首頁仍標示 Evennia `6.0.0`，PyPI 最新版則是 `6.1.0`。閱讀翻譯時可用來理解概念，涉及版本、參數與程式碼時，再對照實際安裝版本及官方原始碼。
 

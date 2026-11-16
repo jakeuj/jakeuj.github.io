@@ -22,8 +22,8 @@
     },
     {
       "id": "sango",
-      "name": "三國歪傳 MUD",
-      "description": "三國歪傳之降龍伏虎的資料整理與開發文件。"
+      "name": "MUD 開發",
+      "description": "三國歪傳之降龍伏虎的資料整理、開發文件，以及 Evennia 繁中手冊。"
     },
     {
       "id": "records",
@@ -207,6 +207,14 @@
       "aliases": [
         "merc-fju-3.0"
       ]
+    },
+    {
+      "slug": "evennia",
+      "name": "Evennia 繁中手冊",
+      "description": "Python MUD 框架 Evennia 的繁體中文文件：安裝、新手教學、核心元件與 contrib；API 參考維持英文。",
+      "category": "sango",
+      "url": "https://jakeuj.com/evennia/",
+      "repo": "evennia"
     },
     {
       "slug": "toml-zh-tw-chronicle",
