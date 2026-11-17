@@ -261,8 +261,9 @@ build 在 Writerside builder 前執行 `publication.py check` 與發布功能測
 
 - `Writerside/**`，但排除其中的 `*.bak` 與 `AGENTS.md`。
 - `data/posts.json`、`scripts/publication.py`。
+- `portal/**`（入口首頁產生器與 `sites.json`），但排除其中的 `*.md` 說明文件。
 - `robots.txt`、`CNAME`、`.github/workflows/deploy.yml`。
 
-一次 push 至少含一個符合白名單的變更才啟動部署；只有根目錄 README、docs、技能或其他工具檔案變更不會觸發。`workflow_dispatch` 保留手動建置。負向排除規則要放在 Writerside 正向規則之後；新增網站建置依賴時同步補進白名單。
+一次 push 至少含一個符合白名單的變更才啟動部署；只有根目錄 README、docs、技能或其他工具檔案變更不會觸發。`workflow_dispatch` 保留手動建置。負向排除規則要放在對應的正向規則之後；新增網站建置依賴時同步補進白名單。
 
 這個 workflow 沒有另設工具或測試專用的輕量 CI；白名單之外的修改仍按任務執行必要的本地檢查。本地 pre-push hook 的檢查不受 GitHub paths 篩選影響。

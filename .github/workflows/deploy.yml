@@ -11,6 +11,7 @@ on:
       - "data/posts.json"
       - "scripts/publication.py"
       - "portal/**"
+      - "!portal/**/*.md"
       - "robots.txt"
       - "CNAME"
       - ".github/workflows/deploy.yml"
