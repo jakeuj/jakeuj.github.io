@@ -9,6 +9,7 @@
   - `sitemap`：專案根目錄有 `sitemap.xml` 時設 `true`；只有網址在 jakeuj.com 底下時才會寫進根目錄 `robots.txt`。
   - `aliases`（選填）：repo 改名前的舊名稱。會產生 `/<舊名>/` 的 noindex 轉址頁，讓 `jakeuj.github.io/<舊名>/` 這類舊連結導到新網址。
   - `disallow`（選填）：要禁止爬取的子目錄（相對於專案，結尾加 `/`），會寫進根目錄 `robots.txt`；子目錄自己的 robots.txt 無效。
+  - 整站不想被搜尋收錄（例如機器翻譯的 `/evennia/`）時，在該站每頁加 `<meta name="robots" content="noindex">`，`sitemap` 與 `disallow` 都不設；被 `disallow` 擋住的頁面，Google 看不到 noindex。
 - `build_portal.py`：部署時在 Writerside 輸出目錄執行，產生 `index.html` 與舊名轉址頁、把首頁加進 `sitemap.xml`、把專案 sitemap 與禁止爬取規則加進 `robots.txt`。重複執行結果相同。
 - `portal.css`：首頁樣式，建置時內嵌進 `index.html`。
 

@@ -1,11 +1,24 @@
-# Writerside 技術筆記
+# jakeuj.com
 
-這個 repo 是用 **JetBrains Writerside** 維護的中文（zh-tw）技術筆記，內容涵蓋 .NET/ABP、Flutter、Docker、雲端服務、AI 工具等。
+這個 repo 是 GitHub 使用者站 `jakeuj.github.io`（原名 `jakeuj/writerside`），負責產生 <https://jakeuj.com/> 的兩個部分：
+
+- **Writerside 技術筆記**：用 JetBrains Writerside 維護的中文（zh-tw）技術筆記，內容涵蓋 .NET/ABP、Flutter、Docker、雲端服務、AI 工具等。
+- **入口首頁**：`https://jakeuj.com/` 本身，列出最新文章與所有專案站，由 `portal/` 在部署時產生。
 
 ## 線上閱讀
 
-- GitHub Pages：<https://jakeuj.github.io/writerside/>
-- 自訂網域：<https://jakeuj.com/>（由 `CNAME` 指向）
+- 入口首頁：<https://jakeuj.com/>
+- 筆記首頁：<https://jakeuj.com/default.html>
+- 專案站：`https://jakeuj.com/<repo>/`，由各自的 repo 發布，完整清單在入口首頁。
+
+`https://jakeuj.github.io/` 會 301 到 `https://jakeuj.com/`。自訂網域設定在 repo 的 Settings → Pages。
+
+## 使用者站與專案站
+
+`<帳號>.github.io` 是 GitHub 的使用者站，佔自訂網域的根目錄。其他 repo 開了 Pages 但沒設自訂網域時，GitHub 會自動把它們發布在使用者站網域底下的 `/<repo>/`，所以專案站不必另開子網域，也不用改 DNS。
+
+- 新增專案站：見 [`portal/README.md`](portal/README.md)，在 `portal/sites.json` 加一筆即可。
+- 舊子網域（例如 `blog.jakeuj.com`、`gw2.jakeuj.com`）由 Cloudflare 301 到新網址，設定紀錄在 [`infra/cloudflare/README.md`](infra/cloudflare/README.md)。
 
 ## 專案結構（重點）
 
@@ -15,6 +28,9 @@
 - `Writerside/writerside.cfg`：Writerside 專案設定（topics/images 位置、instance 設定）
 - `Writerside/cfg/`：建置設定（主題、Analytics、搜尋等）
 - `scripts/`：一些資料整理/產文的輔助腳本（跟 Writerside build 無強耦合）
+- `data/posts.json`：最新文章與 RSS 的資料來源（`scripts/publication.py` 讀取）
+- `portal/`：入口首頁產生器（`sites.json` 站台清單、`build_portal.py`、樣式與測試）
+- `infra/cloudflare/`：舊子網域轉址與 Worker 的設定紀錄
 
 ## 新增/修改文章流程
 
@@ -83,7 +99,7 @@ git push --no-verify
 
 這個站台的正式公開 URL 採用根目錄短網址：
 
-- 首頁：<https://jakeuj.com/>
+- 首頁：<https://jakeuj.com/>（入口首頁；筆記首頁是 `/default.html`）
 - 文章：`https://jakeuj.com/<topic-web-file-name>.html`
 - Sitemap：<https://jakeuj.com/sitemap.xml>
 - robots.txt：<https://jakeuj.com/robots.txt>
@@ -95,8 +111,8 @@ git push --no-verify
 - `Writerside/cfg/buildprofiles.xml` 使用 `<generate-sitemap-url-prefix>https://jakeuj.com/</generate-sitemap-url-prefix>`，讓 sitemap `<loc>` 對齊根目錄短網址。
 - 首頁與高優先文章使用 `<web-summary>` 明確產生 `meta name="description"`；deploy workflow 會再把這段同步到 OG / Twitter / Schema description。
 - `og-image` 使用 `https://jakeuj.com/images/og-image.png` 這類 PNG social card，避免社群平台不支援 SVG 預覽。
-- repo root 的 `robots.txt` 由 `.github/workflows/deploy.yml` 複製到 Pages artifact 根目錄。
-- repo root 的 `CNAME` 也由 deploy workflow 複製到 Pages artifact 根目錄，確保 custom domain 設定保留。
+- repo root 的 `robots.txt` 由 `.github/workflows/deploy.yml` 複製到 Pages artifact 根目錄，入口首頁產生器再依 `portal/sites.json` 附加各專案站的 sitemap 與 `Disallow`；這些規則不要手寫進 repo 的 `robots.txt`。
+- repo root 的 `CNAME` 也會複製到 Pages artifact，但用 Actions 部署時 GitHub 會忽略這個檔案，以 Settings → Pages 的自訂網域為準；要改網域請改那裡。
 
 部署後可用這些指令快速確認：
 
