@@ -15,6 +15,7 @@ from datetime import datetime, timedelta, timezone
 import html
 import json
 from pathlib import Path
+import shutil
 from string import Template
 import sys
 from urllib.parse import urlsplit
@@ -27,7 +28,7 @@ import publication  # noqa: E402  (shared loader for data/posts.json)
 
 SITE_URL = "https://jakeuj.com/"
 NOTES_URL = "https://jakeuj.com/default.html"
-OG_IMAGE = "https://jakeuj.com/images/og-image.png"
+OG_IMAGE = "https://jakeuj.com/portal/portal-og.png"
 TITLE = "Jakeuj｜技術筆記與作品"
 DESCRIPTION = (
     "Jakeuj 的個人網站入口：.NET、ABP、Azure、Docker、AI 工具與 macOS 的技術筆記，"
@@ -56,10 +57,11 @@ TOGGLE_SCRIPT = """(function () {
   var root = document.documentElement;
   var btn = document.getElementById("theme-toggle");
   if (!btn) return;
+  var systemTheme = window.matchMedia ? window.matchMedia("(prefers-color-scheme: dark)") : null;
   function current() {
     var t = root.getAttribute("data-theme");
     if (t) return t;
-    return window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+    return systemTheme && systemTheme.matches ? "dark" : "light";
   }
   function label() {
     btn.setAttribute("aria-label", current() === "dark" ? "切換為淺色模式" : "切換為深色模式");
@@ -70,6 +72,10 @@ TOGGLE_SCRIPT = """(function () {
     try { localStorage.setItem("jakeuj-portal:theme", next); } catch (e) {}
     label();
   });
+  if (systemTheme) {
+    if (systemTheme.addEventListener) systemTheme.addEventListener("change", label);
+    else if (systemTheme.addListener) systemTheme.addListener(label);
+  }
   label();
 })();"""
 
@@ -81,7 +87,11 @@ PAGE = Template("""<!DOCTYPE html>
 <title>$title</title>
 <meta name="description" content="$description">
 <link rel="canonical" href="$site_url">
-<link rel="icon" type="image/png" sizes="16x16" href="images/miku.png">
+<link rel="icon" type="image/png" sizes="16x16" href="portal/favicon-16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="portal/favicon-32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="portal/favicon-48.png">
+<link rel="apple-touch-icon" sizes="180x180" href="portal/apple-touch-icon.png">
+<link rel="alternate" type="application/rss+xml" title="Jakeuj 筆記本 RSS" href="https://jakeuj.com/feed.xml">
 <meta name="theme-color" content="#fff8f8" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1a1316" media="(prefers-color-scheme: dark)">
 <meta property="og:type" content="website">
@@ -91,6 +101,7 @@ PAGE = Template("""<!DOCTYPE html>
 <meta property="og:description" content="$description">
 <meta property="og:url" content="$site_url">
 <meta property="og:image" content="$og_image">
+<meta property="og:image:type" content="image/png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Jakeuj 筆記本">
@@ -124,7 +135,7 @@ $css</style>
     </button>
   </div>
 </header>
-<main id="main">
+<main id="main" tabindex="-1">
   <div class="hero">
     <div class="wrap hero-grid">
       <div>
@@ -135,7 +146,12 @@ $css</style>
           <a class="btn btn-ghost" href="#projects">看看作品</a>
         </div>
       </div>
-      <div class="avatar"><img src="images/miku.png" alt="Jakeuj 的初音頭像" width="256" height="256"></div>
+      <div class="avatar">
+        <picture>
+          <source type="image/webp" srcset="portal/avatar-96.webp 96w, portal/avatar-192.webp 192w, portal/avatar-256.webp 256w" sizes="(min-width: 768px) 174px, 78px">
+          <img src="portal/avatar-192.png" alt="Jakeuj 的初音頭像" width="192" height="192">
+        </picture>
+      </div>
     </div>
   </div>
 
@@ -198,6 +214,20 @@ def esc(value):
 
 def load_sites(path=PORTAL / "sites.json"):
     data = json.loads(path.read_text(encoding="utf-8"))
+    person = data.setdefault("person", {
+        "name": "Jakeuj",
+        "url": SITE_URL,
+        "sameAs": [GITHUB, "https://www.linkedin.com/in/jakeuj/", "https://www.youtube.com/@Jakeuj"],
+    })
+    if not isinstance(person, dict):
+        raise ValueError("person must be an object")
+    if not isinstance(person.get("name"), str) or not person["name"].strip():
+        raise ValueError("person.name must be a non-empty string")
+    validate_profile_url(person.get("url"), "person.url")
+    if not isinstance(person.get("sameAs", []), list):
+        raise ValueError("person.sameAs must be an array of https URLs")
+    for url in person.get("sameAs", []):
+        validate_profile_url(url, "person.sameAs")
     categories = data["categories"]
     category_ids = [c["id"] for c in categories]
     if len(set(category_ids)) != len(category_ids):
@@ -232,6 +262,16 @@ def load_sites(path=PORTAL / "sites.json"):
     if aliases & slugs:
         raise ValueError(f"Alias collides with a slug: {sorted(aliases & slugs)}")
     return data
+
+
+def validate_profile_url(value, field):
+    if not isinstance(value, str) or any(c.isspace() for c in value):
+        raise ValueError(f"{field} must be an https URL")
+    url = urlsplit(value)
+    if url.scheme != "https" or not url.hostname or url.username is not None or url.password is not None:
+        raise ValueError(f"{field} must be an https URL without credentials")
+    # Accessing port also rejects malformed authority/port values.
+    _ = url.port
 
 
 def on_main_host(site):
@@ -318,7 +358,7 @@ def render_categories(data):
                 f'            <p>{esc(s["description"])}</p>\n'
                 '            <p class="meta">'
                 f'<span class="path">{esc(shown)}</span>'
-                f'<a href="{esc(GITHUB + "/" + s["repo"])}">GitHub</a></p>\n'
+                f'<a href="{esc(GITHUB + "/" + s["repo"])}" aria-label="{esc(s["name"] + " 的 GitHub 原始碼")}">GitHub</a></p>\n'
                 "          </article>"
             )
         blocks.append(
@@ -331,9 +371,8 @@ def render_categories(data):
     return "\n".join(blocks)
 
 
-def render_jsonld():
+def render_jsonld(data):
     website = {
-        "@context": "https://schema.org",
         "@type": "WebSite",
         "@id": f"{SITE_URL}#website",
         "url": SITE_URL,
@@ -341,8 +380,33 @@ def render_jsonld():
         "alternateName": ["Jakeuj 筆記本", "jakeuj.com"],
         "description": DESCRIPTION,
         "inLanguage": "zh-TW",
+        "publisher": {"@id": f"{SITE_URL}#person"},
+        "mainEntity": {"@id": f"{SITE_URL}#projects"},
     }
-    return json.dumps(website, ensure_ascii=False).replace("</", "<\\/")
+    person = {
+        "@type": "Person",
+        "@id": f"{SITE_URL}#person",
+        "name": data["person"]["name"],
+        "url": data["person"]["url"],
+    }
+    if data["person"].get("sameAs"):
+        person["sameAs"] = data["person"]["sameAs"]
+    sites = [s for cat in data["categories"] for s in data["sites"]
+             if s["category"] == cat["id"] and on_main_host(s)]
+    projects = {
+        "@type": "ItemList",
+        "@id": f"{SITE_URL}#projects",
+        "name": "作品與工具",
+        "numberOfItems": len(sites),
+        "itemListElement": [
+            {"@type": "ListItem", "position": i, "name": s["name"],
+             "description": s["description"], "url": s["url"]}
+            for i, s in enumerate(sites, 1)
+        ],
+    }
+    graph = {"@context": "https://schema.org", "@graph": [website, person, projects]}
+    # Escape '<' so user-provided text cannot terminate the HTML script element.
+    return json.dumps(graph, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
 
 
 def render_page(data, posts, year):
@@ -352,7 +416,7 @@ def render_page(data, posts, year):
         site_url=SITE_URL,
         og_image=OG_IMAGE,
         github=GITHUB,
-        jsonld=render_jsonld(),
+        jsonld=render_jsonld(data),
         theme_script=THEME_SCRIPT,
         toggle_script=TOGGLE_SCRIPT,
         css=(PORTAL / "portal.css").read_text(encoding="utf-8"),
@@ -398,6 +462,7 @@ def build(site, root=ROOT, sites_path=PORTAL / "sites.json", now=None):
     if len(posts) < LATEST_COUNT:
         raise ValueError("Not enough published posts for the latest list")
     now = now or datetime.now(timezone(timedelta(hours=8)))
+    shutil.copytree(PORTAL / "assets", site / "portal", dirs_exist_ok=True)
     (site / "index.html").write_text(render_page(data, posts, now.year), encoding="utf-8")
     update_sitemap(site / "sitemap.xml")
     added = update_robots(site / "robots.txt", project_sitemaps(data["sites"]), robots_disallows(data["sites"]))

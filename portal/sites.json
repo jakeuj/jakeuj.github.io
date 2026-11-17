@@ -1,4 +1,13 @@
 {
+  "person": {
+    "name": "Jakeuj",
+    "url": "https://jakeuj.com/",
+    "sameAs": [
+      "https://github.com/jakeuj",
+      "https://www.linkedin.com/in/jakeuj/",
+      "https://www.youtube.com/@Jakeuj"
+    ]
+  },
   "categories": [
     {
       "id": "tools",
