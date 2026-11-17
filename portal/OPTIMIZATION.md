@@ -56,7 +56,7 @@ OG、apple icon、未選中的 srcset 版本與 PNG fallback 不會全部在一�
 
 ## 測試證據
 
-入口共 18 項 unittest 通過，另以 `python3 -S` 執行同一套測試，確認不需要 site-packages。209 個預覽成品（含原圖片）連續建置兩次，逐檔 SHA-256 相同。
+入口共 22 項 unittest 通過，另以 `python3 -S` 執行同一套測試，確認不需要 site-packages。209 個預覽成品（含原圖片）連續建置兩次，逐檔 SHA-256 相同。
 
 | Requirement | Evidence |
 | --- | --- |
@@ -71,6 +71,7 @@ OG、apple icon、未選中的 srcset 版本與 PNG fallback 不會全部在一�
 | 配色文字／焦點對比 | `test_color_tokens_meet_text_and_focus_contrast` |
 | Evennia 可見但無 sitemap／robots 宣告 | `test_evennia_stays_visible_without_crawl_or_sitemap_rules` |
 | RSS 發布重複執行仍只保留一個 alternate | `test_rss_publication_keeps_one_alternate` |
+| 實際 CI artifact 檢查接受首頁專用圖與文章舊圖，拒絕錯置或缺少圖檔 | `test_deploy_validation_accepts_portal_and_legacy_article_images`、`test_deploy_validation_rejects_wrong_home_image`、`test_deploy_validation_rejects_wrong_article_image`、`test_deploy_validation_requires_portal_image_file` |
 | 既有資料與轉址保護 | `test_rejects_duplicate_slug`、`test_rejects_main_host_url_not_matching_slug`、`test_only_main_host_sitemaps_go_to_robots`、`test_alias_must_not_overwrite_real_page` |
 
 另通過 publication 的 7 項測試、`npm run pre-deploy`（含 601 篇 Markdown、publication 同步及 XML 檢查），以及入口 README／本報告的 markdownlint。建置與測試未新增 Python 或前端依賴。

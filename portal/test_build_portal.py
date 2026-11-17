@@ -3,9 +3,13 @@ from html.parser import HTMLParser
 import json
 from pathlib import Path
 import re
+import shlex
+import shutil
 import struct
+import subprocess
 import sys
 import tempfile
+import textwrap
 import unittest
 from unittest import mock
 
@@ -66,6 +70,58 @@ class BuildPortalTest(unittest.TestCase):
     def built_page(self):
         build_portal.build(self.site, now=NOW)
         return Page((self.site / "index.html").read_text(encoding="utf-8"))
+
+    def run_deploy_validation(self, change=None):
+        self.built_page()
+        workflow = (build_portal.ROOT / ".github/workflows/deploy.yml").read_text(encoding="utf-8")
+        block = workflow.split("    - name: Validate Pages artifact SEO metadata\n      run: |\n", 1)[1]
+        script = textwrap.dedent(block.split("\n    - name:", 1)[0])
+        pages = shlex.split(re.search(r"seo_pages=\((.*?)\)", script, re.S)[1])
+        with tempfile.TemporaryDirectory() as root:
+            site = Path(root) / "dir"
+            shutil.copytree(self.site, site)
+            (site / "CNAME").write_text("jakeuj.com\n", encoding="utf-8")
+            (site / "images").mkdir()
+            shutil.copyfile(build_portal.ROOT / "Writerside/images/og-image.png", site / "images/og-image.png")
+            article = '''<html lang="zh-TW"><head>
+<meta name="description" content="技術筆記">
+<meta property="og:description" content="技術筆記">
+<meta name="twitter:description" content="技術筆記">
+<meta property="og:image" content="https://jakeuj.com/images/og-image.png">
+<meta name="twitter:image" content="https://jakeuj.com/images/og-image.png">
+<meta property="og:locale" content="zh_TW">
+</head></html>'''
+            for page in pages:
+                if page != "dir/index.html":
+                    (Path(root) / page).write_text(article, encoding="utf-8")
+            if change:
+                change(site)
+            return subprocess.run(["bash", "-e", "-c", script], cwd=root, capture_output=True, text=True)
+
+    def test_deploy_validation_accepts_portal_and_legacy_article_images(self):
+        result = self.run_deploy_validation()
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
+    def test_deploy_validation_rejects_wrong_home_image(self):
+        def change(site):
+            page = site / "index.html"
+            page.write_text(page.read_text().replace(build_portal.OG_IMAGE, "https://jakeuj.com/images/og-image.png"))
+        result = self.run_deploy_validation(change)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("file=dir/index.html::page does not reference the expected PNG OG image", result.stdout)
+
+    def test_deploy_validation_rejects_wrong_article_image(self):
+        def change(site):
+            page = site / "default.html"
+            page.write_text(page.read_text().replace("https://jakeuj.com/images/og-image.png", build_portal.OG_IMAGE))
+        result = self.run_deploy_validation(change)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("file=dir/default.html::page does not reference the expected PNG OG image", result.stdout)
+
+    def test_deploy_validation_requires_portal_image_file(self):
+        result = self.run_deploy_validation(lambda site: (site / "portal/portal-og.png").unlink())
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("file=dir/portal/portal-og.png::required Pages artifact file is missing", result.stdout)
 
     def test_build_is_idempotent_and_complete(self):
         def snapshot():

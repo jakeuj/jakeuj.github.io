@@ -206,7 +206,7 @@ jobs:
 
     - name: Validate Pages artifact SEO metadata
       run: |
-        for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/index.html dir/default.html dir/writerside-sitemap-seo.html; do
+        for file in dir/sitemap.xml dir/robots.txt dir/CNAME dir/images/og-image.png dir/portal/portal-og.png dir/index.html dir/default.html dir/writerside-sitemap-seo.html; do
           if [ ! -f "$file" ]; then
             echo "::error file=$file::required Pages artifact file is missing"
             exit 1
@@ -286,8 +286,12 @@ jobs:
             exit 1
           fi
 
-          if ! grep -q "https://jakeuj.com/images/og-image.png" "$page"; then
-            echo "::error file=$page::page does not reference the PNG OG image"
+          expected_og="https://jakeuj.com/images/og-image.png"
+          if [ "$page" = "dir/index.html" ]; then
+            expected_og="https://jakeuj.com/portal/portal-og.png"
+          fi
+          if ! grep -Fq "$expected_og" "$page"; then
+            echo "::error file=$page::page does not reference the expected PNG OG image: $expected_og"
             exit 1
           fi
 
