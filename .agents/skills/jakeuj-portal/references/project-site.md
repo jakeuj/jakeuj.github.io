@@ -20,6 +20,7 @@
    - 專案有 `sitemap.xml` 才設 `sitemap: true`。
    - 機器翻譯、鏡像這類不想被收錄的站：專案每頁加 `<meta name="robots" content="noindex">`，`sitemap`、`disallow` 都不設。
 5. 驗證：`gh api repos/jakeuj/<repo>/pages` 的 `cname` 是 null、`html_url` 是 `https://jakeuj.com/<repo>/`；新網址和它引用的同源 JS、CSS、圖片都回 200。
+6. Search Console：有 sitemap 的站，經使用者同意後提交 `python3 ~/.agents/skills/google-seo/scripts/gsc_api.py submit-sitemap sc-domain:jakeuj.com https://jakeuj.com/<repo>/sitemap.xml --confirm`，再用 `gsc_api.py sitemaps sc-domain:jakeuj.com` 確認 `errors` 是 0。寫入需要 `webmasters` scope，登入方式見 google-seo 技能的 `references/search-console-api.md`。
 
 ## 從舊子網域搬入
 
@@ -30,6 +31,7 @@
 3. 確認新網址回 200，再把舊主機的 DNS 記錄改成 proxied，301 才開始生效。
 4. 舊主機裝過 PWA 的話，舊 service worker 會離線回應，301 到不了瀏覽器。這種主機改用 `infra/cloudflare/legacy-pwa-worker.mjs` 的 kill-switch Worker，不放進 Bulk Redirect 清單。
 5. 更新 `sites.json` 的 `url`，再用 `git grep` 找 Writerside 筆記和 `~/.agents/skills` 裡寫死的舊網址一起改。
+6. Search Console 提交新的 sitemap（同「新增專案站」第 6 步）。舊子網域的 sitemap 會 301 到新的，先留著，等新網址被索引後再到介面刪除。搬完的頭幾週，新網址在網址審查顯示「Google 無法辨識的網址」或「已找到 - 目前尚未建立索引」是正常的。
 
 ## repo 改名
 
