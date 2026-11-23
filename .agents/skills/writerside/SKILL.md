@@ -59,7 +59,7 @@ description: 在目前 Writerside repo 撰寫與驗證公開技術筆記，維�
 - **圖表與公式**：依格式讀 [mermaid-reference.md](references/mermaid-reference.md)、[plantuml-reference.md](references/plantuml-reference.md)、[d2-reference.md](references/d2-reference.md) 或 [math-reference.md](references/math-reference.md)。
 - **專案與 instance**：專案根目錄讀 [projects-reference.md](references/projects-reference.md)；module 結構讀 [help-modules-reference.md](references/help-modules-reference.md)；主設定讀 [writerside-cfg-reference.md](references/writerside-cfg-reference.md)；instance/reuse 讀 [instances-reference.md](references/instances-reference.md)。
 - **TOC、標籤與變數**：`hi.tree`/home page/hidden topic 讀 [toc-reference.md](references/toc-reference.md)；labels 讀 [labels-reference.md](references/labels-reference.md)；`v.list`、`%var%`、`ignore-vars` 讀 [variables-reference.md](references/variables-reference.md)。
-- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 [build-deploy.md](references/build-deploy.md)；`buildprofiles.xml`、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap、Search Console 讀 [buildprofiles-reference.md](references/buildprofiles-reference.md)；`llms.txt` 輸出讀 [llms-reference.md](references/llms-reference.md)。
+- **建置、SEO 與搜尋**：GitHub Actions/Pages/Algolia request 讀 [build-deploy.md](references/build-deploy.md)；`buildprofiles.xml`、header/footer、自訂 HTML/CSS/JavaScript、第三方 widget、sitemap、Search Console 讀 [buildprofiles-reference.md](references/buildprofiles-reference.md)；`llms.txt` 輸出讀 [llms-reference.md](references/llms-reference.md)。入口首頁 `portal/`、`sites.json` 或專案站搬遷改用 `jakeuj-portal` 技能。
 - **錯誤與驗證**：checker code、anchor、XML escape、topic/image path 讀 [checker-errors.md](references/checker-errors.md)；lint/pre-deploy/CI 分層讀 [validation-flow.md](references/validation-flow.md)。
 
 ## 維護這個 skill

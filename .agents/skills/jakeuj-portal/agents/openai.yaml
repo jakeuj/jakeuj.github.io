@@ -1,0 +1,4 @@
+interface:
+  display_name: "jakeuj.com 首頁與專案站"
+  short_description: "維護入口首頁 sites.json、專案站搬遷與首頁部署驗證"
+  default_prompt: "使用 $jakeuj-portal 在 jakeuj.com 首頁新增或調整專案卡片，並完成建置、測試與線上驗證。"
