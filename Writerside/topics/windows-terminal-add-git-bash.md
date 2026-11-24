@@ -12,7 +12,7 @@
 | --- | --- |
 | 名稱 | Git Bash |
 | 命令列 | `C:\Program Files\Git\bin\bash.exe` |
-| 啟動時載入的目錄 | `%USERPROFILE%` |
+| 啟動時載入的目錄 | 使用者資料夾（環境變數 `USERPROFILE`） |
 
 ## Git Bash 沒有 dig
 

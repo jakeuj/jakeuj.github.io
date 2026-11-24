@@ -10,9 +10,11 @@
 
 先把 Git 的工具路徑加進這個 CMD 視窗的環境變數：
 
-```bat
+<code-block lang="bat" ignore-vars="true">
+<![CDATA[
 set PATH=%PATH%;C:\Program Files\Git\usr\bin
-```
+]]>
+</code-block>
 
 轉出伺服器憑證：
 
