@@ -127,7 +127,7 @@ class Hcaptcha
 public async Task<IActionResult> OnPostAsync()
 {
  var token = Request.Form["h-captcha-response"];
- var secret = "0xc55C202E9c857A09758fB6e3C13437b70Ee33333";
+ var secret = "<hcaptcha-secret>";
  var url = $"https://hcaptcha.com/siteverify?response={token}&secret={secret}";
 
  var client = _clientFactory.CreateClient();

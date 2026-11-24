@@ -113,10 +113,10 @@ ngrok 是幫你的 localhost 生出一個 domain 來給 github webhook 呼叫用
 ```
 docker run \
   --volume=/var/lib/drone:/data \
-  --env=DRONE_GITHUB_CLIENT_ID=456c14e7ed5e418a1ccd \
-  --env=DRONE_GITHUB_CLIENT_SECRET=789797177215d9e39854177428f2b3cdc33f3291 \
-  --env=DRONE_RPC_SECRET=123f11ca2cabbc1b47cc2fa281eba25c \
-  --env=DRONE_SERVER_HOST=45652a865bcf.ngrok.io \
+  --env=DRONE_GITHUB_CLIENT_ID=<client-id> \
+  --env=DRONE_GITHUB_CLIENT_SECRET=<client-secret> \
+  --env=DRONE_RPC_SECRET=<rpc-secret> \
+  --env=DRONE_SERVER_HOST=randomcode.ngrok.io \
   --env=DRONE_SERVER_PROTO=https \
   --publish=8081:80 \
   --publish=443:443 \
@@ -162,8 +162,8 @@ P.S. 接下來的 runner 如果執行失敗也會造成一樣的結果
 docker run -d \
   -v /var/run/docker.sock:/var/run/docker.sock \
   -e DRONE_RPC_PROTO=https \
-  -e DRONE_RPC_HOST=45652a865bcf.ngrok.io \
-  -e DRONE_RPC_SECRET=123f11ca2cabbc1b47cc2fa281eba25c \
+  -e DRONE_RPC_HOST=randomcode.ngrok.io \
+  -e DRONE_RPC_SECRET=<rpc-secret> \
   -e DRONE_RUNNER_CAPACITY=2 \
   -e DRONE_RUNNER_NAME=dev_depoly \
   -p 3000:3000 \
