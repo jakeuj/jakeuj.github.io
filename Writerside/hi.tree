@@ -66,6 +66,7 @@
         <toc-element topic="C-Sharp.md">
             <toc-element topic="appsettings-json-環境變數.md"/>
             <toc-element topic="aspnet-core-user-secrets-development.md" toc-title="ASP.NET Core User Secrets"/>
+            <toc-element topic="csharp-system-text-json-ignore-null.md" toc-title="System.Text.Json 忽略 null"/>
             <toc-element topic="Swagger.md" />
             <toc-element topic="Directory-Packages-props.md" />
             <toc-element topic="C#-Swagger-UI-display-Enum-with-String.md" />
@@ -224,6 +225,7 @@
                 <toc-element topic="ABP.IO-WEB應用程式框架-授權資料表定義.md" />
             </toc-element>
             <toc-element toc-title="ABP.IO 新手教學">
+                <toc-element topic="abp-io-tutorial-00-index.md" toc-title="No.00 全篇索引"/>
                 <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.01-快速開始.md" />
                 <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.02-開發教學-第-1-部分-創建服務端.md" />
                 <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.03-開發教學-第-2-部分-圖書列表頁面.md" />
@@ -242,6 +244,7 @@
                 <toc-element topic="ABP.IO-WEB應用程式框架-新手教學-No.16-建立應用服務-Application-Service.md" />
             </toc-element>
             <toc-element toc-title="ASP.NET Boilerplate">
+                <toc-element topic="abp-asp-net-boilerplate-tutorial-00-index.md" toc-title="ABP 新手教學 No.0 全篇索引"/>
                 <toc-element topic="為什麼要使用ABP框架.md" />
                 <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.1-建立專案.md" />
                 <toc-element topic="ABP-(ASP.NET-Boilerplate)-應用程式開發框架-新手教學-No.2-建立實體-Entity.md" />
@@ -263,6 +266,7 @@
         <toc-element topic="Azure.md">
             <toc-element topic="Azure-API-Management.md"/>
             <toc-element topic="azure-cli-login-subscription-selector.md" toc-title="az login 訂閱選擇器"/>
+            <toc-element topic="azure-machine-learning-studio-notes.md" toc-title="Machine Learning Studio 筆記"/>
             <toc-element toc-title="Azure VPN">
                 <toc-element topic="Azure-Vpn-Cret.md"/>
                 <toc-element topic="Azure-P2S-VPN-AAD.md"/>
@@ -296,6 +300,7 @@
                 <toc-element topic="Azure-App-Service-TimeOut-設定.md" />
                 <toc-element topic="Visual-Studio-Web-Depoly-發佈到-Azure-App-Service-Virtual-Application.md" />
                 <toc-element topic="Azure-App-Service-Git-Authentication-failed-for.md" />
+                <toc-element topic="azure-app-service-deploy-unauthorizedaccessexception.md" toc-title="部署 UnauthorizedAccessException"/>
                 <toc-element topic="Azure-App-Service-組態-Connection-String-吃不到設定.md" />
                 <toc-element topic="透過-Proxy-使用-Azure-HCM-(混合式連線管理員).md" />
                 <toc-element topic="Deploy-FastAPI-on-Azure-App-Service.md" />
@@ -349,6 +354,8 @@
             <toc-element topic="Gcp-MD-Topic.md" />
             <toc-element topic="configure-serverless-vpc-access.md" />
             <toc-element topic="GCP-Cloud-SQL-Proxy-本地連線不開白名單.md" />
+            <toc-element topic="gcp-cloud-sql-vpc-peering-recreate.md" toc-title="恢復 Cloud SQL VPC Peering"/>
+            <toc-element topic="gcp-cloud-sql-postgres-pgvector.md" toc-title="Cloud SQL pgvector"/>
             <toc-element topic="GCP-GAE-連-Google-Cloud-SQL-採坑紀錄.md" />
             <toc-element topic="GCP-部屬-VUE.md" />
             <toc-element topic="GCE-安裝-Nvidia-Driver.md" />
@@ -395,6 +402,8 @@
             <toc-element topic="[Git]-跳過工作樹以忽略本地變更.md" />
             <toc-element topic="[Git]-.gitignore-和.gitinfoexclude-的區別.md" />
             <toc-element topic="TortoiseGit-設定不同-Github-帳號.md" />
+            <toc-element topic="git-credential-manager-windows.md" toc-title="Git Credential Manager"/>
+            <toc-element topic="github-actions-private-submodule-pat.md" toc-title="Actions 私人子模組"/>
             <toc-element topic="Git-移除新增忽略之已推送檔案的追蹤.md" />
             <toc-element topic="Git-Pull-Error-Filename-too-long.md" />
             <toc-element topic="Mercuria-與-TortoiseHg-安裝與中文化教學.md" />
@@ -411,8 +420,12 @@
             <toc-element topic="Windows-11-Windows-Defender-打不開.md" />
             <toc-element topic="Windows-Update-Error-Code-0x8024401c.md" />
             <toc-element topic="開始使用透明背景-Powerline-in-Windows-Terminal-吧.md" />
+            <toc-element topic="windows-terminal-add-git-bash.md"/>
             <toc-element topic="Windows-10-bash-ll.md" />
             <toc-element topic="WIN10查詢監聽Port.md" />
+            <toc-element topic="test-netconnection-check-tcp-port.md"/>
+            <toc-element topic="powershell-output-redirection.md"/>
+            <toc-element topic="edge-delete-localhost-hsts.md"/>
             <toc-element topic="Windows-和-Windows-Phone-開發人員帳戶-MSDN-促銷代碼-免費上架.md" />
             <toc-element topic="How-To-Use-Disk-Cleanup-Tool-Safely.md" toc-title="如何利用「磁碟清理」工具安全的騰出空間" />
         </toc-element>
@@ -482,6 +495,7 @@
                 <toc-element topic="Rider-列出類別內的方法清單.md" />
                 <toc-element topic="Rider-目前的.NET-SDK-不支援以-.NET-core-3.0-做為目標.md" />
                 <toc-element topic="JetBrains-Rider-connect-to-LocalDB.md" />
+                <toc-element topic="rider-wsp-virtual-path-not-allowed.md" toc-title="WSP virtual path 錯誤"/>
                 <toc-element topic="JetBrains-Rider-更改字型.md" />
                 <toc-element topic="JetBrains-Rider-不安裝-Visual-Studio-如何使用-MSBuild-編譯發布專案.md" />
                 <toc-element topic="JetBrains-Rider-Angular-NPM-Yarn-Launch-and-Build-Settings-Profile.md" />
@@ -514,6 +528,8 @@
             <toc-element topic="購買-CheapSSL-Comodo-SSL-並設定-Windows-server-2012-IIS-8.md" />
         </toc-element>
         <toc-element toc-title="Docker">
+            <toc-element topic="rider-docker-context-folder-file-locked.md" toc-title="Rider Docker 檔案被鎖定"/>
+            <toc-element topic="windows-docker-tensorflow-gpu.md" toc-title="TensorFlow GPU"/>
             <toc-element topic="Dapr-使用-choco-安裝-minikube-啟動-hyperV-透過-Docker-部屬-Kubernetes.md" />
             <toc-element topic="Docker-Jenkins-Agent-Dotnetcore-Drone.md" />
         </toc-element>
@@ -526,6 +542,7 @@
         <toc-element toc-title=".NET Core">
             <toc-element topic=".Net-7-HttpClient-送出-JSON要求並接收-json-回應.md" />
             <toc-element topic="發布-Package-到自己的-Nuget-Server.md" />
+            <toc-element topic="nuget-config-solution-level-restore.md" toc-title="NuGet.Config 放方案層級"/>
             <toc-element topic="NSwag-Settings-And-HttpClient-Startup.md" toc-title="NSwag Settings &amp; HttpClient Startup" />
             <toc-element topic="Unit-Test-Stream.md" />
             <toc-element topic="Dotnet-Core-NLog-於-Linux-無法產生-Log-問題.md" />
@@ -561,6 +578,7 @@
             <toc-element topic="PowerShell-安裝並設定成-Visual-Studio-預設終端機.md" />
             <toc-element topic="PowerShell-Script-Tool-for-Migrations.md" />
             <toc-element topic="PowerShell-Self-Signed-Certificate.md" />
+            <toc-element topic="openssl-convert-pfx-to-crt-key.md"/>
             <toc-element topic="Visual-Studio-2015-Lua-環境建置.md" />
             <toc-element topic="Visual-Studio-2012-Update-2-找不到-WinLibJS_CORE.msi.md" />
             <toc-element topic="Visual-Studio-2012-.Net-4.5-Validator-Error-解決方案.md" />

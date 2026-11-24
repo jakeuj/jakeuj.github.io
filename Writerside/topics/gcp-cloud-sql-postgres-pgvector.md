@@ -1,12 +1,10 @@
-# GCP Cloud SQL Postgres 向量搜尋
+# Cloud SQL for PostgreSQL 使用 pgvector 向量搜尋
+
+<web-summary>在 Cloud SQL for PostgreSQL 啟用 pgvector，用餘弦距離查相似向量，並以文字陣列欄位做出類似 Vertex AI namespace 的篩選。</web-summary>
 
 > 首次發表：2024-01-24
 
----
-
-筆記一下 在 GCP 上使用 Cloud SQL 建立 Postgres 實例並擴充 向量搜尋的步驟
-
-並加入 namespace 字串陣列以達到原本 Vertext AI 向量搜尋中的篩選限制命名空間
+在 Cloud SQL 的 PostgreSQL 啟用 `vector` 擴充就能做向量搜尋；再加一個 `namespace` 文字陣列欄位，可以做到類似 Vertex AI Vector Search 的命名空間篩選。
 
 ![並加入 namespace 字串陣列以達到原本 Vertext AI 向量搜尋中的篩選限制命名空間](dotblogs-bee17aac-1706066202.jpg)
 
@@ -87,20 +85,3 @@ LIMIT 2;
 ## 延伸閱讀
 
 [GCP Cloud SQL Proxy 本地連線不開白名單](GCP-Cloud-SQL-Proxy-本地連線不開白名單.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CloudSQL
-- GCP
-- LLM
-- PostgreSQL
-- Vector Search
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

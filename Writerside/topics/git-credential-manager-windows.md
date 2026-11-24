@@ -1,26 +1,22 @@
-# Git Credential Manager for Windows
+# Git Credential Manager for Windows 登入失敗處理
+
+<web-summary>Windows 上 Git 一直登入失敗時，確認裝的是新版 git-credential-manager，並清除舊版殘留的 credential 設定。</web-summary>
 
 > 首次發表：2024-03-06
 
----
+Git 一直登入失敗時，先確認裝的是新版 Git Credential Manager，再清除舊版留下的 `credential` 設定。
 
-筆記下 Git 認證的事情
-
-## 結論
-
-安裝
+## 安裝新版
 
 [Releases · git-ecosystem/git-credential-manager (github.com)](https://github.com/git-ecosystem/git-credential-manager/releases)
 
-上面是最新的有 MFA，下面是舊的誤裝會各種登不了
+上面是支援 MFA 的新版；下面是已停止維護的舊版，誤裝會一直登入失敗。
 
 [~~Releases · microsoft/Git-Credential-Manager-for-Windows (github.com)~~](https://github.com/microsoft/Git-Credential-Manager-for-Windows/releases)
 
-如有卡到舊的陰可能要清除舊的 `credential` 區段
+## 清除舊設定
 
-![如有卡到舊的陰可能要清除舊的 credential 區段](dotblogs-f9e1de8c-1709714123.jpg)
-
-以下是清除後應該長成(乾淨)的樣子
+舊版留下的 `credential` 區段要刪掉。可以用 TortoiseGit 的設定頁依序檢查本地、全域和系統三層 `.gitconfig`，以下是清除後的樣子。
 
 ### .gitconfig
 
@@ -30,8 +26,8 @@
 
 ```
 [user]
-name = jake.chu
-email = jakeuj@hotmail.com
+name = <your-name>
+email = <your-email>
 ```
 
 - 系統
@@ -64,13 +60,3 @@ defaultBranch = master
 ## 參照
 
 [介紹好用工具：Git Credential Manager for Windows (記憶 Git 常用密碼) | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2016/02/01/Useful-tool-Git-Credential-Manager-for-Windows)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

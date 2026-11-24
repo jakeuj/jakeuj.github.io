@@ -1,10 +1,10 @@
-# Azure App Service Deploy 錯誤 System.UnauthorizedAccessException
+# App Service 部署出現 UnauthorizedAccessException
+
+<web-summary>Azure App Service 部署 .NET 出現 System.UnauthorizedAccessException 時，加上 DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false，避免 CLI 修改 PATH。</web-summary>
 
 > 首次發表：2024-02-21
 
----
-
-`System.UnauthorizedAccessException: Attempted to perform an unauthorized operation`
+部署失敗並出現 `System.UnauthorizedAccessException: Attempted to perform an unauthorized operation` 時，在應用程式設定加入 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false` 再重新部署。
 
 ## 結論
 
@@ -13,8 +13,6 @@
 ![添加應用程式設定值](dotblogs-cd613192-1708499037.jpg)
 
 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`
-
-![DOTNETADDGLOBALTOOLSTOPATH=false](dotblogs-cd613192-1708499419.jpg)
 
 部署成功
 
@@ -50,9 +48,9 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 
 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`
 
-甚麼，妳問我原因？
+## 原因
 
-![不要问我为什么存不了钱微信表情包删除又重新下载地址– 第2页– 表情包制作](dotblogs-cd613192-1708499282.jpg)
+以下說明整理自當時 ChatGPT 的回覆。
 
 設定 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false` 的作用是禁止 .NET Core CLI 在首次運行時將全局工具的路徑添加到系統的環境變數中。
 
@@ -60,23 +58,6 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 
 通過設定 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 `PATH` 環境變數，從而避免了權限問題，使得您的應用程式可以正常部署。這種方法的缺點是您無法在該環境中直接使用全局安裝的 .NET 工具，但對於大多數 Web 應用程式來說，這通常不是問題。
 
-![通過設定 DOTNETADDGLOBALTOOLSTOPATH=false，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 PATH 環境變](dotblogs-cd613192-1708500252.jpg)
-
 ## 參照
 
 [使用 NuGet 引用的門戶內函數產生時發生錯誤 ·期刊 #5893 ·Azure/azure-functions-host (github.com)](https://github.com/Azure/azure-functions-host/issues/5893)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- CI/CD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

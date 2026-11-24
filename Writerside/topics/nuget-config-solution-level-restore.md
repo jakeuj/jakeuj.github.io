@@ -1,16 +1,10 @@
-# Nuget Restore 找不到自己設定的 Nuget Config Sources
+# NuGet Restore 找不到自訂套件來源
+
+<web-summary>NuGet Restore 抓不到自訂來源時，把 NuGet.Config 從專案目錄移到 .sln 同一層，專案層級的 NuGet.config 已不正式支援。</web-summary>
 
 > 首次發表：2024-03-04
 
----
-
-筆記一下還原找不到包的情形
-
-## 結論
-
-改用 SLN Level Nuget Config
-
-`NuGet.Config` 從 `.proj` 改到 `.sln` 同一層目錄
+把 `NuGet.Config` 從專案目錄移到 `.sln` 同一層目錄，還原時就會讀到自訂來源。
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -19,7 +13,7 @@
     <!-- remove any machine-wide sources with <clear/> -->
     <clear />
     <!-- add an Azure Artifacts feed -->
-    <add key="nuget.server" value="https://nuget-server.azurewebsites.net/v3/index.json" />
+    <add key="nuget.server" value="https://<your-nuget-server>/v3/index.json" />
     <!-- also get packages from the NuGet Gallery -->
     <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
   </packageSources>
@@ -28,7 +22,7 @@
 
 最新版本的 NuGet 不正式支持專案級 NuGet.config 檔。
 
-以下是文件中的[最新更新](fixing #1433 · NuGet/docs.microsoft.com-nuget@e3058f0 (github.com))
+相關文件與討論：
 
 [fixing #1433 · NuGet/docs.microsoft.com-nuget@e3058f0 (github.com)](https://github.com/NuGet/docs.microsoft.com-nuget/commit/e3058f0061995ce8d5c5c71f6c9d9a865ce2384b)
 
@@ -56,17 +50,3 @@
 [發布 Package 到自己的 Nuget Server](發布-Package-到自己的-Nuget-Server.md)
 
 [指定 NuGet packages 存放位置 - Yowko's Notes](https://blog.yowko.com/nuget-folder/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- NuGet
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

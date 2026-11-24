@@ -1,10 +1,10 @@
-# Windows Docker TensorFlow GPU
+# Windows 用 Docker 跑 TensorFlow GPU
+
+<web-summary>Windows 原生 TensorFlow GPU 只支援到 2.10，之後改用 Docker 加 WSL2，docker run 要加 --gpus all 才抓得到顯示卡。</web-summary>
 
 > 首次發表：2024-01-29
 
----
-
-筆記下目前抓寶的心得感想
+Windows 原生支援 GPU 的 TensorFlow 只到 2.10。要用更新的版本，用官方 Docker 映像檔最省事，執行時記得加 `--gpus all`。
 
 ## 重點
 
@@ -109,16 +109,3 @@ Output:
 參考來源
 
 [How to Deploy GPU-Accelerated Applications on Amazon ECS with Docker Compose | Docker](https://www.docker.com/blog/deploy-gpu-accelerated-applications-on-amazon-ecs-with-docker-compose/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Docker
-- ML
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -16,7 +16,7 @@
 
 ### 系列文章索引
 
-參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
+參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](abp-io-tutorial-00-index.md)
 
 本篇會以官方文件 [開發教學](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1?UI=NG&DB=EF) 為依據中文化並附圖加以說明的方式進行
 

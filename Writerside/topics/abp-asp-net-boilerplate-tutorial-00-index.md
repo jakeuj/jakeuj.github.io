@@ -1,8 +1,8 @@
-# ABP 新手教學 No.0 全篇索引
+# ABP (ASP.NET Boilerplate) 新手教學 No.0 全篇索引
+
+<web-summary>ASP.NET Boilerplate 新手教學系列索引，從建立專案、實體、資料庫、倉儲、應用服務到 WebApi 與單元測試共 15 篇。</web-summary>
 
 > 首次發表：2016-07-28
-
----
 
 ABP是「ASP.NET Boilerplate Project (ASP.NET樣板項目)」的簡稱。
 ABP不僅僅是一個框架，更提供了一個基於DDD和最佳實踐方案
@@ -107,17 +107,3 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 [基於DDD的現代ASP.NET開發框架](http://www.cnblogs.com/mienreal/p/4528470.html)
 
 [GitHub文件翻譯](https://github.com/ABPFrameWorkGroup/AbpDocument2Chinese)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

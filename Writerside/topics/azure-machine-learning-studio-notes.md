@@ -1,26 +1,18 @@
-# Azure Machine Learning
+# Azure Machine Learning Studio 操作筆記
+
+<web-summary>2023 年跟著 Azure Machine Learning 教學操作的補充筆記：v1 與 v2 資料類型差異、Serverless Spark、Notebook 與 Designer 部署。</web-summary>
 
 > 首次發表：2023-07-17
 
----
-
-Azure Machine Learning workspace
-
-前言
-
-此篇為補充方式呈現
+這是 2023 年跟著 iT 邦幫忙系列文操作的補充筆記。原文使用 v1 API，這裡記下和當時新版介面不同的地方；操作畫面可能和現在不同。
 
 ![此篇為補充方式呈現](dotblogs-ad68d565-1689927481.jpg)
-
-其實主要出入是這篇舊文章是 V1 API
 
 DAY03 建立 Datastore 和 Dataset （上） - 10 上傳資料檔
 
 <https://github.com/dsindy/kaggle-titanic/blob/master/data/train.csv>
 
 DAY04 建立 Datastore 和 Dataset （下）
-
-![DAY04 建立 Datastore 和 Dataset （下）](dotblogs-ad68d565-1689583615.jpg)
 
 ## Data types vs. dataset types
 
@@ -90,31 +82,12 @@ DAY08 部署用 Designer 做好的 Pipeline 到 Web API
 
 `Create inference pipeline` 在 Job 結果裡面
 
-![Create inference pipeline 在 Job 結果裡面](dotblogs-ad68d565-1689929910.jpg)
-
 SDK
 
-![SDK](dotblogs-ad68d565-1690182402.jpg)
-
 azureml-sdk: This package has been tested with Python 3.7, 3.8, 3.9 and 3.10.
-
-![azureml-sdk: This package has been tested with Python 3.7, 3.8, 3.9 and 3.10.](dotblogs-ad68d565-1690185757.jpg)
 
 參照
 
 [[DAY06] 開始用 Notebook 在 Azure Machine Learing 上寫程式 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10269106)
 
 [什麼是 Azure OpenAI 服務？ - Azure AI services | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/ai-services/openai/overview)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- ML
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -1,10 +1,10 @@
-# 常見的PowerShell 輸出訊息的 2 種方法
+# PowerShell 輸出重新導向到檔案
+
+<web-summary>PowerShell 用 > 覆寫檔案、用 >> 附加到檔案，並整理錯誤、警告、詳細資訊等輸出串流的重新導向寫法。</web-summary>
 
 > 首次發表：2024-03-26
 
----
-
-筆記一下輸出到文本的語法
+`>` 會覆寫檔案，`>>` 會附加到檔案。不同輸出串流用編號指定，例如 `2>` 是錯誤、`3>` 是警告、`*>` 是全部。
 
 覆蓋該檔 `a.out`
 
@@ -124,15 +124,3 @@ Encoding parameter.
 ## REF
 
 [What does '>>' do in powershell? - Stack Overflow](https://stackoverflow.com/questions/35088340/what-does-do-in-powershell)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- PowerShell
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -1,8 +1,8 @@
-# [2021] ABP.IO WEB應用程式框架 新手教學 No.00 全篇索引
+# ABP.IO 新手教學 No.00 全篇索引
+
+<web-summary>ABP.IO 新手教學系列索引，涵蓋快速開始、圖書管理教學、建立服務端分段教學，以及授權、背景工作與多資料庫等專題。</web-summary>
 
 > 首次發表：2021-07-15
-
----
 
 ABP.IO 是一個開源應用程序框架,專注於基於ASP.NET Core的Web應用程序開發,但也支持開發其他類型的應用程序.
 
@@ -71,19 +71,5 @@ ABP.IO 是用於建立現代Web應用程式的完整架構和強大的基礎設
 
 ## 參照
 
-1. [[2019] ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.0 索引](https://dotblogs.com.tw/jakeuj/2016/07/28/abp0)
+1. [ABP (ASP.NET Boilerplate) 新手教學 No.0 索引](abp-asp-net-boilerplate-tutorial-00-index.md)
 2. [ABP.IO 官方網站](https://abp.io/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

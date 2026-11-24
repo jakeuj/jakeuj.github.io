@@ -4,7 +4,7 @@
 
 ---
 
-[ABP.IO WEB應用程式框架 新手教學 No.0 索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
+[ABP.IO WEB應用程式框架 新手教學 No.0 索引](abp-io-tutorial-00-index.md)
 
 這步驟跟原本 Entity Framework 其實是一樣的
 

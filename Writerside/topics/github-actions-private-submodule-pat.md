@@ -1,10 +1,10 @@
-# CI/CD Github workflow 使用私人庫的子模組
+# GitHub Actions 簽出私人 repo 的子模組
+
+<web-summary>GitHub Actions 簽出私人 repo 子模組時，建立 fine-grained PAT、存成 Environment secret，再於 actions/checkout 指定 token。</web-summary>
 
 > 首次發表：2024-02-05
 
----
-
-Github workflow Submodules from private repositories
+workflow 預設的 `GITHUB_TOKEN` 讀不到其他私人 repo，所以要另外建立 fine-grained PAT，存成 secret 後交給 `actions/checkout`。
 
 ## 結論
 
@@ -84,14 +84,16 @@ jobs:
 2. 到子模組 repo 新增設定 secret `AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx`
 3. 將下載回來的 profile.publishsettings 內容全部複製到 `AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx` 的 Value 內
 
-![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu](dotblogs-aefb37fe-1707118945.jpg)![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu 2](dotblogs-aefb37fe-1707119119.jpg)
+![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu](dotblogs-aefb37fe-1707118945.jpg)
+
+![將下載回來的 profile.publishsettings 內容全部複製到 AZUREAPPSERVICEPUBLISHPROFILExxxxx 的 Valu 2](dotblogs-aefb37fe-1707119119.jpg)
 
 ```
 - name: 'Deploy to Azure Web App'
  uses: azure/webapps-deploy@v2
  id: deploy-to-webapp
  with:
-  app-name: 'ai-nb-thermal'
+  app-name: '<app-name>'
   slot-name: 'develop'
   publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_xxxxx }}
 ```
@@ -99,16 +101,3 @@ jobs:
 參照
 
 [git - How to checkout submodule in GitHub action? - Stack Overflow](https://stackoverflow.com/questions/65077036/how-to-checkout-submodule-in-github-action/75100242#75100242)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Git
-- Github
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

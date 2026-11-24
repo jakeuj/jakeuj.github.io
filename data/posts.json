@@ -287,7 +287,16 @@
     "sql-server-2025-docker-apple-silicon.md"
   ],
   "excluded": {
-    "recent-posts.md": "自動生成的近期文章索引"
+    "recent-posts.md": "自動生成的近期文章索引",
+    "abp-io-tutorial-00-index.md": "點部落舊文搬家，原發布日 2021-07-15，不是新文章",
+    "csharp-system-text-json-ignore-null.md": "點部落舊文搬家，原發布日 2023-02-20，不是新文章",
+    "edge-delete-localhost-hsts.md": "點部落舊文搬家，原發布日 2024-01-03，不是新文章",
+    "gcp-cloud-sql-vpc-peering-recreate.md": "點部落舊文搬家，原發布日 2024-02-19，不是新文章",
+    "openssl-convert-pfx-to-crt-key.md": "點部落舊文搬家，原發布日 2024-03-26，不是新文章",
+    "rider-docker-context-folder-file-locked.md": "點部落舊文搬家，原發布日 2024-03-07，不是新文章",
+    "rider-wsp-virtual-path-not-allowed.md": "點部落舊文搬家，原發布日 2024-01-04，不是新文章",
+    "test-netconnection-check-tcp-port.md": "點部落舊文搬家，原發布日 2024-05-15，不是新文章",
+    "windows-terminal-add-git-bash.md": "點部落舊文搬家，原發布日 2024-02-19，不是新文章"
   },
   "registration_baseline": "9a694f5d2a8f1721917b0a1ba683cb4f48f549f6"
 }

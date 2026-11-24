@@ -4,7 +4,7 @@
 
 ---
 
-[ABP.IO WEB應用程式框架 新手教學 No.0 索引](https://dotblogs.com.tw/jakeuj/2021/07/15/abpio0)
+[ABP.IO WEB應用程式框架 新手教學 No.0 索引](abp-io-tutorial-00-index.md)
 
 最後是應用服務層，這邊寫完就可以呼叫 API 了，這邊先來引用官方說明
 
