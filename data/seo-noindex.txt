@@ -1,0 +1,12 @@
+# 不進搜尋結果的頁面（每行一個 https://jakeuj.com/<頁面>.html，# 之後是註解）。
+# 部署時 scripts/seo_metadata.py 會替這些頁面加 noindex，並移出 sitemap；頁面和導覽不變。
+# 2026-11-24：從點部落匯入、正文不到 300 字，而且 2025-12 以後幾乎沒有曝光的副本。
+https://jakeuj.com/正則表達式-大於1-01的兩位小數.html
+https://jakeuj.com/c-具名選項模式.html
+https://jakeuj.com/c-選項模式.html
+https://jakeuj.com/初體驗-fb-api-javascript.html
+https://jakeuj.com/azure-app-service-delete-http-method-for-restful-api.html
+https://jakeuj.com/windows-和-windows-phone-開發人員帳戶-msdn-促銷代碼-免費上架.html
+https://jakeuj.com/mssql取得unixtime時間戳記.html
+https://jakeuj.com/azure-sql-db-將定價層轉移到彈性集區.html
+https://jakeuj.com/angular-application.html

@@ -109,7 +109,8 @@ git push --no-verify
 
 - `Writerside/writerside.cfg` 的 instance 維持 `<instance src="hi.tree"/>`，不要重新加上 `web-path="writerside"` 或 `version="master"`。
 - `Writerside/cfg/buildprofiles.xml` 使用 `<generate-sitemap-url-prefix>https://jakeuj.com/</generate-sitemap-url-prefix>`，讓 sitemap `<loc>` 對齊根目錄短網址。
-- 首頁與高優先文章使用 `<web-summary>` 明確產生 `meta name="description"`；deploy workflow 會再把這段同步到 OG / Twitter / Schema description。
+- 首頁與高優先文章使用 `<web-summary>` 明確產生 `meta name="description"`；`scripts/seo_metadata.py` 部署時同步到 OG / Twitter / Schema description；沒有 `<web-summary>` 的頁面改用第一段正文產生約 120 字的 description，並替每頁補上指向自己的 canonical。
+- 不想被搜尋收錄的頁面寫進 `data/seo-noindex.txt`（每行一個 `https://jakeuj.com/<頁面>.html`）；部署時加 `noindex`、移出 sitemap，頁面和導覽照舊。sitemap 不輸出 `lastmod`。
 - `og-image` 使用 `https://jakeuj.com/images/og-image.png` 這類 PNG social card，避免社群平台不支援 SVG 預覽。
 - repo root 的 `robots.txt` 由 `.github/workflows/deploy.yml` 複製到 Pages artifact 根目錄，入口首頁產生器再依 `portal/sites.json` 附加各專案站的 sitemap 與 `Disallow`；這些規則不要手寫進 repo 的 `robots.txt`。
 - repo root 的 `CNAME` 也會複製到 Pages artifact，但用 Actions 部署時 GitHub 會忽略這個檔案，以 Settings → Pages 的自訂網域為準；要改網域請改那裡。

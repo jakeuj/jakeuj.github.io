@@ -109,7 +109,8 @@
 3. `deploy`
    - 解壓文件產物
    - 複製 `robots.txt` 與 `CNAME` 到 Pages artifact 根目錄
-   - 正規化 SEO metadata（語系、description）
+   - `scripts/seo_metadata.py normalize`：語系、description（沒有 `<web-summary>` 就取第一段）、每頁 canonical、`data/seo-noindex.txt` 的頁面加 `noindex` 並移出 sitemap、移除 `lastmod`
+   - `scripts/seo_metadata.py validate`：canonical 等於 og:url、無 dotblogsfile 圖片、sitemap 無 lastmod 與 noindex 頁
    - 執行 `portal/build_portal.py --site dir`：產生 `/` 的入口網站（取代舊的跳轉頁）、舊 repo 名稱的轉址頁，把首頁加進 `sitemap.xml`，把專案 sitemap 與 `disallow` 規則加進 `robots.txt`（資料來源 `portal/sites.json`，說明見 `portal/README.md`）
    - 驗證 artifact，產生 RSS 後發布到 GitHub Pages
 4. `publish-indexes`
