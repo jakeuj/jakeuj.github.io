@@ -32,7 +32,7 @@ stream.Write(Encoding.Default.GetBytes("Hello world."));
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using EuOrder.AzureStorage.Excertis;
+using Order.AzureStorage.Containers;
 using Shouldly;
 using Xunit;
 
