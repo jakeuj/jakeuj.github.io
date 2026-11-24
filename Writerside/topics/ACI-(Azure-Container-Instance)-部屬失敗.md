@@ -20,15 +20,3 @@
 [Azure 訂用帳戶限制與配額 - Azure Resource Manager | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/azure-resource-manager/management/azure-subscription-service-limits#container-instances-limits)
 
 [Resource availability by region - Azure Container Instances | Microsoft Docs](https://docs.microsoft.com/en-us/azure/container-instances/container-instances-region-availability#linux-container-groups)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Container
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

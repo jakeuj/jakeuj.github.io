@@ -94,17 +94,3 @@ public async Task SendNotification(string message)
 Zero 樣板的 Angular 內建通知系統
 
 所以用上面的方法就可以傳訊息給前端
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- SignalR
-- WebSocket
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -21,15 +21,3 @@
 ### 參照
 
 [ntext、text 和 image (Transact-SQL) - SQL Server | Microsoft Docs](https://docs.microsoft.com/zh-tw/sql/t-sql/data-types/ntext-text-and-image-transact-sql?view=sql-server-ver15)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

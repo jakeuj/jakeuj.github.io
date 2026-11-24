@@ -19,15 +19,3 @@
 參照
 
 [Azure 儲存體的跨原始來源資源分享 (CORS) 支援 | Microsoft Learn](https://learn.microsoft.com/zh-tw/rest/api/storageservices/cross-origin-resource-sharing--cors--support-for-the-azure-storage-services#enabling-cors-for-azure-storage)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

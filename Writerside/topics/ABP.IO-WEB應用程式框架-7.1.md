@@ -31,15 +31,3 @@ ABP 7.1 版本 新功能 摘要
 [ABP.IO Platform 7.1 RC Has Been Published | ABP.IO](https://blog.abp.io/abp/ABP.IO-Platform-7.1-RC-Has-Been-Published)
 
 [EF Core 7.0 的新功能 | Microsoft Learn](https://learn.microsoft.com/zh-tw/ef/core/what-is-new/ef-core-7.0/whatsnew#executeupdate-and-executedelete-bulk-updates)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

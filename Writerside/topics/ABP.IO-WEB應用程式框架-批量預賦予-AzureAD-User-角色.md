@@ -140,15 +140,3 @@ BTW, Swagger 會同時顯示新舊 API
 [ABP.IO WEB應用程式框架 Swagger 隱藏指定 API](ABP.IO-WEB應用程式框架-Swagger-隱藏指定-API.md)
 
 備註：這邊簡單直接檢查原本的 User.Create 權限，所以記得先登入有該權限的帳號，否則直接到 Swagger 呼叫 API 會報錯
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

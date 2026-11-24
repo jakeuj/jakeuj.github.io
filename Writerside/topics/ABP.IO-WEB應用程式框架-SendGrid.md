@@ -126,16 +126,3 @@ public class TemplateReplaceDomainModule : AbpModule
 [Emailing | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Emailing#email-settings)
 
 [Sending Email in abp io with SmtpEmailSender throwing The input is not a valid Base-64 string](https://stackoverflow.com/questions/67062083/sending-email-in-abp-io-with-smtpemailsender-throwing-the-input-is-not-a-valid-b)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- SendGrid
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

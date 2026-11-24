@@ -72,15 +72,3 @@ REF
 [Dev Center: Docs | new authentication docs | machine2machine applications (spscommerce.com)](https://developercenter.spscommerce.com/#/docs/new-authentication-docs/machine2machine-applications)
 
 [Exploring the HTTP request syntax | JetBrains Rider Documentation](https://www.jetbrains.com/help/rider/Exploring_HTTP_Syntax.html#example-working-with-environment-files)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Rider
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -62,16 +62,3 @@ utc 格式: 2018-12-31T16:30:07.000z
 offset 格式: 2018-12-31T16:30:07.000+08:00
 
 參照：<https://www.cnblogs.com/keatkeat/p/9737128.html>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Angular
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -33,18 +33,3 @@ WindowsCryptographicException: Access is denied.
 [OpenIddict WindowsCryptographicException: Access is denied #3537 | Support Center | ABP Commercial](https://support.abp.io/QA/Questions/3537/OpenIddict-WindowsCryptographicException-Access-is-denied)
 
 [ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- App Service
-{ignore-vars="true"}
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

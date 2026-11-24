@@ -240,15 +240,3 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 ```
 
 這樣就可以發信，並且收到帶有附件的測試信，打開裡面應該是 `Test`
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SendGrid
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

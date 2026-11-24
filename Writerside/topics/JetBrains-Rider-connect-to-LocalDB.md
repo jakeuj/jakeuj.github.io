@@ -34,17 +34,3 @@ connectionString="Server=(LocalDb)\\MSSQLLocalDB;Database=TestDB;Trusted\_Connec
 參照：<https://stackoverflow.com/questions/13287252/cannot-start-localdb>
 
 延伸閱讀：[HeidiSQL連接LocalDB](https://stackoverflow.com/questions/25881084/heidisql-connection-to-ms-sql-server-localdb)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSSQL
-- Rider
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

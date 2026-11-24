@@ -289,19 +289,3 @@ https://github.com/dotnet/AspNetCore.Docs/blob/main/aspnetcore/fundamentals/host
 Could not load file or assembly 'Microsoft.Management.Infrastructure
 
 http://dog0416.blogspot.com/2020/06/aspnet-core-microsoftpowershellsdk-iis.html
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- .Net Core
-{ignore-vars="true"}
-- PowerShell
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

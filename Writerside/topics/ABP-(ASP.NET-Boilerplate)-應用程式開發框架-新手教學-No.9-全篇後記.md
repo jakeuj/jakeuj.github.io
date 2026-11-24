@@ -25,16 +25,3 @@ ABP其實還有蠻多功能沒有在這幾篇講到，
 參照
 
 [一步一步使用ABP框架搭建正式項目系列教程](http://www.cnblogs.com/farb/p/4849791.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

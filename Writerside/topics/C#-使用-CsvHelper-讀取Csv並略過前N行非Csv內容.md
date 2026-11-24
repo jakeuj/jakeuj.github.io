@@ -79,16 +79,3 @@ var config = new CsvConfiguration(CultureInfo.InvariantCulture)
 ```
 
 [c# - CsvHelper - How to config the setting about quote? - Stack Overflow](https://stackoverflow.com/questions/71481331/csvhelper-how-to-config-the-setting-about-quote)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CsvHelper
-- Excel
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

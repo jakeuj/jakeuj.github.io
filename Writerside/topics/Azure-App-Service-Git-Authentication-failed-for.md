@@ -30,18 +30,3 @@ P.S. FTPS
 - 自訂帳號說明一定要 `xxxx\$xxxx`
 - 如果不行可能是防火牆鎖了 Port
   我因此撞牆一下午，請改用手機分享網路試試
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- Git
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

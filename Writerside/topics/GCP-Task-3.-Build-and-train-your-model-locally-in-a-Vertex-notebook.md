@@ -32,15 +32,3 @@ See the tutorial for additional coverage on fine-tuning BERT models using Tensor
 參照
 
 [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab | Google Cloud Skills Boost](https://www.cloudskillsboost.google/focuses/22019?parent=catalog)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- GCP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

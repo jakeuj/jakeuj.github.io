@@ -102,16 +102,3 @@
 
 參照：[6個步驟完成 CheapSSL 購買 Comodo SSL 憑證及安裝設定](https://cootag.com/Topic/51621-Buy-Cheap-SSL.html)
 參照：[How to Install a Certificate](https://knowledge.cheapsslsecurity.com/support/solutions/articles/22000202334-microsoft-iis-8)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-- SSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

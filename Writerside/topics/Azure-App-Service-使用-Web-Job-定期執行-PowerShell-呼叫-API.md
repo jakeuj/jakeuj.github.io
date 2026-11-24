@@ -25,18 +25,3 @@ Invoke-RestMethod -uri "https://test.azurewebsites.net/?a=1&b=2"
 參照
 
 [The underlying connection was closed: An unexpected error occurred on a send](https://blog.darrenjrobinson.com/powershell-the-underlying-connection-was-closed-an-unexpected-error-occurred-on-a-send/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- PowerShell
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

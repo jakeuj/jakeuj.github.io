@@ -55,22 +55,3 @@ stderr:
   Minikube 開不了 HyperV 有時候可能需要重開機
 
 未完待續…
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- choco
-- DAPR
-- Docker
-- hyperV
-- K8S
-- Kubernetes
-- MicroService
-- minikube
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

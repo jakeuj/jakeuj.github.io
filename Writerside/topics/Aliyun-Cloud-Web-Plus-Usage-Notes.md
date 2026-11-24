@@ -125,20 +125,3 @@ Alibaba Cloud web+ 紀錄使用心得
 ### Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD
 
 參考文件：[Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD](Drone-Aliyun-WebPlus-DotnetCore-CICD-DockerHub.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 阿里雲
-{ignore-vars="true"}
-- Web+
-{ignore-vars="true"}
-- 阿里雲
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

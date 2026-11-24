@@ -237,23 +237,3 @@ ASPNETCORE_ENVIRONMENT=Staging
 [設定連續部署 - Azure App Service | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/app-service/deploy-continuous-deployment?tabs=github)
 
 [Customizing deployments · projectkudu/kudu Wiki (github.com)](https://github.com/projectkudu/kudu/wiki/Customizing-deployments#deploying-a-specific-aspnet-or-aspnet-core-project-file)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- App Service
-{ignore-vars="true"}
-- Azure
-- CI/CD
-{ignore-vars="true"}
-- deployment
-- DevOps
-- Github
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

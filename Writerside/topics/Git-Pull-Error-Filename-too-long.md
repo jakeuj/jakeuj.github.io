@@ -15,16 +15,3 @@
 系統管理員 終端機> git config --system core.longpaths true
 
 參照：https://dotblogs.com.tw/clark/2016/01/11/124311
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Git
-- Github
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

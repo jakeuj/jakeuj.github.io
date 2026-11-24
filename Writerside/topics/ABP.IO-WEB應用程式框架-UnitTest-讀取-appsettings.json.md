@@ -76,16 +76,3 @@ private void ConfigureMyOptions(IConfiguration configuration)
 [abp/TodoDbContextFactory.cs at dev · abpframework/abp (github.com)](https://github.com/abpframework/abp/blob/dev/test/DistEvents/DistDemoApp.EfCoreRabbitMq/TodoDbContextFactory.cs)
 
 [Accessing Configuration in .NET Core Test Projects - Rick Strahl's Web Log (west-wind.com)](https://weblog.west-wind.com/posts/2018/Feb/18/Accessing-Configuration-in-NET-Core-Test-Projects)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- HttpClinet
-- UnitTest
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

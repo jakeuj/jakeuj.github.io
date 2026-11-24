@@ -21,15 +21,3 @@ Visual Studio 2012 .Net 4.5 Validator Error
 參考來源：
 
 <http://nuget.org/packages/Microsoft.ScriptManager.jQuery>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- VisualStudio
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

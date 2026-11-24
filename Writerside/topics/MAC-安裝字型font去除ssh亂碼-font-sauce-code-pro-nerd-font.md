@@ -30,17 +30,3 @@ brew cask install font-sauce-code-pro-nerd-font
 {ignore-vars="true"}
 
 [字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)](https://jakeuj.com/字型介紹-noto-思源字體-sans-serif-無襯線-serif-襯線體-mono-等寬.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Fonts
-- MAC
-- Terminal
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -144,15 +144,3 @@ Special Note: This deployment format requires macOS (OS X) Version 10.8 (aka Mou
 [JetBrains Rider 更改字型 | 御用小本本 - 點部落 (dotblogs.azurewebsites.net)](https://dotblogs.azurewebsites.net/jakeuj/2019/06/14/riderfont)
 
 [【三個常見字型】TTF. / OTF. / TTC. 副檔名的差異 - 麥思印刷整合 MINDS | 紙の專家 | 設計の溝通者 「一站式」 (mindscmyk.com)](https://www.mindscmyk.com/2021/02/26/project-knowledge-27-ttf-otf-ttc/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Fonts
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

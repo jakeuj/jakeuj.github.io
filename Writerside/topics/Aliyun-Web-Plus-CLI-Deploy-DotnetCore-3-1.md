@@ -147,19 +147,3 @@ Resources:
 | Instance  |  1 | i-7893i7mmbm5dttpl1u4i    |             |
 +-----------+----+---------------------------+-------------+
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- Ubuntu
-- 阿里雲
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

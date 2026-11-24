@@ -286,15 +286,3 @@ app.UseHangfireDashboard();
 [Background Jobs Hangfire | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Background-Jobs-Hangfire#abphangfireauthorizationfilter)
 
 [cron - Wikipedia](https://en.wikipedia.org/wiki/Cron#CRON_expression)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Hangfire
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

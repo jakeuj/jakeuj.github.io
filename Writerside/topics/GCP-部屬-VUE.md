@@ -40,15 +40,3 @@ handlers:
 參照
 
 [到部署網站才開始從頭學起 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10213655)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Vue
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

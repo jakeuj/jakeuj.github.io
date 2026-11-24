@@ -15,15 +15,3 @@ Error 1069: The service did not start due to a logon failure.
 參照
 
 [LocalDB Service Install Failed Errorid -1 | Lansweeper Knowledge Base](https://www.lansweeper.com/knowledgebase/lansweeper-localdb-errorid-1/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

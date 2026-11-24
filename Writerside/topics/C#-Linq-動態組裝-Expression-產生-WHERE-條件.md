@@ -58,15 +58,3 @@ Console.WriteLine(Expression.Lambda<Func<bool>>(andExpr).Compile()());
 參照
 
 [Expression.And Method (System.Linq.Expressions) | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.linq.expressions.expression.and?view=net-7.0)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Linq
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

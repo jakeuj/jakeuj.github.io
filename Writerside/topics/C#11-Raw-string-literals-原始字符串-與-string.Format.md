@@ -47,16 +47,3 @@ void Main()
 參照
 
 [彙整從 C# 1.0 到 C# 11.0 的字串格式變化 | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2023/01/10/CSharp-String-Literals-Syntax-Collection)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

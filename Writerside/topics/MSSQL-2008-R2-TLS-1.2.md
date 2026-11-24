@@ -16,15 +16,3 @@
 禁用 TLS 1.0 .1.1
 
 [Nartac Software - Download](https://www.nartac.com/Products/IISCrypto/Download)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

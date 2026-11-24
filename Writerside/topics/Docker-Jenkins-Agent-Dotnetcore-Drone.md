@@ -29,22 +29,3 @@ Azure Devops Pipeline CI/CD 被拿去挖礦
   我就懷念 yaml 設定好 docker 就會自動 pull 然後 build
   於是乎想起其實我原本是打算研究用 Drone 來做 CI/CD
   https://blog.wu-boy.com/drone-devops/
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- Container
-- Docker
-- .Net Core
-{ignore-vars="true"}
-- Drone
-- Jenkins
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

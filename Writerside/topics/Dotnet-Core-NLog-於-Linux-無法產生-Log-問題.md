@@ -46,21 +46,3 @@ Git
    `git config --local core.ignorecase false`
 2. 下 git mv 指令
    `git mv Nlog.config nlog.config`
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- Git
-- Log
-- Log
-- .Net Core
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

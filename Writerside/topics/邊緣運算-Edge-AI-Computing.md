@@ -23,16 +23,3 @@
 嘗試去調節CPU跟GPU的效能，以達到耗電與效能的最佳化吧？
 
 以上純屬猜測，總之邊緣運算就是在妳裝置上或附近就近直接運算！
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- AI
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

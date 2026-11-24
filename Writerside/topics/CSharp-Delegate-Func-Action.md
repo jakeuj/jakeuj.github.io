@@ -102,15 +102,3 @@ Action
 [`Func<TResult>` 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.func-1?view=net-7.0)
 
 [`Action<T>` 代理人 (System) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.action-1?view=net-7.0)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- delegate
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

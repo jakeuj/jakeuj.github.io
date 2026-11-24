@@ -136,16 +136,3 @@ var result = await AsyncExecuter.ToListAsync(query, cancellationToken);
 [Entity Framework Core | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Entity-Framework-Core#repository-withdetails)
 
 [認識 Entity Framework Core 載入關聯資料的三種方法 | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2022/04/21/Loading-Related-Data-in-EF-Core)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

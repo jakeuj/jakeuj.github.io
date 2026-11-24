@@ -161,13 +161,3 @@ public class IssueLabel : Entity
 ### 參考文獻
 
 - Effective Aggregate Design by Vaughn Vernon <http://dddcommunity.org/library/vernon_2011>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

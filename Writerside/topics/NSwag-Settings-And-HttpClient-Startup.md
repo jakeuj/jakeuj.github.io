@@ -45,17 +45,3 @@ public TestManager(ITestProxy service)
     _service = service;
 }
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- HttpClinet
-- NSwag
-- Swagger
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

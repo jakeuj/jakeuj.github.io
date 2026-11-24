@@ -53,16 +53,3 @@ private void ConfigureHttpClient(ServiceConfigurationContext context)
 ### 參照
 
 [Dependency Injection | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Dependency-Injection#cached-service-providers)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- DI
-- HttpClinet
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

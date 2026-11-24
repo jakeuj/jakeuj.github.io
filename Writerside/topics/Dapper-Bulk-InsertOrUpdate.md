@@ -19,18 +19,3 @@ connection.BulkMerge(order1, order2, order3);
 ```
 
 <https://dapper-plus.net/bulk-merge>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- Dapper
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

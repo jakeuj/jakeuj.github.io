@@ -164,18 +164,3 @@ F5執行DEBUG模式，並將頁面往指定位於/home/chat
 ![即可輸入暱稱後開始進行聊天。](dotblogs-7cfa04e7-1455526430_74698.png)![即可輸入暱稱後開始進行聊天。 2](dotblogs-7cfa04e7-1455526560_08495.png)
 
 11.參照：http://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- SignalR
-- WebSocket
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

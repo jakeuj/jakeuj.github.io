@@ -47,16 +47,3 @@ public class Employee
 參照
 
 [[C#][.NET Core] CsvHelper : 透過 C# 讀寫 csv 檔案 (dog0416.blogspot.com)](http://dog0416.blogspot.com/2019/11/aspnet-core-csvhelper-c-csv.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

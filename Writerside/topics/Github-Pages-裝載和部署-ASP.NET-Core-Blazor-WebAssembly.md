@@ -96,16 +96,3 @@ https://jakeuj.github.io/BlazorOnGitHubPages/
 - 結論：所有需要變更的東西請參考這個 [commit](https://github.com/jakeuj/BlazorOnGitHubPages/commit/937f1bd52ba9e5964475174d6c801ce91761ae34#diff-7829468e86c1cc5d5133195b5cb48e1ff6c75e3e9203777f6b2e379d9e4882b3)
 
 參照：https://github.com/jakeuj/BlazorOnGitHubPages
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Blazor
-- GitHubPages
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

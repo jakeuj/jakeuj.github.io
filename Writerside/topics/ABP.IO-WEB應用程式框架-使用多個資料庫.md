@@ -98,17 +98,3 @@ private bool MigrationsFolderExists()
 ### 參照
 
 [Entity Framework Core Migrations](Entity-Framework-Core-Migrations.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

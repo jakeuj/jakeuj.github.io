@@ -161,16 +161,3 @@ Rest
 ## 參照
 
 [介紹Vertex(1) | ML#Day18 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天 (ithome.com.tw)](https://ithelp.ithome.com.tw/articles/10261465)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ML
-- GCP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

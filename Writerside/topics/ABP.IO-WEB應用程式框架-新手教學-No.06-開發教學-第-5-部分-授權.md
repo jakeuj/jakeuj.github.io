@@ -282,15 +282,3 @@ export class BookRoutingModule {}
 ### 系列文章索引
 
 參考：[[2021] ABP.IO WEB應用程式框架 新手教學 No.0 全篇索引](abp-io-tutorial-00-index.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

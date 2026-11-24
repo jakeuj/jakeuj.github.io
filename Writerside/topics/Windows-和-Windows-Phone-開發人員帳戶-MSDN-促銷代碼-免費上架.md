@@ -19,15 +19,3 @@
 如此一來可以不用填信用卡付款資料，並且應付金額會歸零，就可以直接開通開發帳戶
 
 以上
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSDN
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

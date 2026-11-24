@@ -26,15 +26,3 @@ UPDATE A SET A.C2=B.C3 FROM A,B WHERE A.C1=B.C1;
 
 UPDATE A SET A.C2=B.C3 FROM A JOIN B ON A.C1=B.C1;
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

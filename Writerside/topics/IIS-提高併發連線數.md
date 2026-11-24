@@ -11,15 +11,3 @@
 <https://dotblogs.com.tw/dog0416/2017/05/09/141456>
 
 <https://www.itread01.com/content/1541489304.html>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -18,16 +18,3 @@
 ![ctrl+ = 設定 = pwsh](dotblogs-3e2cb8f3-1644475467.jpg)
 
 參照：[Introducing PowerShell as .NET Global Tool - PowerShell Team (microsoft.com)](https://devblogs.microsoft.com/powershell/introducing-powershell-as-net-global-tool/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- PowerShell
-- VisualStudio
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

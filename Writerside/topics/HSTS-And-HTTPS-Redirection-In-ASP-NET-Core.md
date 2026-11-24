@@ -26,16 +26,3 @@ app.UseHttpsRedirection();
 {ignore-vars="true"}
 
 <https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup?view=aspnetcore-3.1#the-configure-method>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- HSTS
-- HTTPS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

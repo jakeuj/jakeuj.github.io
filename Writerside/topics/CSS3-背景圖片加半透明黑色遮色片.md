@@ -24,14 +24,3 @@ body {background: url(https://jakeuj.com/images/dotblogs-00000000-1617868117.jpg
 [圖片來源](https://izzesmile.blogspot.com/2020/01/1080-x-1920-hatsune-miku-wallpaper.html)
 
 ![圖片來源](dotblogs-00000000-1617868117.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CSS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

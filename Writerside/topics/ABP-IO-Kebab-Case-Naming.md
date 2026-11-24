@@ -40,15 +40,3 @@ Kebab case
 [abp camelCase route parts become kebab-case](https://github.com/abpframework/abp/blob/dev/docs/en/Migration-Guides/Abp-4_0.md#auto-api-controller-route-changes)
 
 [常見重點整理 - 命名慣例 & 開發時注意事項 - HackMD](https://hackmd.io/@Heidi-Liu/note-common)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

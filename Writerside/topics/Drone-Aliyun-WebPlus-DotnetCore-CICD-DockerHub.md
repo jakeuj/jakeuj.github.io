@@ -210,21 +210,3 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 ### Drone Cloud Github DotNetCore Build CI/CD Runner Note
 
 參考文件：[Drone Cloud Github DotNetCore Build CI/CD Runner Note](Drone-Cloud-Github-DotNetCore-Build-CICD-Runner-Note.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- .Net Core
-{ignore-vars="true"}
-- Drone
-- 阿里雲
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

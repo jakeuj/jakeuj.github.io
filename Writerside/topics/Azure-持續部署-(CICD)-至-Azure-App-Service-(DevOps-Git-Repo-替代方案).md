@@ -39,19 +39,3 @@ Example: <https://dev.azure.com/jakeuj/TestCiCd/_git/TestCiCd>
 那就照教學文件流程直接選就好了
 
 這篇主要是針對某種原因找不到 Repo 的處理方式
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- CI/CD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

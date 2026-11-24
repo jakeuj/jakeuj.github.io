@@ -130,19 +130,3 @@ Example:
 - 到這邊應該設定完成了，回到前端頁面的首頁點先前設定的轉址最右邊的連結按鈕，應該可以正常連回去長網址
 
 延伸閱讀：[OKD (OpenShift Origin) 3.11 與 Ubuntu 18.04 LTS 建置筆記](https://blog.miniasp.com/post/2020/10/11/Install-OpenShift-Origin-OKD-311-on-Ubuntu-Linux)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- Container
-- OpenShift
-- WSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -36,16 +36,3 @@
 9. 或是用 Docker 架：[[Docker] 使用 Docker 建置 FTP(SFTP) 環境](https://mileslin.github.io/2020/02/%E4%BD%BF%E7%94%A8-Docker-%E5%BB%BA%E7%BD%AE-FTP-SFTP-%E7%92%B0%E5%A2%83/)
 {ignore-vars="true"}
    - `docker run -p 2223:22 -d atmoz/sftp miles:123456:::upload`
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- STFP
-- WSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

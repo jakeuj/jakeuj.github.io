@@ -37,16 +37,3 @@ VS轉到Rider好一陣子了
 RIDER的快捷鍵是Ctrl+G
 
 <https://www.jetbrains.com/help/rider/Navigation_and_Search__Context_Dependent_Navigation.html>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Rider
-- IDE
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

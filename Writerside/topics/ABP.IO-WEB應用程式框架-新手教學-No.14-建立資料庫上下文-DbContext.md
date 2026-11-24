@@ -58,15 +58,3 @@ namespace Acme.BookStore.EntityFrameworkCore
 [多個連線字串對應到不同DbContext](https://docs.abp.io/en/abp/latest/Connection-Strings#set-the-connection-string-name)
 
 [ABP.IO WEB應用程式框架 新手教學 No.4 資料庫遷移 Migration](ABP.IO-WEB應用程式框架-新手教學-No.15-資料庫遷移-Migration.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

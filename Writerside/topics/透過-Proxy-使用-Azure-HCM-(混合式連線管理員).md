@@ -81,19 +81,3 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 參照
 
 [Azure WCF Relay DNS Support - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/messaging-on-azure-blog/azure-wcf-relay-dns-support/ba-p/370775)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- Cloud
-- HCM
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

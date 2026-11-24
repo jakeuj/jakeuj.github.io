@@ -94,16 +94,3 @@ public MemoryStream Generate()
 [ABP.IO WEB應用程式框架 使用 Azure Storage 上傳圖片](ABP.IO-WEB應用程式框架-使用-Azure-Storage-上傳圖片.md)
 
 [[DotnetCore] 讀取 excel 套件整理 | Secret Note (jiaming0708.github.io)](https://jiaming0708.github.io/2022/08/22/dotnet-core-read-excel-library/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Excel
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

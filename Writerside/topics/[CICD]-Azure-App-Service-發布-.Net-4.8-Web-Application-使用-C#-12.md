@@ -182,16 +182,3 @@ web.config
 ## 參照
 
 [ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css'](ABP-IO-Azure-App-Service-Bundle-File-Not-Found.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

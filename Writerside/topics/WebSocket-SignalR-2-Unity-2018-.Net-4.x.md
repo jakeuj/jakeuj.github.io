@@ -65,17 +65,3 @@ SignalR Client API 相關說明文件請到下面連結查詢
 參照：[在 Unity 中使用 .NET 4.x](https://docs.microsoft.com/zh-tw/visualstudio/cross-platform/unity-scripting-upgrade?view=vs-2019)
 
 測試環境：[Unity 2018.3.7f1](https://unity3d.com/get-unity/download/archive)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SignalR
-- Unity
-- WebSocket
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

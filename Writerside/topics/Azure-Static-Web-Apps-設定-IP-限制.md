@@ -55,16 +55,3 @@ staticwebapp.config.json
 ## 參照
 
 [設定 Azure Static Web Apps | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/static-web-apps/configuration#networking)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure Static Web Apps
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

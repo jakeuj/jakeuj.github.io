@@ -104,16 +104,3 @@ public class IssueRepository_Tests : MyProjectDomainTestBase
 參照
 
 [Testing | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Testing#dealing-with-unit-of-work-in-integration-tests)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- UnitTest
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

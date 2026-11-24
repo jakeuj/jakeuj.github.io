@@ -27,15 +27,3 @@ IIS刪除網站之後可能會造成原本網站異常
 好像遇到不只一次
 
 特此筆記
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

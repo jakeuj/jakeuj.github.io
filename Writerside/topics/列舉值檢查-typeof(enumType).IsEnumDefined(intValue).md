@@ -30,16 +30,3 @@ void TestFunction(MyEnum inputEnum)
 
 typeof(MyEnum).IsEnumDefined(inputEnum)
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

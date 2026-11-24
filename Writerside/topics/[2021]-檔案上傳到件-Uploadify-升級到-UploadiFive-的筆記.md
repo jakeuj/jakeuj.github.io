@@ -183,19 +183,3 @@ https://github.com/jakeuj/uploadify/blob/master/Sample/index.php
 參考來源：
 
 https://stackoverflow.com/questions/23399306/uploadifive-1-2-2-filetype-filter-capability-restriction-does-not-work
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- HTML
-- Javascript
-- jQuery
-- UploadiFive
-- Uploadify
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

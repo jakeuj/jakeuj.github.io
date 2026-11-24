@@ -99,21 +99,3 @@ AzureRoot.cer > 本機電腦\受信任的根憑證授權單位
 [New-SelfSignedCertificate (pki) | Microsoft Learn](https://learn.microsoft.com/en-us/powershell/module/pki/new-selfsignedcertificate?view=windowsserver2022-ps)
 
 [產生及匯出 P2S 的憑證：PowerShell - Azure VPN Gateway | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/vpn-gateway/vpn-gateway-certificates-point-to-site#ex2)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure SQL
-{ignore-vars="true"}
-- Azure VPN
-{ignore-vars="true"}
-- Certificate
-- PowerShell
-- SSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

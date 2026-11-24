@@ -246,21 +246,3 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 [node.js - Azure NodeJS version - Stack Overflow](https://stackoverflow.com/questions/54034084/azure-nodejs-version)
 
 [Which versions of node.js are available on Azure Web Sites? - Stack Overflow](https://stackoverflow.com/questions/45515421/which-versions-of-node-js-are-available-on-azure-web-sites)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- App Service
-{ignore-vars="true"}
-- Azure
-- CI/CD
-{ignore-vars="true"}
-- DevOps
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

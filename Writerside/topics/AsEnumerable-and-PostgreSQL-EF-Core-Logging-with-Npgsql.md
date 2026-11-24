@@ -113,20 +113,3 @@ CREATE TABLE distributors (
 [PostgreSQL 9.6.19 Documentation](https://www.postgresql.org/docs/9.6/index.html)
 
 [PostgreSQL 10 Documentation](https://www.postgresql.org/docs/10/sql-createtable.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- AsEnumerable
-- Entity Framework
-{ignore-vars="true"}
-- Log
-- Npgsql
-- PostgreSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

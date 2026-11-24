@@ -41,18 +41,3 @@ SQL
 GAE 沒有 SQL Driver 會連不到 MSSQL (PostgerSQL 不確定)
 
 最後改用 Docker 裝 Driver 再 Deploy 到 GAE 彈性環境來連到 GCS MSSQL Server
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CloudSQL
-- GAE
-- GCP
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

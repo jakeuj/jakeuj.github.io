@@ -38,15 +38,3 @@ npm-windows-upgrade
 [NPM is not installed #3238 | Support Center | ABP Commercial](https://support.abp.io/QA/Questions/3238/NPM-is-not-installed)
 
 [It warns NPM is not installed when run abp install-libs,but I have installed . · Issue #12995 · abpframework/abp (github.com)](https://github.com/abpframework/abp/issues/12995)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- NPM
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

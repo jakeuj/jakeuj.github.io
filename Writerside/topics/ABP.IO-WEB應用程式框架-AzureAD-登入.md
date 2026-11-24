@@ -344,17 +344,3 @@ services.AddAuthentication()
 [ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入 | 御用 - 點部落 (dotblogs.com.tw)](ABP.IO-WEB應用程式框架-關閉本地帳號註冊與登入.md)
 
 [LDAP Admin & C# .Net Core Identity Server 4](LDAP-Admin-And-CSharp-Net-Core-Identity-Server-4.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- Azure AD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

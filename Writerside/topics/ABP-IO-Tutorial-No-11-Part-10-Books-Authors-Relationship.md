@@ -756,15 +756,3 @@ export class BookComponent implements OnInit {
 就這樣。只需運行應用程序並嘗試創建或編輯作者。
 
 // 完結，灑花！
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

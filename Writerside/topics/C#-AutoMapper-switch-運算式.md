@@ -42,15 +42,3 @@ P.S. 其中 `var detail` 等於 `src.Detail`
 [c# - Automapper: complex if else statement in ForMember - Stack Overflow](https://stackoverflow.com/questions/32643076/automapper-complex-if-else-statement-in-formember/59329566#59329566)
 
 [switch 運算式 - 使用 'switch' 運算式評估模式比對運算式 | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/csharp/language-reference/operators/switch-expression)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- AutoMapper
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

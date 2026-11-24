@@ -90,19 +90,3 @@ public class MyApp
 參照：[Apache log4net™ Manual - Configuration](https://logging.apache.org/log4net/release/manual/configuration.html)
 
 參照：[[料理佳餚] 使用 log4net](https://dotblogs.com.tw/supershowwei/2015/08/25/153214)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Apache
-- C#
-{ignore-vars="true"}
-- Log
-- Log
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

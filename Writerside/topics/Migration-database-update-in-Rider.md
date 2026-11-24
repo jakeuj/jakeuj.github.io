@@ -43,15 +43,3 @@ dotnet ef database update 就可以了
   啟始專案的專案資料夾的相對路徑。 預設值為目前的資料夾。
 
 參照：<https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/cli/dotnet#common-options>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Rider
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -72,15 +72,3 @@ private static void ConfigureSwaggerServices(
 ### 參照
 
 [C# convert enum value to String](https://jakeuj.com/c-convert-enum-value-to-string.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Swagger
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

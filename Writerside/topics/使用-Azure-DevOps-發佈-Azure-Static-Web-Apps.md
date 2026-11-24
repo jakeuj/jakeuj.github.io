@@ -235,19 +235,3 @@ steps:
 ## 定價
 
 ![定價](dotblogs-0f3596f6-1629964907.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- Azure
-- Blazor
-- CI/CD
-{ignore-vars="true"}
-- DevOps
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

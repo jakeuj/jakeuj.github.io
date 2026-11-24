@@ -63,16 +63,3 @@ MySQL
 參照
 
 [MySQL :: MySQL Connector/NET Developer Guide :: 7.2.2 Scaffolding an Existing Database in EF Core](https://dev.mysql.com/doc/connector-net/en/connector-net-entityframework-core-scaffold-example.html#connector-net-entityframework-core-scaffold-cli)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

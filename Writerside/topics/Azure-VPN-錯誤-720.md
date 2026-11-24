@@ -23,16 +23,3 @@
 ## 參照
 
 [當您嘗試建立 VPN 連線時，發生「錯誤 720：無法連線到 VPN 連線」 - Windows Server | Microsoft Learn](https://learn.microsoft.com/zh-tw/troubleshoot/windows-server/networking/troubleshoot-error-720-when-establishing-a-vpn-connection#scenario-3-reinstall-wan-miniport-ip-interface-drivers)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure VPN
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

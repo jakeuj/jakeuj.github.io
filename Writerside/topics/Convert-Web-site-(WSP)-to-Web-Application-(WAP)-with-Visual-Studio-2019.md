@@ -40,17 +40,3 @@ WAP 步驟
 
 1. 如果專案本身有問題不能 build，偵錯 > 偵錯屬性 > 建置 > 不建置
 2. c#新版語法不支援：將編譯器改成 Roslyn ，並將 C# 版本從 5.0 升到 7.3
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- VisualStudio
-- WebApplication
-- WebSite
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -241,21 +241,3 @@ public class GetAllActivitiesInput : MyProjectPagedAndSortedResultRequestDto
 [AbstractKeyReadOnlyAppService](https://github.com/abpframework/abp/blob/276a48a240a62a53bccba60ba7ef08c0439ca5ba/framework/src/Volo.Abp.Ddd.Application/Volo/Abp/Application/Services/AbstractKeyReadOnlyAppService.cs)
 
 [AbstractKeyCrudAppService](https://github.com/abpframework/abp/blob/276a48a240a62a53bccba60ba7ef08c0439ca5ba/framework/src/Volo.Abp.Ddd.Application/Volo/Abp/Application/Services/AbstractKeyCrudAppService.cs)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- C#
-{ignore-vars="true"}
-- Dapper
-- MySql
-- SQL
-- CRUD
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

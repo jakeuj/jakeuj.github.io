@@ -42,16 +42,3 @@ export class AppComponent  {
 
 Ref: <https://stackblitz.com/edit/ngfor-enum-select-options?file=app%2Fapp.component.ts>
 {ignore-vars="true"}
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- TypeScript
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

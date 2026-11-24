@@ -30,18 +30,3 @@ BitConverter.ToString(MD5.Create().ComputeHash(Encoding.UTF8.GetBytes(str)))
 
 - 參照
   [SHA1 類別](https://docs.microsoft.com/zh-tw/dotnet/api/system.security.cryptography.sha1?view=net-5.0)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .NET Framework
-{ignore-vars="true"}
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

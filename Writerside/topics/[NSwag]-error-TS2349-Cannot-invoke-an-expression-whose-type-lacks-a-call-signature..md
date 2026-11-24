@@ -45,18 +45,3 @@ error TS2349: Cannot invoke an expression whose type lacks a call signature.
 Type 'typeof import("node\_modules/moment/moment.d.ts")' has no compatible call signatures.
 
 參照：[Typescript compilation error when using momentjs and TypeScript 3](https://github.com/RicoSuter/NSwag/issues/1859)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- TypeScript
-- NSwag
-- ES6
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

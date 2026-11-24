@@ -72,16 +72,3 @@ Jetbrains IDE 內建 stash 和 shelve
 ### 參照
 
 [idea中好用的git shelve changes和stash changes-CSDN博客](https://blog.csdn.net/eclipse1024/article/details/116352777)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Git
-- JetBrains
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

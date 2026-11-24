@@ -96,15 +96,3 @@ Hello World
 ## 參照
 
 [Dependency Injection | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Dependency-Injection)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- DI
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -40,16 +40,3 @@ https://peterhpchen.github.io/DigDeeperLINQ/03_LINQPad.html#%E7%94%A8%E6%B3%95
 然後看看結果是不是自己要的
 
 並檢查 SQL 語法是不是有效率的
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Linq
-- LINQPad
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

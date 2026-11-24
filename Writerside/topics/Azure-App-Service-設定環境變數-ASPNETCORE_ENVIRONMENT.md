@@ -35,16 +35,3 @@ ASPNETCORE\_ENVIRONMENT=staging
 ## 參照
 
 [使用 Azure 應用服務和 ASP.NET 核心|進行配置elmah.io](https://blog.elmah.io/configuration-with-azure-app-services-and-aspnetcore/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

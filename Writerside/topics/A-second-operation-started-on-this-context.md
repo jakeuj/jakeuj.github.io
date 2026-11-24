@@ -13,13 +13,3 @@ A second operation started on this context before a previous operation completed
 ### 參照
 
 [A second operation started on this context before a previous operation completed · Issue #5916 · abpframework/abp · GitHub](https://github.com/abpframework/abp/issues/5916)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

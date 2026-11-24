@@ -21,18 +21,3 @@ dotnet dev-certs https --trust
 Done.
 
 參考：[所有平臺-憑證不受信任](https://docs.microsoft.com/zh-tw/aspnet/core/security/enforcing-ssl?view=aspnetcore-3.1&tabs=visual-studio#all-platforms---certificate-not-trusted)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- HTTPS
-- SSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

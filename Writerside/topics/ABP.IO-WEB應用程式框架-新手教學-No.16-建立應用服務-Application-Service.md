@@ -177,14 +177,3 @@ ABP可以[**自動**](https://docs.abp.io/zh-Hans/abp/latest/API/Auto-API-Contro
 ### Swagger UI
 
 ![Swagger UI](dotblogs-bff36275-1626690589.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

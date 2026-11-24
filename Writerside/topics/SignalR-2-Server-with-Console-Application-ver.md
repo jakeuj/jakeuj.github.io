@@ -39,16 +39,3 @@ https://docs.microsoft.com/en-us/aspnet/signalr/overview/performance/scaleout-wi
 ## **使用中的 MessagePack Hub 通訊協定 SignalR 進行 ASP.NET Core**
 
 https://docs.microsoft.com/zh-tw/aspnet/core/signalr/messagepackhubprotocol?view=aspnetcore-2.2
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SignalR
-- WebSocket
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

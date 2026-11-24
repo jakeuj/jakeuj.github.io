@@ -130,17 +130,3 @@ public async Task<int> GetAsync()
 EF ToListAsync, HttpClinet RequestAsync, Stream ReadAsync, Blob SaveAsync…ETC.
 
 則可以在使用者提前取消 Request 時，節省消耗資源並提前完成該要求
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ASYNC
-- 非同步
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

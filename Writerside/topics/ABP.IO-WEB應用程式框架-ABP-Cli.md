@@ -49,16 +49,3 @@ abp new Test501B -u blazor --separate-identity-server --version 5.0.1 -csf
 參照
 
 [CLI | Documentation Center | ABP.IO](https://docs.abp.io/zh-Hans/abp/latest/CLI)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Angular
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

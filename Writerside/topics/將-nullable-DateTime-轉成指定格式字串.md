@@ -23,13 +23,3 @@ yyyyMMdd.Dump();
 參照
 
 [How to parse nullable DateTime object in C# - Stack Overflow](https://stackoverflow.com/questions/19152764/how-to-parse-nullable-datetime-object-in-c-sharp)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

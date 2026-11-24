@@ -95,17 +95,3 @@ Configure<AbpClockOptions>(options => { options.Kind = DateTimeKind.Utc; });
 參照
 
 [c# - How to set ABP.IO IHasCreationTime for TimeZone 'Pacific Standard Time' (EF and SQL Server)](https://stackoverflow.com/questions/75039614/how-to-set-abp-io-ihascreationtime-for-timezone-pacific-standard-time-ef-and)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Audit
-- TimeZone
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -65,17 +65,3 @@ Example:5000-6000
 P.S. Windows 10 檔案總管 不支援 SSL 所以要另外裝 FTP Client
 
 參照：[Download FileZilla Client for Windows (64bit)](https://filezilla-project.org/download.php?type=client)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-- FTP
-- SSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

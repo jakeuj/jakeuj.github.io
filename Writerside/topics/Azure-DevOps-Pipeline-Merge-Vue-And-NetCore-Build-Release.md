@@ -230,17 +230,3 @@ Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 總之就是讓他在該路徑能夠找到唯一的 zip 來部屬
 
 ![總之就是讓他在該路徑能夠找到唯一的 zip 來部屬](dotblogs-838d7938-1642672474.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- DevOps
-- Vue
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

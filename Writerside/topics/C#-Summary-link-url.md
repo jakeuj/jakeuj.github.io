@@ -24,15 +24,3 @@
 參照
 
 [C# XML Documentation Website Link - Stack Overflow](https://stackoverflow.com/questions/6960426/c-sharp-xml-documentation-website-link/32712435#32712435)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Rider
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

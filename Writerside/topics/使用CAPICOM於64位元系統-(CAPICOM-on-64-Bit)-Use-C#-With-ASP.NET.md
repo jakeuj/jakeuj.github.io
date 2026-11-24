@@ -39,14 +39,3 @@
 歡迎轉載，請註明來源 [http://www.dotblogs.com.tw/jakeuj/](http://www.dotblogs.com.tw/jakeuj/)，感謝您的支持與配合！
 
 By [jakeuj@hotmail.com](mailto:jakeuj@hotmail.com) 分享於 [點部落(DotBolog)](http://www.dotblogs.com.tw/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

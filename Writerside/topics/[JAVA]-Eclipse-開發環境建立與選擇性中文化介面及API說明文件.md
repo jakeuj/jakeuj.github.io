@@ -52,16 +52,3 @@ Location:<http://download.eclipse.org/tools/ve/updates/1.4/>
 因為我連怎麼移除套件都不知道，想把原本的EMF拿掉也不行，想把VE先拿掉重裝也不行
 而且因此我已經把Eclipse整個刪除再用全新版本來測試VE安裝，未果..
 以上待續...
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Eclipse
-- JAVA
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

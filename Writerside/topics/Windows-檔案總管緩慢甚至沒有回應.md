@@ -44,18 +44,3 @@ Windows 11 遇到開檔案很慢的問題
 [[Windows] 只要兩步驟! 輕鬆解決總管檔案開啟緩慢問題](https://blog.impochun.com/win10-quick-access-problem-solve/)
 
 [修復Windows 11/10中載入緩慢的下載資料夾](https://www.thewindowsclub.com/fix-slow-loading-downloads-folder-in-windows-10)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Win 10
-{ignore-vars="true"}
-- Win 11
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

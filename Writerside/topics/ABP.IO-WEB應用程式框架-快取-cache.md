@@ -91,15 +91,3 @@ namespace MyProject
 [Caching | Documentation Center | ABP. IO](https://docs.abp.io/zh-Hans/abp/latest/Caching)
 
 [ASP.NET Core 中的分散式快取 | Microsoft Learn](https://learn.microsoft.com/zh-tw/aspnet/core/performance/caching/distributed?view=aspnetcore-7.0)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -46,16 +46,3 @@ services.AddAbpSwaggerGen(
 當然 Filter 裡頭的 path 需要改成自己要隱藏的 api 路徑 (就 swagger 畫面顯示的網址)
 
 參照：[How to hide an endpoint from Swagger? #264 | Support Center | ABP Commercial](https://support.abp.io/QA/Questions/264/How-to-hide-an-endpoint-from-Swagger)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Swagger
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

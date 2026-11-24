@@ -223,16 +223,3 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.7 建立WebA
 參照
 
 [一步一步使用ABP框架搭建正式項目系列教程](http://www.cnblogs.com/farb/p/4849791.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

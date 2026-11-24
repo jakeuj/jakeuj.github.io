@@ -34,17 +34,3 @@ CI/CD 的基本操作這篇講蠻清楚了
 收回前言，先上圖，有需要再稍作說明...
 
 NPM：<https://dotblogs.com.tw/jamesfu/2017/08/02/vsts_angular4>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- DevOps
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

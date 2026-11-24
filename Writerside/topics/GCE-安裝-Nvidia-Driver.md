@@ -86,15 +86,3 @@ jakeuj@instance-2 ~ $
 參照
 
 [Install GPU drivers  |  Compute Engine Documentation  |  Google Cloud](https://cloud.google.com/compute/docs/gpus/install-drivers-gpu)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- LLM
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

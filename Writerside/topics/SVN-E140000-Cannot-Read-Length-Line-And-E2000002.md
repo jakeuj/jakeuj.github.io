@@ -77,15 +77,3 @@ linux 下先切到 db/locks
 然後下刪除指令 rm -rf \*
 
 參照：http://mahingupta.com/svn-can-not-parse-lock-entries-hashfile/
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SVN
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

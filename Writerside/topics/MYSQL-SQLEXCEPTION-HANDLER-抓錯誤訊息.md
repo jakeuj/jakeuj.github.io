@@ -34,15 +34,3 @@ END
 B在執行途中輸出 @sqlString 實際上會輸出上A SP裡頭用的查詢語句
 
 讓我好查了老半天...
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MySql
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

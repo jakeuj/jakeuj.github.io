@@ -168,7 +168,3 @@ app.Run();
 - [HttpRuntimeSection.ExecutionTimeout](https://learn.microsoft.com/en-us/dotnet/api/system.web.configuration.httpruntimesection.executiontimeout?view=netframework-4.8.1)
 - [IIS Request Limits](https://learn.microsoft.com/en-us/iis/configuration/system.webserver/security/requestfiltering/requestlimits/)
 - [Kudu XDT transform samples](https://github.com/projectkudu/kudu/wiki/Xdt-transform-samples)
-
----
-
-*本文章從點部落遷移至 Writerside，並於 2026-08-27 依目前官方文件更新。*

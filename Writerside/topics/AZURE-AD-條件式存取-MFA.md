@@ -177,17 +177,3 @@ AAD 的功能真的挺多的，剛接觸有種眼花撩亂的感覺
 ## 參照
 
 [規劃 Azure Active Directory 條件式存取部署 | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/conditional-access/plan-conditional-access)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure AD
-{ignore-vars="true"}
-- MFA
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

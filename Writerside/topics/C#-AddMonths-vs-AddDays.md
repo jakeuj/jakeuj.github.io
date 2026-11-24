@@ -26,13 +26,3 @@ dat.AddDays(-30).Dump();
 視情況選擇是否需要精確三十日
 
 例如：每日處理近一個月內尚未處理的東西，這感覺是比較模糊的日數
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

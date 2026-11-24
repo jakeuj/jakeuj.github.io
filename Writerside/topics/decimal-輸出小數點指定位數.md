@@ -23,13 +23,3 @@ decimalVar.GetValueOrDefault().ToString("0.00").Dump();
 參照
 
 [c# - How do I display a decimal value to 2 decimal places? - Stack Overflow](https://stackoverflow.com/questions/164926/how-do-i-display-a-decimal-value-to-2-decimal-places)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

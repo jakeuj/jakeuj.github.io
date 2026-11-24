@@ -29,16 +29,3 @@ alias ll='ls -l'
 結論：用管理員身分執行powershell
 
 (vim不熟的提示：ESC 加上 :wq)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- PowerShell
-- Bash
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -54,19 +54,3 @@ steps:
 [在 Azure Static Web Apps 中建立分支預覽環境 | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/static-web-apps/branch-environments?tabs=azure-devops#example)
 
 [使用 Azure DevOps 發佈 Azure Static Web Apps](使用-Azure-DevOps-發佈-Azure-Static-Web-Apps.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- DevOps
-- Azure Static Web Apps
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -65,16 +65,3 @@ await db.Database.ExecuteSqlRawAsync("SET IDENTITY_INSERT dbo.NandPackageUsages 
 其實資料不複雜可以直接用 csv 匯出匯入
 
 也有其他現成的 migration tools 可以將 mysql 匯入到 mssql
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

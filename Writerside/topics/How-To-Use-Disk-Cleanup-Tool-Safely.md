@@ -19,16 +19,3 @@ Windows 2012 以上
 DISM.exe /online /Cleanup-Image /StartComponentCleanup
 
 參照：http://blog.miniasp.com/post/2014/01/22/Using-Disk-Cleanup-Wizard-delete-outdated-Windows-Update-files.aspx
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- DISM
-- Server
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

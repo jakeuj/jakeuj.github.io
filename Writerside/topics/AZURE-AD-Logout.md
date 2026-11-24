@@ -63,16 +63,3 @@ GET https://login.microsoftonline.com/common/oauth2/v2.0/logout?post_logout_redi
 ### 參照
 
 [Microsoft 身分識別平台和 OpenID Connect 通訊協定 - Microsoft identity platform | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/v2-protocols-oidc#send-a-sign-out-request)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure AD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

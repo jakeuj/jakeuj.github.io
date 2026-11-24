@@ -33,15 +33,3 @@
 ### 參照
 
 [git - TortoiseGit - Multiple GitHub repositories with different key pairs each - Stack Overflow](https://stackoverflow.com/questions/41291043/tortoisegit-multiple-github-repositories-with-different-key-pairs-each/41292048#41292048)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Github
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

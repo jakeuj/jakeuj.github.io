@@ -30,15 +30,3 @@ sasBuilder.ContentDisposition =
 [UrlEncoder Class (System.Text.Encodings.Web) | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/api/system.text.encodings.web.urlencoder?view=net-7.0)
 
 [建立容器或 blob 的服務 SAS - Azure Storage | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/storage/blobs/sas-service-create?tabs=dotnet)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

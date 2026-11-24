@@ -114,16 +114,3 @@ int main()
 參照：[Lua學習筆記](http://www.byjth.com/lua/33.html)
 
 範例檔案：[下載位置](https://mega.nz/#!vFA1lIYZ!8YP51emAZH5luIVQMtyrTSrIcVsE18Zrmceu8QzxzIQ) (懶人包：全部解壓縮到D即可，內含Lua Source)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- VisualStudio
-- Lua
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

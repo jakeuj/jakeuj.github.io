@@ -49,16 +49,3 @@ New-SelfSignedCertificate -Type Custom -DnsName P2SChildCert -KeySpec Signature 
 ![螢幕擷取畫面顯示 [憑證] 視窗，已選取 [所有工作] 和 [匯出]。](https://docs.microsoft.com/zh-tw/azure/includes/media/vpn-gateway-certificates-export-client-cert-include/export-certificate.png)![螢幕擷取畫面顯示已選取 [是，匯出私密金鑰]。](https://docs.microsoft.com/zh-tw/azure/includes/media/vpn-gateway-certificates-export-client-cert-include/yes-export.png)![匯出檔案格式頁面的螢幕擷取畫面。](https://docs.microsoft.com/zh-tw/azure/includes/media/vpn-gateway-certificates-export-client-cert-include/personal-information-exchange.png)![螢幕擷取畫面顯示輸入並確認密碼。](https://docs.microsoft.com/zh-tw/azure/includes/media/vpn-gateway-certificates-export-client-cert-include/password.png)
 
 TODO: 後面這幾步如果可以用 PowerShell 指定操作，日後可能比較方便
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure VPN
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

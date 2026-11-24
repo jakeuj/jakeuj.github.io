@@ -29,18 +29,3 @@ Give the Startup Command with the command to start FastAPI on Azure App Service
 ## 參照
 
 [Deploy FastAPI on Azure App Service – TutLinks](https://tutlinks.com/deploy-fastapi-on-azure/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- FastAPI
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

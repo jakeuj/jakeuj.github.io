@@ -65,16 +65,3 @@ protected string SHA1_Encrypt(string Source_String)
     return EnText.ToString();
 }
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

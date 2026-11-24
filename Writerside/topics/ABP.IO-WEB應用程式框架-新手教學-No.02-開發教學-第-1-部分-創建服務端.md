@@ -542,15 +542,3 @@ Swagger 有一個很好的 UI 來測試 API。
 ---
 
 [ABP.IO WEB應用程式框架 新手教學 No.02 開發教學 Part 2 圖書列表頁面](ABP.IO-WEB應用程式框架-新手教學-No.03-開發教學-第-2-部分-圖書列表頁面.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

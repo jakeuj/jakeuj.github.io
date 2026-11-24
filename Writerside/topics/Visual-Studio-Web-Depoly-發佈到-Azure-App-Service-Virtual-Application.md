@@ -43,15 +43,3 @@ VS 對著專案按右鍵選"發佈"
 如果要發佈完直接打開 \test 可以改 SiteUrlToLaunchAfterPublish 把後面加上/test
 
 最後按發佈就可以了
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

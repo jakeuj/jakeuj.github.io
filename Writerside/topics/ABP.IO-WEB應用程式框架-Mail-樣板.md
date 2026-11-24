@@ -206,16 +206,3 @@ namespace TemplateReplace.Emailing
 [Replacing Email Templates and Sending Emails | ABP Community](https://community.abp.io/posts/replacing-email-templates-and-sending-emails-jkeb8zzh)
 
 [Text Templating | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Text-Templating)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- MAIL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

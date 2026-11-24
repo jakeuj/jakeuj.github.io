@@ -95,16 +95,3 @@ public class 班長
 最後只要大家按照訂好的小老師介面來作業，無論今天老師多了物理小老師還是化學小老師需要改的考卷，對於班長來說都沒有影響
 
 - 結果：對於我們班長這個角色，就達到了降低耦合的目標，自身不受類別的影響。
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

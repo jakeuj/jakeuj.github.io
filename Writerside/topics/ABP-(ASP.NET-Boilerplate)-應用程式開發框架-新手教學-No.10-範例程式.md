@@ -987,20 +987,3 @@ UI上幾乎所有可用的操作也可用作Web API（因為UI使用相同的Web
 您可以在此處獲取最新的源代碼[事件雲源](https://github.com/aspnetboilerplate/eventcloud/tree/master/aspnet-core-angular)
 
 參照：https://aspnetboilerplate.com/Pages/Documents/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/index.html
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- C#
-{ignore-vars="true"}
-- .Net Core
-{ignore-vars="true"}
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

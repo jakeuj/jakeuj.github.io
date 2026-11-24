@@ -57,16 +57,3 @@
 ## 延伸閱讀
 
 [Convert Web site (WSP) to Web Application (WAP) with Visual Studio 2019](https://jakeuj.com/convert-web-site-wsp-to-web-application-wap-with-visual-studio-2019.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Roslyn
-- WSP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

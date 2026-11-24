@@ -29,16 +29,3 @@ Azure > AAD > 企業應用程式 > MyApp > 屬性 > 需要使用者指派嗎？
 分別需要允許不同的人可以登入
 
 那就要在 Azure AD 註冊兩個不同的應用程式
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure AD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

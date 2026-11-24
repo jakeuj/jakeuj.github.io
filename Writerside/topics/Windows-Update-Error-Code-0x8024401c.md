@@ -43,15 +43,3 @@ Windows Update 服務已經啟動成功。
 完成重開機後，再試一次更新就成功了。
 
 參照：https://blog.twtnn.com/2017/12/win-10-update-0x8024401c.html
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Windows
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -92,16 +92,3 @@ void A(MethodB B)
 參照
 
 <http://huan-lin.blogspot.tw/2009/01/delegate-revisited-csharp-1-to-2-to-3.html>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

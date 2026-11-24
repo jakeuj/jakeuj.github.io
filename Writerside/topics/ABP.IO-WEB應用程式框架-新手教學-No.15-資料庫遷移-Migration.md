@@ -100,15 +100,3 @@ namespace Acme.BookStore
 ### ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service
 
 參考文件：[ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service](ABP.IO-WEB應用程式框架-新手教學-No.16-建立應用服務-Application-Service.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

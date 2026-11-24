@@ -203,21 +203,3 @@ Drone
 上面是正常畫面
 
 有問題再拿錯誤訊息去找一下古哥囉~
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- Cloud
-- .Net Core
-{ignore-vars="true"}
-- Drone
-- Github
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

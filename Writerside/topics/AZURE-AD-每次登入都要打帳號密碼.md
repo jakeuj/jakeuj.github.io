@@ -67,16 +67,3 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
 ### 參照
 
 [OAuth 2.0 隱含授與流程-Microsoft 身分識別平臺 | Microsoft Docs](https://docs.microsoft.com/zh-tw/azure/active-directory/develop/v2-oauth2-implicit-grant-flow#send-the-sign-in-request)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure AD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

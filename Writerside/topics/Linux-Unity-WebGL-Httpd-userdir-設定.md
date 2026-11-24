@@ -109,19 +109,3 @@ cp WebGL /home/jake/public\_html
 ### 開啟網頁
 
 http://localhost/~jake/WebGL
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Apache
-- Httpd
-- Linux
-- Unity
-- WebGL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

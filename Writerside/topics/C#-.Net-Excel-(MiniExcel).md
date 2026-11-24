@@ -175,15 +175,3 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 [MiniExcel/README.zh-Hant.md at master · mini-software/MiniExcel · GitHub](https://github.com/mini-software/MiniExcel/blob/master/README.zh-Hant.md#getstart3)
 
 [[筆記] C# Tuple與ValueTuple的差異 | 遇見零壹魔王 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/noncoder/2019/09/28/tuple-new-old)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Excel
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

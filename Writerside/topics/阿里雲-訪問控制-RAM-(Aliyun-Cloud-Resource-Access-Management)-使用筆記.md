@@ -155,18 +155,3 @@ MFA 認證過的瀏覽器一個禮拜內不用再每次輸入動態驗證碼
 忘記改域名也可以從這邊的高級設置來編輯域名
 
 也提供 domain 別名 的功能可以自己視情況調整設定
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 阿里雲
-{ignore-vars="true"}
-- 阿里雲
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

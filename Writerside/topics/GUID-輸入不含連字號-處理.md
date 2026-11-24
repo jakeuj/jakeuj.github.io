@@ -42,17 +42,3 @@ Response.Write(ConvertGuid("6F9619FF8B86D011B42D00C04FC964FF"));
 參照：http://kevintsengtw.blogspot.tw/2010/08/guid-tryparse.html
 
 以上
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- MSSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

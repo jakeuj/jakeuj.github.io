@@ -35,16 +35,3 @@ P.S. CTRL+ALT+S 可以直接開啟 File | Settings
 ## 參照
 
 [字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)](https://jakeuj.com/字型介紹-noto-思源字體-sans-serif-無襯線-serif-襯線體-mono-等寬.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Fonts
-- Rider
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

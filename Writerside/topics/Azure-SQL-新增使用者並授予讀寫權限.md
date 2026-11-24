@@ -111,18 +111,3 @@ GO
 參照
 
 [在Azure SQL上新增使用者 (andy51002000.blogspot.com)](http://andy51002000.blogspot.com/2017/12/azure-sql.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure SQL
-{ignore-vars="true"}
-- MSSQL
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

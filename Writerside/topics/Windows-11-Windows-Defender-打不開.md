@@ -27,18 +27,3 @@ Get-AppxPackage Microsoft.SecHealthUI -AllUsers | Reset-AppxPackage
   不是 "PowerShell" 當然也不是其他甚麼亂七八糟的東西
 
 不確定是只有 Win 11 會發生還是 Win 10 也會
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Win 11
-{ignore-vars="true"}
-- Windows Defender
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

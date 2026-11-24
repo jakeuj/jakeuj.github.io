@@ -127,20 +127,3 @@ Hint
 [Windows 10 OpenSSH Equivalent of "ssh-copy-id"](https://www.chrisjhart.com/Windows-10-ssh-copy-id/)
 
 [Windows 10 上適用於 Linux 的 Windows 子系統安裝指南](https://docs.microsoft.com/zh-tw/windows/wsl/install-win10)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- CI/CD
-{ignore-vars="true"}
-- OKD
-- OpenShift
-- PowerShell
-- Ubuntu
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

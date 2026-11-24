@@ -581,15 +581,3 @@
 參照
 
 [How to Deploy a Secure FTP (SFTP) Service on Microsoft Azure - CHARBEL NEMNOM - MVP | MCT | CCSP - Cloud & CyberSecurity](https://charbelnemnom.com/how-to-deploy-sftp-service-on-microsoft-azure/#Deploy_SFTP_Service_on_Azure)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SFTP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

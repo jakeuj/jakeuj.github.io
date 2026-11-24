@@ -38,13 +38,3 @@ Console.WriteLine(Urgency.High.ToString("D"));
 ### 參照
 
 [C# numeric enum value as string - Stack Overflow](https://stackoverflow.com/questions/3444699/c-sharp-numeric-enum-value-as-string)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

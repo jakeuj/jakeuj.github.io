@@ -41,16 +41,3 @@ Azure 自動新增 Daas 作業協助診斷問題
 ### 參照
 
 [Mystery? Azure DaaS Webjob - Stack Overflow](https://stackoverflow.com/questions/53242391/mystery-azure-daas-webjob)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

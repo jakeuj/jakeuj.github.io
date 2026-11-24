@@ -107,18 +107,3 @@ public async Task<string> Profile()
 參照
 
 [Make API calls using the Microsoft Graph SDKs - Microsoft Graph | Microsoft Docs](https://docs.microsoft.com/zh-tw/graph/sdks/create-requests?view=graph-rest-1.0&tabs=CS#use-select-to-control-the-properties-returned)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure AD
-{ignore-vars="true"}
-- Microsoft Graph
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

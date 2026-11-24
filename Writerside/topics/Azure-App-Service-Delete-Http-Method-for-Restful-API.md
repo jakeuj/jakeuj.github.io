@@ -31,15 +31,3 @@
 ### 參照
 
 [【Azure 应用服务】如何让App Service 支持 Delete 方法  - 路边两盏灯 - 博客园 (cnblogs.com)](https://www.cnblogs.com/lulight/p/15092019.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

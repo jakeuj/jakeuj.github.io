@@ -25,15 +25,3 @@ ABP 專案預設使用同一個資料庫，Appsettings 連接字串名稱為 Def
 有關詳細資訊，請參閱[連接字串](https://docs.abp.io/en/abp/latest/Connection-Strings)文檔。
 
 參照：[Modules/IdentityServer | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Modules/IdentityServer#connection-string)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IdentityServer
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

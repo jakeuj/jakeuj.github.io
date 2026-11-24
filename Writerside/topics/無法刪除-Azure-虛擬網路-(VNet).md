@@ -35,17 +35,3 @@
 5. 刪除子網路。
 6. 刪除虛擬網路。
 7. 刪除 App Service 和 App Service 方案。
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

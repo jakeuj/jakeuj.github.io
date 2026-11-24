@@ -36,17 +36,3 @@ P.S. 既有 Storage 沒有開階層的能不能改我沒測試
 ### 參照
 
 [Azure Blob 儲存體的 SFTP 支援 (預覽) | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/storage/blobs/secure-file-transfer-protocol-support)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- SFTP
-- Storage
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

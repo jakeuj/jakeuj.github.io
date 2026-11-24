@@ -78,15 +78,3 @@ rpm -qa |grep php
 以上指令可以查安裝了php相關的甚麼套件
 
 參照：[專題文章：如何在CentOS 6和CentOS 7上安裝PHP 5.4、5.5或5.6版本](https://www.cadch.com/modules/news/article.php?storyid=227)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Server
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -33,15 +33,3 @@ git update-index --skip-worktree /path/to/file
 [Git 小技巧 - 忽略不想要提交的本地修改 | Mengqi's blog (mengqi92.github.io)](https://mengqi92.github.io/2020/07/17/hide-files-from-git/)
 
 [idea中好用的git shelve changes和stash changes-CSDN博客](https://blog.csdn.net/eclipse1024/article/details/116352777)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Git
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -30,15 +30,3 @@ https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/mast
   權限記得勾選 workflow & repo
 - [Task 6: Push images to Azure Container Registry](https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/master/Hands-on lab/HOL step-by-step - Cloud-native applications - Infrastructure edition.md#task-6-push-images-to-azure-container-registry)
   ACR 是 Azure Container Registry，然後燒了幾百塊，待續…
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

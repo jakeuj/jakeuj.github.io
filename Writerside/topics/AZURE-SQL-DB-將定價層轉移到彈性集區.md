@@ -19,20 +19,3 @@ Azure SQL Server > SQL 彈性集區 > 設定 > 資料庫 > 加入資料庫 > 勾
 直接到該 DB 按變更定價層是無法操作轉移至彈性集區的
 
 至少我還沒找到..
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure SQL
-{ignore-vars="true"}
-- Elastic Pool
-{ignore-vars="true"}
-- 彈性集區
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

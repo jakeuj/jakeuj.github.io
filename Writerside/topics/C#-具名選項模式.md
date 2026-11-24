@@ -69,16 +69,3 @@ public class TestNOModel : PageModel
 [C# 選項模式 | 御用小本本 - 點部落 (dotblogs.azurewebsites.net)](https://dotblogs.azurewebsites.net/jakeuj/2022/10/21/CSharp-IOptions-appsettings)
 
 [ASP.NET Core 中的選項模式 | Microsoft Learn](https://learn.microsoft.com/zh-tw/aspnet/core/fundamentals/configuration/options?view=aspnetcore-7.0#named)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net 7
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

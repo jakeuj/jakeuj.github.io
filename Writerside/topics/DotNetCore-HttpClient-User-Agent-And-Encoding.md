@@ -102,19 +102,3 @@ static async Task Main()
 ### [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
 
 參考文件：[[ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)](https://jakeuj.com/asp-net-c-使用-htmlagilitypack-擷取新聞-爬文機器人.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- .Net Core
-{ignore-vars="true"}
-- HttpClinet
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -96,17 +96,3 @@ But, 人生中最重要的就是這個 But！
 參照：[EF Core MySql Integration](https://aspnetboilerplate.com/Pages/Documents/EF-Core-MySql-Integration)
 
 參照：[dotnet ef 找不到指定的命令](https://blog.darkthread.net/blog/dotnet-ef-not-found/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-- Migrations
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

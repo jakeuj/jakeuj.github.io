@@ -20,18 +20,3 @@ P.S. 選主機是全域，而站台是By Site
 所以重新佈署時如果蓋掉該檔就會失效
 
 Ref: <https://www.andrecarlucci.com/en/setting-environment-variables-for-asp-net-core-when-publishing-on-iis/>
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-- .Net Core
-{ignore-vars="true"}
-- EnvironmentVariables
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

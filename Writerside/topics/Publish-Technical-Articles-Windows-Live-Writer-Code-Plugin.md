@@ -119,15 +119,3 @@ Code Snippet plugin for Windows Live Writer 則比 SyntaxHighlighter for Windows
 但是無法提供額外功能 例如：複製原始碼(不帶行號)
 
 其他有待測試…
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- SOFTWARE
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -151,18 +151,3 @@ vCPU 每 vCPU NT$1,184.5094
 ## 結論
 
 IT 何苦為難 RD？
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-- Container
-- Proxy
-- Squid
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

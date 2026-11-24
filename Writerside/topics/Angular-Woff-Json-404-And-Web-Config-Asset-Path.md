@@ -85,15 +85,3 @@ The web.config asset path must start with the project source root
 單獨設定該檔輸入/輸出路徑，就不用受sourceRoot限制
 
 以上
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

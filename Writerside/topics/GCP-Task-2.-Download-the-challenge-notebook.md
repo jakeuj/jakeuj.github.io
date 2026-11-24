@@ -61,15 +61,3 @@
 > 其餘步驟將在筆記本文件中進行。
 >
 > 您應該參考本實驗指南來檢查您的進度並獲得一些提示。
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- GCP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

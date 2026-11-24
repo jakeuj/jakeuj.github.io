@@ -113,19 +113,3 @@ public override void OnApplicationInitialization(ApplicationInitializationContex
 ### 延伸
 
 [Azure Storage Blob 403 CORS](Azure-Storage-Blob-403-CORS.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net 7
-{ignore-vars="true"}
-- C#
-{ignore-vars="true"}
-- CORS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

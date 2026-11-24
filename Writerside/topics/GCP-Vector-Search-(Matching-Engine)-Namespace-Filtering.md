@@ -102,21 +102,3 @@ P.S. 實際上這邊應該將 restricts 改由 function Parameter 帶入 (例如
 [Google Cloud Ai Platform V1 Client - Class IndexDatapoint (0.26.1)](https://cloud.google.com/php/docs/reference/cloud-ai-platform/latest/V1.IndexDatapoint)
 
 [generative-ai/language/use-cases/document-qa/utils/matching\_engine.py at main · GoogleCloudPlatform/generative-ai · GitHub](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/language/use-cases/document-qa/utils/matching_engine.py#L138)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- GCP
-- Matching Engine
-{ignore-vars="true"}
-- Vector Search
-{ignore-vars="true"}
-- Vertex AI
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

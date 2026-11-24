@@ -44,16 +44,3 @@ public override void ConfigureServices(ServiceConfigurationContext context)
 [Options | Documentation Center | ABP.IO](https://docs.abp.io/en/abp/latest/Options#pre-configure)
 
 [C# 選項模式 | Jakeuj - 點部落 (dotblogs.azurewebsites.net)](https://dotblogs.azurewebsites.net/jakeuj/2022/10/21/CSharp-IOptions-appsettings)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

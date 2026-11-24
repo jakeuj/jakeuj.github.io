@@ -63,16 +63,3 @@ web.config
 bin/roslyn/
 
 [[沒有蠢問題] 找不到路徑 bin\roslyn\csc.exe | 聊聊程式 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/initials/2021/02/11/144248)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .NET Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

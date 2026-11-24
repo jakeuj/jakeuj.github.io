@@ -32,15 +32,3 @@ gitignore vs exclude
 [Git 移除新增忽略之已推送檔案的追蹤](Git-移除新增忽略之已推送檔案的追蹤.md)
 
 [Git 小技巧 - 忽略不想要提交的本地修改 | Mengqi's blog (mengqi92.github.io)](https://mengqi92.github.io/2020/07/17/hide-files-from-git/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Git
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

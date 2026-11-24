@@ -92,16 +92,3 @@ https://docs.microsoft.com/zh-tw/ef/core/performance/efficient-querying#load-rel
 這篇主要不是講這個就這樣帶過
 
 有需要可以自行詢問古哥哥
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

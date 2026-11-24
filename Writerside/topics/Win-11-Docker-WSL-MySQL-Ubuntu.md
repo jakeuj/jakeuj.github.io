@@ -69,20 +69,3 @@ DataGrip
 [Windows10子系统中使用docker安装MySQL - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/374605968)
 
 [DBeaver 连接 docker下mysql，并附带安装教程\_小朋友yo的博客-CSDN博客](https://blog.csdn.net/Eternalyii/article/details/126715960)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Docker
-- MySql
-- Ubuntu
-- Win 11
-{ignore-vars="true"}
-- WSL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

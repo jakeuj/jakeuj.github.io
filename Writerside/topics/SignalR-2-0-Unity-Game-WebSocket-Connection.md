@@ -68,19 +68,3 @@ Client端：[SignalR und Unity in euren Multiplayer-Indie-Games](https://blogs.m
 只是稍微註記一下
 
 有機會再看看是不是重寫個圖文步驟吧
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- SignalR
-- Unity
-- WebSocket
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

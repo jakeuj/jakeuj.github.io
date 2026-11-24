@@ -612,15 +612,3 @@ export class HomeComponent implements OnInit {
 參考文件：[也可以看看](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Todo/Index?UI=NG&DB=EF#see-also)
 
 - [Web 應用程序開發教程](https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

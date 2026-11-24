@@ -45,15 +45,3 @@ Response.Cookies.Add(sameSiteCookie);
 參照
 
 [SameSite cookie sample for ASP.NET 4.7.2 C# WebForms | Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/samesite/csharpwebforms)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Cookies
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

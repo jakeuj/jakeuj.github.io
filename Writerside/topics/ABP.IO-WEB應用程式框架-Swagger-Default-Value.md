@@ -46,14 +46,3 @@ public List<string> Users { get; set; }
 ```
 
 ![YourProject.Application.Contracts/YourDto.cs](dotblogs-3d8e3847-1669104103.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Swagger
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

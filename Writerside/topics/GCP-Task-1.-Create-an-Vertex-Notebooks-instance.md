@@ -102,17 +102,3 @@ E2標準4=$0.15/H (本教程)
 [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab | Google Cloud Skills Boost](https://www.cloudskillsboost.google/focuses/22019?parent=catalog)
 
 [從軟體哲學角度談Amazon SageMaker | 亞馬遜AWS官方博客](https://aws.amazon.com/cn/blogs/china/on-amazon-sagemaker-from-the-perspective-of-software-philosophy/)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- AI
-- GCP
-- Google
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

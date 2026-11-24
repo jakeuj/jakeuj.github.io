@@ -74,13 +74,3 @@ public async Task Should_Get_Two_Results_From_ITestManager()
 參照
 
 [依賴注入 |文檔中心 |總部基地。IO (abp.io)](https://docs.abp.io/en/abp/latest/Dependency-Injection#dealing-with-multiple-implementations)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

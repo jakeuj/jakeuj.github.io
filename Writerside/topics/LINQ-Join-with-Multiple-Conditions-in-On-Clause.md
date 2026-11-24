@@ -28,15 +28,3 @@ new { SchoolId = b.Id, IsMale = true }
 參照
 
 [LINQ Join with Multiple Conditions in On Clause - Stack Overflow](https://stackoverflow.com/questions/7664727/linq-join-with-multiple-conditions-in-on-clause)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Linq
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

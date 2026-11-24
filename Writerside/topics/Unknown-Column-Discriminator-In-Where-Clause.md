@@ -15,16 +15,3 @@ Unknown column 'Discriminator' in 'where clause'
 是否與資料庫不一致
 
 修正後可以正常
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

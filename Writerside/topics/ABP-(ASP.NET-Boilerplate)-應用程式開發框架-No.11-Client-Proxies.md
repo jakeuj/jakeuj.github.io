@@ -78,16 +78,3 @@ EX:http://localhost:21021/AbpServiceProxies/GetAll?type=jquery
 微軟Dotnet Core使用NSWAG studio動態產生用戶端的文檔
 
 https://docs.microsoft.com/zh-tw/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-2.2&tabs=visual-studio%2Cvisual-studio-xml#generate-code-with-nswagstudio
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Angular
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -93,15 +93,3 @@ public class Test
 [Paste JSON or XML as classes - Visual Studio (Windows) | Microsoft Learn](https://learn.microsoft.com/en-us/visualstudio/ide/reference/paste-json-xml?view=vs-2022#xml)
 
 [XmlSerializer.Deserialize 方法 (System.Xml.Serialization) | Microsoft Learn](https://learn.microsoft.com/zh-tw/dotnet/api/system.xml.serialization.xmlserializer.deserialize?view=net-8.0#system-xml-serialization-xmlserializer-deserialize(system-xml-xmlreader))
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- XML
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

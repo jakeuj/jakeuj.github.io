@@ -48,16 +48,3 @@ modelBuilder.Entity<Test>()
 ### 延伸
 
 [ABP.IO WEB應用程式框架 取得關聯資料](ABP.IO-WEB應用程式框架-取得關聯資料-include.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

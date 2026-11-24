@@ -55,17 +55,3 @@ https://msdn.microsoft.com/library/system.threading.threadpool.setminthreads.asp
 
 - Outside of ASP.NET, use the [ThreadPool.SetMinThreads(…)](https://docs.microsoft.com/en-us/dotnet/api/system.threading.threadpool.setminthreads?view=netcore-2.0#System_Threading_ThreadPool_SetMinThreads_System_Int32_System_Int32_) API.
 - In .Net Core, add Environment Variable COMPlus\_ThreadPool\_ForceMinWorkerThreads to overwrite default MinThreads setting, according to [Environment/Registry Configuration Knobs](https://github.com/dotnet/coreclr/blob/master/Documentation/project-docs/clr-configuration-knobs.md) - You can also use the same ThreadPool.SetMinThreads() Method as described above.
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- Redis
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -92,18 +92,3 @@ Port 則是 6379
 ## 延伸閱讀
 
 [透過 Proxy 使用 Azure HCM (混合式連線管理員)](https://jakeuj.com/透過-proxy-使用-azure-hcm-混合式連線管理員.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- App Service
-{ignore-vars="true"}
-- Azure
-- Cloud
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

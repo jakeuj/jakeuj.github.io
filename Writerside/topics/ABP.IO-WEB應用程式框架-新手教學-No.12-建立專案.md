@@ -128,15 +128,3 @@ ABP.IO 實際將.Net Solution 依照 DDD 拆成以下 Projects
 ---
 
 [ABP.IO WEB應用程式框架 新手教學 No.2 建立實體 Entity](ABP.IO-WEB應用程式框架-新手教學-No.13-建立實體-Entity.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

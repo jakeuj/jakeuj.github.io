@@ -29,15 +29,3 @@ VM應該是用上面方法就可以了
 好像要裝一個類似中轉的程式
 
 身為開發只覺得連外擋這些 Port 令人困擾
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Azure
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

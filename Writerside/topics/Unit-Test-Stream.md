@@ -63,15 +63,3 @@ public class AzureStorageDomainTest: OrderDomainTestBase
     }
 }
 ```
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- UnitTest
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

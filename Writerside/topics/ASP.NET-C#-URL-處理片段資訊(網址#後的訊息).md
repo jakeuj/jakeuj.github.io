@@ -29,16 +29,3 @@ Console.WriteLine("Hash code {0}", uriAddress.GetHashCode());
 最近在逛MSDN時發現原來C#也是可以取得 片段標記# 的資料
 
 於是乎就記下來供以後查閱！
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

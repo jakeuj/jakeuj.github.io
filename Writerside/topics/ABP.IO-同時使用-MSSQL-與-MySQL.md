@@ -70,18 +70,3 @@ Configure<AbpDbContextOptions>(options =>
 [How To Check MySQL Version: 5 Easy Commands {Ubuntu, Linux} (phoenixnap.com)](https://phoenixnap.com/kb/how-to-check-mysql-version)
 
 [ABP.IO WEB應用程式框架 使用多個資料庫](ABP.IO-WEB應用程式框架-使用多個資料庫.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-- MSSQL
-- MySql
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

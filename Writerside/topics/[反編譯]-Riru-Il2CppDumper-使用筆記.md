@@ -100,18 +100,3 @@ bin\apktool\signapk.bat
 把該文件內改成呼叫 JDK 內建的簽名 jarsigner
 
 [http - java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder - Stack Overflow](https://stackoverflow.com/questions/29692146/java-lang-noclassdeffounderror-sun-misc-base64encoder)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Riru-Il2CppDumper
-- Unity
-- 反編譯
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

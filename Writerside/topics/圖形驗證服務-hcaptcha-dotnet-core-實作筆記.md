@@ -176,20 +176,3 @@ Properties\launchSettings.json
 參照：官方API技術說明文件 https://docs.hcaptcha.com/
 
 參考：https://www.ithome.com.tw/news/136936​
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- C#
-{ignore-vars="true"}
-- .Net Core
-{ignore-vars="true"}
-- HttpClinet
-- hcaptcha
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

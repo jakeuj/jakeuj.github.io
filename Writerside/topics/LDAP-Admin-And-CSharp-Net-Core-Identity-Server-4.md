@@ -79,16 +79,3 @@ Ldap Admin 下載：http://www.ldapadmin.org/
 ![成功就可以連過去看到內容](dotblogs-ad5dae73-1627623650.jpg)
 
 參照：https://karatejb.blogspot.com/2019/07/aspnet-core-identity-server-4-ldap.html
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- AD
-- LDAP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

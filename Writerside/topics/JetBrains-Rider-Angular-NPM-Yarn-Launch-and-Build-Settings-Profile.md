@@ -15,17 +15,3 @@ Argument：-o
 ng build --prod
 
 ![ng build --prod](dotblogs-e6602e36-1559131227_82419.png)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- Rider
-- JetBrains
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

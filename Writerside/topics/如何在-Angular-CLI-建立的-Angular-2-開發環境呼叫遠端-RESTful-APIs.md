@@ -61,15 +61,3 @@ module.exports = setupForCorporateProxy(proxyConfig);
 [Angular 6 Tutorial 13: Configure Proxy for API calls](https://www.youtube.com/watch?v=z1MUmTjYKH8)
 
 [Angular 7 Using corporate proxy](https://angular.io/guide/build#using-corporate-proxy)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

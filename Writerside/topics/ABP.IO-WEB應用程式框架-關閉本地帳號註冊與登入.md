@@ -31,17 +31,3 @@ appsettings.json 設定以下內容
 設定在資料庫的 [IdentityServerClients].[EnableLocalLogin]
 
 也要改成 false 不然還是會停在登入選擇畫面哦
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Azure AD
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

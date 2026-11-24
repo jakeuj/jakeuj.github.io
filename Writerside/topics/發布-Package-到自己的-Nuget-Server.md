@@ -15,15 +15,3 @@ dotnet nuget push YourLib.1.1.1.nupkg --api-key YourApiKey --source <https://you
 Ref
 
 [連線到摘要併發布 NuGet 套件 - NuGet.exe - Azure Artifacts | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/devops/artifacts/nuget/publish?view=azure-devops#publish-packages-from-external-sources)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- NuGet
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

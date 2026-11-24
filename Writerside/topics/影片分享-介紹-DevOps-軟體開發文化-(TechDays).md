@@ -31,15 +31,3 @@ DevOps我想有兩個重點
 　　因應現在產業環境變化快速，企業需要迅速以新產品功能來回應新需求，而在競爭激烈的各產業界來說，能夠比對手更快提供新服務，就能增加企業競爭力，避免被環境所淘汰。
 
 http://video.ch9.ms/ch9/8551/335491af-f416-4789-ac1e-76370a968551/DEV301_mid.mp4
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- DevOps
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

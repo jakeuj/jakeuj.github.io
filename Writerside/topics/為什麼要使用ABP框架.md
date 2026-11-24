@@ -33,15 +33,3 @@
 ### ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.0 全篇索引
 
 參考文件：[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.0 全篇索引](abp-asp-net-boilerplate-tutorial-00-index.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -66,17 +66,3 @@ net start w3svc
 https://docs.microsoft.com/zh-tw/aspnet/core/host-and-deploy/iis/hosting-bundle?view=aspnetcore-5.0
 
 https://blog.johnwu.cc/article/iis-run-asp-net-core.html
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- IIS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

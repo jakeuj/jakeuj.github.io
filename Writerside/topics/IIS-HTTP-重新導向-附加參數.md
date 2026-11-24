@@ -57,15 +57,3 @@ IIS HTTP 重新導向
 純筆記 很亂 待整理~
 
 Ref：http://www.izhangheng.com/iis-301-permanent-redirect-settings-and-parameters-introduced
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -138,15 +138,3 @@ Auth
 [ABP.IO WEB應用程式框架 新手教學 No.06 開發教學 第 5 部分 授權](ABP.IO-WEB應用程式框架-新手教學-No.06-開發教學-第-5-部分-授權.md)
 
 [官方說明文件 - 權限](https://docs.abp.io/zh-Hans/abp/latest/Authorization)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

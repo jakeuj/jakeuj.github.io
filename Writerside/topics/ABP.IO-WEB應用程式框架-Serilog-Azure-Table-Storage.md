@@ -119,18 +119,3 @@ try
 [最詳細 ASP.NET Core 使用 Serilog 套件寫 log 教學](https://www.ruyut.com/2022/09/aspnet-core-serilog.html)
 
 [serilog/serilog-sinks-async: An asynchronous wrapper for Serilog sinks that logs on a background thread (github.com)](https://github.com/serilog/serilog-sinks-async#xml-appsettings-and-json-configuration)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Azure
-- Serilog
-- Storage
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

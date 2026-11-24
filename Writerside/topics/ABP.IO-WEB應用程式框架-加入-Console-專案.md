@@ -181,16 +181,3 @@ public async Task StartAsync(CancellationToken cancellationToken)
 ### 延伸閱讀
 
 [.NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting](.NET-Core-5-Console-泛用主機-依照環境變數讀取對應設定檔-AppSetting.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Console
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

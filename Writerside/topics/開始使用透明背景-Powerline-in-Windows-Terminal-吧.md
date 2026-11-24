@@ -122,15 +122,3 @@ https://docs.microsoft.com/en-us/windows/terminal/custom-terminal-gallery/custom
 acrylicOpacity 0.5 會比較亮
 
 ![acrylicOpacity 0.5 會比較亮](dotblogs-ebafa58a-1612521140.jpg)
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- PowerShell
-- Terminal
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

@@ -51,21 +51,3 @@ public override void PreInitialize()
 參照：[資料點-EF Core 中的 SQL 和變更追蹤的事件記錄](http://​https://msdn.microsoft.com/zh-tw/magazine/mt830355.aspx) (已過時)
 
 參照：[ABP框架將EntityFrameworkCore生成的SQL語句輸出到控制台](https://www.cnblogs.com/WNpursue/p/ABP-USE-UseLoggerFactory-ILoggerFactory.html)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-- Entity Framework
-{ignore-vars="true"}
-- Entity Framework
-{ignore-vars="true"}
-- Log
-- SQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

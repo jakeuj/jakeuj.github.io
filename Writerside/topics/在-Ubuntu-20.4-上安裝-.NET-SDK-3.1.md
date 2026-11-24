@@ -74,18 +74,3 @@ dotnet --info
 `apt-get install zip unzip`
 
 `zip -r webplusdemo.zip ./publish/`
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- .Net Core
-{ignore-vars="true"}
-- Linux
-- Ubuntu
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

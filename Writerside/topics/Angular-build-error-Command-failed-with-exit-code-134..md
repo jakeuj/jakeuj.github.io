@@ -14,16 +14,3 @@
 > info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 >
 > Process finished with exit code 134
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Angular
-- NodeJs
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

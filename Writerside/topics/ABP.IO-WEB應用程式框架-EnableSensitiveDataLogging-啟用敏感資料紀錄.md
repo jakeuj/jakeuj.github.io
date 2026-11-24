@@ -45,16 +45,3 @@ Configure<AbpDbContextOptions>(options =>
 參照
 
 [DbContextOptionsBuilder.EnableSensitiveDataLogging throws InvalidOperationException · Issue #4557 · abpframework/abp (github.com)](https://github.com/abpframework/abp/issues/4557)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

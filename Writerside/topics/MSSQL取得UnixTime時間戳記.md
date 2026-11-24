@@ -23,15 +23,3 @@ SELECT DATEDIFF(SS,'1970-01-01',GETUTCDATE())
 有更好的方法可以再分享給我
 
 微軟跟Uinx有這麼不友好嗎@@?
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- MSSQL
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

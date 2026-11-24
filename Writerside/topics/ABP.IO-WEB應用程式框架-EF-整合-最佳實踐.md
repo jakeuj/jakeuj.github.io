@@ -201,16 +201,3 @@ public class AbpIdentityEntityFrameworkCoreModule : AbpModule
 ## 參照
 
 [Best Practices/Entity Framework Core Integration | Documentation Center | ABP.IO](https://docs.abp.io/zh-Hans/abp/latest/Best-Practices/Entity-Framework-Core-Integration)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- Entity Framework
-{ignore-vars="true"}
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

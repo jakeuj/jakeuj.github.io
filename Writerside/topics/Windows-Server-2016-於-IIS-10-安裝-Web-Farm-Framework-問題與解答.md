@@ -66,16 +66,3 @@ My question is that does Web Farm Framework 2.2 still support IIS 10?
 升級正式環境之前請各位先於開發測試環境好好測試原本的系統是否可以正常運作
 
 以上
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- IIS
-- Server
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*

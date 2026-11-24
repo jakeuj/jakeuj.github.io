@@ -242,15 +242,3 @@ No 2.5 [領域服務 Domain Service](https://docs.abp.io/en/abp/latest/Domain-Se
 ---
 
 [ABP.IO WEB應用程式框架 新手教學 No.3 建立資料庫上下文 DbContext](ABP.IO-WEB應用程式框架-新手教學-No.14-建立資料庫上下文-DbContext.md)
-
-![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
-
-PS5
-
-- ABP
-
-- 回首頁
-
----
-
-*本文章從點部落遷移至 Writerside*
