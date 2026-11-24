@@ -28,7 +28,7 @@ git update-index --skip-worktree /path/to/file
 
 ## 參照
 
-[[Git] .gitignore 和.git/info/exclude 的區別 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-exclude)
+[[Git] .gitignore 和.git/info/exclude 的區別](https://jakeuj.com/git-gitignore-和-gitinfoexclude-的區別.html)
 
 [Git 小技巧 - 忽略不想要提交的本地修改 | Mengqi's blog (mengqi92.github.io)](https://mengqi92.github.io/2020/07/17/hide-files-from-git/)
 
