@@ -18,7 +18,9 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 2.使用 Visual Studio 2013 以上版本來開啟專案(這邊我使用Visual Studio 15)，並將[MyCompany.MyProject.Web]設為起始專案
 
-![2.使用 Visual Studio 2013 以上版本來開啟專案(這邊我使用Visual Studio 15)，並將[MyCompany.MyProject.](dotblogs-9886c5a0-1469525074_84791.png)如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或LocalDB
+![將 MyCompany.MyProject.Web 設為起始專案](dotblogs-9886c5a0-1469525074_84791.png)
+
+如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或LocalDB
 
 ```xml
 <add name="Default" connectionString="Server=localhost; Database=MyProject; Trusted_Connection=True;" providerName="System.Data.SqlClient" />

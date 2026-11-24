@@ -6,7 +6,7 @@
 
 以Windows Live Writer發布DotBlog文章+CODE編輯(外掛程式)
 
-[![2](dotblogs-080be9e9-2_thumb.jpg "2")](dotblogs-080be9e9-2.jpg)
+![2](dotblogs-080be9e9-2.jpg "2")
 
 Code Snippet plugin for Windows Live Writer 產生之原始碼
 
