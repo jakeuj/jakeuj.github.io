@@ -1,8 +1,6 @@
 # Azure App Service 存取限制
 
-> **原文發布日期:** 2021-09-01
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/01/AzureAppService403
-> **標籤:** 無
+> 首次發表：2021-09-01
 
 ---
 
@@ -18,7 +16,7 @@
 
 IS4 噴 500 Error，找元凶是裡面 Get /.well-known/openid-configuration 噴 403 Error…
 
-[ABP.IO WEB應用程式框架 AzureAD 登入 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/08/23/AbpAzureAdLogin)
+[ABP.IO WEB應用程式框架 AzureAD 登入](ABP.IO-WEB應用程式框架-AzureAD-登入.md)
 
 ## TODO
 

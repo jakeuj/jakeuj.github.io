@@ -1,8 +1,6 @@
 # Jetbrains Writerside CI/CD 自動化部署 Markdown 到 GIthub Pages
 
-> **原文發布日期:** 2024-02-06
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/02/06/deploy-docs-to-github-pages
-> **標籤:** 無
+> 首次發表：2024-02-06
 
 ---
 
@@ -143,7 +141,7 @@ jobs:
       uses: actions/deploy-pages@v1
 ```
 
-![deploy.yml](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207652.png.png)![deploy.yml 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207569.png.png)![deploy.yml 3](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207591.png.png)![deploy.yml 4](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207507.png.png)![deploy.yml 5](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207607.png.png)![deploy.yml 6](https://dotblogsfile.blob.core.windows.net/user/小小朱/21ffcb21-7990-4684-ad40-36cd35a0a19f/1707207729.png.png)
+![deploy.yml](dotblogs-21ffcb21-1707207652.jpg)![deploy.yml 2](dotblogs-21ffcb21-1707207569.jpg)![deploy.yml 3](dotblogs-21ffcb21-1707207591.jpg)![deploy.yml 4](dotblogs-21ffcb21-1707207507.jpg)![deploy.yml 5](dotblogs-21ffcb21-1707207607.jpg)![deploy.yml 6](dotblogs-21ffcb21-1707207729.jpg)
 
 ## 來源
 

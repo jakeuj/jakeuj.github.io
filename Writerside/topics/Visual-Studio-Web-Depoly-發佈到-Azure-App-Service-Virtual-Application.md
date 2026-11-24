@@ -1,8 +1,6 @@
 # Visual Studio Web Deploy
 
-> **原文發布日期:** 2021-08-16
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/16/VsDepolyVirtualApplication
-> **標籤:** 無
+> 首次發表：2021-08-16
 
 ---
 
@@ -20,15 +18,15 @@
 
 記得儲存！
 
-![記得儲存！](https://dotblogsfile.blob.core.windows.net/user/御星幻/5c9f8a59-8d4d-48b4-8696-0e10967be384/1629095767.png)
+![記得儲存！](dotblogs-5c9f8a59-1629095767.jpg)
 
 VS 對著專案按右鍵選"發佈"
 
-![VS 對著專案按右鍵選"發佈"](https://dotblogsfile.blob.core.windows.net/user/御星幻/5c9f8a59-8d4d-48b4-8696-0e10967be384/1629095883.png)
+![VS 對著專案按右鍵選"發佈"](dotblogs-5c9f8a59-1629095883.jpg)
 
 選 Azure
 
-![選 Azure](https://dotblogsfile.blob.core.windows.net/user/御星幻/5c9f8a59-8d4d-48b4-8696-0e10967be384/1629095924.png)
+![選 Azure](dotblogs-5c9f8a59-1629095924.jpg)
 
 選你要發佈的 App Service
 
@@ -40,7 +38,7 @@ VS 對著專案按右鍵選"發佈"
 
 找到 DeployIisAppPath 把裡面的值後面加上剛剛設定的虛擬路徑 \test
 
-![找到 DeployIisAppPath 把裡面的值後面加上剛剛設定的虛擬路徑 \test](https://dotblogsfile.blob.core.windows.net/user/御星幻/5c9f8a59-8d4d-48b4-8696-0e10967be384/1629096220.png)
+![找到 DeployIisAppPath 把裡面的值後面加上剛剛設定的虛擬路徑 \test](dotblogs-5c9f8a59-1629096220.jpg)
 
 如果要發佈完直接打開 \test 可以改 SiteUrlToLaunchAfterPublish 把後面加上/test
 

@@ -1,8 +1,6 @@
 # GCP GAE 連接 Cloud SQL
 
-> **原文發布日期:** 2023-11-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/11/29/connect-instance-app-engine
-> **標籤:** 無
+> 首次發表：2023-11-29
 
 ---
 
@@ -24,15 +22,15 @@ Google App Engine 連 Google Cloud SQL (MSSQL) 沒有驅動
 
 Default
 
-![Default](https://dotblogsfile.blob.core.windows.net/user/小小朱/4a6928f1-d9fd-4c66-b1ab-b3b4df774e91/1701238811.png.png)
+![Default](dotblogs-4a6928f1-1701238811.jpg)
 
 分配
 
-![分配](https://dotblogsfile.blob.core.windows.net/user/小小朱/4a6928f1-d9fd-4c66-b1ab-b3b4df774e91/1701238693.png.png)
+![分配](dotblogs-4a6928f1-1701238693.jpg)
 
 SQL
 
-![SQL](https://dotblogsfile.blob.core.windows.net/user/小小朱/4a6928f1-d9fd-4c66-b1ab-b3b4df774e91/1701239275.png.png)
+![SQL](dotblogs-4a6928f1-1701239275.jpg)
 
 最後可以用私有 IP 並指定 Port 來連線
 

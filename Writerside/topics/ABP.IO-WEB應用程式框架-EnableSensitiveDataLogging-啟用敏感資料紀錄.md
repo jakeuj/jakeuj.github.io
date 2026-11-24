@@ -1,8 +1,6 @@
 # ABP.IO EnableSensitiveDataLogging
 
-> **原文發布日期:** 2021-11-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/11/05/Abp-Enable-Sensitive-Data-Logging
-> **標籤:** 無
+> 首次發表：2021-11-05
 
 ---
 

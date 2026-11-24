@@ -1,8 +1,6 @@
 # Windows Docker TensorFlow GPU
 
-> **原文發布日期:** 2024-01-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/29/ml-tensorflow-windows-gpu
-> **標籤:** 無
+> 首次發表：2024-01-29
 
 ---
 
@@ -52,7 +50,7 @@ print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
 
 `--gpus all`
 
-![--gpus all](https://dotblogsfile.blob.core.windows.net/user/小小朱/e655befd-00ba-426f-a1bd-b5172f7ce3c1/1706510625.png.png)
+![--gpus all](dotblogs-e655befd-1706510625.jpg)
 
 Output:
 

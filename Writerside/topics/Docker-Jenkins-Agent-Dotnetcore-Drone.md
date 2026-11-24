@@ -1,8 +1,6 @@
 # Docker Jenkins Agent Dotnetcore Drone
 
-> **原文發布日期:** 2021-04-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/19/Jenkins
-> **標籤:** 無
+> 首次發表：2021-04-19
 
 ---
 

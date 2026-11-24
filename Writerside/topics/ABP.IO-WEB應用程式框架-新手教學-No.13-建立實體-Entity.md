@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.13 建立實體 Entity
 
-> **原文發布日期:** 2021-07-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/aaboio2
-> **標籤:** 無
+> 首次發表：2021-07-19
 
 ---
 
@@ -18,7 +16,7 @@
 
 原本的 Domain 裡面長這樣
 
-![原本的 Domain 裡面長這樣](https://dotblogsfile.blob.core.windows.net/user/御星幻/87bcc78e-ff0f-4121-8da5-3e2426d8cc84/1626666566.png)
+![原本的 Domain 裡面長這樣](dotblogs-87bcc78e-1626666566.jpg)
 
 - Data：處理 SeedData 的東西
 - Identity Server：身分驗證服務器的 SeedData
@@ -215,7 +213,7 @@ namespace Acme.BookStore.Books
 
 各實體會用到的 enum 移駕到 Domain.Shared ，所以最後長這樣
 
-![各實體會用到的 enum 移駕到 Domain.Shared ，所以最後長這樣](https://dotblogsfile.blob.core.windows.net/user/御星幻/60153255-a148-491d-a092-bf8a0f9e7b90/1626677558.png)
+![各實體會用到的 enum 移駕到 Domain.Shared ，所以最後長這樣](dotblogs-60153255-1626677558.jpg)
 
 如果你書還有其他相關實體，比如甚麼書的附件啦，圖片啦，就應該都放在Books這個資料夾內，
 
@@ -243,7 +241,7 @@ No 2.5 [領域服務 Domain Service](https://docs.abp.io/en/abp/latest/Domain-Se
 
 ---
 
-[ABP.IO WEB應用程式框架 新手教學 No.3 建立資料庫上下文 DbContext](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio3)
+[ABP.IO WEB應用程式框架 新手教學 No.3 建立資料庫上下文 DbContext](ABP.IO-WEB應用程式框架-新手教學-No.14-建立資料庫上下文-DbContext.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

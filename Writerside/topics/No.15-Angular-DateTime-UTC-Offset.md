@@ -1,8 +1,6 @@
 # No.15 Angular DateTime UTC Offset
 
-> **原文發布日期:** 2019-09-17
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/09/17/abp15
-> **標籤:** 無
+> 首次發表：2019-09-17
 
 ---
 

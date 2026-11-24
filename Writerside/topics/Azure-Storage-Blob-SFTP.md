@@ -1,14 +1,12 @@
 # Azure Storage Blob SFTP
 
-> **原文發布日期:** 2022-10-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/13/Azure-Storage-SFTP
-> **標籤:** 無
+> 首次發表：2022-10-13
 
 ---
 
 Azure 儲存體服務 SFTP 功能支援
 
-![Azure 儲存體服務 SFTP 功能支援](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1689068527.png.png)
+![Azure 儲存體服務 SFTP 功能支援](dotblogs-6bb59fed-1689068527.jpg)
 
 ## 結論
 
@@ -23,7 +21,7 @@ Azure 儲存體服務 SFTP 功能支援
 4. 以上設定皆為非同步作業，所以即便設定正確可能需要等一下才能正常連線
 5. WinSCP 版本需要 5.10 以上，官方文件有列出支援的 Clinet 與最低版本
 
-![WinSCP 版本需要 5.10 以上，官方文件有列出支援的 Clinet 與最低版本](https://dotblogsfile.blob.core.windows.net/user/小小朱/6bb59fed-05af-48d2-b9a5-5c53fe2be4ab/1696228500.png.png)
+![WinSCP 版本需要 5.10 以上，官方文件有列出支援的 Clinet 與最低版本](dotblogs-6bb59fed-1696228500.jpg)
 
 ### 啟用
 

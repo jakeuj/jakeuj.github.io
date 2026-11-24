@@ -1,8 +1,6 @@
 # Git Pull Error Filename too long
 
-> **原文發布日期:** 2021-07-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/27/Filename-too-long
-> **標籤:** 無
+> 首次發表：2021-07-27
 
 ---
 

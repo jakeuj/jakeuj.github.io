@@ -1,8 +1,6 @@
 # GCP Vector Search
 
-> **原文發布日期:** 2023-10-31
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/10/31/GCP-Vector-Search-Namespace-Filtering
-> **標籤:** 無
+> 首次發表：2023-10-31
 
 ---
 

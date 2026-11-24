@@ -1,14 +1,12 @@
 # 發布技術文章 (Windows Live Writer &#x2B; 程式碼插入外掛程式) {id="Publish-Technical-Articles-Windows-Live-Writer-Code-Plugin"}
 
-> **原文發布日期:** 2011-07-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2011/07/08/31325
-> **標籤:** 無
+> 首次發表：2011-07-08
 
 ---
 
 以Windows Live Writer發布DotBlog文章+CODE編輯(外掛程式)
 
-[![2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/1107/080be9e92d5b_C86C/2_thumb.jpg "2")](https://dotblogsfile.blob.core.windows.net/user/jakeuj/1107/080be9e92d5b_C86C/2.jpg)
+[![2](dotblogs-080be9e9-2_thumb.jpg "2")](dotblogs-080be9e9-2.jpg)
 
 Code Snippet plugin for Windows Live Writer 產生之原始碼
 

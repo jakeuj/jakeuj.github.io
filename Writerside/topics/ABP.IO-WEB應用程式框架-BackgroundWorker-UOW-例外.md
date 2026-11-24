@@ -1,8 +1,6 @@
 # ABP.IO BackgroundWorker UOW 例外
 
-> **原文發布日期:** 2022-08-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/08/19/abp-Background-Job-uow
-> **標籤:** 無
+> 首次發表：2022-08-19
 
 ---
 

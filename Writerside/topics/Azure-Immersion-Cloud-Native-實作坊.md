@@ -1,8 +1,6 @@
 # Azure Immersion: Cloud Native 實作坊
 
-> **原文發布日期:** 2021-03-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/25/AzureCloudNative
-> **標籤:** 無
+> 首次發表：2021-03-25
 
 ---
 
@@ -20,7 +18,7 @@ https://github.com/Microsoft-CloudRiches/MCW-Cloud-native-applications/blob/mast
   Azure cloud command 一開始一直卡在 request 沒辦法 success
   我是用 Vivaldi 瀏覽器，後來用 Chrome 開就成功了，然後回 Vivaldi 也可以正常用
 
-![我是用 Vivaldi 瀏覽器，後來用 Chrome 開就成功了，然後回 Vivaldi 也可以正常用](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616666171.jfif)
+![我是用 Vivaldi 瀏覽器，後來用 Chrome 開就成功了，然後回 Vivaldi 也可以正常用](dotblogs-00000000-1616666171.jpg)
 
 - Task 6: Deploy ARM Template Step 2 => code azuredeploy.parameters.json
   **Suffix 會影響建立的 DNS 比如填了sol 會嘗試生成 fabmedicalsol.azurecr.io**

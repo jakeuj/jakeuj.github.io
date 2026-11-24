@@ -1,8 +1,6 @@
 # ASP.NET Web Forms 下拉式選單
 
-> **原文發布日期:** 2024-01-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/03/asp-net-web-form-dropdownlist
-> **標籤:** 無
+> 首次發表：2024-01-03
 
 ---
 

@@ -1,8 +1,6 @@
 # C# AutoMapper switch 運算式
 
-> **原文發布日期:** 2023-03-07
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/03/07/CSharp-AutoMapper-Switch
-> **標籤:** 無
+> 首次發表：2023-03-07
 
 ---
 

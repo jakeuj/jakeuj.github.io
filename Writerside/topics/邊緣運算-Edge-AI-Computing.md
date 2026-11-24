@@ -1,8 +1,6 @@
 # 邊緣運算 Edge AI Computing
 
-> **原文發布日期:** 2021-03-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/22/EdgeAiComputing
-> **標籤:** 無
+> 首次發表：2021-03-22
 
 ---
 

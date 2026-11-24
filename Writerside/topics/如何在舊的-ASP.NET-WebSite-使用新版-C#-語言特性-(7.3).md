@@ -1,8 +1,6 @@
 # ASP.NET WebSite 使用新版 C Sharp
 
-> **原文發布日期:** 2021-12-16
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/12/16/WebSite-CSharp-7
-> **標籤:** 無
+> 首次發表：2021-12-16
 
 ---
 

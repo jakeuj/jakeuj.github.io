@@ -1,8 +1,6 @@
 # Git Credential Manager for Windows
 
-> **原文發布日期:** 2024-03-06
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/03/06/Git-Credential-Manager
-> **標籤:** 無
+> 首次發表：2024-03-06
 
 ---
 
@@ -20,7 +18,7 @@
 
 如有卡到舊的陰可能要清除舊的 `credential` 區段
 
-![如有卡到舊的陰可能要清除舊的 credential 區段](https://dotblogsfile.blob.core.windows.net/user/小小朱/f9e1de8c-04e1-437f-aa74-8b2b9d8de6b4/1709714123.png.png)
+![如有卡到舊的陰可能要清除舊的 credential 區段](dotblogs-f9e1de8c-1709714123.jpg)
 
 以下是清除後應該長成(乾淨)的樣子
 

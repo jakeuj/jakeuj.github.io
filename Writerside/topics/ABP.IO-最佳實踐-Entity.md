@@ -1,8 +1,6 @@
 # ABP.IO 最佳實踐 Entity
 
-> **原文發布日期:** 2023-06-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/28/ABP-Best-Practices-Entities
-> **標籤:** 無
+> 首次發表：2023-06-28
 
 ---
 

@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 取得環境名稱
 
-> **原文發布日期:** 2023-04-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/14/abp-IAbpHostEnvironment
-> **標籤:** 無
+> 首次發表：2023-04-14
 
 ---
 

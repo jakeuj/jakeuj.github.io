@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 使用多個資料庫
 
-> **原文發布日期:** 2021-10-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/10/04/Abp-Using-Multiple-Databases
-> **標籤:** 無
+> 首次發表：2021-10-04
 
 ---
 
@@ -99,7 +97,7 @@ private bool MigrationsFolderExists()
 
 ### 參照
 
-[Entity Framework Core Migrations | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2019/07/23/EFCoreMigrations)
+[Entity Framework Core Migrations](Entity-Framework-Core-Migrations.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

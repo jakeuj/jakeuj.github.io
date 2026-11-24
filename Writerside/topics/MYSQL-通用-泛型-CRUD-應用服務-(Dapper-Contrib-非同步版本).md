@@ -1,8 +1,6 @@
 # MYSQL Dapper CRUD
 
-> **原文發布日期:** 2019-09-06
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/09/06/CrudAppService
-> **標籤:** 無
+> 首次發表：2019-09-06
 
 ---
 

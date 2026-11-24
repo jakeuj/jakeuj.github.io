@@ -1,8 +1,6 @@
 # MSSQL Local Db 服務無法啟動 Error 1069
 
-> **原文發布日期:** 2022-03-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/14/MSSQL-LocalDb-Error-1069
-> **標籤:** 無
+> 首次發表：2022-03-14
 
 ---
 
@@ -12,7 +10,7 @@ Error 1069: The service did not start due to a logon failure.
 
 到服務內容的登入把密碼清空後確認即可正常啟動
 
-![到服務內容的登入把密碼清空後確認即可正常啟動](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6a59a314-0d32-4fea-8a51-a20cc8e59e87/1647243366.jpg.jpg)
+![到服務內容的登入把密碼清空後確認即可正常啟動](dotblogs-6a59a314-1647243366.jpg)
 
 參照
 

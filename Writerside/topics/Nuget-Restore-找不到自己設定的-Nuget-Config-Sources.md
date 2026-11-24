@@ -1,8 +1,6 @@
 # Nuget Restore 找不到自己設定的 Nuget Config Sources
 
-> **原文發布日期:** 2024-03-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/03/04/CSharp-Nuget-Config
-> **標籤:** 無
+> 首次發表：2024-03-04
 
 ---
 
@@ -55,7 +53,7 @@
 
 ## 延伸閱讀
 
-[發布 Package 到自己的 Nuget Server | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/12/19/dotnet-nuget-push-Package-Nuget-Server)
+[發布 Package 到自己的 Nuget Server](發布-Package-到自己的-Nuget-Server.md)
 
 [指定 NuGet packages 存放位置 - Yowko's Notes](https://blog.yowko.com/nuget-folder/)
 

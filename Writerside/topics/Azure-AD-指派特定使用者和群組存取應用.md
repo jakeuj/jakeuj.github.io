@@ -1,8 +1,6 @@
 # Azure AD 指派特定使用者和群組存取應用
 
-> **原文發布日期:** 2021-09-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/09/Azure-AD-User-Assigned
-> **標籤:** 無
+> 首次發表：2021-09-09
 
 ---
 
@@ -16,7 +14,7 @@ Azure > AAD > 企業應用程式 > MyApp > 屬性 > 需要使用者指派嗎？
 
 這樣只要不在事先指定名單的人/群組，登入網站時就會看到以下錯誤畫面
 
-![這樣只要不在事先指定名單的人/群組，登入網站時就會看到以下錯誤畫面](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cdb64d1b-0a86-4a2c-880f-c0a7ef65c5cb/1631177406.png)
+![這樣只要不在事先指定名單的人/群組，登入網站時就會看到以下錯誤畫面](dotblogs-cdb64d1b-1631177406.jpg)
 
 如果你把各種網站登入都使用同一個應用
 

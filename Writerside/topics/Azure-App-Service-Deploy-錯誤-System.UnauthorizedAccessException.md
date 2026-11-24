@@ -1,8 +1,6 @@
 # Azure App Service Deploy 錯誤 System.UnauthorizedAccessException
 
-> **原文發布日期:** 2024-02-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/02/21/Attempted-to-perform-an-unauthorized-operation
-> **標籤:** 無
+> 首次發表：2024-02-21
 
 ---
 
@@ -12,17 +10,17 @@
 
 添加應用程式設定值
 
-![添加應用程式設定值](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499037.png.png)
+![添加應用程式設定值](dotblogs-cd613192-1708499037.jpg)
 
 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`
 
-![DOTNETADDGLOBALTOOLSTOPATH=false](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499419.png.png)
+![DOTNETADDGLOBALTOOLSTOPATH=false](dotblogs-cd613192-1708499419.jpg)
 
 部署成功
 
 ## 徵狀
 
-![徵狀](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499789.png.png)
+![徵狀](dotblogs-cd613192-1708499789.jpg)
 
 ```
 2020-04-17T13:10:41.963 [Information] System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
@@ -54,7 +52,7 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 
 甚麼，妳問我原因？
 
-![不要问我为什么存不了钱微信表情包删除又重新下载地址– 第2页– 表情包制作](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708499282.jpeg.jpeg)
+![不要问我为什么存不了钱微信表情包删除又重新下载地址– 第2页– 表情包制作](dotblogs-cd613192-1708499282.jpg)
 
 設定 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false` 的作用是禁止 .NET Core CLI 在首次運行時將全局工具的路徑添加到系統的環境變數中。
 
@@ -62,7 +60,7 @@ Azure App Service 部屬中心 選擇 DevOps Repo 來源完成 CI/CD 設定
 
 通過設定 `DOTNET_ADD_GLOBAL_TOOLS_TO_PATH=false`，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 `PATH` 環境變數，從而避免了權限問題，使得您的應用程式可以正常部署。這種方法的缺點是您無法在該環境中直接使用全局安裝的 .NET 工具，但對於大多數 Web 應用程式來說，這通常不是問題。
 
-![通過設定 DOTNETADDGLOBALTOOLSTOPATH=false，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 PATH 環境變](https://dotblogsfile.blob.core.windows.net/user/小小朱/cd613192-6c2b-45b8-8e5e-30fec9cd8570/1708500252.png.png)
+![通過設定 DOTNETADDGLOBALTOOLSTOPATH=false，您告訴 .NET Core CLI 在首次運行時不要嘗試修改系統的 PATH 環境變](dotblogs-cd613192-1708500252.jpg)
 
 ## 參照
 

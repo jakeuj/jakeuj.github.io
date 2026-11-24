@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.14 建立資料庫上下文 DbContext
 
-> **原文發布日期:** 2021-07-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio3
-> **標籤:** 無
+> 首次發表：2021-07-19
 
 ---
 
@@ -22,7 +20,7 @@ public class BookStoreDbContext : AbpDbContext<BookStoreDbContext>
 
 然後關於表的額外設定要到 BookStoreDbContextModelCreatingExtensions 去新增
 
-![然後關於表的額外設定要到 BookStoreDbContextModelCreatingExtensions 去新增](https://dotblogsfile.blob.core.windows.net/user/御星幻/f1e3a920-f5c1-4227-9e4e-fbc75d5883e8/1626681339.png)
+![然後關於表的額外設定要到 BookStoreDbContextModelCreatingExtensions 去新增](dotblogs-f1e3a920-1626681339.jpg)
 
 ```
 namespace Acme.BookStore.EntityFrameworkCore
@@ -59,7 +57,7 @@ namespace Acme.BookStore.EntityFrameworkCore
 
 [多個連線字串對應到不同DbContext](https://docs.abp.io/en/abp/latest/Connection-Strings#set-the-connection-string-name)
 
-[ABP.IO WEB應用程式框架 新手教學 No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio4)
+[ABP.IO WEB應用程式框架 新手教學 No.4 資料庫遷移 Migration](ABP.IO-WEB應用程式框架-新手教學-No.15-資料庫遷移-Migration.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 更改 IS4 連線字串
 
-> **原文發布日期:** 2021-08-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/26/Abp-IdentityServer-connection-string
-> **標籤:** 無
+> 首次發表：2021-08-26
 
 ---
 

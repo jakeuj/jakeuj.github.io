@@ -1,8 +1,6 @@
 # HTTP 301 Moved Permanently https://jakeuj.com/
 
-> **原文發布日期:** 2024-09-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/09/24/jakeuj-com
-> **標籤:** 無
+> 首次發表：2024-09-24
 
 ---
 

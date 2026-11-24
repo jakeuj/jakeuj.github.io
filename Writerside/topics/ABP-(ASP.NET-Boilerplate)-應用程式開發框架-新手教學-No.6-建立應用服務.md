@@ -1,8 +1,6 @@
 # ABP 新手教學 No.6 建立應用服務
 
-> **原文發布日期:** 2016-07-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp6
-> **標籤:** 無
+> 首次發表：2016-07-28
 
 ---
 
@@ -20,7 +18,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.6 建立應�
 
 建立PlayerApp資料夾(命名規則：xxxxxApp)來放我們的服務 (介面 IPlayerAppService、類別 PlayerAppService)
 
-![建立PlayerApp資料夾(命名規則：xxxxxApp)來放我們的服務 (介面 IPlayerAppService、類別 PlayerAppService)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/8fbbeb16-8d2e-45cb-99dc-4e8802a4419a/1469676937_25115.png)其中建立DTO資料夾來放基本DTO與輸入/輸出DTO (PlayerDto、PlayerInput、PlayerOptput)
+![建立PlayerApp資料夾(命名規則：xxxxxApp)來放我們的服務 (介面 IPlayerAppService、類別 PlayerAppService)](dotblogs-8fbbeb16-1469676937_25115.png)其中建立DTO資料夾來放基本DTO與輸入/輸出DTO (PlayerDto、PlayerInput、PlayerOptput)
 
 MyCompany.MyProject.Application\PlayerApp\Dto\PlayerDto.cs
 

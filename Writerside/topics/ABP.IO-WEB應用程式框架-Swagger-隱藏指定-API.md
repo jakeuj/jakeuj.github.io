@@ -1,8 +1,6 @@
 # ABP.IO Swagger 隱藏指定 API
 
-> **原文發布日期:** 2021-09-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Swagger-Hide-Endpoint
-> **標籤:** 無
+> 首次發表：2021-09-08
 
 ---
 

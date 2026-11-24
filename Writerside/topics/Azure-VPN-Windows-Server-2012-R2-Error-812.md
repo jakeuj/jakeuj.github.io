@@ -1,8 +1,6 @@
 # Azure VPN Windows Server 2012 R2 Error 812
 
-> **原文發布日期:** 2022-06-15
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/06/15/AzureVpnWindowsServer2012R2Error812
-> **標籤:** 無
+> 首次發表：2022-06-15
 
 ---
 

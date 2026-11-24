@@ -1,8 +1,6 @@
 # ABP 新手教學 No.5 建立倉儲 Repository
 
-> **原文發布日期:** 2016-07-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp5
-> **標籤:** 無
+> 首次發表：2016-07-28
 
 ---
 
@@ -24,7 +22,7 @@ ABP有內建基本常用的倉儲功能例如CRUD，而我們可以進行擴充
 
 MyCompany.MyProject.Core\IRepositories\
 
-![MyCompany.MyProject.Core\IRepositories\](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6b10a8cd-2443-44d7-8c9b-c0639abe6c6f/1469674105_26116.png)然後我們新增一個介面 IPlayerRepository.cs
+![MyCompany.MyProject.Core\IRepositories\](dotblogs-6b10a8cd-1469674105_26116.png)然後我們新增一個介面 IPlayerRepository.cs
 
 ```
 
@@ -103,7 +101,7 @@ namespace MyCompany.MyProject.EntityFramework.Repositories
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.6 建立應用服務](https://dotblogs.com.tw/jakeuj/2016/07/28/abp6)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.6 建立應用服務](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-6-建立應用服務.html)
 
 參照
 

@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.15 資料庫遷移 Migration
 
-> **原文發布日期:** 2021-07-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio4
-> **標籤:** 無
+> 首次發表：2021-07-19
 
 ---
 
@@ -21,11 +19,11 @@ https://docs.abp.io/zh-Hans/abp/latest/Tutorials/Part-1#%E6%B7%BB%E5%8A%A0%E6%95
 
 然後執行命令 dotnet ef migrations add Created\_Book\_Entity 建立資料庫版本
 
-![然後執行命令 dotnet ef migrations add Created\Book\Entity 建立資料庫版本](https://dotblogsfile.blob.core.windows.net/user/御星幻/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682350.png)
+![然後執行命令 dotnet ef migrations add Created\Book\Entity 建立資料庫版本](dotblogs-f8aa590e-1626682350-2.jpg)
 
 執行成功會跑出 migrations 資料夾
 
-![執行成功會跑出 migrations 資料夾](https://dotblogsfile.blob.core.windows.net/user/御星幻/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626682501.png)
+![執行成功會跑出 migrations 資料夾](dotblogs-f8aa590e-1626682501-2.jpg)
 
 裡面會定義要新增表，還是修改裡面甚麼欄位，或是移除某某東西之類的，這也可以生出SQL指令，有興趣可以去看MSDN
 
@@ -89,7 +87,7 @@ namespace Acme.BookStore
 }
 ```
 
-![但這東西樣板專案裡面沒有所以需要自己手動新增](https://dotblogsfile.blob.core.windows.net/user/御星幻/f8aa590e-d43b-4f53-afa6-cea509e45adf/1626683321.png)
+![但這東西樣板專案裡面沒有所以需要自己手動新增](dotblogs-f8aa590e-1626683321-2.jpg)
 
 這邊如果你要拿上一個新增的 Id 去當下一個新增的某欄位值，自己 var 變數去接 Insert 回傳的實體，下面就可以用 entity.Id 當作 value
 
@@ -101,7 +99,7 @@ namespace Acme.BookStore
 
 ### ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service
 
-參考文件：[ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service](https://dotblogs.com.tw/jakeuj/2021/07/19/abpio5)
+參考文件：[ABP.IO WEB應用程式框架 新手教學 No.5 建立應用服務 Application Service](ABP.IO-WEB應用程式框架-新手教學-No.16-建立應用服務-Application-Service.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

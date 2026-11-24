@@ -1,14 +1,12 @@
 # decimal 輸出小數點指定位數
 
-> **原文發布日期:** 2023-02-02
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/02/02/decimal
-> **標籤:** 無
+> 首次發表：2023-02-02
 
 ---
 
 筆記一下數字指定輸出格式
 
-![筆記一下數字指定輸出格式](https://dotblogsfile.blob.core.windows.net/user/jakeuj/657848f4-a9d8-4e26-9104-97a29aa0001e/1675329285.png.png)
+![筆記一下數字指定輸出格式](dotblogs-657848f4-1675329285.jpg)
 
 結論
 

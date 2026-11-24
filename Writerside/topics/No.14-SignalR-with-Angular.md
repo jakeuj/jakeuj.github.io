@@ -1,8 +1,6 @@
 # No.14 SignalR with Angular
 
-> **原文發布日期:** 2019-08-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/08/26/abp14
-> **標籤:** 無
+> 首次發表：2019-08-26
 
 ---
 

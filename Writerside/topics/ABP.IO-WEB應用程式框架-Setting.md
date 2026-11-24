@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 Setting
 
-> **原文發布日期:** 2022-11-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/04/Abp-Setting-Manager
-> **標籤:** 無
+> 首次發表：2022-11-04
 
 ---
 
@@ -129,7 +127,7 @@ public class MyService
 
 裡頭大概長這樣
 
-![裡頭大概長這樣](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcfa9927-4627-4bca-a516-bee17968b4db/1667552265.png.png)
+![裡頭大概長這樣](dotblogs-fcfa9927-1667552265.jpg)
 
 其中 Name 就是設定值的名稱，拿剛剛上面的範例來說就是 `MyMoney`
 

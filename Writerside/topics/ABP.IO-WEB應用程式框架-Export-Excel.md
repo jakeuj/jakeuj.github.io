@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 Export Excel
 
-> **原文發布日期:** 2022-02-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/02/10/Abp-how-to-export-excel-files
-> **標籤:** 無
+> 首次發表：2022-02-10
 
 ---
 
@@ -93,7 +91,7 @@ public MemoryStream Generate()
 
 延伸閱讀
 
-[ABP.IO WEB應用程式框架 使用 Azure Storage 上傳圖片 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/10/29/Abp-Blob-Storing-Azure)
+[ABP.IO WEB應用程式框架 使用 Azure Storage 上傳圖片](ABP.IO-WEB應用程式框架-使用-Azure-Storage-上傳圖片.md)
 
 [[DotnetCore] 讀取 excel 套件整理 | Secret Note (jiaming0708.github.io)](https://jiaming0708.github.io/2022/08/22/dotnet-core-read-excel-library/)
 

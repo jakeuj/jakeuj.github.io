@@ -1,14 +1,12 @@
 # Win 11 Docker WSL MySQL Ubuntu
 
-> **原文發布日期:** 2023-05-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/23/Docker-MySQL-WSL-Win-11
-> **標籤:** 無
+> 首次發表：2023-05-23
 
 ---
 
 筆記下從無到有 起一個 MySQL 服務
 
-![筆記下從無到有 起一個 MySQL 服務](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1705909149.png.png)
+![筆記下從無到有 起一個 MySQL 服務](dotblogs-3a02b151-1705909149.jpg)
 
 Enable Virtual Machine Platform Feature and reboot
 
@@ -62,7 +60,7 @@ docker exec -it some-mysql mysql -u root -p
 
 GUI
 
-![GUI](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a02b151-d0c7-4f6c-ae7a-edb24632334b/1684831054.png.png)
+![GUI](dotblogs-3a02b151-1684831054.jpg)
 
 DataGrip
 

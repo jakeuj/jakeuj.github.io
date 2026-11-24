@@ -1,8 +1,6 @@
 # GCP Task 1. Create an Vertex Notebooks instance
 
-> **原文發布日期:** 2023-08-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/08/24/GCP-Vertex-NoteBook
-> **標籤:** 無
+> 首次發表：2023-08-24
 
 ---
 
@@ -60,7 +58,7 @@ Select **Use a previous version**. In the **Version** dropdown, select `tf-2-11-
 
 Select **e2-standard-4** as the Machine Type. Click **Create**.
 
-![Select e2-standard-4 as the Machine Type. Click Create.](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692868790.png.png)
+![Select e2-standard-4 as the Machine Type. Click Create.](dotblogs-3a778f3c-1692868790.jpg)
 
 ## 建立 Instance
 
@@ -71,15 +69,15 @@ Select **e2-standard-4** as the Machine Type. Click **Create**.
 - **代管型(舊版)：可以通過提供您自己的自訂 Docker 映像來創建和存取更多的自定義 Jupyter 內核。 系統將導入該容器上的所有可用 Jupyter 內核。**
 - **使用者管理筆記本(舊版)：按照**教學文件，這邊應該選擇此種類
 
-![使用者管理筆記本(舊版)：按照教學文件，這邊應該選擇此種類](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692869032.png.png)
+![使用者管理筆記本(舊版)：按照教學文件，這邊應該選擇此種類](dotblogs-3a778f3c-1692869032.jpg)
 
 環境
 
-![環境](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873374.png.png)
+![環境](dotblogs-3a778f3c-1692873374.jpg)
 
 規格
 
-![規格](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1692873613.png.png)
+![規格](dotblogs-3a778f3c-1692873613.jpg)
 
 價格
 
@@ -87,11 +85,11 @@ Select **e2-standard-4** as the Machine Type. Click **Create**.
 
 N1標準4 = $0.22/H (預設)
 
-![N1標準4 = $0.22/H (預設)](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898885.png.png)
+![N1標準4 = $0.22/H (預設)](dotblogs-3a778f3c-1693898885.jpg)
 
 E2標準4=$0.15/H (本教程)
 
-![E2標準4=$0.15/H (本教程)](https://dotblogsfile.blob.core.windows.net/user/小小朱/3a778f3c-4c62-43cc-8a9b-12b589313749/1693898911.png.png)
+![E2標準4=$0.15/H (本教程)](dotblogs-3a778f3c-1693898911.jpg)
 
 創建後可以開始使用 Notebooks
 
@@ -99,7 +97,7 @@ E2標準4=$0.15/H (本教程)
 
 參照
 
-[Google Cloud Vertex AI | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2023/08/21/Google-Cloud-Vertex-AI)
+[Google Cloud Vertex AI](GCP-Vertex-AI.md)
 
 [Build and Deploy Machine Learning Solutions with Vertex AI: Challenge Lab | Google Cloud Skills Boost](https://www.cloudskillsboost.google/focuses/22019?parent=catalog)
 

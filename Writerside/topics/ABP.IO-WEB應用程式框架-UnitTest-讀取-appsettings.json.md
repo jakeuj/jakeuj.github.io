@@ -1,8 +1,6 @@
 # ABP.IO UnitTest 讀取 appsettings.json
 
-> **原文發布日期:** 2022-09-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/22/abp-test-appsettings
-> **標籤:** 無
+> 首次發表：2022-09-22
 
 ---
 

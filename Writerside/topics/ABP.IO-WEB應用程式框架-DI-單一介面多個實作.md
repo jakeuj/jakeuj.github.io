@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 DI 單一介面多個實作
 
-> **原文發布日期:** 2023-03-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/03/03/abp-dealing-with-multiple-implementations
-> **標籤:** 無
+> 首次發表：2023-03-03
 
 ---
 
@@ -66,7 +64,7 @@ public async Task Should_Get_Two_Results_From_ITestManager()
 }
 ```
 
-![TestDomainTests](https://dotblogsfile.blob.core.windows.net/user/jakeuj/613502e6-c51a-4cb0-b1c8-aaf784120550/1677825290.png.png)
+![TestDomainTests](dotblogs-613502e6-1677825290.jpg)
 
 重點
 

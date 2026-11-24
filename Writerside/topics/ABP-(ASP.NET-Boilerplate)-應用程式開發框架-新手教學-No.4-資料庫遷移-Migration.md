@@ -1,8 +1,6 @@
 # ABP 新手教學 No.4 資料庫遷移 Migration
 
-> **原文發布日期:** 2016-07-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/27/abp4
-> **標籤:** 無
+> 首次發表：2016-07-27
 
 ---
 
@@ -22,7 +20,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.4 資料庫�
 
 SeedData 集中在 Migrations 資料夾下的 SeedData 資料夾內
 
-![SeedData 集中在 Migrations 資料夾下的 SeedData 資料夾內](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469602295_3891.png)
+![SeedData 集中在 Migrations 資料夾下的 SeedData 資料夾內](dotblogs-a29b3daa-1469602295_3891.png)
 
 Map產生器：DefaultMapsCreator.cs
 
@@ -133,7 +131,7 @@ namespace MyCompany.MyProject.Migrations.SeedData
 
 Migration 設定檔位於 MyCompany.MyProject.EntityFramework\Migrations\Configuration.cs
 
-![Migration 設定檔位於 MyCompany.MyProject.EntityFramework\Migrations\Configuration.cs](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469603001_34282.png)
+![Migration 設定檔位於 MyCompany.MyProject.EntityFramework\Migrations\Configuration.cs](dotblogs-a29b3daa-1469603001_34282.png)
 我們到最下面SaveChanges之前加上PlayerAndMapBuilder的呼叫
 
 ```
@@ -188,7 +186,7 @@ namespace MyCompany.MyProject.Migrations
 
 來建立一個新的 Migration 版本 名稱為 Created\_Table\_PlayersAndMaps (可自定義)
 
-![來建立一個新的 Migration 版本 名稱為 Created\Table\PlayersAndMaps (可自定義)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469603346_36701.png)成功後會自動產生一個檔案 MyCompany.MyProject.EntityFramework\Migrations\201607270707459\_Created\_Table\_PlayersAndMaps.cs
+![來建立一個新的 Migration 版本 名稱為 Created\Table\PlayersAndMaps (可自定義)](dotblogs-a29b3daa-1469603346_36701.png)成功後會自動產生一個檔案 MyCompany.MyProject.EntityFramework\Migrations\201607270707459\_Created\_Table\_PlayersAndMaps.cs
 
 ```
 
@@ -248,19 +246,19 @@ EX：Update-Database Created\_Table\_PlayersAndMaps
 
 於套件管理主控台 輸入指令 Update-Database
 
-![於套件管理主控台 輸入指令 Update-Database](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469613555_23327.png)
+![於套件管理主控台 輸入指令 Update-Database](dotblogs-a29b3daa-1469613555_23327.png)
 
 就會把變更部分實際套用至資料庫並產生SeedData
 
-![就會把變更部分實際套用至資料庫並產生SeedData](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469616483_545.png)同時也會建立關聯性
+![就會把變更部分實際套用至資料庫並產生SeedData](dotblogs-a29b3daa-1469616483_545.png)同時也會建立關聯性
 
-![同時也會建立關聯性](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a29b3daa-ee6e-4ad6-bda1-f5fe3b672dec/1469616638_72847.png)到這邊Migration部分就先到這邊，下一篇是建立資料倉儲的部分
+![同時也會建立關聯性](dotblogs-a29b3daa-1469616638_72847.png)到這邊Migration部分就先到這邊，下一篇是建立資料倉儲的部分
 
 ---
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.5 建立倉儲 Repository](https://dotblogs.com.tw/jakeuj/2016/07/28/abp5)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.5 建立倉儲 Repository](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-5-建立倉儲-repository.html)
 
 參照
 

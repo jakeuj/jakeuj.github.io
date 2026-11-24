@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 AzureAD 登入
 
-> **原文發布日期:** 2021-08-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/23/AbpAzureAdLogin
-> **標籤:** 無
+> 首次發表：2021-08-23
 
 ---
 
@@ -63,7 +61,7 @@ appsetting.json
 
 這樣就可以用AAD登入了，登入後會在 AbpUserLogins 新增如下資料，來對應至 UserId
 
-![這樣就可以用AAD登入了，登入後會在 AbpUserLogins 新增如下資料，來對應至 UserId](https://dotblogsfile.blob.core.windows.net/user/jakeuj/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1632815630.png)
+![這樣就可以用AAD登入了，登入後會在 AbpUserLogins 新增如下資料，來對應至 UserId](dotblogs-92c64bf6-1632815630.jpg)
 
 如果要改 LoginPovider => AzureAdOpenId 可以用以下方式
 
@@ -79,7 +77,7 @@ context.Services.Configure<`OpenIdConnectOptions`>("AzureAdOpenId", options =>
 
 ## 2021/9/1
 
-[Azure App Service 存取限制 導致自己Get自己 403 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/09/01/AzureAppService403)
+[Azure App Service 存取限制 導致自己Get自己 403](Azure-App-Service-存取限制-導致自己Get自己-403.md)
 
 ## 2021/8/31
 
@@ -312,7 +310,7 @@ options.Events.OnTokenValidated = (async c =>
 });
 ```
 
-![可以在最後加上一段 code, 然後下中斷點看拿了些甚麼東西(claims)回來](https://dotblogsfile.blob.core.windows.net/user/御星幻/92c64bf6-3d30-45d8-9d06-6d69039b0e9e/1629785468.png)
+![可以在最後加上一段 code, 然後下中斷點看拿了些甚麼東西(claims)回來](dotblogs-92c64bf6-1629785468.jpg)
 
 ## 其他 OpenID 登入
 
@@ -343,9 +341,9 @@ services.AddAuthentication()
 
 略過登入畫面，直接將使用者導向 Azure AD 帳號密碼登入畫面，請參照以下這篇文章
 
-[ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入 | 御用 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/08/19/AbpAccountIsSelfRegistrationEnabledFalse)
+[ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入 | 御用 - 點部落 (dotblogs.com.tw)](ABP.IO-WEB應用程式框架-關閉本地帳號註冊與登入.md)
 
-[LDAP Admin & C# .Net Core Identity Server 4 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/07/30/LdapAdmin)
+[LDAP Admin & C# .Net Core Identity Server 4](LDAP-Admin-And-CSharp-Net-Core-Identity-Server-4.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

@@ -1,8 +1,6 @@
 # C# Dotnet Core CsvHelper Csv To Class
 
-> **原文發布日期:** 2022-02-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/02/10/aspnet-core-csvhelper-c-csv
-> **標籤:** 無
+> 首次發表：2022-02-10
 
 ---
 

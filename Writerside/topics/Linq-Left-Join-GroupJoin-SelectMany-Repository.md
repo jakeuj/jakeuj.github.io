@@ -1,8 +1,6 @@
 # Linq Left Join (GroupJoin &#x2B; SelectMany) Repository {id="Linq-Left-Join-GroupJoin-SelectMany-Repository"}
 
-> **原文發布日期:** 2019-06-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/19/LinqJoin
-> **標籤:** 無
+> 首次發表：2019-06-19
 
 ---
 
@@ -38,7 +36,7 @@ var joinQuery = order
  .ToList();
 ```
 
-![Left Join (GroupJoin + Select) 子集合選擇特定欄位](https://dotblogsfile.blob.core.windows.net/user/jakeuj/573d0ae9-3423-4102-b172-e3e56367dd3b/1665481478.png.png)
+![Left Join (GroupJoin + Select) 子集合選擇特定欄位](dotblogs-573d0ae9-1665481478.jpg)
 
 - Left Join (GroupJoin + SelectMany) 攤平子集合
 

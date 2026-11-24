@@ -16,5 +16,5 @@ docker run -d --name redis -p 6379:6379 redis
 
 ## REF
 
-- [Redis Server 架設心得筆記](https://dotblogs.com.tw/jakeuj/2015/12/24/redis)
+- [Redis Server 架設心得筆記](Redis-Server-架設心得筆記.md)
 - [redis.yml](https://peihsinsu.gitbooks.io/docker-note-book/content/redis_user_guide.html)

@@ -1,8 +1,6 @@
 # ABP.IO Hangfire Background Job And Worker
 
-> **原文發布日期:** 2022-04-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/26/abp-Hangfire-Background-Worker
-> **標籤:** 無
+> 首次發表：2022-04-26
 
 ---
 

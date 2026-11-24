@@ -1,8 +1,6 @@
 # [Git] .gitignore 和.git/info/exclude 的區別
 
-> **原文發布日期:** 2023-12-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-exclude
-> **標籤:** 無
+> 首次發表：2023-12-25
 
 ---
 
@@ -31,7 +29,7 @@ gitignore vs exclude
 
 [[Git] .gitignore 和.git/info/exclude 的区别 - 簡書 (jianshu.com)](https://www.jianshu.com/p/f42254bc3ffb)
 
-[Git 移除新增忽略之已推送檔案的追蹤 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/11/24/Git-RM-Cached)
+[Git 移除新增忽略之已推送檔案的追蹤](Git-移除新增忽略之已推送檔案的追蹤.md)
 
 [Git 小技巧 - 忽略不想要提交的本地修改 | Mengqi's blog (mengqi92.github.io)](https://mengqi92.github.io/2020/07/17/hide-files-from-git/)
 

@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 選項模式
 
-> **原文發布日期:** 2023-01-12
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/12/ABP-Options-Pre-Configure
-> **標籤:** 無
+> 首次發表：2023-01-12
 
 ---
 

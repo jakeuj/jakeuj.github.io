@@ -1,8 +1,6 @@
 # Windows Terminal Powerline
 
-> **原文發布日期:** 2021-02-01
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/01/WindowsTerminal
-> **標籤:** 無
+> 首次發表：2021-02-01
 
 ---
 
@@ -25,7 +23,7 @@
 (`%USERPROFILE%\.dotnet\tools\pwsh.exe`)
 {ignore-vars="true"}
 
-![{ignore-vars="true"}](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1634788135.png)
+![{ignore-vars="true"}](dotblogs-ebafa58a-1634788135.jpg)
 
 ---
 
@@ -84,7 +82,7 @@ Set-ExecutionPolicy RemoteSigned
 
 畫面上方 Tab 向下箭頭按進去 > 設定 > 開啟Json設定檔 (左下方)
 
-![畫面上方 Tab 向下箭頭按進去 設定 開啟Json設定檔 (左下方)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612145191.png)
+![畫面上方 Tab 向下箭頭按進去 設定 開啟Json設定檔 (左下方)](dotblogs-ebafa58a-1612145191.jpg)
 
 於 profiles > defaults 加入設定
 
@@ -119,11 +117,11 @@ https://docs.microsoft.com/en-us/windows/terminal/custom-terminal-gallery/custom
 
 這邊會覆蓋 PowerShell 的配色設定，也可以不設吃原本 PS 的主題配色
 
-![這邊會覆蓋 PowerShell 的配色設定，也可以不設吃原本 PS 的主題配色](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521497.png)
+![這邊會覆蓋 PowerShell 的配色設定，也可以不設吃原本 PS 的主題配色](dotblogs-ebafa58a-1612521497.jpg)
 
 acrylicOpacity 0.5 會比較亮
 
-![acrylicOpacity 0.5 會比較亮](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ebafa58a-d66d-46c8-9056-462b4bc8d04f/1612521140.png)
+![acrylicOpacity 0.5 會比較亮](dotblogs-ebafa58a-1612521140.jpg)
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5

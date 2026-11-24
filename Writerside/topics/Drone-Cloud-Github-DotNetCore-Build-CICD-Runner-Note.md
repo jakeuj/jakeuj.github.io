@@ -1,8 +1,6 @@
 # Drone Cloud Github DotNetCore Build CI/CD Runner Note
 
-> **原文發布日期:** 2021-04-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/20/Drone
-> **標籤:** 無
+> 首次發表：2021-04-20
 
 ---
 
@@ -40,7 +38,7 @@ Push 到 Github Repo 然後到 Drone Cloud 點一下 SYNC
 
 找到剛建立的倉儲 點進去之後 按 ACTIVATE REPOSITORY > SAVE CHANGES
 
-![找到剛建立的倉儲 點進去之後 按 ACTIVATE REPOSITORY SAVE CHANGES](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912494.png)
+![找到剛建立的倉儲 點進去之後 按 ACTIVATE REPOSITORY SAVE CHANGES](dotblogs-9744a47c-1618912494.jpg)
 
 畫面稍微看一下會發現 Configuration 是 .drone.yml 這個檔案
 
@@ -70,11 +68,11 @@ Ref: https://github.com/jakeuj/Drone/blob/main/.drone.yml
 
 到這邊 commit & push to  master 之後應該會觸發 CI/CD
 
-![到這邊 commit & push to master 之後應該會觸發 CI/CD](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912476.png)
+![到這邊 commit & push to master 之後應該會觸發 CI/CD](dotblogs-9744a47c-1618912476.jpg)
 
 可以到 Drone Cloud 裡面看看建置過程/結果
 
-![可以到 Drone Cloud 裡面看看建置過程/結果](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618912597.png)
+![可以到 Drone Cloud 裡面看看建置過程/結果](dotblogs-9744a47c-1618912597.jpg)
 
 參照：<https://www.istr.cn/archives/93/>
 
@@ -192,7 +190,7 @@ WIndows 會長這樣
 
 也可以看到建置過程及時 Log
 
-![也可以看到建置過程及時 Log](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914759.png)
+![也可以看到建置過程及時 Log](dotblogs-9744a47c-1618914759.jpg)
 
 Drone
 
@@ -200,7 +198,7 @@ Drone
 
 可以去 Docker 看一下 Runner Container Log
 
-![可以去 Docker 看一下 Runner Container Log](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9744a47c-a66d-42fa-88da-158194f860bc/1618914874.png)
+![可以去 Docker 看一下 Runner Container Log](dotblogs-9744a47c-1618914874.jpg)
 
 上面是正常畫面
 

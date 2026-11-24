@@ -1,8 +1,6 @@
 # MSSQL 2012 &amp; 2008 分頁與計數 {id="MSSQL-2012-And-2008-Pagination-And-Count"}
 
-> **原文發布日期:** 2021-03-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/23/ROW_NUMBER
-> **標籤:** 無
+> 首次發表：2021-03-23
 
 ---
 
@@ -49,7 +47,7 @@ FROM(
 WHERE rowNumber BETWEEN 5 AND 10
 ```
 
-![MSSQL 2008](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616480905.png)
+![MSSQL 2008](dotblogs-00000000-1616480905.jpg)
 
 參照
 

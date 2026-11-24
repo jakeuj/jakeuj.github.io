@@ -1,8 +1,6 @@
 # GCP 部屬 VUE
 
-> **原文發布日期:** 2023-09-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/09/22/GCP-App-Engine-VUE
-> **標籤:** 無
+> 首次發表：2023-09-22
 
 ---
 
@@ -10,7 +8,7 @@ Deploy VUE 到 App Engine
 
 GCP 建立 App Engine 選 Node.js
 
-![GCP 建立 App Engine 選 Node.js](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695364843.png.png)
+![GCP 建立 App Engine 選 Node.js](dotblogs-a5357981-1695364843.jpg)
 
 app.yaml
 
@@ -29,15 +27,15 @@ handlers:
 
 將 dist 與 app.yaml 放一起
 
-![將 dist 與 app.yaml 放一起](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365682.png.png)
+![將 dist 與 app.yaml 放一起](dotblogs-a5357981-1695365682.jpg)
 
 執行 `gcloud app deploy`
 
-![執行 gcloud app deploy](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695365979.png.png)
+![執行 gcloud app deploy](dotblogs-a5357981-1695365979.jpg)
 
 `gcloud app browse`
 
-![gcloud app browse](https://dotblogsfile.blob.core.windows.net/user/小小朱/a5357981-8b70-44e5-8315-ebbff5ca01e7/1695366091.png.png)
+![gcloud app browse](dotblogs-a5357981-1695366091.jpg)
 
 參照
 

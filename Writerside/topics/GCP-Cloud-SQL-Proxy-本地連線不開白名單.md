@@ -1,8 +1,6 @@
 # GCP Cloud SQL Proxy 本地連線不開白名單
 
-> **原文發布日期:** 2023-12-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/08/gcp-cloud-sql-onnect-auth-proxy
-> **標籤:** 無
+> 首次發表：2023-12-08
 
 ---
 
@@ -16,7 +14,7 @@
 4. 連線 127.0.0.1,1234
 5. P.S. 加 --address 0.0.0.0 可以用 localhost 連，省略則只能用 127.0.0.1 才連得到哦！
 
-![P.S. 加 --address 0.0.0.0 可以用 localhost 連，省略則只能用 127.0.0.1 才連得到哦！](https://dotblogsfile.blob.core.windows.net/user/小小朱/bb1646dd-8343-445e-9fef-85e6c4a30d32/1702017271.png.png)
+![P.S. 加 --address 0.0.0.0 可以用 localhost 連，省略則只能用 127.0.0.1 才連得到哦！](dotblogs-bb1646dd-1702017271.jpg)
 
 參照
 

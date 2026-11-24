@@ -1,8 +1,6 @@
 # Linux Unity WebGL Httpd userdir 設定
 
-> **原文發布日期:** 2018-01-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2018/01/08/LinuxWebGL
-> **標籤:** 無
+> 首次發表：2018-01-08
 
 ---
 

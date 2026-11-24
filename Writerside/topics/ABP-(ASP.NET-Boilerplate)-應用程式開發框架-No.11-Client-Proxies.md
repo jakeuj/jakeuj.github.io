@@ -1,8 +1,6 @@
 # ABP No.11 Client Proxies
 
-> **原文發布日期:** 2019-01-18
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/18/abp11
-> **標籤:** 無
+> 首次發表：2019-01-18
 
 ---
 
@@ -67,7 +65,7 @@ But!人生中最重要的就是這個But!
 ApiServiceProxies.WalletServiceProxy,
 ```
 
-![那就要加上一行](https://dotblogsfile.blob.core.windows.net/user/jakeuj/e7037ec3-b3b6-4a18-96bd-e3915df0c9d1/1554200821_12006.jpg)
+![那就要加上一行](dotblogs-e7037ec3-1554200821_12006.jpg)
 
 ABP對這部分的說明文檔如下
 

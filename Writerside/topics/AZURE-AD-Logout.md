@@ -1,8 +1,6 @@
 # AZURE AD Logout
 
-> **原文發布日期:** 2021-09-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/28/AZURE-AD-OIDC-Logout
-> **標籤:** 無
+> 首次發表：2021-09-28
 
 ---
 

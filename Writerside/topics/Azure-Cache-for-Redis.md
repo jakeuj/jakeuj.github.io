@@ -23,7 +23,7 @@
      - 環境變數：新增 Redis:Configuration > 貼上剛才複製的連線字串
 4. 本地端
    - 於 Azure 建立 VPN 網路
-      [Azure SQL 透過 Azure VPN Gateway 實現內網連接](https://dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway)
+      [Azure SQL 透過 Azure VPN Gateway 實現內網連接](Azure-SQL-透過-Azure-VPN-Gateway-實現內網連接.md)
    - 本地端連上 Azure VPN
    - 到 虛擬網路(VNet) 找到 Redis 私人端點的內網 IP
    - 本地端連線 Redis：貼上剛才複製的連線字串

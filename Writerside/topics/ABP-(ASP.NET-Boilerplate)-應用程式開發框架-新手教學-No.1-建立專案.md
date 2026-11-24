@@ -1,8 +1,6 @@
 # ABP 新手教學 No.1 建立專案
 
-> **原文發布日期:** 2016-07-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/26/abp1
-> **標籤:** 無
+> 首次發表：2016-07-26
 
 ---
 
@@ -12,21 +10,21 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 ---
 
-1.到ABP官網下載基本框架：[http://aspnetboilerplate.com/​](http://aspnetboilerplate.com/)![---](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469524990_1426.png)
+1.到ABP官網下載基本框架：[http://aspnetboilerplate.com/​](http://aspnetboilerplate.com/)![---](dotblogs-9886c5a0-1469524990_1426.png)
 
 - 這邊使用預設來建立專案，第三步勾選[Include module-zero]，第四步輸入專案名稱[MyCompany.MyProject]，最後CREATE MY PROJECT！
 
-![這邊使用預設來建立專案，第三步勾選[Include module-zero]，第四步輸入專案名稱[MyCompany.MyProject]，最後CREATE M](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525005_6279.png)
+![這邊使用預設來建立專案，第三步勾選[Include module-zero]，第四步輸入專案名稱[MyCompany.MyProject]，最後CREATE M](dotblogs-9886c5a0-1469525005_6279.png)
 
 2.使用 Visual Studio 2013 以上版本來開啟專案(這邊我使用Visual Studio 15)，並將[MyCompany.MyProject.Web]設為起始專案
 
-![2.使用 Visual Studio 2013 以上版本來開啟專案(這邊我使用Visual Studio 15)，並將[MyCompany.MyProject.](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525074_84791.png)如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或LocalDB
+![2.使用 Visual Studio 2013 以上版本來開啟專案(這邊我使用Visual Studio 15)，並將[MyCompany.MyProject.](dotblogs-9886c5a0-1469525074_84791.png)如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或LocalDB
 
 ```xml
 <add name="Default" connectionString="Server=localhost; Database=MyProject; Trusted_Connection=True;" providerName="System.Data.SqlClient" />
 ```
 
-![如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525126_1054.png)這邊我使用LocalDB來建置資料庫
+![如果沒有本機資料庫，則需到[MyCompany.MyProject.Web]→[Web.config]修改連接字串內的localhost字段，到你的資料庫IP或](dotblogs-9886c5a0-1469525126_1054.png)這邊我使用LocalDB來建置資料庫
 
 ```xml
 <add name="Default" connectionString="Server=(LocalDB)\MSSQLLocalDB; Database=AbsoluteDuo_V4; Trusted_Connection=True;" providerName="System.Data.SqlClient" />
@@ -34,17 +32,17 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 3.開啟 Package Manager Console
 
-![3.開啟 Package Manager Console](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525144_76684.png)先還原NuGet封裝，之後選擇 'EntityFramework' 專案來預設專案
+![3.開啟 Package Manager Console](dotblogs-9886c5a0-1469525144_76684.png)先還原NuGet封裝，之後選擇 'EntityFramework' 專案來預設專案
 
-![先還原NuGet封裝，之後選擇 'EntityFramework' 專案來預設專案](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525582_83776.png)
+![先還原NuGet封裝，之後選擇 'EntityFramework' 專案來預設專案](dotblogs-9886c5a0-1469525582_83776.png)
 
 輸入Update-Database 來建立資料庫
 
-![輸入Update-Database 來建立資料庫](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525159_93863.png)4.沒有問題了話執行這個專案，就會成功開出畫面，使用帳號admin與密碼123qwe即可登入主程式
+![輸入Update-Database 來建立資料庫](dotblogs-9886c5a0-1469525159_93863.png)4.沒有問題了話執行這個專案，就會成功開出畫面，使用帳號admin與密碼123qwe即可登入主程式
 
-![4.沒有問題了話執行這個專案，就會成功開出畫面，使用帳號admin與密碼123qwe即可登入主程式](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525169_73291.png)5.到這邊我們基本把ABP從無到有建置完成。
+![4.沒有問題了話執行這個專案，就會成功開出畫面，使用帳號admin與密碼123qwe即可登入主程式](dotblogs-9886c5a0-1469525169_73291.png)5.到這邊我們基本把ABP從無到有建置完成。
 
-![5.到這邊我們基本把ABP從無到有建置完成。](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9886c5a0-bdd9-440d-aa02-d74325bbb6c0/1469525362_70537.png)
+![5.到這邊我們基本把ABP從無到有建置完成。](dotblogs-9886c5a0-1469525362_70537.png)
 
 接著我們將開始建立實體
 
@@ -52,7 +50,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.1 建立專�
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實體](https://dotblogs.com.tw/jakeuj/2016/07/26/abp2)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實體](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-2-建立實體-entity.html)
 
 參照
 

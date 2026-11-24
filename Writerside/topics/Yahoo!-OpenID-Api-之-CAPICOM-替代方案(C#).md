@@ -1,8 +1,6 @@
 # Yahoo OpenID CAPICOM 替代
 
-> **原文發布日期:** 2012-10-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/10/08/76334
-> **標籤:** 無
+> 首次發表：2012-10-08
 
 ---
 

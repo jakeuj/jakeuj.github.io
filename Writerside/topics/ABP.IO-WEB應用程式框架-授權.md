@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 授權
 
-> **原文發布日期:** 2021-07-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/26/ABP-Authorization
-> **標籤:** 無
+> 首次發表：2021-07-26
 
 ---
 

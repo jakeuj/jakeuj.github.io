@@ -1,8 +1,6 @@
 # 阿里雲 Web&#x2B; (Aliyun Cloud Web Plus) 使用筆記 {id="Aliyun-Cloud-Web-Plus-Usage-Notes"}
 
-> **原文發布日期:** 2021-04-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/29/AliCloudWebPlus
-> **標籤:** 無
+> 首次發表：2021-04-29
 
 ---
 
@@ -122,11 +120,11 @@ Alibaba Cloud web+ 紀錄使用心得
 
 ### 阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記
 
-參考文件：[阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](https://dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly)
+參考文件：[阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](Aliyun-Web-Plus-CLI-Deploy-DotnetCore-3-1.md)
 
 ### Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD
 
-參考文件：[Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD](https://dotblogs.com.tw/jakeuj/2021/04/22/DroneAliWebPlusCICD)
+參考文件：[Drone 阿里雲 Web+ DotnetCore 3.1 CI/CD & DockerHub Images CI/CD](Drone-Aliyun-WebPlus-DotnetCore-CICD-DockerHub.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

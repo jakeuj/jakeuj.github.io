@@ -71,4 +71,4 @@ prompt 選用 表示必要的使用者互動類型。
 
 ## 4. 參考資料
 
-[AZURE-AD-Prompt-Login](https://dotblogs.com.tw/jakeuj/2021/09/28/AZURE-AD-Prompt-Login)
+[AZURE-AD-Prompt-Login](AZURE-AD-每次登入都要打帳號密碼.md)

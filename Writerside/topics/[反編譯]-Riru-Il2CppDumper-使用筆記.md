@@ -1,8 +1,6 @@
 # [反編譯] Riru-Il2CppDumper 使用筆記
 
-> **原文發布日期:** 2021-10-01
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/10/01/APK-Unity
-> **標籤:** 無
+> 首次發表：2021-10-01
 
 ---
 

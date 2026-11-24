@@ -1,8 +1,6 @@
 # Visual Studio 2012 Update 2 找不到 WinLibJS_CORE.msi
 
-> **原文發布日期:** 2013-04-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2013/04/29/102467
-> **標籤:** 無
+> 首次發表：2013-04-29
 
 ---
 

@@ -1,8 +1,6 @@
 # Azure App Service Connection String
 
-> **原文發布日期:** 2021-02-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/23/AzureAppServiceConnectionString
-> **標籤:** 無
+> 首次發表：2021-02-23
 
 ---
 
@@ -10,14 +8,14 @@
 想說把連接字串移出 web.config 改由 Azure 組態裡面來設定，結果吃不到。
 今天因緣際會把 3.5 升級到 4.8 忽然連不到資料庫，原來是終於吃到 Azure 的設定了。
 
-![file](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6bf23d11-9482-4778-a5b5-9ea06e7779e3/1614050835.png)
+![file](dotblogs-6bf23d11-1614050835.jpg)
 
 ## 結論
 
 Azure App Service 連接字串 override 不支援 .Net 3.5，
 需要升級專案到 .Net 4.x Runtime 才能由外部複寫連接字串設定值。
 
-![file](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6bf23d11-9482-4778-a5b5-9ea06e7779e3/1614050817.png)
+![file](dotblogs-6bf23d11-1614050817.jpg)
 
 ## Note
 

@@ -1,8 +1,6 @@
 # Azure App Service 混合式連線 (HCM)
 
-> **原文發布日期:** 2021-08-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/27/Azure-Relay-Hybrid-Connections
-> **標籤:** 無
+> 首次發表：2021-08-27
 
 ---
 
@@ -25,7 +23,7 @@
 
 機制如下圖所示：
 
-![機制如下圖所示：](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630054072.png)
+![機制如下圖所示：](dotblogs-57dca308-1630054072.jpg)
 
 設定方式請參照官方文件
 
@@ -39,7 +37,7 @@
 
 Host  要輸入你實際要連的服務的電腦名稱 (不是 IP)
 
-![Host 要輸入你實際要連的服務的電腦名稱 (不是 IP)](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055533.png)
+![Host 要輸入你實際要連的服務的電腦名稱 (不是 IP)](dotblogs-57dca308-1630055533.jpg)
 
 ### 案例一 DB
 
@@ -63,7 +61,7 @@ Port 則是 6379
 
 ## Step 2
 
-![Step 2](https://dotblogsfile.blob.core.windows.net/user/御星幻/57dca308-324e-4337-a79c-eb25e852c095/1630055546.png)
+![Step 2](dotblogs-57dca308-1630055546.jpg)
 
 設定完後點 下載連線管理員 並安裝
 
@@ -93,7 +91,7 @@ Port 則是 6379
 
 ## 延伸閱讀
 
-[透過 Proxy 使用 Azure HCM (混合式連線管理員) | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/03/14/Proxy-Azure-Relay-Hybrid-Connections)
+[透過 Proxy 使用 Azure HCM (混合式連線管理員)](https://jakeuj.com/透過-proxy-使用-azure-hcm-混合式連線管理員.html)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

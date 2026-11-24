@@ -1,14 +1,12 @@
 # Azure DevOps Pipeline 合併 Vue &amp; .NetCore Project 並 Build &amp; Release {id="Azure-DevOps-Pipeline-Merge-Vue-And-NetCore-Build-Release"}
 
-> **原文發布日期:** 2022-01-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/01/19/Azure-DevOps-Pipeline-Vue-DotNetCore
-> **標籤:** 無
+> 首次發表：2022-01-19
 
 ---
 
 Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish
 
-![Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642666557.png)
+![Build Vue 後將 dist 放到 .NetCore 專案的 wwwroot 再 Publish](dotblogs-838d7938-1642666557.jpg)
 
 1. 簽出 Vue Repo
 這邊 Vue Repo 是放在 Azure Devops Git Repo
@@ -104,7 +102,7 @@ $(System.DefaultWorkingDirectory)
 
 value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建 Feed，選擇你的專案並取個名字，然後回填到 `feedRestore`
 
-![value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建 Feed，選擇你的專案並取個名字，然後回填到 feedRestore](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642667453.png)
+![value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建 Feed，選擇你的專案並取個名字，然後回填到 feedRestore](dotblogs-838d7938-1642667453.jpg)
 
 1. Build
 
@@ -151,11 +149,11 @@ value 的格式為 專案名/feed名，首先要先到 Artifacts 裡面去新建
 
 這會在 Release 時期自動下載到 `$(System.DefaultWorkingDirectory)/Drop/WebApp/aspnet-core-dotnet-core.zip`
 
-![這會在 Release 時期自動下載到 $(System.DefaultWorkingDirectory)/Drop/WebApp/aspnet-core-do](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642651584.png)
+![這會在 Release 時期自動下載到 $(System.DefaultWorkingDirectory)/Drop/WebApp/aspnet-core-do](dotblogs-838d7938-1642651584.jpg)
 
 其中 "Drop" 是 Release 時指定的 Artifacts 別名 Drop
 
-![其中 "Drop" 是 Release 時指定的 Artifacts 別名 Drop](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672398.png)
+![其中 "Drop" 是 Release 時指定的 Artifacts 別名 Drop](dotblogs-838d7938-1642672398.jpg)
 
 1. Yaml
 
@@ -231,7 +229,7 @@ Release 的時候會需要指定要發布的 zip 在 Artifacts 的相對路徑
 
 總之就是讓他在該路徑能夠找到唯一的 zip 來部屬
 
-![總之就是讓他在該路徑能夠找到唯一的 zip 來部屬](https://dotblogsfile.blob.core.windows.net/user/jakeuj/838d7938-ba74-4218-9f78-7657335be0dd/1642672474.png)
+![總之就是讓他在該路徑能夠找到唯一的 zip 來部屬](dotblogs-838d7938-1642672474.jpg)
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5

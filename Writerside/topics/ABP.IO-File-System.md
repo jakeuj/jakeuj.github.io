@@ -1,8 +1,6 @@
 # ABP.IO File System
 
-> **原文發布日期:** 2025-04-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2025/04/09/Abp-File-System
-> **標籤:** 無
+> 首次發表：2025-04-09
 
 ---
 

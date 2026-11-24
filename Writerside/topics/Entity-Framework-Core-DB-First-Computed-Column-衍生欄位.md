@@ -1,14 +1,12 @@
 # Entity Framework Core Computed Column
 
-> **原文發布日期:** 2023-07-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/07/10/computed-columns
-> **標籤:** 無
+> 首次發表：2023-07-10
 
 ---
 
 計算資料行是一個虛擬資料行，除非資料行標示了PERSISTED，否則，並未實際儲存在資料表中。
 
-![計算資料行是一個虛擬資料行，除非資料行標示了PERSISTED，否則，並未實際儲存在資料表中。](https://dotblogsfile.blob.core.windows.net/user/小小朱/26095bf3-f412-4159-96eb-8c45ddcb47bf/1688983414.png.png)
+![計算資料行是一個虛擬資料行，除非資料行標示了PERSISTED，否則，並未實際儲存在資料表中。](dotblogs-26095bf3-1688983414.jpg)
 
 ## Entity
 
@@ -49,7 +47,7 @@ modelBuilder.Entity<Test>()
 
 ### 延伸
 
-[ABP.IO WEB應用程式框架 取得關聯資料 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/25/abp-ef-With-Details-Async)
+[ABP.IO WEB應用程式框架 取得關聯資料](ABP.IO-WEB應用程式框架-取得關聯資料-include.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

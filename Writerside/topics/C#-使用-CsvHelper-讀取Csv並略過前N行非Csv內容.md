@@ -1,8 +1,6 @@
 # C# CsvHelper 讀取技巧
 
-> **原文發布日期:** 2022-03-11
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/11/CsvHelper
-> **標籤:** 無
+> 首次發表：2022-03-11
 
 ---
 

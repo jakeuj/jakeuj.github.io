@@ -1,8 +1,6 @@
 # C# .Net Excel (MiniExcel)
 
-> **原文發布日期:** 2023-06-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/13/CSharp-DotNet-MiniExcel
-> **標籤:** 無
+> 首次發表：2023-06-13
 
 ---
 
@@ -47,7 +45,7 @@ public async Task GenerateExcels(string path, string templatePath, List<Employee
 
 ### 樣板
 
-![樣板](https://dotblogsfile.blob.core.windows.net/user/小小朱/90268042-144f-4d7c-832a-d2017fa3242a/1686621414.png.png)
+![樣板](dotblogs-90268042-1686621414.jpg)
 
 樣板
 
@@ -142,7 +140,7 @@ MiniExcel.SaveAsByTemplate(path, templatePath, value);
 
 利用複雜填充可以實現填充清單並在其下方顯示總和
 
-![利用複雜填充可以實現填充清單並在其下方顯示總和](https://dotblogsfile.blob.core.windows.net/user/小小朱/90268042-144f-4d7c-832a-d2017fa3242a/1687257170.png.png)![利用複雜填充可以實現填充清單並在其下方顯示總和 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/90268042-144f-4d7c-832a-d2017fa3242a/1687257311.png.png)
+![利用複雜填充可以實現填充清單並在其下方顯示總和](dotblogs-90268042-1687257170.jpg)![利用複雜填充可以實現填充清單並在其下方顯示總和 2](dotblogs-90268042-1687257311.jpg)
 
 ## 注意
 

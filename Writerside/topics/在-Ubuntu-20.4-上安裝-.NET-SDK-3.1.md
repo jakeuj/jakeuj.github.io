@@ -1,8 +1,6 @@
 # 在 Ubuntu 20.4 上安裝 .NET SDK 3.1
 
-> **原文發布日期:** 2021-04-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/22/UbuntuDotNetCore
-> **標籤:** 無
+> 首次發表：2021-04-22
 
 ---
 

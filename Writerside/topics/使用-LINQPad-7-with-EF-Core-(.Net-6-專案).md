@@ -1,8 +1,6 @@
 # LINQPad 7 with EF Core
 
-> **原文發布日期:** 2021-06-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/06/24/LINQPadEFCore
-> **標籤:** 無
+> 首次發表：2021-06-24
 
 ---
 
@@ -18,7 +16,7 @@
    Example: `Server=(LocalDb)\MSSQLLocalDB;Database=Test;Trusted_Connection=True;MultipleActiveResultSets=true`
 5. Add connection 如下圖所示
 
-![Add connection 如下圖所示](https://dotblogsfile.blob.core.windows.net/user/御星幻/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1624526064.png)![Add connection 如下圖所示 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/98f0f921-d4d2-40ec-8edc-83c7587c1e69/1635322907.png)
+![Add connection 如下圖所示](dotblogs-98f0f921-1624526064.jpg)![Add connection 如下圖所示 2](dotblogs-98f0f921-1635322907.jpg)
 
 然後應該就會看到實體的資料
 

@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.16 建立應用服務 Application Service
 
-> **原文發布日期:** 2021-07-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/19/abpio5
-> **標籤:** 無
+> 首次發表：2021-07-19
 
 ---
 
@@ -47,7 +45,7 @@ namespace Acme.BookStore.Books
 
 ※ 官方教學是沒有 Books 資料夾，但實戰上建議全部專案的Book相關東西都先建立一個Books資料夾，再把東西建在裡面，不然東西一多想像一下…
 
-![※ 官方教學是沒有 Books 資料夾，但實戰上建議全部專案的Book相關東西都先建立一個Books資料夾，再把東西建在裡面，不然東西一多想像一下…](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626684853.png)
+![※ 官方教學是沒有 Books 資料夾，但實戰上建議全部專案的Book相關東西都先建立一個Books資料夾，再把東西建在裡面，不然東西一多想像一下…](dotblogs-bff36275-1626684853-2.jpg)
 
 這邊 Dto 基類可以自己換別的，比如只有Id的 `EntityDto<T>`
 
@@ -84,7 +82,7 @@ namespace Acme.BookStore
 }
 ```
 
-![在Acme.BookStore.Application項目的BookStoreApplicationAutoMapperProfile類中定義](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626685149.png)
+![在Acme.BookStore.Application項目的BookStoreApplicationAutoMapperProfile類中定義](dotblogs-bff36275-1626685149.jpg)
 
 ## Application Service
 
@@ -104,7 +102,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![首先定義介面 IBookAppService 必須繼承 IApplicationService ，雖然沒有介面也可以跑，但最佳實踐建議每個服務都有自己的介面](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626686760.png)
+![首先定義介面 IBookAppService 必須繼承 IApplicationService ，雖然沒有介面也可以跑，但最佳實踐建議每個服務都有自己的介面](dotblogs-bff36275-1626686760.jpg)
 
 然後實作該介面，必須繼承樣板內建的 BookStoreAppService，還有剛剛新增好的 IBookAppService
 
@@ -129,7 +127,7 @@ namespace Acme.BookStore.Books
 }
 ```
 
-![然後實作該介面，必須繼承樣板內建的 BookStoreAppService，還有剛剛新增好的 IBookAppService](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626686900.png)
+![然後實作該介面，必須繼承樣板內建的 BookStoreAppService，還有剛剛新增好的 IBookAppService](dotblogs-bff36275-1626686900.jpg)
 
 ## **Redis**
 
@@ -178,7 +176,7 @@ ABP可以[**自動**](https://docs.abp.io/zh-Hans/abp/latest/API/Auto-API-Contro
 
 ### Swagger UI
 
-![Swagger UI](https://dotblogsfile.blob.core.windows.net/user/御星幻/bff36275-1beb-423a-9664-b96e21b3c91c/1626690589.png)
+![Swagger UI](dotblogs-bff36275-1626690589.jpg)
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5

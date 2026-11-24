@@ -1,8 +1,6 @@
 # 常見的PowerShell 輸出訊息的 2 種方法
 
-> **原文發布日期:** 2024-03-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/03/26/powershell-output-to-file
-> **標籤:** 無
+> 首次發表：2024-03-26
 
 ---
 

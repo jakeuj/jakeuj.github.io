@@ -1,8 +1,6 @@
 # ABP.IO Swagger Default Value
 
-> **原文發布日期:** 2022-09-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/30/abp-Swagger-Default-Value
-> **標籤:** 無
+> 首次發表：2022-09-30
 
 ---
 
@@ -47,7 +45,7 @@ public string Message { get; set; }
 public List<string> Users { get; set; }
 ```
 
-![YourProject.Application.Contracts/YourDto.cs](https://dotblogsfile.blob.core.windows.net/user/jakeuj/3d8e3847-8620-45cf-8a75-bc0f7cf98713/1669104103.png.png)
+![YourProject.Application.Contracts/YourDto.cs](dotblogs-3d8e3847-1669104103.jpg)
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
 PS5

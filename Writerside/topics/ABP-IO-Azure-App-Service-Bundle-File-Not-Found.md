@@ -1,8 +1,6 @@
 # ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css' {id="ABP-IO-Azure-App-Service-Bundle-File-Not-Found"}
 
-> **原文發布日期:** 2023-12-06
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/06/abp-Azure-App-Service-DevOps-deploy-cmd
-> **標籤:** 無
+> 首次發表：2023-12-06
 
 ---
 
@@ -19,7 +17,7 @@ Powershell Script 中的 `"%DEPLOYMENT_TEMP%"` 最終會變成 `ÞPLOYMENT_TEMP%
 
 設定 Azure App Service 組態，[指定 Node.js 版本](https://stackoverflow.com/questions/45515421/which-versions-of-node-js-are-available-on-azure-web-sites) (Yarn 需要 4.0 以上)：`WEBSITE_NODE_DEFAULT_VERSION=18.20.4`
 
-![設定 Azure App Service 組態，指定 Node.js 版本 (Yarn 需要 4.0 以上)：WEBSITENODEDEFAULTVERSION](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701856246.png.png)
+![設定 Azure App Service 組態，指定 Node.js 版本 (Yarn 需要 4.0 以上)：WEBSITENODEDEFAULTVERSION](dotblogs-0c5b0fc6-1701856246.jpg)
 
 於方案目錄新增以下部署設定檔 `.deployment` `deploy.ps1`
 
@@ -209,19 +207,19 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 `kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csproj -s .\TestCiCd.sln -t posh`
 
-![kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csp](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917408.png.png)
+![kuduscript -y --aspNetCore .\src\TestCiCd.HttpApi.Host\TestCiCd.HttpApi.Host.csp](dotblogs-0c5b0fc6-1701917408.jpg)
 
 `.deployment` & `deploy.ps1`
 
-![.deployment & deploy.ps1](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701917442.png.png)
+![.deployment & deploy.ps1](dotblogs-0c5b0fc6-1701917442.jpg)
 
 最後 Git Commit & Push 觸發 CI/CD
 
-![最後 Git Commit & Push 觸發 CI/CD](https://dotblogsfile.blob.core.windows.net/user/小小朱/0c5b0fc6-b26a-4129-9682-fc4e37f3bb9f/1701936565.png.png)
+![最後 Git Commit & Push 觸發 CI/CD](dotblogs-0c5b0fc6-1701936565.jpg)
 
 ## 備註
 
-[ABP.IO Could not find the bundle file '/libs/abp/core/abp.css' | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/07/21/abp-NPM-not-installed)
+[ABP.IO Could not find the bundle file '/libs/abp/core/abp.css'](ABP-IO-Bundle-File-Not-Found.md)
 
 至此已解決錯誤 `Could not find the bundle file '/libs/abp/core/abp.css'`
 
@@ -235,7 +233,7 @@ dotnet publish "$DEPLOYMENT_SOURCE\src/TestCiCd.HttpApi.Host/TestCiCd.HttpApi.Ho
 
 否則請參考以下文章修改程式碼
 
-[ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD)
+[ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
 
 其他應注意的還有 Self, CORS, Auth Urls…等網址需要改成對應發布後的前後端網址
 

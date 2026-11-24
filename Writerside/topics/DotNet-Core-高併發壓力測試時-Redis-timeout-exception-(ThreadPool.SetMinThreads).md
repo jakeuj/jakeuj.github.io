@@ -1,8 +1,6 @@
 # DotNet Core Redis Timeout
 
-> **原文發布日期:** 2018-07-18
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2018/07/18/DotNetCoreRedis
-> **標籤:** 無
+> 首次發表：2018-07-18
 
 ---
 

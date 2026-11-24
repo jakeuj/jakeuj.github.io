@@ -1,8 +1,6 @@
 # the virtual path maps to another application, which is not allowed
 
-> **原文發布日期:** 2024-01-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/04/the-virtual-path-maps-to-another-application-which-is-not-allowed
-> **標籤:** 無
+> 首次發表：2024-01-04
 
 ---
 

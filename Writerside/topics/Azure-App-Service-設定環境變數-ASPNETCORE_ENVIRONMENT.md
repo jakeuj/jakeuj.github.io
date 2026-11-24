@@ -1,8 +1,6 @@
 # Azure App Service 環境變數
 
-> **原文發布日期:** 2022-04-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/20/AzureAppServiceASPNETCORE_ENVIRONMENT
-> **標籤:** 無
+> 首次發表：2022-04-20
 
 ---
 
@@ -12,7 +10,7 @@ ASPNETCORE\_ENVIRONMENT=staging
 
 ASPNETCORE\_ENVIRONMENT=staging
 
-![ASPNETCORE\ENVIRONMENT=staging](https://dotblogsfile.blob.core.windows.net/user/jakeuj/41e83032-0b77-427c-9343-72ddff238994/1650450041.png.png)
+![ASPNETCORE\ENVIRONMENT=staging](dotblogs-41e83032-1650450041.jpg)
 
 ASPNETCORE\_ENVIRONMENT=staging
 

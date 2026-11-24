@@ -1,8 +1,6 @@
 # 跨網域 Iframe 建立 cookies
 
-> **原文發布日期:** 2021-08-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/19/sameSiteCookie
-> **標籤:** 無
+> 首次發表：2021-08-19
 
 ---
 

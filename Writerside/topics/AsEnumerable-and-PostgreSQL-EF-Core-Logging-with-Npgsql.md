@@ -1,8 +1,6 @@
 # PostgreSQL EF Core Logging
 
-> **原文發布日期:** 2020-10-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/10/30/AsEnumerable
-> **標籤:** 無
+> 首次發表：2020-10-30
 
 ---
 

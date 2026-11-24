@@ -1,8 +1,6 @@
 # [NSwag] error TS2349: Cannot invoke an expression whose type lacks a call signature
 
-> **原文發布日期:** 2019-07-31
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/07/31/NSwagTemplate
-> **標籤:** 無
+> 首次發表：2019-07-31
 
 ---
 

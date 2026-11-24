@@ -1,8 +1,6 @@
 # hCaptcha DotNet Core 實作
 
-> **原文發布日期:** 2021-01-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/01/28/hCaptcha
-> **標籤:** 無
+> 首次發表：2021-01-28
 
 ---
 
@@ -38,7 +36,7 @@ Cloudflare 就宣布換掉 Google reCAPTCHA
 
 https://dashboard.hcaptcha.com/sites?page=1
 
-![https://dashboard.hcaptcha.com/sites?page=1](https://dotblogsfile.blob.core.windows.net/user/jakeuj/ff27ddb8-8aab-4e5f-bd89-a95de4a4565a/1611801003.png)這邊必須要是可以成功從外部dns解析的網站，也不能是localhost​
+![https://dashboard.hcaptcha.com/sites?page=1](dotblogs-ff27ddb8-1611801003.jpg)這邊必須要是可以成功從外部dns解析的網站，也不能是localhost​
 
 開發階段要將測試網址解析到本地以利開發測試
 

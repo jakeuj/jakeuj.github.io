@@ -1,8 +1,6 @@
 # C# delegate, Func&lt;TResult&gt;, Action&lt;T&gt; {id="CSharp-Delegate-Func-Action"}
 
-> **原文發布日期:** 2023-04-18
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/18/CSharp-delegate-Func-Action
-> **標籤:** 無
+> 首次發表：2023-04-18
 
 ---
 
@@ -14,7 +12,7 @@ delegate
 
 相當於宣告一個 class 內的變數，其形態為 方法
 
-[委派 delegate C# 基本概念具現化 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2012/10/30/CSharp-delegate)
+[委派 delegate C# 基本概念具現化](https://jakeuj.com/委派-delegate-c-基本概念具現化.html)
 
 ## `Func<TResult>`
 
@@ -70,13 +68,13 @@ public async Task DoSomethingAsync(
 
 ### 對應關係圖
 
-![對應關係圖](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681801092.png.png)
+![對應關係圖](dotblogs-7bdeeccd-1681801092.jpg)
 
 對應關係圖
 
 ### 簡化版本
 
-![簡化版本](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681803742.png.png)
+![簡化版本](dotblogs-7bdeeccd-1681803742.jpg)
 
 ## `Action<T>`
 
@@ -93,7 +91,7 @@ public async Task DoSomethingAsync(
 
 如都不需要則使用 Action
 
-![如都不需要則使用 Action](https://dotblogsfile.blob.core.windows.net/user/小小朱/7bdeeccd-06ec-4edf-87f6-4520d8919414/1681804146.png.png)
+![如都不需要則使用 Action](dotblogs-7bdeeccd-1681804146.jpg)
 
 Action
 

@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.06 開發教學  第 5 部分 授權
 
-> **原文發布日期:** 2021-07-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-5
-> **標籤:** 無
+> 首次發表：2021-07-23
 
 ---
 
@@ -74,7 +72,7 @@ namespace Acme.BookStore.Permissions
 
 這是定義權限名稱的分層方式。例如，“創建書”權限名稱定義為`BookStore.Books.Create`。ABP 不會強迫您使用結構，但我們發現這種方式很有用。
 
-![這是定義權限名稱的分層方式。例如，“創建書”權限名稱定義為BookStore.Books.Create。ABP 不會強迫您使用結構，但我們發現這種方式很有用。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025316.png)
+![這是定義權限名稱的分層方式。例如，“創建書”權限名稱定義為BookStore.Books.Create。ABP 不會強迫您使用結構，但我們發現這種方式很有用。](dotblogs-13c109ab-1627025316.jpg)
 
 ### 權限定義
 
@@ -109,7 +107,7 @@ namespace Acme.BookStore.Permissions
 }
 ```
 
-![打開 Acme.BookStore.Application.Contracts 專案裡面的BookStorePermissionDefinitionProvid](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025548.png)
+![打開 Acme.BookStore.Application.Contracts 專案裡面的BookStorePermissionDefinitionProvid](dotblogs-13c109ab-1627025548.jpg)
 
 這個類定義了一個**權限組**（在 UI 上對權限進行分組，將在下面看到）和這個組內的**4 個權限**。
 
@@ -127,7 +125,7 @@ namespace Acme.BookStore.Permissions
 
 > 本地化鍵名是任意的，沒有強制規則。但我們更喜歡上面使用的約定。
 
-![本地化鍵名是任意的，沒有強制規則。但我們更喜歡上面使用的約定。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627025741.png)
+![本地化鍵名是任意的，沒有強制規則。但我們更喜歡上面使用的約定。](dotblogs-13c109ab-1627025741.jpg)
 
 ### 權限管理界面
 
@@ -190,7 +188,7 @@ namespace Acme.BookStore.Books
 
 > `[Authorize(...)]`稍後在開發作者管理功能時，您將看到使用屬性的聲明性授權。
 
-![[Authorize(...)]稍後在開發作者管理功能時，您將看到使用屬性的聲明性授權。](https://dotblogsfile.blob.core.windows.net/user/御星幻/13c109ab-9312-4d96-a13f-58ec30b74fc5/1627026014.png)
+![[Authorize(...)]稍後在開發作者管理功能時，您將看到使用屬性的聲明性授權。](dotblogs-13c109ab-1627026014.jpg)
 
 ### Angular 防護配置
 

@@ -1,8 +1,6 @@
 # [2021] 檔案上傳到件 Uploadify 升級到 UploadiFive 的筆記
 
-> **原文發布日期:** 2021-03-12
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/12/UploadiFive
-> **標籤:** 無
+> 首次發表：2021-03-12
 
 ---
 

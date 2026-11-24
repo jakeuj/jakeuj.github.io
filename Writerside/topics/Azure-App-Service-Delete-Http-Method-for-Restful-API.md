@@ -1,8 +1,6 @@
 # Azure App Service Delete Http Method for Restful API
 
-> **原文發布日期:** 2021-10-12
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/10/12/Azure-App-Service-Delete
-> **標籤:** 無
+> 首次發表：2021-10-12
 
 ---
 

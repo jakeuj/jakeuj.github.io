@@ -1,8 +1,6 @@
 # GCP PUB SUB
 
-> **原文發布日期:** 2023-08-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/08/22/Google-Cloud-PUB-SUB-IAM
-> **標籤:** 無
+> 首次發表：2023-08-22
 
 ---
 

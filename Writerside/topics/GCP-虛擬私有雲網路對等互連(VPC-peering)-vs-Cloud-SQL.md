@@ -1,8 +1,6 @@
 # GCP VPC Peering
 
-> **原文發布日期:** 2024-02-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/02/19/unable-to-recreate-private-service-access-on-gcp
-> **標籤:** 無
+> 首次發表：2024-02-19
 
 ---
 
@@ -18,7 +16,7 @@ gcloud services vpc-peerings update --service=servicenetworking.googleapis.com -
 
 Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線
 
-![Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708311279.png.png)
+![Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線](dotblogs-ea03c786-1708311279.jpg)
 
 否則好像連 IP 白名單都開不了
 
@@ -28,7 +26,7 @@ Cloud SQL 設定私有 IP 時會需要建立 VPC peering 來連線
 
 更新後會在 VPC peering 畫面看到原本刪除的 `servicenetworking.googleapis.com`
 
-![更新後會在 VPC peering 畫面看到原本刪除的 servicenetworking.googleapis.com](https://dotblogsfile.blob.core.windows.net/user/小小朱/ea03c786-6f71-46c4-8c78-e0c7d6d6269c/1708314114.png.png)
+![更新後會在 VPC peering 畫面看到原本刪除的 servicenetworking.googleapis.com](dotblogs-ea03c786-1708314114.jpg)
 
 參照
 

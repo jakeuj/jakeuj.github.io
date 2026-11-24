@@ -1,8 +1,6 @@
 # MYSQL SQLEXCEPTION HANDLER 抓錯誤訊息
 
-> **原文發布日期:** 2019-11-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/11/21/MYSQLEXCEPTION
-> **標籤:** 無
+> 首次發表：2019-11-21
 
 ---
 

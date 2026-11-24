@@ -1,26 +1,24 @@
 # Windows Terminal 加入 Git Bash
 
-> **原文發布日期:** 2024-02-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/02/19/add-a-new-profile-for-windows-terminal
-> **標籤:** 無
+> 首次發表：2024-02-19
 
 ---
 
 記錄下設定
 
-![記錄下設定](https://dotblogsfile.blob.core.windows.net/user/小小朱/47a937d2-bc12-4c99-a7e3-a704d74e02aa/1708335949.png.png)
+![記錄下設定](dotblogs-47a937d2-1708335949.jpg)
 
 ## 結論
 
 路徑 `C:\Program Files\Git\bin\bash.exe`
 
-![路徑 C:\Program Files\Git\bin\bash.exe](https://dotblogsfile.blob.core.windows.net/user/小小朱/47a937d2-bc12-4c99-a7e3-a704d74e02aa/1708335542.png.png)
+![路徑 C:\Program Files\Git\bin\bash.exe](dotblogs-47a937d2-1708335542.jpg)
 
 但是沒有我要用的 dig 指令…
 
 還是乖乖用我的 WSL
 
-![還是乖乖用我的 WSL](https://dotblogsfile.blob.core.windows.net/user/小小朱/47a937d2-bc12-4c99-a7e3-a704d74e02aa/1708336112.png.png)
+![還是乖乖用我的 WSL](dotblogs-47a937d2-1708336112.jpg)
 
 ## 參照
 

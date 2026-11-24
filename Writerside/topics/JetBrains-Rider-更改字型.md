@@ -1,14 +1,12 @@
 # JetBrains Rider 更改字型
 
-> **原文發布日期:** 2019-06-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/14/RiderFont
-> **標籤:** 無
+> 首次發表：2019-06-14
 
 ---
 
 JetBrains Rider Change Fonts
 
-![JetBrains Rider Change Fonts](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a11f62eb-3629-4e19-9718-b4a9e1ed2af7/1560527792_04746.PNG)
+![JetBrains Rider Change Fonts](dotblogs-a11f62eb-1560527792_04746.png)
 
 目前有四個地方可以改
 
@@ -36,7 +34,7 @@ P.S. CTRL+ALT+S 可以直接開啟 File | Settings
 
 ## 參照
 
-[字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬) | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2019/04/10/Fonts)
+[字型介紹 Noto(思源字體) Sans-serif(無襯線) Serif(襯線體) Mono(等寬)](https://jakeuj.com/字型介紹-noto-思源字體-sans-serif-無襯線-serif-襯線體-mono-等寬.html)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

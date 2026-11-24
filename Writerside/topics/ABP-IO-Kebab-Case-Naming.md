@@ -1,8 +1,6 @@
 # ABP.IO 烤肉串命名&#xFF08;Kebab case&#xFF09; {id="ABP-IO-Kebab-Case-Naming"}
 
-> **原文發布日期:** 2022-04-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/14/abp-kebab-camel-case
-> **標籤:** 無
+> 首次發表：2022-04-14
 
 ---
 

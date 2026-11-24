@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.09 開發教學 第 8 部分&#xFF1A;作者&#xFF1A;應用服務層 {id="ABP-IO-Tutorial-No-09-Part-8-Authors-Application-Service"}
 
-> **原文發布日期:** 2021-07-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-8
-> **標籤:** 無
+> 首次發表：2021-07-23
 
 ---
 
@@ -78,7 +76,7 @@ namespace Acme.BookStore.Authors
 - `PagedResultDto`是 ABP 框架中預定義的 DTO 類。它有一個`Items`集合和一個`TotalCount`返回分頁結果的屬性。
 - 首選`AuthorDto`從`CreateAsync`方法返回（對於新創建的作者），而此應用程序不使用它 - 只是為了顯示不同的用法。
 
-![首選AuthorDto從CreateAsync方法返回（對於新創建的作者），而此應用程序不使用它 - 只是為了顯示不同的用法。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030796.png)
+![首選AuthorDto從CreateAsync方法返回（對於新創建的作者），而此應用程序不使用它 - 只是為了顯示不同的用法。](dotblogs-f2f20135-1627030796.jpg)
 
 此接口使用下面定義的 DTO（為您的項目創建它們）。
 
@@ -103,7 +101,7 @@ namespace Acme.BookStore.Authors
 
 - `EntityDto<T>`僅具有`Id`具有給定泛型參數的屬性。您可以`Id`自己創建一個屬性，而不是繼承`EntityDto<T>`.
 
-![EntityDtoT僅具有Id具有給定泛型參數的屬性。您可以Id自己創建一個屬性，而不是繼承EntityDtoT.](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030856.png)
+![EntityDtoT僅具有Id具有給定泛型參數的屬性。您可以Id自己創建一個屬性，而不是繼承EntityDtoT.](dotblogs-f2f20135-1627030856.jpg)
 
 ### GetAuthorListDto - 獲取作者列表
 
@@ -122,7 +120,7 @@ namespace Acme.BookStore.Authors
 - `Filter`用於搜索作者。可以`null`（或空字符串）獲取所有作者。
 - `PagedAndSortedResultRequestDto`具有標準的分頁和排序屬性：`int MaxResultCount`,`int SkipCount`和`string Sorting`。
 
-![PagedAndSortedResultRequestDto具有標準的分頁和排序屬性：int MaxResultCount,int SkipCount和stri](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030919.png)
+![PagedAndSortedResultRequestDto具有標準的分頁和排序屬性：int MaxResultCount,int SkipCount和stri](dotblogs-f2f20135-1627030919.jpg)
 > ABP 框架有這樣的基本 DTO 類來簡化和標準化你的 DTO。請參閱[DTO 文檔](https://docs.abp.io/en/abp/latest/Data-Transfer-Objects)了解所有信息。
 
 ### CreateAuthorDto - 創建作者
@@ -149,7 +147,7 @@ namespace Acme.BookStore.Authors
 
 數據註釋屬性可用於驗證 DTO。有關詳細信息，請參閱[驗證文件](https://docs.abp.io/en/abp/latest/Validation)。
 
-![數據註釋屬性可用於驗證 DTO。有關詳細信息，請參閱驗證文件。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627030989.png)
+![數據註釋屬性可用於驗證 DTO。有關詳細信息，請參閱驗證文件。](dotblogs-f2f20135-1627030989.jpg)
 
 ### UpdateAuthorDto - 更新作者
 
@@ -175,7 +173,7 @@ namespace Acme.BookStore.Authors
 
 > 我們可以在創建和更新操作之間共享（重用）相同的 DTO。雖然你可以做到，但我們更喜歡為這些操作創建不同的 DTO，因為我們看到它們通常隨著時間的推移而不同。因此，與緊耦合設計相比，這裡的代碼重複是合理的。
 
-![我們可以在創建和更新操作之間共享（重用）相同的 DTO。雖然你可以做到，但我們更喜歡為這些操作創建不同的 DTO，因為我們看到它們通常隨著時間的推移而不同。因此](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627031168.png)
+![我們可以在創建和更新操作之間共享（重用）相同的 DTO。雖然你可以做到，但我們更喜歡為這些操作創建不同的 DTO，因為我們看到它們通常隨著時間的推移而不同。因此](dotblogs-f2f20135-1627031168.jpg)
 
 ## 作者應用服務
 
@@ -217,7 +215,7 @@ namespace Acme.BookStore.Authors
 - 實現了`IAuthorAppService`上面定義的。
 - 注入`IAuthorRepository`和`AuthorManager`以在服務方法中使用。
 
-![注入IAuthorRepository和AuthorManager以在服務方法中使用。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627031311.png)
+![注入IAuthorRepository和AuthorManager以在服務方法中使用。](dotblogs-f2f20135-1627031311.jpg)
 
 現在，我們將一一介紹服務方法。將解釋的方法複製到`AuthorAppService`類中。
 
@@ -235,7 +233,7 @@ public async Task<AuthorDto> GetAsync(Guid id)
 
 這個方法簡單地通過`Author`實體獲取實體`Id`，轉換為`AuthorDto`使用對[像到對象映射器](https://docs.abp.io/en/abp/latest/Object-To-Object-Mapping)。這需要配置AutoMapper，後面會解釋。
 
-![這個方法簡單地通過Author實體獲取實體Id，轉換為AuthorDto使用對像到對象映射器。這需要配置AutoMapper，後面會解釋。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627031430.png)
+![這個方法簡單地通過Author實體獲取實體Id，轉換為AuthorDto使用對像到對象映射器。這需要配置AutoMapper，後面會解釋。](dotblogs-f2f20135-1627031430.jpg)
 
 ### GetListAsync
 
@@ -300,7 +298,7 @@ public async Task<AuthorDto> CreateAsync(CreateAuthorDto input)
 
 > **DDD 提示**：一些開發人員可能會發現將新實體插入到`_authorManager.CreateAsync`. 我們認為將它留給應用層是一個更好的設計，因為它更好地知道什麼時候將它插入到數據庫中（也許它需要在插入之前對實體進行額外的工作，如果我們在域服務）。但是，這完全取決於您。
 
-![DDD 提示：一些開發人員可能會發現將新實體插入到authorManager.CreateAsync. 我們認為將它留給應用層是一個更好的設計，因為它更好地知道](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627031565.png)
+![DDD 提示：一些開發人員可能會發現將新實體插入到authorManager.CreateAsync. 我們認為將它留給應用層是一個更好的設計，因為它更好地知道](dotblogs-f2f20135-1627031565.jpg)
 
 ### UpdateAsync
 
@@ -332,7 +330,7 @@ public async Task UpdateAsync(Guid id, UpdateAuthorDto input)
 
 > **EF Core 提示**：Entity Framework Core 具有**更改跟踪**系統，並在工作單元結束時**自動保存**對實體的任何更改（您可以簡單地認為 ABP 框架會`SaveChanges`在方法結束時自動調用）。因此，即使您沒有`_authorRepository.UpdateAsync(...)`在方法的末尾調用 ，它也會按預期工作。如果您以後不考慮更改 EF Core，則可以刪除此行。
 
-![EF Core 提示：Entity Framework Core 具有更改跟踪系統，並在工作單元結束時自動保存對實體的任何更改（您可以簡單地認為 ABP 框架會](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032142.png)
+![EF Core 提示：Entity Framework Core 具有更改跟踪系統，並在工作單元結束時自動保存對實體的任何更改（您可以簡單地認為 ABP 框架會](dotblogs-f2f20135-1627032142.jpg)
 
 ### DeleteAsync
 
@@ -380,7 +378,7 @@ namespace Acme.BookStore.Permissions
 }
 ```
 
-![打開 Acme.BookStore.Application.Contracts 專案裡面的類 BookStorePermissions（在Permissions](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032305.png)
+![打開 Acme.BookStore.Application.Contracts 專案裡面的類 BookStorePermissions（在Permissions](dotblogs-f2f20135-1627032305.jpg)
 
 然後`BookStorePermissionDefinitionProvider`在同一個項目中打開 並在`Define`方法的末尾添加以下幾行：
 
@@ -398,7 +396,7 @@ authorsPermission.AddChild(
     BookStorePermissions.Authors.Delete, L("Permission:Authors.Delete"));
 ```
 
-![然後BookStorePermissionDefinitionProvider在同一個項目中打開 並在Define方法的末尾添加以下幾行：](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032454.png)
+![然後BookStorePermissionDefinitionProvider在同一個項目中打開 並在Define方法的末尾添加以下幾行：](dotblogs-f2f20135-1627032454.jpg)
 
 最後，將以下條目添加到 `Acme.BookStore.Domain.Shared`項目`Localization/BookStore/en.json`內部，以本地化權限名稱：
 
@@ -409,7 +407,7 @@ authorsPermission.AddChild(
 "Permission:Authors.Delete": "Deleting the authors"
 ```
 
-![最後，將以下條目添加到 Acme.BookStore.Domain.Shared項目Localization/BookStore/en.json內部，以本地化權](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032509.png)
+![最後，將以下條目添加到 Acme.BookStore.Domain.Shared項目Localization/BookStore/en.json內部，以本地化權](dotblogs-f2f20135-1627032509.jpg)
 
 ## 對像到對象映射
 
@@ -421,7 +419,7 @@ authorsPermission.AddChild(
 CreateMap<Author, AuthorDto>();
 ```
 
-![打開 Acme.BookStore.Application 項目中的BookStoreApplicationAutoMapperProfile類並將以下行添加到](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032622.png)
+![打開 Acme.BookStore.Application 項目中的BookStoreApplicationAutoMapperProfile類並將以下行添加到](dotblogs-f2f20135-1627032622.jpg)
 
 ## 數據播種機 (Seed Data Contributor)
 
@@ -511,7 +509,7 @@ namespace Acme.BookStore
 
 現在，您可以運行`.DbMigrator`控制台應用程序**遷移**的**數據庫架構**和**種子**的初始數據。
 
-![現在，您可以運行.DbMigrator控制台應用程序遷移的數據庫架構和種子的初始數據。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627032845.png)
+![現在，您可以運行.DbMigrator控制台應用程序遷移的數據庫架構和種子的初始數據。](dotblogs-f2f20135-1627032845.jpg)
 
 ## 測試作者申請服務
 
@@ -594,7 +592,7 @@ namespace Acme.BookStore.Authors
 
 為應用服務方法創建了一些測試，應該很容易理解。
 
-![為應用服務方法創建了一些測試，應該很容易理解。](https://dotblogsfile.blob.core.windows.net/user/御星幻/f2f20135-b3fd-4c0d-843e-dd74ccc5877a/1627033014.png)
+![為應用服務方法創建了一些測試，應該很容易理解。](dotblogs-f2f20135-1627033014.jpg)
 
 ## 下一部分
 

@@ -1,8 +1,6 @@
 # Angular 呼叫 RESTful API
 
-> **原文發布日期:** 2019-01-07
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/07/Setup-proxy-to-backend-in-Angular-CLI
-> **標籤:** 無
+> 首次發表：2019-01-07
 
 ---
 

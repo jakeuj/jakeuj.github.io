@@ -1,8 +1,6 @@
 # C# .Net 7 XML Deserialize
 
-> **原文發布日期:** 2023-05-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/30/xml-serialization-xmlserializer-deserialize
-> **標籤:** 無
+> 首次發表：2023-05-30
 
 ---
 

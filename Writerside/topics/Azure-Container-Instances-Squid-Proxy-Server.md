@@ -1,8 +1,6 @@
 # Azure Container Squid Proxy
 
-> **原文發布日期:** 2022-11-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/24/Azure-Container-Instances-Squid-Proxy-Server
-> **標籤:** 無
+> 首次發表：2022-11-24
 
 ---
 
@@ -29,7 +27,7 @@ apt-get install curl -y
 curl -x http://127.0.0.1:3128 -L http://google.com
 ```
 
-![2. 安裝工具](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279373.png.png)
+![2. 安裝工具](dotblogs-33840f72-1669279373.jpg)
 
     3. 編輯設定擋 squid.conf
 
@@ -41,7 +39,7 @@ curl -x http://127.0.0.1:3128 -L http://google.com
 
 取消註解 #http\_access allow localnet
 
-![取消註解 #http\access allow localnet](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279676.png.png)
+![取消註解 #http\access allow localnet](dotblogs-33840f72-1669279676.jpg)
 
     3.2 更改 Port
 
@@ -49,7 +47,7 @@ curl -x http://127.0.0.1:3128 -L http://google.com
 
 改成 `http_port 80`
 
-![改成 httpport 80](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669279934.png.png)
+![改成 httpport 80](dotblogs-33840f72-1669279934.jpg)
 
 參照
 
@@ -66,7 +64,7 @@ acl SSL_ports port 22
 acl Safe_ports port 22          # ssh/sftp
 ```
 
-![新增以下字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281158.png.png)
+![新增以下字段](dotblogs-33840f72-1669281158.jpg)
 
 參照
 
@@ -118,19 +116,19 @@ curl -x http://127.0.0.1:80 -L http://google.com
 
     6. 遠端測試
 
-![6. 遠端測試](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280521.png.png)
+![6. 遠端測試](dotblogs-33840f72-1669280521.jpg)
 
 驗證帳號密碼
 
-![驗證帳號密碼](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669285340.png.png)
+![驗證帳號密碼](dotblogs-33840f72-1669285340.jpg)
 
 確認 IP 是否從台灣換成新加坡 (資源群組 東南亞 資料中心 位於 SG)
 
-![確認 IP 是否從台灣換成新加坡 (資源群組 東南亞 資料中心 位於 SG)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669280578.png.png)
+![確認 IP 是否從台灣換成新加坡 (資源群組 東南亞 資料中心 位於 SG)](dotblogs-33840f72-1669280578.jpg)
 
 ## 測試 SFTP
 
-![測試 SFTP](https://dotblogsfile.blob.core.windows.net/user/jakeuj/33840f72-0efb-417b-8412-1b87707e655b/1669281376.png.png)
+![測試 SFTP](dotblogs-33840f72-1669281376.jpg)
 
 沒意外了話可以成功取得檔案
 

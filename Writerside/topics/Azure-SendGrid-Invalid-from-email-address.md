@@ -1,8 +1,6 @@
 # Azure SendGrid Invalid from email address
 
-> **原文發布日期:** 2021-09-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/09/Azure-SendGrid-Invalid-from-email-address
-> **標籤:** 無
+> 首次發表：2021-09-09
 
 ---
 
@@ -42,7 +40,7 @@ Sender 識別與驗證也是獨立的
 
 沒甚麼事情了話應該只要開寄信權限就好了
 
-![沒甚麼事情了話應該只要開寄信權限就好了](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6e3eb724-eff4-49d7-a070-25d7f96da48c/1631168718.png)
+![沒甚麼事情了話應該只要開寄信權限就好了](dotblogs-6e3eb724-1631168718.jpg)
 
 ### 寄件者驗證
 

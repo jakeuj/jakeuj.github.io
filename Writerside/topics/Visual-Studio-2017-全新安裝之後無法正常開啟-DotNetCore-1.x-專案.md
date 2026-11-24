@@ -1,8 +1,6 @@
 # Visual Studio 2017 DotNetCore 問題
 
-> **原文發布日期:** 2017-10-16
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2017/10/16/dotnetcore1
-> **標籤:** 無
+> 首次發表：2017-10-16
 
 ---
 

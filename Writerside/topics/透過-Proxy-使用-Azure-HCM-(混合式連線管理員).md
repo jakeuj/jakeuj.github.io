@@ -1,8 +1,6 @@
 # Azure HCM Proxy 設定
 
-> **原文發布日期:** 2022-03-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/14/Proxy-Azure-Relay-Hybrid-Connections
-> **標籤:** 無
+> 首次發表：2022-03-14
 
 ---
 
@@ -32,7 +30,7 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 ### 參照
 
-[Azure App Service 混合式連線 (HCM) | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/08/27/Azure-Relay-Hybrid-Connections)
+[Azure App Service 混合式連線 (HCM)](https://jakeuj.com/azure-app-service-混合式連線-hcm.html)
 
 [`<defaultProxy>` 項目 (網路設定) - .NET Framework | Microsoft Docs](https://docs.microsoft.com/zh-tw/dotnet/framework/configure-apps/file-schema/network/defaultproxy-element-network-settings#example)
 
@@ -78,7 +76,7 @@ C:\Program Files\Microsoft\HybridConnectionManager 0.7\Microsoft.HybridConnectio
 
 ### Log port
 
-![Log port](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4ef224f2-a958-4940-8d7f-b4dc51e99d16/1647241786.png.png)
+![Log port](dotblogs-4ef224f2-1647241786.jpg)
 
 參照
 

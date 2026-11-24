@@ -1,8 +1,6 @@
 # How to Disable TLS 1.0 /1.1 in Apache Server
 
-> **原文發布日期:** 2022-06-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/06/20/DisableTls1011
-> **標籤:** 無
+> 首次發表：2022-06-20
 
 ---
 
@@ -25,7 +23,7 @@ Windows
 
 [Nartac Software - IIS Crypto](https://www.nartac.com/Products/IISCrypto/)
 
-![Nartac Software - IIS Crypto](https://dotblogsfile.blob.core.windows.net/user/jakeuj/09b94ce6-dd1e-4590-865d-0d5a2b049cbd/1655716824.png.png)
+![Nartac Software - IIS Crypto](dotblogs-09b94ce6-1655716824.jpg)
 
 參照
 
@@ -33,7 +31,7 @@ Windows
 
 延伸閱讀
 
-[Azure VPN Windows Server 2012 R2 Error 812 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/06/15/AzureVpnWindowsServer2012R2Error812)
+[Azure VPN Windows Server 2012 R2 Error 812](Azure-VPN-Windows-Server-2012-R2-Error-812.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

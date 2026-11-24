@@ -1,8 +1,6 @@
 # Windows Server 2016 於 IIS 10 安裝  Web Farm Framework 問題與解答
 
-> **原文發布日期:** 2016-01-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/01/14/wff
-> **標籤:** 無
+> 首次發表：2016-01-14
 
 ---
 

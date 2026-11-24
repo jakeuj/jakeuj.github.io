@@ -1,8 +1,6 @@
 # Windows Update Error Code 0x8024401c
 
-> **原文發布日期:** 2021-03-17
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/17/8024401c
-> **標籤:** 無
+> 首次發表：2021-03-17
 
 ---
 

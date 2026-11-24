@@ -1,8 +1,6 @@
 # Angular Function calls are not supported in decorators but &#x27;InjectionToken&#x27; was called in {id="Angular-Function-Calls-Not-Supported-In-Decorators-InjectionToken"}
 
-> **原文發布日期:** 2019-08-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/08/26/angulardecoratorerror
-> **標籤:** 無
+> 首次發表：2019-08-26
 
 ---
 

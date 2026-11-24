@@ -1,8 +1,6 @@
 # Azure App Service Web Job
 
-> **原文發布日期:** 2022-03-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/03/03/Azure-App-Service-Web-Job-PowerShell-API
-> **標籤:** 無
+> 首次發表：2022-03-03
 
 ---
 

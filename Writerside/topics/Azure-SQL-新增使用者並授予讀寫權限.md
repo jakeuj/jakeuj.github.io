@@ -1,8 +1,6 @@
 # Azure SQL 新增使用者並授予讀寫權限
 
-> **原文發布日期:** 2021-09-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/23/Azure-SQL-CREATE-LOGIN-USER
-> **標籤:** 無
+> 首次發表：2021-09-23
 
 ---
 
@@ -45,7 +43,7 @@ CREATE LOGIN [NewLoginAccount] WITH PASSWORD='donthackmeplz'
 GO
 ```
 
-![密碼：donthackmeplz](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410424.png.png)
+![密碼：donthackmeplz](dotblogs-169980c2-1682410424.jpg)
 
 Login
 
@@ -65,7 +63,7 @@ CREATE USER [NewUserName] FOR LOGIN [NewLoginAccount]
 GO
 ```
 
-![使用者名稱：NewUserName](https://dotblogsfile.blob.core.windows.net/user/小小朱/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1682410480.png.png)
+![使用者名稱：NewUserName](dotblogs-169980c2-1682410480.jpg)
 
 User
 
@@ -108,7 +106,7 @@ GO
 
 則建議使用另一個較高權限的帳號來進行操作
 
-![則建議使用另一個較高權限的帳號來進行操作](https://dotblogsfile.blob.core.windows.net/user/jakeuj/169980c2-8359-4a4c-ba1b-606bb9fe53ef/1632377410.png)
+![則建議使用另一個較高權限的帳號來進行操作](dotblogs-169980c2-1632377410.jpg)
 
 參照
 

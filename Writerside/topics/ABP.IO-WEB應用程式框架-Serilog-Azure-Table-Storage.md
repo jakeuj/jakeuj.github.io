@@ -1,8 +1,6 @@
 # ABP.IO Serilog Azure Table Storage
 
-> **原文發布日期:** 2023-03-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/03/23/ABP-Serilog-Azure-Table-Storage
-> **標籤:** 無
+> 首次發表：2023-03-23
 
 ---
 

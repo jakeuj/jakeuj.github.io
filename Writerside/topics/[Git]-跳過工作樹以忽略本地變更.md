@@ -1,14 +1,12 @@
 # [Git] 跳過工作樹以忽略本地變更
 
-> **原文發布日期:** 2023-12-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-update-index--skip-worktree
-> **標籤:** 無
+> 首次發表：2023-12-25
 
 ---
 
 git update-index --skip-worktree /path/to/file
 
-![git update-index --skip-worktree /path/to/file](https://dotblogsfile.blob.core.windows.net/user/小小朱/446535fc-9ec2-42a3-b435-211905200e00/1703495445.png.png)
+![git update-index --skip-worktree /path/to/file](dotblogs-446535fc-1703495445.jpg)
 
 ## 結論
 

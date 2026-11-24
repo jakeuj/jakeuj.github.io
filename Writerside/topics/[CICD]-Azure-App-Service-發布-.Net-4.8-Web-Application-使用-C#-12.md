@@ -1,14 +1,12 @@
 # [CI/CD] Azure App Service 發布 .Net 4.8 Web Application 使用 C# 12
 
-> **原文發布日期:** 2023-12-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/25/Azure-App-Service-DevOps-deploy-ps1
-> **標籤:** 無
+> 首次發表：2023-12-25
 
 ---
 
 舊專案預設只能用 C# 6 語法，用新語法部署一直不支援，最後終於可以字串插值啦！
 
-![舊專案預設只能用 C# 6 語法，用新語法部署一直不支援，最後終於可以字串插值啦！](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703484955.png.png)
+![舊專案預設只能用 C# 6 語法，用新語法部署一直不支援，最後終於可以字串插值啦！](dotblogs-d07efac4-1703484955.jpg)
 
 ## 結論
 
@@ -140,7 +138,7 @@ echo "Finished successfully."
 
 其中 `NewSRM.sln` 為方案名稱，須改為自己的專案名字。
 
-![其中 NewSRM.sln 為方案名稱，須改為自己的專案名字。](https://dotblogsfile.blob.core.windows.net/user/小小朱/d07efac4-7211-458d-943c-27e59ce4c15c/1703485008.png.png)
+![其中 NewSRM.sln 為方案名稱，須改為自己的專案名字。](dotblogs-d07efac4-1703485008.jpg)
 
 ## 步驟
 
@@ -183,7 +181,7 @@ web.config
 
 ## 參照
 
-[ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css' | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2023/12/06/abp-Azure-App-Service-DevOps-deploy-cmd)
+[ABP.IO Azure App Service 解決 Could not find the bundle file '/libs/abp/core/abp.css'](ABP-IO-Azure-App-Service-Bundle-File-Not-Found.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

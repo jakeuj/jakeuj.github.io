@@ -1,8 +1,6 @@
 # ABP 新手教學 No.0 全篇索引
 
-> **原文發布日期:** 2016-07-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp0
-> **標籤:** 無
+> 首次發表：2016-07-28
 
 ---
 
@@ -10,7 +8,7 @@ ABP是「ASP.NET Boilerplate Project (ASP.NET樣板項目)」的簡稱。
 ABP不僅僅是一個框架，更提供了一個基於DDD和最佳實踐方案
 ABP的官方網站：<http://aspnetboilerplate.com/>
 
-![ABP的官方網站：http://aspnetboilerplate.com/](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c2fe5da0-4ee1-4667-bb1a-15f28153f5e4/1567752189_41268.png)
+![ABP的官方網站：http://aspnetboilerplate.com/](dotblogs-c2fe5da0-1567752189_41268.png)
 
 應用程式常有許多重複性的功能例如：**授權，驗證，異常處理，日誌，本地化，數據庫連接管理，設置管理，審計日誌等**。
 應用程式也需要規劃**分層**和**模塊化**架構，**領域驅動設計（DDD），依賴注入等等**。
@@ -23,63 +21,63 @@ ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，�
 
 ### No.1 建立專案
 
-參考文件：[No.1 建立專案](https://dotblogs.com.tw/jakeuj/2016/07/26/abp1)
+參考文件：[No.1 建立專案](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-1-建立專案.html)
 
 ### No.2 建立實體 Entity
 
-參考文件：[No.2 建立實體 Entity](https://dotblogs.com.tw/jakeuj/2016/07/26/abp2)
+參考文件：[No.2 建立實體 Entity](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-2-建立實體-entity.html)
 
 ### No.3 建立資料庫上下文 DbContext
 
-參考文件：[No.3 建立資料庫上下文 DbContext](https://dotblogs.com.tw/jakeuj/2016/07/27/abp3)
+參考文件：[No.3 建立資料庫上下文 DbContext](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-3-建立資料庫上下文-dbcontext.html)
 
 ### No.4 資料庫遷移 Migration
 
-參考文件：[No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2016/07/27/abp4)
+參考文件：[No.4 資料庫遷移 Migration](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-4-資料庫遷移-migration.html)
 
 ### No.5 建立倉儲 Repository
 
-參考文件：[No.5 建立倉儲 Repository](https://dotblogs.com.tw/jakeuj/2016/07/28/abp5)
+參考文件：[No.5 建立倉儲 Repository](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-5-建立倉儲-repository.html)
 
 ### No.6 建立應用服務
 
-參考文件：[No.6 建立應用服務](https://dotblogs.com.tw/jakeuj/2016/07/28/abp6)
+參考文件：[No.6 建立應用服務](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-6-建立應用服務.html)
 
 ### No.7 建立WebApi
 
-參考文件：[No.7 建立WebApi](https://dotblogs.com.tw/jakeuj/2016/07/28/abp7)
+參考文件：[No.7 建立WebApi](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-7-建立webapi.html)
 
 ### No.8 單元測試
 
-參考文件：[No.8 單元測試](https://dotblogs.com.tw/jakeuj/2016/07/28/abp8)
+參考文件：[No.8 單元測試](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-8-單元測試.html)
 
 ### No.9 全篇後記
 
-參考文件：[No.9 全篇後記](https://dotblogs.com.tw/jakeuj/2016/07/28/abp9)
+參考文件：[No.9 全篇後記](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-9-全篇後記.html)
 
 #### No.10 範例程式
 
-參考文件：[No.10 範例程式](https://dotblogs.com.tw/jakeuj/2019/01/15/abp10)
+參考文件：[No.10 範例程式](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-10-範例程式.html)
 
 ### No.11 Client Proxies (Angular Service)
 
-參考文件：[No.11 Client Proxies (Angular Service)](https://dotblogs.com.tw/jakeuj/2019/01/18/abp11)
+參考文件：[No.11 Client Proxies (Angular Service)](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-no-11-client-proxies.html)
 
 ### No.12 複數資料庫(DBContext)
 
-參考文件：[No.12 複數資料庫(DBContext)](https://dotblogs.com.tw/jakeuj/2019/01/30/abp12)
+參考文件：[No.12 複數資料庫(DBContext)](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-no-12-複數資料庫-dbcontext.html)
 
 ### No.13 Angular Service
 
-參考文件：[No.13 Angular Service](https://dotblogs.com.tw/jakeuj/2019/04/23/abp13)
+參考文件：[No.13 Angular Service](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-no-13-angular-service.html)
 
 ### No.14 SignalR with Angular
 
-參考文件：[No.14 SignalR with Angular](https://dotblogs.com.tw/jakeuj/2019/08/26/abp14)
+參考文件：[No.14 SignalR with Angular](No.14-SignalR-with-Angular.md)
 
 ### No.15 Angular DateTime UTC Offset
 
-參考文件：[No.15 Angular DateTime UTC Offset](https://dotblogs.com.tw/jakeuj/2019/09/17/abp15)
+參考文件：[No.15 Angular DateTime UTC Offset](No.15-Angular-DateTime-UTC-Offset.md)
 
 ---
 

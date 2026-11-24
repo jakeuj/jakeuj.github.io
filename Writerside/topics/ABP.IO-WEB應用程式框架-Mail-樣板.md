@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 Mail 樣板
 
-> **原文發布日期:** 2022-11-07
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/07/abp-mail-template
-> **標籤:** 無
+> 首次發表：2022-11-07
 
 ---
 
@@ -96,11 +94,11 @@ await _emailSender.QueueAsync(
 
 ## 前置
 
-[ABP.IO WEB應用程式框架 SendGrid](https://www.dotblogs.com.tw/jakeuj/2022/11/04/abp-SendGrid-STMP-587)
+[ABP.IO WEB應用程式框架 SendGrid](ABP.IO-WEB應用程式框架-SendGrid.md)
 
 ## EmbeddedResource
 
-![EmbeddedResource](https://dotblogsfile.blob.core.windows.net/user/jakeuj/cc12a115-f58c-4c6e-a2e5-661d97d98931/1667807514.png.png)
+![EmbeddedResource](dotblogs-cc12a115-1667807514.jpg)
 
 ### EmailTemplate.tpl
 

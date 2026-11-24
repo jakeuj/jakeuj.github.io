@@ -1,8 +1,6 @@
 # ASP.NET Core HTTPS 憑證
 
-> **原文發布日期:** 2021-01-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/01/05/certificate-not-trusted
-> **標籤:** 無
+> 首次發表：2021-01-05
 
 ---
 

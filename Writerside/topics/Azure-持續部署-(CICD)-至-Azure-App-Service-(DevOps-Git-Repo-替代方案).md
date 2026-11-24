@@ -1,8 +1,6 @@
 # Azure 持續部署 (CI/CD) 至 Azure App Service (DevOps Git Repo 替代方案)
 
-> **原文發布日期:** 2021-08-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/30/AzureDevOpsGitRepoCiCdAppService
-> **標籤:** 無
+> 首次發表：2021-08-30
 
 ---
 

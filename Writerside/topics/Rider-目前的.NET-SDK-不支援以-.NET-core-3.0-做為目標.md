@@ -1,8 +1,6 @@
 # Rider 目前的.NET SDK 不支援以 .NET core 3.0 做為目標
 
-> **原文發布日期:** 2019-08-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/08/08/Rider2019DotNetCore30
-> **標籤:** 無
+> 首次發表：2019-08-08
 
 ---
 
@@ -10,7 +8,7 @@
 
 目前的.NET SDK 不支援以 .NET core 3.0 做為目標
 
-確認以下設定![目前的.NET SDK 不支援以 .NET core 3.0 做為目標](https://dotblogsfile.blob.core.windows.net/user/jakeuj/2ccf4db8-7e46-4dcf-9989-d5375de55cd9/1565249670_23321.PNG)
+確認以下設定![目前的.NET SDK 不支援以 .NET core 3.0 做為目標](dotblogs-2ccf4db8-1565249670_23321.png)
 
 記得安裝3.0
 

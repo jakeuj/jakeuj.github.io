@@ -1,8 +1,6 @@
 # Azure DevOps 發佈 Static Web Apps
 
-> **原文發布日期:** 2023-08-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/08/08/Azure-Static-Web-Apps
-> **標籤:** 無
+> 首次發表：2023-08-08
 
 ---
 
@@ -47,7 +45,7 @@ steps:
 
 ### Azure
 
-![Azure](https://dotblogsfile.blob.core.windows.net/user/小小朱/effc1a28-9e54-40dd-afe3-2493f9e92a76/1691466037.png.png)
+![Azure](dotblogs-effc1a28-1691466037.jpg)
 
 理論上在預覽環境就會多出來可以瀏覽的按鈕
 
@@ -55,7 +53,7 @@ steps:
 
 [在 Azure Static Web Apps 中建立分支預覽環境 | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/static-web-apps/branch-environments?tabs=azure-devops#example)
 
-[使用 Azure DevOps 發佈 Azure Static Web Apps | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/08/25/static-web-apps-publish-devops)
+[使用 Azure DevOps 發佈 Azure Static Web Apps](使用-Azure-DevOps-發佈-Azure-Static-Web-Apps.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

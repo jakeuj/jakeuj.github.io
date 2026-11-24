@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 加入 Console 專案
 
-> **原文發布日期:** 2022-02-11
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/02/11/abp-console
-> **標籤:** 無
+> 首次發表：2022-02-11
 
 ---
 
@@ -178,11 +176,11 @@ public async Task StartAsync(CancellationToken cancellationToken)
 
 ### 參照
 
-[ABP.IO WEB應用程式框架 ABP Cli | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/11/26/Abp-Cli)
+[ABP.IO WEB應用程式框架 ABP Cli](ABP.IO-WEB應用程式框架-ABP-Cli.md)
 
 ### 延伸閱讀
 
-[.NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/06/10/DotNetCoreConsoleAppsettingEnvironment)
+[.NET Core 5 Console 泛用主機 依照環境變數讀取對應設定檔 AppSetting](.NET-Core-5-Console-泛用主機-依照環境變數讀取對應設定檔-AppSetting.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

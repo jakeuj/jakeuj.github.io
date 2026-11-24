@@ -1,8 +1,6 @@
 # Windows 11 Windows Defender 打不開
 
-> **原文發布日期:** 2021-09-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/03/Windows11WindowsDefender
-> **標籤:** 無
+> 首次發表：2021-09-03
 
 ---
 

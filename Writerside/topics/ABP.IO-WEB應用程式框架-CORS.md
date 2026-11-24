@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 CORS
 
-> **原文發布日期:** 2023-05-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/09/ABP-CORS
-> **標籤:** 無
+> 首次發表：2023-05-09
 
 ---
 
@@ -114,7 +112,7 @@ public override void OnApplicationInitialization(ApplicationInitializationContex
 
 ### 延伸
 
-[Azure Storage Blob 403 CORS | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/14/Azure-Storage-CORS-Blob-403)
+[Azure Storage Blob 403 CORS](Azure-Storage-Blob-403-CORS.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

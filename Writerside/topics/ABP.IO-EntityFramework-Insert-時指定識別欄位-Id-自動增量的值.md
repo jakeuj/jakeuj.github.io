@@ -1,8 +1,6 @@
 # ABP.IO EntityFramework Insert 時指定識別欄位 Id 自動增量的值
 
-> **原文發布日期:** 2023-06-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/28/ABP-EF-SET-IDENTITY-INSERT-ON
-> **標籤:** 無
+> 首次發表：2023-06-28
 
 ---
 

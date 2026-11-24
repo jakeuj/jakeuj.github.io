@@ -1,8 +1,6 @@
 # ERR_CONNECTION_RESET
 
-> **原文發布日期:** 2019-11-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/11/29/ERR_CONNECTION_RESET
-> **標籤:** 無
+> 首次發表：2019-11-29
 
 ---
 

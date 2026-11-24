@@ -1,8 +1,6 @@
 # Unity 5 使用 Android SDK API 24 問題
 
-> **原文發布日期:** 2016-07-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/04/Unity
-> **標籤:** 無
+> 首次發表：2016-07-04
 
 ---
 

@@ -1,14 +1,12 @@
 # 將 nullable DateTime? 轉成指定格式字串
 
-> **原文發布日期:** 2023-02-01
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/02/01/how-to-parse-nullable-datetime-object-in-c-sharp
-> **標籤:** 無
+> 首次發表：2023-02-01
 
 ---
 
 筆記一下 DateTime?.ToString("yyyyMMdd") 的問題
 
-![筆記一下 DateTime?.ToString("yyyyMMdd") 的問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303184.png.png)
+![筆記一下 DateTime?.ToString("yyyyMMdd") 的問題](dotblogs-c3279c50-1675303184.jpg)
 
 結論
 
@@ -20,7 +18,7 @@ var yyyyMMdd = youWinDate.GetValueOrDefault().ToString("yyyyMMdd");
 yyyyMMdd.Dump();
 ```
 
-![GetValueOrDefault()](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303258.png.png)![GetValueOrDefault() 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/c3279c50-9617-4e1a-b488-8eed81047d83/1675303117.png.png)
+![GetValueOrDefault()](dotblogs-c3279c50-1675303258.jpg)![GetValueOrDefault() 2](dotblogs-c3279c50-1675303117.jpg)
 
 參照
 

@@ -1,8 +1,6 @@
 # 發布 Package 到自己的 Nuget Server
 
-> **原文發布日期:** 2022-12-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/12/19/dotnet-nuget-push-Package-Nuget-Server
-> **標籤:** 無
+> 首次發表：2022-12-19
 
 ---
 

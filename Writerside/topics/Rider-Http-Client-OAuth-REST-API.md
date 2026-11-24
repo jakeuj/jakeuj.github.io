@@ -1,14 +1,12 @@
 # Rider Http Client OAuth REST API
 
-> **原文發布日期:** 2022-12-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/12/21/Rider-Http-Client-OAuth-REST-API
-> **標籤:** 無
+> 首次發表：2022-12-21
 
 ---
 
 筆記下 Rider 的 Http Client 使用 OAuth 驗證並呼叫 REST API
 
-![筆記下 Rider 的 Http Client 使用 OAuth 驗證並呼叫 REST API](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9ba91063-408b-4783-b7cd-e635d0b146f9/1671594530.png.png)
+![筆記下 Rider 的 Http Client 使用 OAuth 驗證並呼叫 REST API](dotblogs-9ba91063-1671594530.jpg)
 
 結論
 

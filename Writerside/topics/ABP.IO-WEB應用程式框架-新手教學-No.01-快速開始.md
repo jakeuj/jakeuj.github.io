@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.01 快速開始
 
-> **原文發布日期:** 2021-07-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/20/abpio01
-> **標籤:** 無
+> 首次發表：2021-07-20
 
 ---
 
@@ -26,7 +24,7 @@
 
 這是一個單一部分的快速入門教程，用於使用 ABP 框架構建一個簡單的待辦事項應用程序。這是最終應用程序的屏幕截圖：
 
-![這是一個單一部分的快速入門教程，用於使用 ABP 框架構建一個簡單的待辦事項應用程序。這是最終應用程序的屏幕截圖：](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626744807.png)
+![這是一個單一部分的快速入門教程，用於使用 ABP 框架構建一個簡單的待辦事項應用程序。這是最終應用程序的屏幕截圖：](dotblogs-bd1a5116-1626744807.jpg)
 
 preview
 
@@ -64,7 +62,7 @@ abp new TodoApp -u angular
 
 這將創建一個新的解決方案，名為*TodoApp*與`angular`和`aspnet-core`文件夾。解決方案準備就緒後，在您喜歡的 IDE 中打開 ASP.NET Core 解決方案。
 
-![這將創建一個新的解決方案，名為TodoApp與angular和aspnet-core文件夾。解決方案準備就緒後，在您喜歡的 IDE 中打開 ASP.NET Co](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626746994.png)
+![這將創建一個新的解決方案，名為TodoApp與angular和aspnet-core文件夾。解決方案準備就緒後，在您喜歡的 IDE 中打開 ASP.NET Co](dotblogs-bd1a5116-1626746994.jpg)
 
 Aspnet-core
 
@@ -76,7 +74,7 @@ Aspnet-core
 
 > 由於 *DbMigrator* 添加了初始遷移並重新編譯項目，因此某些 IDE（例如 Rider）在第一次運行時可能會出現問題。在這種情況下，在`.DbMigrator`項目文件夾中打開命令行終端並執行`dotnet run`命令。
 
-![由於 DbMigrator 添加了初始遷移並重新編譯項目，因此某些 IDE（例如 Rider）在第一次運行時可能會出現問題。在這種情況下，在.DbMigrato](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626746248.png)
+![由於 DbMigrator 添加了初始遷移並重新編譯項目，因此某些 IDE（例如 Rider）在第一次運行時可能會出現問題。在這種情況下，在.DbMigrato](dotblogs-bd1a5116-1626746248.jpg)
 
 PowerShell
 
@@ -93,7 +91,7 @@ PowerShell
 
 確保`TodoApp.HttpApi.Host`項目是啟動項目，然後運行應用程序（Visual Studio 中的 Ctrl+F5）以在 [Swagger UI](https://swagger.io/tools/swagger-ui/) 上查看服務器端 HTTP API ：
 
-![確保TodoApp.HttpApi.Host項目是啟動項目，然後運行應用程序（Visual Studio 中的 Ctrl+F5）以在 Swagger UI 上查](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626746348.png)
+![確保TodoApp.HttpApi.Host項目是啟動項目，然後運行應用程序（Visual Studio 中的 Ctrl+F5）以在 Swagger UI 上查](dotblogs-bd1a5116-1626746348.jpg)
 
 TodoAPI
 
@@ -142,7 +140,7 @@ namespace TodoApp
 
 `BasicAggregateRoot` (內含 Id 欄位當作主鍵) 是創建聚合根實體的最簡單的基類之一，這裡實體的主鍵 ( `Id`) 是 `Guid`型別 (目前 Abp 推薦使用 Guid 作為 PK)。
 
-![BasicAggregateRoot (內含 Id 欄位當作主鍵) 是創建聚合根實體的最簡單的基類之一，這裡實體的主鍵 ( Id) 是 Guid型別 (目前 A](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626747076.png)
+![BasicAggregateRoot (內含 Id 欄位當作主鍵) 是創建聚合根實體的最簡單的基類之一，這裡實體的主鍵 ( Id) 是 Guid型別 (目前 A](dotblogs-bd1a5116-1626747076.jpg)
 
 TodoItem
 
@@ -168,7 +166,7 @@ TodoItem
 public DbSet<TodoItem> TodoItems { get; set; }
 ```
 
-![// 科普：私有唯讀叫欄位，公開有 get, set 叫屬性！](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626747272.png)
+![// 科普：私有唯讀叫欄位，公開有 get, set 叫屬性！](dotblogs-bd1a5116-1626747272.jpg)
 
 DbSet
 
@@ -188,7 +186,7 @@ public static void ConfigureTodoApp(this ModelBuilder builder)
 
 我們已經將`TodoItem`實體映射到`TodoItems`數據庫中的一個表。
 
-![我們已經將TodoItem實體映射到TodoItems數據庫中的一個表。](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626747524.png)
+![我們已經將TodoItem實體映射到TodoItems數據庫中的一個表。](dotblogs-bd1a5116-1626747524.jpg)
 
 TodoAppDbContextModelCreatingExtensions
 
@@ -208,13 +206,13 @@ TodoAppDbContextModelCreatingExtensions
 dotnet ef migrations add Added_TodoItem
 ```
 
-![在 TodoApp.EntityFrameworkCore.DbMigrations 項目的目錄中打開命令行終端並鍵入以下命令：](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626747795.png)
+![在 TodoApp.EntityFrameworkCore.DbMigrations 項目的目錄中打開命令行終端並鍵入以下命令：](dotblogs-bd1a5116-1626747795.jpg)
 
 migrations add
 
 這將向項目添加一個新的遷移類：
 
-![這將向項目添加一個新的遷移類：](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626747863.png)
+![這將向項目添加一個新的遷移類：](dotblogs-bd1a5116-1626747863.jpg)
 
 Migrations
 
@@ -228,7 +226,7 @@ dotnet ef database update
 >
 > 在這種情況下，請確保是啟動項目並且是PMC 中的*默認項目*。`TodoApp.HttpApi.HostTodoApp.EntityFrameworkCore.DbMigrations`
 
-![在這種情況下，請確保是啟動項目並且是PMC 中的默認項目。TodoApp.HttpApi.HostTodoApp.EntityFrameworkCore.DbM](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626748005.png)
+![在這種情況下，請確保是啟動項目並且是PMC 中的默認項目。TodoApp.HttpApi.HostTodoApp.EntityFrameworkCore.DbM](dotblogs-bd1a5116-1626748005.jpg)
 
 database update
 
@@ -273,7 +271,7 @@ namespace TodoApp
 
 這是一個非常簡單的 DTO 類，與我們的`TodoItem`實體相匹配。我們已準備好實施`ITodoAppService`.
 
-![這是一個非常簡單的 DTO 類，與我們的TodoItem實體相匹配。我們已準備好實施ITodoAppService.](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626748382.png)
+![這是一個非常簡單的 DTO 類，與我們的TodoItem實體相匹配。我們已準備好實施ITodoAppService.](dotblogs-bd1a5116-1626748382.jpg)
 
 TodoItemDto
 
@@ -300,7 +298,7 @@ namespace TodoApp
 }
 ```
 
-![我們可以從為應用程序服務定義一個接口開始。在 TodoApp.Application.Contracts 項目中新建一個界面 ITodoAppService，如](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626748518.png)
+![我們可以從為應用程序服務定義一個接口開始。在 TodoApp.Application.Contracts 項目中新建一個界面 ITodoAppService，如](dotblogs-bd1a5116-1626748518.jpg)
 
 ITodoAppService
 
@@ -336,7 +334,7 @@ namespace TodoApp
 }
 ```
 
-![在TodoApp.Application項目裡面創建一個類 TodoAppService，如下：](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626748824.png)
+![在TodoApp.Application項目裡面創建一個類 TodoAppService，如下：](dotblogs-bd1a5116-1626748824.jpg)
 
 TodoAppService
 
@@ -346,7 +344,7 @@ ABP 為實體提供默認的通用[存儲庫](https://docs.abp.io/zh-Hans/abp/la
 
 這個類[註入](https://docs.abp.io/zh-Hans/abp/latest/Dependency-Injection) `IRepository<TodoItem, Guid>`，它是`TodoItem`實體的默認存儲庫。我們將使用它來實現之前描述的用例。
 
-![這個類註入 IRepositoryTodoItem, Guid，它是TodoItem實體的默認存儲庫。我們將使用它來實現之前描述的用例。](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626748964.png)
+![這個類註入 IRepositoryTodoItem, Guid，它是TodoItem實體的默認存儲庫。我們將使用它來實現之前描述的用例。](dotblogs-bd1a5116-1626748964.jpg)
 
 Implement
 
@@ -373,7 +371,7 @@ public async Task<List<TodoItemDto>> GetListAsync()
 
 // 這邊範例為了快速開始所以使用手動方式手動將 Entity 映射到 DTO, ABP 也有整合 AutoMapper，請參考 [連結](https://docs.abp.io/zh-Hans/abp/latest/Object-To-Object-Mapping)
 
-![// 這邊範例為了快速開始所以使用手動方式手動將 Entity 映射到 DTO, ABP 也有整合 AutoMapper，請參考 連結](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626749022.png)
+![// 這邊範例為了快速開始所以使用手動方式手動將 Entity 映射到 DTO, ABP 也有整合 AutoMapper，請參考 連結](dotblogs-bd1a5116-1626749022.jpg)
 
 GetListAsync
 
@@ -404,7 +402,7 @@ Repository 的`InsertAsync`方法將給定的`TodoItem`物件插入數據庫並�
 
 我們只是從新建的`TodoItem`實體返回一個`TodoItemDto`。
 
-![我們只是從新建的TodoItem實體返回一個TodoItemDto。](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626749202.png)
+![我們只是從新建的TodoItem實體返回一個TodoItemDto。](dotblogs-bd1a5116-1626749202.jpg)
 
 CreateAsync
 
@@ -421,7 +419,7 @@ public async Task DeleteAsync(Guid id)
 }
 ```
 
-![最後，我們可以實現DeleteAsync如下代碼塊：](https://dotblogsfile.blob.core.windows.net/user/御星幻/bd1a5116-2353-47cb-988a-bbb78058c450/1626749287.png)
+![最後，我們可以實現DeleteAsync如下代碼塊：](dotblogs-bd1a5116-1626749287.jpg)
 
 DeleteAsync
 

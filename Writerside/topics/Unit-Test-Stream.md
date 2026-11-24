@@ -1,8 +1,6 @@
 # Unit Test Stream
 
-> **原文發布日期:** 2022-10-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/13/Unit-Test-Stream
-> **標籤:** 無
+> 首次發表：2022-10-13
 
 ---
 

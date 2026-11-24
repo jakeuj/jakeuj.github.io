@@ -1,14 +1,12 @@
 # EDGE 刪除 localhost 的 HSTS
 
-> **原文發布日期:** 2024-01-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/03/EDGE-localhost-HSTS
-> **標籤:** 無
+> 首次發表：2024-01-03
 
 ---
 
 最近舊網站開發時常開不起來的筆記
 
-![最近舊網站開發時常開不起來的筆記](https://dotblogsfile.blob.core.windows.net/user/小小朱/b2d2194f-342e-4057-879f-12690d90ebef/1704261878.png.png)
+![最近舊網站開發時常開不起來的筆記](dotblogs-b2d2194f-1704261878.jpg)
 
 ## 結論
 
@@ -24,7 +22,7 @@
 
 ## 延伸閱讀
 
-[HSTS (HTTP Strict Transport Security) & HTTPS redirection (Enforce HTTPS in ASP.NET Core) | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2019/12/18/HSTS)
+[HSTS (HTTP Strict Transport Security) & HTTPS redirection (Enforce HTTPS in ASP.NET Core)](HSTS-And-HTTPS-Redirection-In-ASP-NET-Core.md)
 
 ### 參照
 

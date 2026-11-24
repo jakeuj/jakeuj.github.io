@@ -1,8 +1,6 @@
 # 下載圖片檔案上傳到遠端伺服器API轉存
 
-> **原文發布日期:** 2020-11-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/11/20/MultipartFormDataContent
-> **標籤:** 無
+> 首次發表：2020-11-20
 
 ---
 

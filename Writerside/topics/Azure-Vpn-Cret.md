@@ -44,6 +44,6 @@ certmgr.msc
 
 ## 參照
 
-- [PowerShell Self Signed Certificate](https://dotblogs.com.tw/jakeuj/2023/06/09/PowerShell-Self-Signed-Certificate)
-- [Azure Vpn Getway](https://dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway)
+- [PowerShell Self Signed Certificate](PowerShell-Self-Signed-Certificate.md)
+- [Azure Vpn Getway](Azure-SQL-透過-Azure-VPN-Gateway-實現內網連接.md)
 - [設定 P2S VPN 閘道憑證驗證的伺服器設定](https://learn.microsoft.com/zh-tw/azure/vpn-gateway/point-to-site-certificate-gateway)

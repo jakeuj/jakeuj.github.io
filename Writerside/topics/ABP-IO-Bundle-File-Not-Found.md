@@ -1,8 +1,6 @@
 # ABP.IO Could not find the bundle file &#x27;/libs/abp/core/abp.css&#x27; {id="ABP-IO-Bundle-File-Not-Found"}
 
-> **原文發布日期:** 2022-07-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/07/21/abp-NPM-not-installed
-> **標籤:** 無
+> 首次發表：2022-07-21
 
 ---
 

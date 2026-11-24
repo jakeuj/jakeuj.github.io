@@ -1,8 +1,6 @@
 # ABP 新手教學 No.2 建立實體 Entity
 
-> **原文發布日期:** 2016-07-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/26/abp2
-> **標籤:** 無
+> 首次發表：2016-07-26
 
 ---
 
@@ -31,7 +29,7 @@ ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.2 建立實�
 
 2.簡單了解基本分層後，開始著手實體的建立，依照架構應該將實體放在Core專案
 
-![2.簡單了解基本分層後，開始著手實體的建立，依照架構應該將實體放在Core專案](https://dotblogsfile.blob.core.windows.net/user/jakeuj/214c215c-1e80-4ac1-8e0a-bec8ad05535b/1469594040_81626.png)
+![2.簡單了解基本分層後，開始著手實體的建立，依照架構應該將實體放在Core專案](dotblogs-214c215c-1469594040_81626.png)
 
 先不考慮聚合，在Core裡面簡單建立一個Entities資料夾來放我們的實體
 
@@ -149,7 +147,7 @@ public virtual Map Map { get; set; }
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.3 建立DbContext](https://dotblogs.com.tw/jakeuj/2016/07/27/abp3)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.3 建立DbContext](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-3-建立資料庫上下文-dbcontext.html)
 
 參照
 

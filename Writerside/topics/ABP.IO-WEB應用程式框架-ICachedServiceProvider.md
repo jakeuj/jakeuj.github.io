@@ -1,8 +1,6 @@
 # ABP.IO ICachedServiceProvider
 
-> **原文發布日期:** 2023-05-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/23/Dependency-Injection-Cached-Service-Providers
-> **標籤:** 無
+> 首次發表：2023-05-23
 
 ---
 

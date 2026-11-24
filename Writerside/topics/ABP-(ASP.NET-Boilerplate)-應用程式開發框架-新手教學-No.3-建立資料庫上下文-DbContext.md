@@ -1,8 +1,6 @@
 # ABP 新手教學 No.3 建立資料庫上下文 DbContext
 
-> **原文發布日期:** 2016-07-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/27/abp3
-> **標籤:** 無
+> 首次發表：2016-07-27
 
 ---
 
@@ -127,7 +125,7 @@ protected override void OnModelCreating(DbModelBuilder modelBuilder)
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.4 資料庫遷移 Migration](https://dotblogs.com.tw/jakeuj/2016/07/27/abp4)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.4 資料庫遷移 Migration](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-4-資料庫遷移-migration.html)
 
 參照
 

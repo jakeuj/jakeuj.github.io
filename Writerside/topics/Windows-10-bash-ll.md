@@ -1,8 +1,6 @@
 # Windows 10 bash ll
 
-> **原文發布日期:** 2019-12-16
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/12/16/bash
-> **標籤:** 無
+> 首次發表：2019-12-16
 
 ---
 
@@ -10,7 +8,7 @@
 
 的修改步驟這樣
 
-![的修改步驟這樣](https://dotblogsfile.blob.core.windows.net/user/jakeuj/0992e9aa-c2f6-41fe-88f4-40006a0405e3/1576469218_21726.png)
+![的修改步驟這樣](dotblogs-0992e9aa-1576469218_21726.png)
 
 以管理員身分執行powershell
 

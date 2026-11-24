@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 SendGrid
 
-> **原文發布日期:** 2022-11-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/04/abp-SendGrid-STMP-587
-> **標籤:** 無
+> 首次發表：2022-11-04
 
 ---
 

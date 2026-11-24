@@ -1,8 +1,6 @@
 # C# 具名選項模式
 
-> **原文發布日期:** 2023-04-11
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/11/CSharp-Named-IOptions-appsettings
-> **標籤:** 無
+> 首次發表：2023-04-11
 
 ---
 

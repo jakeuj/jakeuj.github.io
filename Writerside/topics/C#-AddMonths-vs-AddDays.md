@@ -1,8 +1,6 @@
 # C# AddMonths vs AddDays
 
-> **原文發布日期:** 2022-05-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/05/27/AddMonthsDays
-> **標籤:** 無
+> 首次發表：2022-05-27
 
 ---
 

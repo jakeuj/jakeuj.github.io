@@ -1,8 +1,6 @@
 # Azure App Service 高 CPU 使用率
 
-> **原文發布日期:** 2022-11-17
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/17/AzureAppService-CPU-High-Usage-WebJobs-Daas
-> **標籤:** 無
+> 首次發表：2022-11-17
 
 ---
 

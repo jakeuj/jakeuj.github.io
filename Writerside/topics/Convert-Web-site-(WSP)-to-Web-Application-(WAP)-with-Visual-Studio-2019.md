@@ -1,8 +1,6 @@
 # WSP 轉 WAP
 
-> **原文發布日期:** 2021-03-02
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/02/Convert-Web-site-to-WebApplication-Visual-Studio-2019
-> **標籤:** 無
+> 首次發表：2021-03-02
 
 ---
 
@@ -23,7 +21,7 @@ WAP 步驟
 2. 將原有網站頁面程式碼包含App\_Code複製貼上到新專案
 3. App\_Code進去裡面全選之後，去 屬性>進階>建置動作>內容> 改成 編譯
 
-![App\Code進去裡面全選之後，去 屬性進階建置動作內容 改成 編譯](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670712.png)
+![App\Code進去裡面全選之後，去 屬性進階建置動作內容 改成 編譯](dotblogs-4d2ba2fb-1614670712.jpg)
 
 1. 將缺少的Nuget套件先裝一裝
 2. 有其他Bug先解一解
@@ -32,7 +30,7 @@ WAP 步驟
    導致同名 class new 了相同類別)
 3. 重頭戲，點一下 Convert to web application
 
-![重頭戲，點一下 Convert to web application](https://dotblogsfile.blob.core.windows.net/user/jakeuj/4d2ba2fb-e07a-4c9c-b9c3-141fa3e8ae2f/1614670402.png)
+![重頭戲，點一下 Convert to web application](dotblogs-4d2ba2fb-1614670402.jpg)
 
 1. 這邊我卡N久，因為舊版是在右邊專案總管點右鍵會有這選項，
    新版拿掉了，要從上方專案Tab點進去才會看到...

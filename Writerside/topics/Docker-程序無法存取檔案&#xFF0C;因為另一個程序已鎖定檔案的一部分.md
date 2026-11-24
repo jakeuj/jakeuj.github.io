@@ -1,8 +1,6 @@
 # Docker 程序無法存取檔案&#xFF0C;因為另一個程序已鎖定檔案的一部分
 
-> **原文發布日期:** 2024-03-07
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/03/07/docker-java-io-IOException
-> **標籤:** 無
+> 首次發表：2024-03-07
 
 ---
 
@@ -12,7 +10,7 @@ Failed to deploy
 
 `java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。`
 
-![java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709797808.png.png)
+![java.io.IOException: 程序無法存取檔案，因為另一個程序已鎖定檔案的一部分。](dotblogs-42fe5267-1709797808.jpg)
 
 結論
 
@@ -22,7 +20,7 @@ Failed to deploy
 
 Rider 直接執行專案內的 dockerfile 時，會把 Context folder 設為方案路徑 (也就是專案的上一層目錄)，導致路徑錯誤
 
-![Rider 直接執行專案內的 dockerfile 時，會把 Context folder 設為方案路徑 (也就是專案的上一層目錄)，導致路徑錯誤](https://dotblogsfile.blob.core.windows.net/user/小小朱/42fe5267-9c55-4c3d-80c5-1786f903b25b/1709796319.png.png)
+![Rider 直接執行專案內的 dockerfile 時，會把 Context folder 設為方案路徑 (也就是專案的上一層目錄)，導致路徑錯誤](dotblogs-42fe5267-1709796319.jpg)
 
 錯誤訊息
 

@@ -1,8 +1,6 @@
 # [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
 
-> **原文發布日期:** 2016-06-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/06/14/HtmlAgilityPack
-> **標籤:** 無
+> 首次發表：2016-06-14
 
 ---
 
@@ -58,7 +56,7 @@ Response.Write(result);
 
 6.查詢XPATH可以利用GOOGLE CHROME F12
 
-![6.查詢XPATH可以利用GOOGLE CHROME F12](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a8fdf63f-f0b1-40af-aa1f-1c4bc8d8646f/1466065844_45524.png)
+![6.查詢XPATH可以利用GOOGLE CHROME F12](dotblogs-a8fdf63f-1466065844_45524.png)
 
 7.查詢新聞連結清單
 

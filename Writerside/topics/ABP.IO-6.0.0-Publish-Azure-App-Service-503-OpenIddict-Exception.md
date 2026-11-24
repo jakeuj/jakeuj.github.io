@@ -1,8 +1,6 @@
 # ABP.IO 6.0.0 Publish Azure App Service 503 OpenIddict Exception
 
-> **原文發布日期:** 2022-10-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/13/OpenIddict-WindowsCryptographicException-Access-is-denied
-> **標籤:** 無
+> 首次發表：2022-10-13
 
 ---
 
@@ -34,7 +32,7 @@ WindowsCryptographicException: Access is denied.
 
 [OpenIddict WindowsCryptographicException: Access is denied #3537 | Support Center | ABP Commercial](https://support.abp.io/QA/Questions/3537/OpenIddict-WindowsCryptographicException-Access-is-denied)
 
-[ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD)
+[ABP.IO WEB應用程式框架 Azure App Service CI/CD deployment](ABP.IO-WEB應用程式框架-Azure-App-Service-CICD-deployment.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

@@ -1,8 +1,6 @@
 # ACI (Azure Container Instance) 部屬失敗
 
-> **原文發布日期:** 2022-06-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/06/20/aci-quota-p100-limit
-> **標籤:** 無
+> 首次發表：2022-06-20
 
 ---
 

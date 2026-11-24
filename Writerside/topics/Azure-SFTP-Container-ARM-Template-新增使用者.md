@@ -1,8 +1,6 @@
 # Azure SFTP Container ARM Template 新增使用者
 
-> **原文發布日期:** 2023-10-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/10/24/Azure-SFTP-Container-ARM-Template
-> **標籤:** 無
+> 首次發表：2023-10-24
 
 ---
 

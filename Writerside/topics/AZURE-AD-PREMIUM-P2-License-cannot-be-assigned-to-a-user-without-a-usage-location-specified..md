@@ -1,8 +1,6 @@
 # Azure AD Premium P2 授權問題
 
-> **原文發布日期:** 2021-09-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/10/AZURE-AD-PREMIUM-P2
-> **標籤:** 無
+> 首次發表：2021-09-10
 
 ---
 
@@ -14,7 +12,7 @@ License cannot be assigned to a user without a usage location specified.
 
 AZURE AD > User > 個人資料 > 編輯 > 使用位置 > Taiwan
 
-![AZURE AD User 個人資料 編輯 使用位置 Taiwan](https://dotblogsfile.blob.core.windows.net/user/jakeuj/62e8c906-9cb6-4dd2-b67e-157737e3e835/1631243827.png)
+![AZURE AD User 個人資料 編輯 使用位置 Taiwan](dotblogs-62e8c906-1631243827.jpg)
 
 原因
 

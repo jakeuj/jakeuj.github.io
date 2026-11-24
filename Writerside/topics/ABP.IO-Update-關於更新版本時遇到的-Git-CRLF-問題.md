@@ -2,9 +2,7 @@
 
  問題
 
-> **原文發布日期:** 2023-01-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/03/abp-git-cr-lf
-> **標籤:** 無
+> 首次發表：2023-01-03
 
 ---
 
@@ -26,7 +24,7 @@ Cli
 
 參照
 
-[Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/04/09/BlazorWebAssemblyGithubPages)
+[Github Pages 裝載和部署 ASP.NET Core Blazor WebAssembly](Github-Pages-裝載和部署-ASP.NET-Core-Blazor-WebAssembly.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

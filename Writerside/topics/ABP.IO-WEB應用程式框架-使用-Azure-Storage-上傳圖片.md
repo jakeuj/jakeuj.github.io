@@ -1,8 +1,6 @@
 # ABP.IO 使用 Azure Storage 上傳圖片
 
-> **原文發布日期:** 2021-10-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/10/29/Abp-Blob-Storing-Azure
-> **標籤:** 無
+> 首次發表：2021-10-29
 
 ---
 

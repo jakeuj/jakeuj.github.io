@@ -1,8 +1,6 @@
 # ABP.IO SaveChangesAsync vs UpdateAsync
 
-> **原文發布日期:** 2022-10-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/04/abp-SaveChangesAsync-UpdateAsync
-> **標籤:** 無
+> 首次發表：2022-10-04
 
 ---
 

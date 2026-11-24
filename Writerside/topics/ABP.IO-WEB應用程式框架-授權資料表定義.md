@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 授權資料表定義
 
-> **原文發布日期:** 2021-07-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/26/ABP-Authorization-DB
-> **標籤:** 無
+> 首次發表：2021-07-26
 
 ---
 
@@ -69,15 +67,15 @@ ABP 在 .Net Core Identity 的使用者與角色之外又加了一個授權表�
   - [AbpUsers].[Id]：使用者唯一識別碼
     - 0bac35fb-50b2-b79c-ca02-39fdf320f3f7
 
-![- 0bac35fb-50b2-b79c-ca02-39fdf320f3f7](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627279013.png)
+![- 0bac35fb-50b2-b79c-ca02-39fdf320f3f7](dotblogs-6fd09af3-1627279013.jpg)
 
 從關聯性可以看出使用者與角色中間透過使用者角色建立關係
 
-![從關聯性可以看出使用者與角色中間透過使用者角色建立關係](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278831.png)
+![從關聯性可以看出使用者與角色中間透過使用者角色建立關係](dotblogs-6fd09af3-1627278831.jpg)
 
 從資料可以看出全賦予的ProviderKey對應到角色的名稱
 
-![從資料可以看出全賦予的ProviderKey對應到角色的名稱](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278835.png)
+![從資料可以看出全賦予的ProviderKey對應到角色的名稱](dotblogs-6fd09af3-1627278835.jpg)
 
 而前端如何知道系統有哪些權限，使用者又取得了甚麼權限，則是透過 application-configuration 這支 API 回傳 Auth 的 Policies 與 GrantedPolicies
 
@@ -92,7 +90,7 @@ Auth
   - BookStore.Authors.Edit
   - BookStore.Authors.Delete
 
-![- BookStore.Authors.Delete](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278841.png)
+![- BookStore.Authors.Delete](dotblogs-6fd09af3-1627278841.jpg)
 
 然後前端可以根據這些權限資料來決定menu與按鈕要不要顯示給使用者操作對應功能
 
@@ -100,44 +98,44 @@ Auth
 
 (應該也可以透過 claim 來看)
 
-![(應該也可以透過 claim 來看)](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278847.png)
+![(應該也可以透過 claim 來看)](dotblogs-6fd09af3-1627278847.jpg)
 
 [以角色為基礎的存取控制](https://zh.wikipedia.org/wiki/%E4%BB%A5%E8%A7%92%E8%89%B2%E7%82%BA%E5%9F%BA%E7%A4%8E%E7%9A%84%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6)
 {ignore-vars="true"}
 
 1.會先建立角色
 
-![1.會先建立角色](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278854.png)
+![1.會先建立角色](dotblogs-6fd09af3-1627278854.jpg)
 
 2.賦予角色權限
 
-![2.賦予角色權限](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278861.png)
+![2.賦予角色權限](dotblogs-6fd09af3-1627278861.jpg)
 
 3.修改使用者
 
-![3.修改使用者](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278870.png)
+![3.修改使用者](dotblogs-6fd09af3-1627278870.jpg)
 
 4.賦予使用者角色
 
-![4.賦予使用者角色](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278906.png)
+![4.賦予使用者角色](dotblogs-6fd09af3-1627278906.jpg)
 
 也可以直接給使用者特定權限
 
-![也可以直接給使用者特定權限](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278919.png)
+![也可以直接給使用者特定權限](dotblogs-6fd09af3-1627278919.jpg)
 
 直接將權限賦予使用者Id
 
-![直接將權限賦予使用者Id](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278923.png)
+![直接將權限賦予使用者Id](dotblogs-6fd09af3-1627278923.jpg)
 
 這邊的U代表使用者，R代表角色，冒號後面則是對應的Key
 
-![這邊的U代表使用者，R代表角色，冒號後面則是對應的Key](https://dotblogsfile.blob.core.windows.net/user/御星幻/6fd09af3-b898-487f-9d4c-07560af3b657/1627278926.png)
+![這邊的U代表使用者，R代表角色，冒號後面則是對應的Key](dotblogs-6fd09af3-1627278926.jpg)
 
 回資料庫可以看到權限賦予時直接將使用者的Id當作Key存進了權限賦予表中。
 
 參照：
 
-[ABP.IO WEB應用程式框架 新手教學 No.06 開發教學 第 5 部分 授權](https://dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-5)
+[ABP.IO WEB應用程式框架 新手教學 No.06 開發教學 第 5 部分 授權](ABP.IO-WEB應用程式框架-新手教學-No.06-開發教學-第-5-部分-授權.md)
 
 [官方說明文件 - 權限](https://docs.abp.io/zh-Hans/abp/latest/Authorization)
 

@@ -1,14 +1,12 @@
 # C# Discord Bot
 
-> **原文發布日期:** 2023-03-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/03/20/CSharp-Discord-Bot
-> **標籤:** 無
+> 首次發表：2023-03-20
 
 ---
 
 簡單記錄一下 DC 私聊機器人
 
-![簡單記錄一下 DC 私聊機器人](https://dotblogsfile.blob.core.windows.net/user/御用/621a0c42-0db1-42de-af22-d4643b92a191/1679278254.png.png)
+![簡單記錄一下 DC 私聊機器人](dotblogs-621a0c42-1679278254.jpg)
 
 Rider
 

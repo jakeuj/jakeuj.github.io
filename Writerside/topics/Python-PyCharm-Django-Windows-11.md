@@ -1,8 +1,6 @@
 # Python PyCharm Django Windows 11
 
-> **原文發布日期:** 2023-05-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/25/Python-PyCharm
-> **標籤:** 無
+> 首次發表：2023-05-25
 
 ---
 

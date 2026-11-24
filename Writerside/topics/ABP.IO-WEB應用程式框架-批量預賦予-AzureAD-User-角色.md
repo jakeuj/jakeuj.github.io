@@ -1,8 +1,6 @@
 # ABP.IO 批量預賦予 AzureAD User 角色
 
-> **原文發布日期:** 2021-09-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Create-Identity-Users-List
-> **標籤:** 無
+> 首次發表：2021-09-08
 
 ---
 
@@ -139,7 +137,7 @@ BTW, Swagger 會同時顯示新舊 API
 
 如果要隱藏可以參考另一篇
 
-[ABP.IO WEB應用程式框架 Swagger 隱藏指定 API | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/09/08/Abp-Swagger-Hide-Endpoint)
+[ABP.IO WEB應用程式框架 Swagger 隱藏指定 API](ABP.IO-WEB應用程式框架-Swagger-隱藏指定-API.md)
 
 備註：這邊簡單直接檢查原本的 User.Create 權限，所以記得先登入有該權限的帳號，否則直接到 Swagger 呼叫 API 會報錯
 

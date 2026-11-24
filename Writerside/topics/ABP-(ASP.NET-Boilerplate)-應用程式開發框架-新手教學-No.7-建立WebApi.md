@@ -1,8 +1,6 @@
 # ABP 新手教學 No.7 建立WebApi
 
-> **原文發布日期:** 2016-07-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp7
-> **標籤:** 無
+> 首次發表：2016-07-28
 
 ---
 
@@ -71,13 +69,13 @@ http://localhost/api/services/app/player/getPlayers
 
 執行後開啟以上網址即可呼叫我們先前完成的Service (有port請自行加上)
 
-![執行後開啟以上網址即可呼叫我們先前完成的Service (有port請自行加上)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/897bd0d4-bf8d-4568-89c6-a0850d226e51/1469680650_66273.png)
+![執行後開啟以上網址即可呼叫我們先前完成的Service (有port請自行加上)](dotblogs-897bd0d4-1469680650_66273.png)
 
 ---
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.8 單元測試](https://dotblogs.com.tw/jakeuj/2016/07/28/abp6)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.8 單元測試](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-6-建立應用服務.html)
 
 參照
 

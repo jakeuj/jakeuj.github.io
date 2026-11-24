@@ -1,8 +1,6 @@
 # Angular TypeScript Enum ngfor-enum-select-options
 
-> **原文發布日期:** 2019-05-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/05/30/145328
-> **標籤:** 無
+> 首次發表：2019-05-30
 
 ---
 

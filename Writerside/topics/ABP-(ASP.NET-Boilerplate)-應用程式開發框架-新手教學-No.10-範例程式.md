@@ -1,8 +1,6 @@
 # ABP 新手教學 No.10 範例程式
 
-> **原文發布日期:** 2019-01-15
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/15/abp10
-> **標籤:** 無
+> 首次發表：2019-01-15
 
 ---
 
@@ -26,7 +24,7 @@ ASP.NET Boilerplate提供了模板，使項目啟動更容易。我們從https:/
 
 ### 解決方案結構
 
-首先，我們選擇**EventCloud.Host**作為啟動項目。解決方案隨附**Entity Framework Core Code-First Migrations**。因此，（在恢復nuget包之後），我們打開包管理器控制台（PMC）並運行**Update-Database**命令來創建數據庫。(使用DOTNET提供的EF工具請參考 [這裡](https://dotblogs.com.tw/jakeuj/2018/12/25/jetbrains_rider_migration))
+首先，我們選擇**EventCloud.Host**作為啟動項目。解決方案隨附**Entity Framework Core Code-First Migrations**。因此，（在恢復nuget包之後），我們打開包管理器控制台（PMC）並運行**Update-Database**命令來創建數據庫。(使用DOTNET提供的EF工具請參考 [這裡](Migration-database-update-in-Rider.md))
 
 軟件包管理器控制台的默認項目應該是**EventCloud.EntityFrameworkCore**（因為它包含遷移）。此命令在本地SQL Server中創建**EventCloud**數據庫（您可以在**appsettings.json**文件中更改連接字符串）。
 
@@ -34,7 +32,7 @@ ASP.NET Boilerplate提供了模板，使項目啟動更容易。我們從https:/
 
 ![首先，我正在運行EventCloud.Host項目。我們將看到以下屏幕：](https://raw.githubusercontent.com/aspnetboilerplate/aspnetboilerplate/master/doc/WebSite/Articles/Developing-MultiTenant-SaaS-ASP.NET-CORE-Angular/event-cloud-swagger-ui.png)
 
-我們將使用**Angular-CLI**啟動**Angular UI**。以下是啟動Angular UI的步驟：(有問題參考 [這篇](https://dotblogs.com.tw/jakeuj/2018/12/26/angularapplication))
+我們將使用**Angular-CLI**啟動**Angular UI**。以下是啟動Angular UI的步驟：(有問題參考 [這篇](Angular-Application.md))
 
 - 在**EventCloud / angular**位置打開cmd
 - 運行`yarn`命令以安裝包

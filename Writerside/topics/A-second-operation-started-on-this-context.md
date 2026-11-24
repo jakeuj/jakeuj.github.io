@@ -1,8 +1,6 @@
 # A second operation started on this context
 
-> **原文發布日期:** 2023-07-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/07/03/second-operation-started-on-this-context
-> **標籤:** 無
+> 首次發表：2023-07-03
 
 ---
 

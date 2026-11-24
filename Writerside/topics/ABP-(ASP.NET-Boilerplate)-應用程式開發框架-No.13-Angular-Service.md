@@ -1,8 +1,6 @@
 # ABP No.13 Angular Service
 
-> **原文發布日期:** 2019-04-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/04/23/abp13
-> **標籤:** 無
+> 首次發表：2019-04-23
 
 ---
 
@@ -73,7 +71,7 @@ public void CreateUser(CreateUserInput input)
 
 Client 端 - Angular專案
 
-事前準備：[Angular Application](https://dotblogs.com.tw/jakeuj/2018/12/26/angularapplication)
+事前準備：[Angular Application](Angular-Application.md)
 
 1.增加巡覽設定
 
@@ -110,7 +108,7 @@ import {EventsComponent} from "@app/events/events.component";
 
 4.Start
 
-參照：[JetBrains Rider Angular NPM Yarn Launch Settings Profile](https://dotblogs.com.tw/jakeuj/2019/03/26/riderangularlaunch)
+參照：[JetBrains Rider Angular NPM Yarn Launch Settings Profile](JetBrains-Rider-Angular-NPM-Yarn-Launch-and-Build-Settings-Profile.md)
 
 這邊應該可以看到左側有出現Events並可以點進去看到右邊有events works!
 
@@ -133,7 +131,7 @@ API Proxy
 
 >.\angular\nswag\refresh.bat
 
-參照：[ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies](https://dotblogs.com.tw/jakeuj/2019/01/18/abp11)
+參照：[ABP (ASP.NET Boilerplate) 應用程式開發框架 No.11 Client Proxies](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-no-11-client-proxies.html)
 
 6.新增應用服務
 

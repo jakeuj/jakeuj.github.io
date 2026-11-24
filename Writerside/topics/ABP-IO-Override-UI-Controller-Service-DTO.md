@@ -1,8 +1,6 @@
 # ABP.IO Override UI&#x3001;控制器&#x3001;服務&#x3001;DTO {id="ABP-IO-Override-UI-Controller-Service-DTO"}
 
-> **原文發布日期:** 2021-07-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/27/ABP-Override-Controller
-> **標籤:** 無
+> 首次發表：2021-07-27
 
 ---
 
@@ -83,11 +81,11 @@ namespace MyProjectName.Web.Pages.Account
 
 https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Services#example-overriding-a-controller
 
-![https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Ser](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627460788.png)
+![https://docs.abp.io/en/abp/latest/Customizing-Application-Modules-Overriding-Ser](dotblogs-e1b140f8-1627460788.jpg)
 
 我以為成功了，結果 override Login 還是跑回原本的控制器？最後又改了一下才成功…
 
-![我以為成功了，結果 override Login 還是跑回原本的控制器？最後又改了一下才成功…](https://dotblogsfile.blob.core.windows.net/user/御星幻/e1b140f8-1c76-4157-a679-ff0de2c89ca0/1627638136.png)
+![我以為成功了，結果 override Login 還是跑回原本的控制器？最後又改了一下才成功…](dotblogs-e1b140f8-1627638136.jpg)
 
 ---
 

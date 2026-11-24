@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 關閉本地帳號註冊與登入
 
-> **原文發布日期:** 2021-08-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/19/AbpAccountIsSelfRegistrationEnabledFalse
-> **標籤:** 無
+> 首次發表：2021-08-19
 
 ---
 

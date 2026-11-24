@@ -1,8 +1,6 @@
 # ABP 新手教學 No.8 單元測試
 
-> **原文發布日期:** 2016-07-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/07/28/abp8
-> **標籤:** 無
+> 首次發表：2016-07-28
 
 ---
 
@@ -16,7 +14,7 @@ ABP也提供了單元測試，位於方案Test資料夾內的MyCompany.MyProject
 
 首先我們需要一個假的資料庫，這邊樣板專案其實已經幫我們建立好了
 
-![首先我們需要一個假的資料庫，這邊樣板專案其實已經幫我們建立好了](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469686854_3716.png)
+![首先我們需要一個假的資料庫，這邊樣板專案其實已經幫我們建立好了](dotblogs-a1eb0cfc-1469686854_3716.png)
 
 但我們還需要修改一下，在裡面加上我們先前做好的SeedData，這樣測試資料庫裡面才會有我們後來新增的預設資料
 
@@ -316,7 +314,7 @@ UsingDbContext(context =>
 
 接著我們先建立Player資料夾，在裡面新增PlayerAppService\_Tests.cs
 
-![接著我們先建立Player資料夾，在裡面新增PlayerAppService\Tests.cs](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469687461_87971.png)然後我們來開始在裡面寫測試方法
+![接著我們先建立Player資料夾，在裡面新增PlayerAppService\Tests.cs](dotblogs-a1eb0cfc-1469687461_87971.png)然後我們來開始在裡面寫測試方法
 
 ```
 
@@ -375,25 +373,25 @@ AAA (排列、作用、判斷提示) 模式是為受測方法撰寫單元測試�
 
 然後會發現測試方法左上角有測試按鈕可以點進去執行測試
 
-![然後會發現測試方法左上角有測試按鈕可以點進去執行測試](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469688460_19422.png)測試成功會打勾
+![然後會發現測試方法左上角有測試按鈕可以點進去執行測試](dotblogs-a1eb0cfc-1469688460_19422.png)測試成功會打勾
 
-![測試成功會打勾](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469688529_77735.png)我們把輸入資料庫的資料改成01，測試是否會如期檢測出錯誤
+![測試成功會打勾](dotblogs-a1eb0cfc-1469688529_77735.png)我們把輸入資料庫的資料改成01，測試是否會如期檢測出錯誤
 
-![我們把輸入資料庫的資料改成01，測試是否會如期檢測出錯誤](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469688705_44679.png)結果確實就過不了檢查
+![我們把輸入資料庫的資料改成01，測試是否會如期檢測出錯誤](dotblogs-a1eb0cfc-1469688705_44679.png)結果確實就過不了檢查
 
-![結果確實就過不了檢查](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469688665_19592.png)或是你可以打開測試總管 (測試→視窗→測試總管)
+![結果確實就過不了檢查](dotblogs-a1eb0cfc-1469688665_19592.png)或是你可以打開測試總管 (測試→視窗→測試總管)
 
-![或是你可以打開測試總管 (測試→視窗→測試總管)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469688831_77057.png)
+![或是你可以打開測試總管 (測試→視窗→測試總管)](dotblogs-a1eb0cfc-1469688831_77057.png)
 
 來測試全局的方法
 
-![來測試全局的方法](https://dotblogsfile.blob.core.windows.net/user/jakeuj/a1eb0cfc-8b12-4dab-8bdc-e768316531e4/1469689021_05134.png)到這邊測試單元到一個段落，全篇新手心得也先告一個段落
+![來測試全局的方法](dotblogs-a1eb0cfc-1469689021_05134.png)到這邊測試單元到一個段落，全篇新手心得也先告一個段落
 
 ---
 
 下一篇
 
-[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.9 全篇後記](https://dotblogs.com.tw/jakeuj/2016/07/28/abp9)
+[ABP (ASP.NET Boilerplate) 應用程式開發框架 新手教學 No.9 全篇後記](https://jakeuj.com/abp-asp-net-boilerplate-應用程式開發框架-新手教學-no-9-全篇後記.html)
 
 參照
 

@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 EF 整合 最佳實踐
 
-> **原文發布日期:** 2023-02-06
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/02/06/abp-Entity-Framework-Core-Integration
-> **標籤:** 無
+> 首次發表：2023-02-06
 
 ---
 

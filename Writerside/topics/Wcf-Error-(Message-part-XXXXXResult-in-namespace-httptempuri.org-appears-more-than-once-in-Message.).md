@@ -1,8 +1,6 @@
 # Wcf Error (Message part XXXXXResult in namespace http://tempuri.org/ appears more than once in Message.)
 
-> **原文發布日期:** 2012-11-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/11/20/84757
-> **標籤:** 無
+> 首次發表：2012-11-20
 
 ---
 

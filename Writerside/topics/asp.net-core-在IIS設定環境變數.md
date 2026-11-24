@@ -1,8 +1,6 @@
 # asp.net core 在IIS設定環境變數
 
-> **原文發布日期:** 2019-06-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/05/EnvironmentVariables
-> **標籤:** 無
+> 首次發表：2019-06-05
 
 ---
 
@@ -13,7 +11,7 @@ IIS > 選主機或是站台 > 配置編輯器
 > 上方選 system.webServer 裡面的 aspNetCore
 > 內容出現 environmentVariables 選右邊的 ... 就可以開出設定
 
-![內容出現 environmentVariables 選右邊的 ... 就可以開出設定](https://dotblogsfile.blob.core.windows.net/user/jakeuj/63e6f4fa-fcb4-4ac8-89c7-e06a1cd6fca0/1559740300_73616.PNG)
+![內容出現 environmentVariables 選右邊的 ... 就可以開出設定](dotblogs-63e6f4fa-1559740300_73616.png)
 
 P.S. 選主機是全域，而站台是By Site
 

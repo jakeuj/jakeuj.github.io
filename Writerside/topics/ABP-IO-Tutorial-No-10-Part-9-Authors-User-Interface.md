@@ -1,8 +1,6 @@
 # ABP.IO 新手教學 No.10 開發教學 第 9 部分&#xFF1A;作者&#xFF1A;用戶界面 {id="ABP-IO-Tutorial-No-10-Part-9-Authors-User-Interface"}
 
-> **原文發布日期:** 2021-07-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/ABP-Tutorials-Part-9
-> **標籤:** 無
+> 首次發表：2021-07-23
 
 ---
 

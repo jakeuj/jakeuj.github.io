@@ -6,9 +6,7 @@ Azure App Service 的 timeout 不能只靠一個設定值解決。Windows App Se
 
 如果工作可能超過這個時間，應改成背景工作，由 API 先回傳工作 ID，再讓前端輪詢或由後端通知完成結果。只有在 request 會於平台上限內完成時，才需要繼續檢查 IIS、ASP.NET Framework 或 ASP.NET Core 的 timeout。
 
-> **原文發布日期：** 2021-08-23
->
-> **原文連結：** https://www.dotblogs.com.tw/jakeuj/2021/08/23/AzureAppServiceTimeOut
+> 首次發表：2021-08-23
 >
 > **更新日期：** 2026-08-27
 

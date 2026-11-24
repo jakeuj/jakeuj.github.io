@@ -1,8 +1,6 @@
 # HttpClient GZip 壓縮
 
-> **原文發布日期:** 2020-05-18
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/05/18/GZipStream
-> **標籤:** 無
+> 首次發表：2020-05-18
 
 ---
 

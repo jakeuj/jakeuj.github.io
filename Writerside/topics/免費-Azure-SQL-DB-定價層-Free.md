@@ -1,8 +1,6 @@
 # 免費 Azure SQL DB 定價層 Free
 
-> **原文發布日期:** 2021-08-16
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/16/AzureSqlDbFree
-> **標籤:** 無
+> 首次發表：2021-08-16
 
 ---
 
@@ -14,7 +12,7 @@
 
 這邊記錄一下
 
-![這邊記錄一下](https://dotblogsfile.blob.core.windows.net/user/御星幻/5f4ada0d-336c-4133-aa79-391602cf434e/1629782873.png)
+![這邊記錄一下](dotblogs-5f4ada0d-1629782873.jpg)
 
 結論：
 

@@ -1,8 +1,6 @@
 # RedHat OKD 建置筆記
 
-> **原文發布日期:** 2021-02-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/09/OpenShift
-> **標籤:** 無
+> 首次發表：2021-02-09
 
 ---
 
@@ -81,13 +79,13 @@ Openshift 目前共提供三種產品
 - Config Map：分離設定檔與映像黨之間的耦合，提供項容器注入配置的機制
 - Secret：金鑰管理，與前項類似，旨在抽離敏感字段
 
-![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863601.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](dotblogs-670c8bc8-1612863601.jpg)
 
-![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863784.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](dotblogs-670c8bc8-1612863784.jpg)
 
-![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1612863622.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](dotblogs-670c8bc8-1612863622.jpg)
 
-![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](https://dotblogsfile.blob.core.windows.net/user/jakeuj/670c8bc8-e078-4975-ab60-008be1a6ed03/1613523675.png)
+![Secret：金鑰管理，與前項類似，旨在抽離敏感字段](dotblogs-670c8bc8-1613523675.jpg)
 
 ---
 

@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 屬性注入
 
-> **原文發布日期:** 2023-05-12
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/05/12/ABP-Dependency-Injection
-> **標籤:** 無
+> 首次發表：2023-05-12
 
 ---
 
@@ -91,7 +89,7 @@ public class TestManager : DomainService, ITestManager
 
 Swagger
 
-![Swagger](https://dotblogsfile.blob.core.windows.net/user/小小朱/8903953f-bfa8-4bdc-b48c-ab305de9ece2/1683864476.png.png)
+![Swagger](dotblogs-8903953f-1683864476.jpg)
 
 Hello World
 

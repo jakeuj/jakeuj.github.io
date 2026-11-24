@@ -1,14 +1,12 @@
 # C# Swagger Enum 顯示
 
-> **原文發布日期:** 2023-04-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/25/CSharp-Swagger-UI-Enum-Display-String
-> **標籤:** 無
+> 首次發表：2023-04-25
 
 ---
 
 Swagger UI 列舉值 1,2,3 改用文字顯示的方法
 
-![Swagger UI 列舉值 1,2,3 改用文字顯示的方法](https://dotblogsfile.blob.core.windows.net/user/小小朱/aaeff51c-b4f0-4fb6-ac4d-d3759693a42a/1682406548.png.png)
+![Swagger UI 列舉值 1,2,3 改用文字顯示的方法](dotblogs-aaeff51c-1682406548.jpg)
 
 ## 結論
 
@@ -73,7 +71,7 @@ private static void ConfigureSwaggerServices(
 
 ### 參照
 
-[C# convert enum value to String | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/10/26/143813)
+[C# convert enum value to String](https://jakeuj.com/c-convert-enum-value-to-string.html)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

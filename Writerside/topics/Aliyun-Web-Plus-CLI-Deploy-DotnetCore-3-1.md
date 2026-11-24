@@ -1,8 +1,6 @@
 # 阿里雲 Web&#x2B; 使用 Cli  部署 DotnetCore 3.1 專案筆記 {id="Aliyun-Web-Plus-CLI-Deploy-DotnetCore-3-1"}
 
-> **原文發布日期:** 2021-04-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly
-> **標籤:** 無
+> 首次發表：2021-04-22
 
 ---
 
@@ -30,7 +28,7 @@ Web+ 服務預設會幫你開通 22 Port 給全世界連
 
 問你要不要付費一鍵修補漏洞
 
-![問你要不要付費一鍵修補漏洞](https://dotblogsfile.blob.core.windows.net/user/御星幻/6c006c4c-493e-47b9-b091-8e6876ada30b/1619431121.jfif)
+![問你要不要付費一鍵修補漏洞](dotblogs-6c006c4c-1619431121.jpg)
 
 雖然去 安全組 把 22 的來源從 0.0.0.0 改成公司 IP 就可以了
 
@@ -42,7 +40,7 @@ Web+ 服務預設會幫你開通 22 Port 給全世界連
 
 總之先參考我上一篇準備環境
 
-<https://dotblogs.com.tw/jakeuj/2021/04/22/UbuntuDotNetCore>
+[在 Ubuntu 20.4 上安裝 .NET SDK 3.1](在-Ubuntu-20.4-上安裝-.NET-SDK-3.1.md)
 
 然後參照官方文件
 
@@ -120,7 +118,7 @@ Configure Done!!!
   -q 是安靜模式，沒加會提示是否真的要更新[Y/n]，CI/CD 無人職守時會需要加
 - 完成
 
-![完成](https://dotblogsfile.blob.core.windows.net/user/jakeuj/6c006c4c-493e-47b9-b091-8e6876ada30b/1619074893.png)
+![完成](dotblogs-6c006c4c-1619074893.jpg)
 
 - 取得最新狀態
 

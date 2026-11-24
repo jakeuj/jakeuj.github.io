@@ -1,14 +1,12 @@
 # ABP.IO WEB應用程式框架 SendGrid 整合
 
-> **原文發布日期:** 2023-02-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/02/13/ABP-SendGrid-IEmailSender-Attachments
-> **標籤:** 無
+> 首次發表：2023-02-13
 
 ---
 
 使用 SendGrid 實作 IEmailSender 替換服務
 
-![使用 SendGrid 實作 IEmailSender 替換服務](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273155.png.png)
+![使用 SendGrid 實作 IEmailSender 替換服務](dotblogs-b138c20f-1676273155.jpg)
 
 ## 結論
 
@@ -187,13 +185,13 @@ SendGridTestDomainModule
 
 需要把這行註解掉，不然會寄不出去
 
-![需要把這行註解掉，不然會寄不出去](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273719.png.png)
+![需要把這行註解掉，不然會寄不出去](dotblogs-b138c20f-1676273719.jpg)
 
 ## 測試
 
 同上需要註解掉 NullEmailSender
 
-![同上需要註解掉 NullEmailSender](https://dotblogsfile.blob.core.windows.net/user/jakeuj/b138c20f-61ac-4c98-b4cf-928761b6730d/1676273429.png.png)
+![同上需要註解掉 NullEmailSender](dotblogs-b138c20f-1676273429.jpg)
 
 SendGridTest.Domain.Tests > SampleDomainTests
 

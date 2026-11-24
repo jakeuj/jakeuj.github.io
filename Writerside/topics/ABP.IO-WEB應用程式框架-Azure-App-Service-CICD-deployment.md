@@ -1,8 +1,6 @@
 # ABP.IO Azure App Service CI/CD deployment
 
-> **原文發布日期:** 2022-10-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/21/abp-Azure-App-Service-Github-CICD
-> **標籤:** 無
+> 首次發表：2022-10-21
 
 ---
 
@@ -103,7 +101,7 @@ You can increase the SCM_COMMAND_IDLE_TIMEOUT app setting
 (or WEBJOBS_IDLE_TIMEOUT if this is a WebJob) if needed.
 ```
 
-[SCM\_COMMAND\_IDLE\_TIMEOUT = 3600](https://www.dotblogs.com.tw/jakeuj/2021/08/30/AzureDevOpsGitRepoCiCdAppService)
+[SCM\_COMMAND\_IDLE\_TIMEOUT = 3600](https://jakeuj.com/azure-持續部署-cicd-至-azure-app-service-devops-git-repo-替代方案.html)
 
 ### 執行階段錯誤
 
@@ -234,7 +232,7 @@ ASPNETCORE_ENVIRONMENT=Staging
 
 ### 參照
 
-[Azure 持續部署(CI/CD)至 Azure App Service (DevOps Git Repo) | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/08/30/AzureDevOpsGitRepoCiCdAppService)
+[Azure 持續部署(CI/CD)至 Azure App Service (DevOps Git Repo)](https://jakeuj.com/azure-持續部署-cicd-至-azure-app-service-devops-git-repo-替代方案.html)
 
 [設定連續部署 - Azure App Service | Microsoft Learn](https://learn.microsoft.com/zh-tw/azure/app-service/deploy-continuous-deployment?tabs=github)
 

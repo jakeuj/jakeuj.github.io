@@ -1,12 +1,10 @@
 # ABP.IO 新手教學 No.04 開發教學 第 3 部分 創建&#x3001;更新和刪除圖書 {id="ABP-IO-Tutorial-No-04-Part-3-Create-Update-Delete-Books"}
 
-> **原文發布日期:** 2021-07-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/23/abpio04
-> **標籤:** 無
+> 首次發表：2021-07-23
 
 ---
 
-這篇接續上一篇 [開發教學 Part 2 圖書列表頁](https://dotblogs.com.tw/jakeuj/2021/07/21/abpio03)
+這篇接續上一篇 [開發教學 Part 2 圖書列表頁](ABP.IO-WEB應用程式框架-新手教學-No.03-開發教學-第-2-部分-圖書列表頁面.md)
 
 主要是前端的 CRUD 實作，所以這篇先不多做解釋，單純複製貼上，
 

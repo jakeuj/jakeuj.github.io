@@ -1,8 +1,6 @@
 # Entity Framework (EF) Core SQL Logger with ABP(ASP.NET Boilerplate)
 
-> **原文發布日期:** 2019-06-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/25/LoggerEFCoreSQL
-> **標籤:** 無
+> 首次發表：2019-06-25
 
 ---
 
@@ -44,7 +42,7 @@ public override void PreInitialize()
 
 執行有跑到SQL就會印出語法到主控台
 
-![執行有跑到SQL就會印出語法到主控台](https://dotblogsfile.blob.core.windows.net/user/jakeuj/31e8dfca-f94c-492d-a93c-f7c51f72660f/1561394166_29885.png)
+![執行有跑到SQL就會印出語法到主控台](dotblogs-31e8dfca-1561394166_29885.png)
 
 參照：[記錄 - EF Core](https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/logging#other-applications​)
 

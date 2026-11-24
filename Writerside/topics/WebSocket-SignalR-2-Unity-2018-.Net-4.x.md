@@ -1,8 +1,6 @@
 # WebSocket SignalR 2 Unity 2018 .Net 4.x
 
-> **原文發布日期:** 2019-06-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/19/UnitySignalR2
-> **標籤:** 無
+> 首次發表：2019-06-19
 
 ---
 
@@ -58,7 +56,7 @@ async void Start()
 
 5.確認腳本執行版本與API相容性是 4.x
 
-![5.確認腳本執行版本與API相容性是 4.x](https://dotblogsfile.blob.core.windows.net/user/jakeuj/47289ff2-d752-4b3a-8a62-ab7f2a5b2616/1560928740_73125.PNG)
+![5.確認腳本執行版本與API相容性是 4.x](dotblogs-47289ff2-1560928740_73125.png)
 
 SignalR Client API 相關說明文件請到下面連結查詢
 

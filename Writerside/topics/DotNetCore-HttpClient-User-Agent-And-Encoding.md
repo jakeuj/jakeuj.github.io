@@ -1,8 +1,6 @@
 # DotNetCore HttpClient User-Agent &amp; Encoding {id="DotNetCore-HttpClient-User-Agent-And-Encoding"}
 
-> **原文發布日期:** 2019-01-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/01/29/173228
-> **標籤:** 無
+> 首次發表：2019-01-29
 
 ---
 
@@ -99,7 +97,7 @@ static async Task Main()
 
 ### 小心.NET HttpClient
 
-參考文件：[小心.NET HttpClient](https://dotblogs.com.tw/jakeuj/2019/01/25/httpclient)
+參考文件：[小心.NET HttpClient](小心.NET-HttpClient.md)
 
 ### [ASP.NET][C#] 使用 HtmlAgilityPack 擷取新聞 (爬文機器人)
 

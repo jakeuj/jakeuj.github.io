@@ -1,8 +1,6 @@
 # GCE 安裝 Nvidia Driver
 
-> **原文發布日期:** 2023-09-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/09/19/GCE-Nvidia-Driver
-> **標籤:** 無
+> 首次發表：2023-09-19
 
 ---
 
@@ -45,7 +43,7 @@ gpu installer: asia.gcr.io/cos-cloud/cos-gpu-installer:v2.1.7
 sudo cos-extensions install gpu -- -version=535.104.05
 ```
 
-![安裝](https://dotblogsfile.blob.core.windows.net/user/小小朱/5d0ae565-dc84-4577-b4f5-912cbfa8a332/1695181968.png.png)
+![安裝](dotblogs-5d0ae565-1695181968.jpg)
 
 驗證安裝
 

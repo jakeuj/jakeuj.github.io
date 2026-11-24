@@ -1,8 +1,6 @@
 # ABP.IO 取得關聯資料 include
 
-> **原文發布日期:** 2022-10-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/25/abp-ef-With-Details-Async
-> **標籤:** 無
+> 首次發表：2022-10-25
 
 ---
 

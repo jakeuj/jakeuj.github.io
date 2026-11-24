@@ -1,8 +1,6 @@
 # 如何在 linux 從 github clone repo
 
-> **原文發布日期:** 2023-10-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/10/04/ssh-git-clone
-> **標籤:** 無
+> 首次發表：2023-10-04
 
 ---
 
@@ -14,17 +12,17 @@
 ssh-keygen
 ```
 
-![結論](https://dotblogsfile.blob.core.windows.net/user/小小朱/67d1de2f-d39e-46f7-b2c2-250dfa29334e/1696402201.png.png)
+![結論](dotblogs-67d1de2f-1696402201.jpg)
 
 把產出的 `/home/jake/.ssh/id_rsa.pub` 內容貼到 GITHUB [Add new SSH key (github.com)](https://github.com/settings/ssh/new)
 
-![把產出的 /home/jake/.ssh/idrsa.pub 內容貼到 GITHUB Add new SSH key (github.com)](https://dotblogsfile.blob.core.windows.net/user/小小朱/67d1de2f-d39e-46f7-b2c2-250dfa29334e/1696402458.png.png)
+![把產出的 /home/jake/.ssh/idrsa.pub 內容貼到 GITHUB Add new SSH key (github.com)](dotblogs-67d1de2f-1696402458.jpg)
 
 就可以直接 gti clone 了
 
 `git clone git@github.com:jakeuj/demo.git`
 
-![git clone git@github.com:jakeuj/demo.git](https://dotblogsfile.blob.core.windows.net/user/小小朱/67d1de2f-d39e-46f7-b2c2-250dfa29334e/1696402559.png.png)
+![git clone git@github.com:jakeuj/demo.git](dotblogs-67d1de2f-1696402559.jpg)
 
 參照
 

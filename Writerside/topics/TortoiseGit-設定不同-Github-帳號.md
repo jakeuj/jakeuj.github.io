@@ -1,8 +1,6 @@
 # TortoiseGit 設定不同 Github 帳號
 
-> **原文發布日期:** 2023-11-03
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/11/03/tortoisegit-multiple-github-repositories
-> **標籤:** 無
+> 首次發表：2023-11-03
 
 ---
 

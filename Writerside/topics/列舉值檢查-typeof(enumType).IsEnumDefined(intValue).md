@@ -1,8 +1,6 @@
 # 列舉值檢查 typeof(enumType).IsEnumDefined(intValue)
 
-> **原文發布日期:** 2019-06-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/13/IsEnumDefined
-> **標籤:** 無
+> 首次發表：2019-06-13
 
 ---
 

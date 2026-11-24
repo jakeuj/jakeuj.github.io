@@ -1,8 +1,6 @@
 # PowerShell Self Signed Certificate
 
-> **原文發布日期:** 2023-06-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/09/PowerShell-Self-Signed-Certificate
-> **標籤:** 無
+> 首次發表：2023-06-09
 
 ---
 
@@ -76,7 +74,7 @@ certmgr.msc
 
 填到 虛擬網路閘道 > 點對站設定 > 根憑證 > 公開憑證資料
 
-![填到 虛擬網路閘道 點對站設定 根憑證 公開憑證資料](https://dotblogsfile.blob.core.windows.net/user/小小朱/983bb28a-2500-432b-88b9-02fff9a68f46/1686736782.png.png)
+![填到 虛擬網路閘道 點對站設定 根憑證 公開憑證資料](dotblogs-983bb28a-1686736782.jpg)
 
 要撤銷某個用戶端憑證，可以填到已撤銷的憑證中的指紋欄位
 
@@ -92,7 +90,7 @@ AzureRoot.cer > 本機電腦\受信任的根憑證授權單位
 
 ## 參照
 
-[Azure SQL 透過 Azure VPN Gateway 實現內網連接 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://dotblogs.com.tw/jakeuj/2021/08/13/AzureSqlVpnGetway)
+[Azure SQL 透過 Azure VPN Gateway 實現內網連接](Azure-SQL-透過-Azure-VPN-Gateway-實現內網連接.md)
 
 [如何使用 PowerShell 建立開發測試用途的自簽憑證 (Self-Signed Certificate) | The Will Will Web (miniasp.com)](https://blog.miniasp.com/post/2018/04/24/Using-PowerShell-to-build-Self-Signed-Certificate)
 

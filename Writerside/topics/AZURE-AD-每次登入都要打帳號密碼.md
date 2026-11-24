@@ -1,8 +1,6 @@
 # AZURE AD 每次登入都要打帳號密碼
 
-> **原文發布日期:** 2021-09-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/09/28/AZURE-AD-Prompt-Login
-> **標籤:** 無
+> 首次發表：2021-09-28
 
 ---
 

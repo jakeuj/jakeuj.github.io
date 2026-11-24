@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 極簡主義應用程式
 
-> **原文發布日期:** 2022-01-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/01/28/Abp-Developing-Minimalist-App
-> **標籤:** 無
+> 首次發表：2022-01-28
 
 ---
 

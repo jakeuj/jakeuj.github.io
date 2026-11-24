@@ -1,8 +1,6 @@
 # [Git] stash 和 shelve 的區別
 
-> **原文發布日期:** 2023-12-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/12/25/git-stash-shelve
-> **標籤:** 無
+> 首次發表：2023-12-25
 
 ---
 
@@ -23,19 +21,19 @@ Jetbrains IDE 內建 stash 和 shelve
 
     1. Shelve
 
-![1. Shelve](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703499873.png.png)
+![1. Shelve](dotblogs-557af885-1703499873.jpg)
 
     2. 檔案會被還原
 
-![2. 檔案會被還原](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703499903.png.png)
+![2. 檔案會被還原](dotblogs-557af885-1703499903.jpg)
 
     3. UnShelve
 
-![3. UnShelve](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703499940.png.png)
+![3. UnShelve](dotblogs-557af885-1703499940.jpg)
 
     4. 檔案會被復原
 
-![4. 檔案會被復原](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703499963.png.png)
+![4. 檔案會被復原](dotblogs-557af885-1703499963.jpg)
 
     5. 這些操作都不會在版控上留下紀錄
 
@@ -43,31 +41,31 @@ Jetbrains IDE 內建 stash 和 shelve
 
 1. 修改 appsettings.secrets.json
 
-![修改 appsettings.secrets.json](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703498250.png.png)
+![修改 appsettings.secrets.json](dotblogs-557af885-1703498250.jpg)
 
     2. 選擇 git stash changes
 
-![2. 選擇 git stash changes](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703498295.png.png)
+![2. 選擇 git stash changes](dotblogs-557af885-1703498295.jpg)
 
     3. 輸入 stash 的訊息並建立該 stash
 
-![3. 輸入 stash 的訊息並建立該 stash](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703497497.png.png)
+![3. 輸入 stash 的訊息並建立該 stash](dotblogs-557af885-1703497497.jpg)
 
     4. appsettings.secrets.json 已被還原回未更改的內容
 
-![4. appsettings.secrets.json 已被還原回未更改的內容](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703497536.png.png)
+![4. appsettings.secrets.json 已被還原回未更改的內容](dotblogs-557af885-1703497536.jpg)
 
     5. 選擇 git unstash changes
 
-![5. 選擇 git unstash changes](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703497692.png.png)
+![5. 選擇 git unstash changes](dotblogs-557af885-1703497692.jpg)
 
     6. 選擇欲還原的 stash 並 Apply Stash
 
-![6. 選擇欲還原的 stash 並 Apply Stash](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703497723.png.png)
+![6. 選擇欲還原的 stash 並 Apply Stash](dotblogs-557af885-1703497723.jpg)
 
     7. appsettings.secrets.json 會再變成該 stash 的內容
 
-![7. appsettings.secrets.json 會再變成該 stash 的內容](https://dotblogsfile.blob.core.windows.net/user/小小朱/557af885-41dc-407f-b223-cba71951bdb1/1703497761.png.png)
+![7. appsettings.secrets.json 會再變成該 stash 的內容](dotblogs-557af885-1703497761.jpg)
 
     8. 這些操作都不會在版控上留下紀錄
 

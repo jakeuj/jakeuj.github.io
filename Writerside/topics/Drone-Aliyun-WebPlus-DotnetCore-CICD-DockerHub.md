@@ -1,8 +1,6 @@
 # Drone 阿里雲 Web&#x2B; DotnetCore 3.1 CI/CD &amp; DockerHub Images CI/CD {id="Drone-Aliyun-WebPlus-DotnetCore-CICD-DockerHub"}
 
-> **原文發布日期:** 2021-04-22
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/04/22/DroneAliWebPlusCICD
-> **標籤:** 無
+> 首次發表：2021-04-22
 
 ---
 
@@ -96,7 +94,7 @@ RUN eval "$(curl -s -L https://webplus-cn-shenzhen.oss-cn-shenzhen.aliyuncs.com/
 
 這邊 wpctl 可以直接用 eval 安裝不會找不到指令了
 
-![這邊 wpctl 可以直接用 eval 安裝不會找不到指令了](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619408878.jfif)
+![這邊 wpctl 可以直接用 eval 安裝不會找不到指令了](dotblogs-56d9b856-1619408878.jpg)
 
 可以手動建置並推送到 docker hub repo
 
@@ -192,7 +190,7 @@ steps:
 
 至此大致完成！
 
-![至此大致完成！](https://dotblogsfile.blob.core.windows.net/user/御星幻/56d9b856-ac65-47db-8135-0ed725004253/1619409252.png)
+![至此大致完成！](dotblogs-56d9b856-1619409252.jpg)
 
 ---
 
@@ -207,11 +205,11 @@ Invoke-RestMethod 'https://notify-api.line.me/api/notify'
 
 ### 阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記
 
-參考文件：[阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](https://dotblogs.com.tw/jakeuj/2021/04/22/AliWebPlusDepoly)
+參考文件：[阿里雲 Web+ 使用 Cli 部署 DotnetCore 3.1 專案筆記](Aliyun-Web-Plus-CLI-Deploy-DotnetCore-3-1.md)
 
 ### Drone Cloud Github DotNetCore Build CI/CD Runner Note
 
-參考文件：[Drone Cloud Github DotNetCore Build CI/CD Runner Note](https://dotblogs.com.tw/jakeuj/2021/04/20/Drone)
+參考文件：[Drone Cloud Github DotNetCore Build CI/CD Runner Note](Drone-Cloud-Github-DotNetCore-Build-CICD-Runner-Note.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

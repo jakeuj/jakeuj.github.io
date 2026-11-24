@@ -1,8 +1,6 @@
 # Mercuria 與 TortoiseHg 安裝與中文化教學
 
-> **原文發布日期:** 2012-07-13
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/07/13/Mercurial
-> **標籤:** 無
+> 首次發表：2012-07-13
 
 ---
 

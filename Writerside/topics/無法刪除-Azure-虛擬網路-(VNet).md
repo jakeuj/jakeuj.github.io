@@ -1,8 +1,6 @@
 # 無法刪除 Azure 虛擬網路 (VNet)
 
-> **原文發布日期:** 2023-10-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/10/24/azure-vnet-cant-delete
-> **標籤:** 無
+> 首次發表：2023-10-24
 
 ---
 
@@ -14,15 +12,15 @@
 
 ## 結論
 
-![結論](https://dotblogsfile.blob.core.windows.net/user/小小朱/71a15c51-ab6a-4c3f-ad17-ad0a70e52726/1698129212.png.png)
+![結論](dotblogs-71a15c51-1698129212.jpg)
 
 下載消費明細
 
-![下載消費明細](https://dotblogsfile.blob.core.windows.net/user/小小朱/71a15c51-ab6a-4c3f-ad17-ad0a70e52726/1698129545.png.png)
+![下載消費明細](dotblogs-71a15c51-1698129545.jpg)
 
 有名稱後，按照官方作法重建當初的環境，中斷 VNet 整合，即可刪除該子網或整個資源群組
 
-![有名稱後，按照官方作法重建當初的環境，中斷 VNet 整合，即可刪除該子網或整個資源群組](https://dotblogsfile.blob.core.windows.net/user/小小朱/71a15c51-ab6a-4c3f-ad17-ad0a70e52726/1698129739.png.png)
+![有名稱後，按照官方作法重建當初的環境，中斷 VNet 整合，即可刪除該子網或整個資源群組](dotblogs-71a15c51-1698129739.jpg)
 
 小訣竅是重建 App Service 時，直接啟用 VNet 整合，如果可以選舊的 (刪不掉的) VNet 子網，那就代表 App 名稱是對的 (當初舊的名稱)
 

@@ -1,8 +1,6 @@
 # Azure VPN 憑證錯誤 798
 
-> **原文發布日期:** 2022-09-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/09/05/AzureVpnError798
-> **標籤:** 無
+> 首次發表：2022-09-05
 
 ---
 
@@ -10,13 +8,13 @@ Azure VPN 憑證過期處理筆記
 
 徵狀
 
-![徵狀](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345571.jpg.jpg)
+![徵狀](dotblogs-54839d6e-1662345571.jpg)
 
 798
 
 問題
 
-![問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/54839d6e-18f5-499a-b59f-3be692a5fa2d/1662345915.png.png)
+![問題](dotblogs-54839d6e-1662345915.jpg)
 
 MMC
 

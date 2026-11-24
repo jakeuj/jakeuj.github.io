@@ -1,8 +1,6 @@
 # Azure Static Web Apps 設定 IP 限制
 
-> **原文發布日期:** 2023-11-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/11/09/azure-static-web-apps-configuration-networking
-> **標籤:** 無
+> 首次發表：2023-11-09
 
 ---
 

@@ -1,8 +1,6 @@
 # Unknown column &#x27;Discriminator&#x27; in &#x27;where clause&#x27; {id="Unknown-Column-Discriminator-In-Where-Clause"}
 
-> **原文發布日期:** 2019-06-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/06/10/EfCore
-> **標籤:** 無
+> 首次發表：2019-06-10
 
 ---
 

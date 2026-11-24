@@ -1,8 +1,6 @@
 # GCP Task 2. Download the challenge notebook
 
-> **原文發布日期:** 2023-09-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/09/05/GCP-Download-the-challenge-notebook
-> **標籤:** 無
+> 首次發表：2023-09-05
 
 ---
 
@@ -32,32 +30,32 @@
 
 1. In your notebook, click the terminal.
 
-![In your notebook, click the terminal.](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900421.png.png)![In your notebook, click the terminal. 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900472.png.png)![In your notebook, click the terminal. 3](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900501.png.png)
+![In your notebook, click the terminal.](dotblogs-249e9ecd-1693900421.jpg)![In your notebook, click the terminal. 2](dotblogs-249e9ecd-1693900472.jpg)![In your notebook, click the terminal. 3](dotblogs-249e9ecd-1693900501.jpg)
 
 1. Clone the repo:
 `git clone https://github.com/GoogleCloudPlatform/training-data-analyst`
 
-![git clone https://github.com/GoogleCloudPlatform/training-data-analyst](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900672.png.png)
+![git clone https://github.com/GoogleCloudPlatform/training-data-analyst](dotblogs-249e9ecd-1693900672.jpg)
 
 1. Install the required packages for the lab:
 `cd training-data-analyst/quests/vertex-ai/vertex-challenge-lab`
 `pip install -U -r requirements.txt --user`
 
-![pip install -U -r requirements.txt --user](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900740.png.png)
+![pip install -U -r requirements.txt --user](dotblogs-249e9ecd-1693900740.jpg)
 
 1. Go to the enclosing folder: `training-data-analyst/quests/vertex-ai/vertex-challenge-lab`.
 
 2. Open the notebook file `vertex-challenge-lab.ipynb`.
 
-![Open the notebook file vertex-challenge-lab.ipynb.](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693900854.png.png)
+![Open the notebook file vertex-challenge-lab.ipynb.](dotblogs-249e9ecd-1693900854.jpg)
 
 1. In the **Setup** section, define your `PROJECT_ID`, `GCS_BUCKET`, and `USER` variables.
 
-![In the Setup section, define your PROJECTID, GCSBUCKET, and USER variables.](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693901201.png.png)
+![In the Setup section, define your PROJECTID, GCSBUCKET, and USER variables.](dotblogs-249e9ecd-1693901201.jpg)
 
 - 將專案Id與Storage名稱填進去Setup區段
 
-![將專案Id與Storage名稱填進去Setup區段](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693901278.png.png)![將專案Id與Storage名稱填進去Setup區段 2](https://dotblogsfile.blob.core.windows.net/user/小小朱/249e9ecd-47b1-4702-b063-15c7132196e1/1693903357.png.png)
+![將專案Id與Storage名稱填進去Setup區段](dotblogs-249e9ecd-1693901278.jpg)![將專案Id與Storage名稱填進去Setup區段 2](dotblogs-249e9ecd-1693903357.jpg)
 > 我們已經為您提供了導入和預處理數據集的所有其餘代碼。
 >
 > 其餘步驟將在筆記本文件中進行。

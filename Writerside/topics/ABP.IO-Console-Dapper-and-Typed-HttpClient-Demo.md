@@ -1,8 +1,6 @@
 # ABP.IO Console Dapper and Typed HttpClient Demo
 
-> **原文發布日期:** 2022-10-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/21/ABP-Console-Dapper-Typed-HttpClient-Demo
-> **標籤:** 無
+> 首次發表：2022-10-21
 
 ---
 

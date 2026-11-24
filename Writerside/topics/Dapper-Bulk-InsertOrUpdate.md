@@ -1,8 +1,6 @@
 # Dapper Bulk InsertOrUpdate
 
-> **原文發布日期:** 2019-09-29
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/09/29/bulk-merge
-> **標籤:** 無
+> 首次發表：2019-09-29
 
 ---
 

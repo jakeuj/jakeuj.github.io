@@ -1,8 +1,6 @@
 # Azure Storage Blob 403 CORS
 
-> **原文發布日期:** 2022-10-14
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/14/Azure-Storage-CORS-Blob-403
-> **標籤:** 無
+> 首次發表：2022-10-14
 
 ---
 
@@ -12,11 +10,11 @@
 
 結論
 
-![結論](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732756.png.png)
+![結論](dotblogs-fcc157c7-1665732756.jpg)
 
 問題
 
-![問題](https://dotblogsfile.blob.core.windows.net/user/jakeuj/fcc157c7-8b40-4a6a-8400-d89cbd8ef62d/1665732822.png.png)
+![問題](dotblogs-fcc157c7-1665732822.jpg)
 
 參照
 

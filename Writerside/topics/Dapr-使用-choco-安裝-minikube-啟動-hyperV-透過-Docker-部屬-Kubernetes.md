@@ -1,8 +1,6 @@
 # Dapr Kubernetes 部署
 
-> **原文發布日期:** 2021-03-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/03/23/minikube
-> **標籤:** 無
+> 首次發表：2021-03-23
 
 ---
 
@@ -44,7 +42,7 @@ kubectl version
 
 Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection could be made because the target machine actively refused it.
 
-![Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection c](https://dotblogsfile.blob.core.windows.net/user/jakeuj/00000000-0000-0000-0000-000000000000/1616493400.jfif)
+![Unable to connect to the server: dial tcp [::1]:8080: connectex: No connection c](dotblogs-00000000-1616493400.jpg)
 
 讓我看一下
 

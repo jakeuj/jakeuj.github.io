@@ -1,8 +1,6 @@
 # SFTP to WSL on Windows 11
 
-> **原文發布日期:** 2022-06-01
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/06/01/SftpWslWin11
-> **標籤:** 無
+> 首次發表：2022-06-01
 
 ---
 

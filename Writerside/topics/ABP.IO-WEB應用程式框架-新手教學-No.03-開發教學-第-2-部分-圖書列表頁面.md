@@ -1,12 +1,10 @@
 # ABP.IO 新手教學 No.03 開發教學 第 2 部分 圖書列表頁面
 
-> **原文發布日期:** 2021-07-21
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/07/21/abpio03
-> **標籤:** 無
+> 首次發表：2021-07-21
 
 ---
 
-這篇接續上一篇 [開發教學 Part  1 創建服務端](https://dotblogs.com.tw/jakeuj/2021/07/21/abpio02)
+這篇接續上一篇 [開發教學 Part  1 創建服務端](ABP.IO-WEB應用程式框架-新手教學-No.02-開發教學-第-1-部分-創建服務端.md)
 
 主要介紹 ABP Dynamic JavaScript API Client Proxies
 

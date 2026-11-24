@@ -1,8 +1,6 @@
 # ABP.IO 同時使用 MSSQL 與 MySQL
 
-> **原文發布日期:** 2023-06-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/06/27/abp-MSSQL-MySQL
-> **標籤:** 無
+> 首次發表：2023-06-27
 
 ---
 
@@ -71,7 +69,7 @@ Configure<AbpDbContextOptions>(options =>
 
 [How To Check MySQL Version: 5 Easy Commands {Ubuntu, Linux} (phoenixnap.com)](https://phoenixnap.com/kb/how-to-check-mysql-version)
 
-[ABP.IO WEB應用程式框架 使用多個資料庫 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2021/10/04/Abp-Using-Multiple-Databases)
+[ABP.IO WEB應用程式框架 使用多個資料庫](ABP.IO-WEB應用程式框架-使用多個資料庫.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

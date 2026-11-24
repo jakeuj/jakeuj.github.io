@@ -1,8 +1,6 @@
 # Dotnet Core NLog 於 Linux 無法產生 Log 問題
 
-> **原文發布日期:** 2021-06-17
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/06/17/LinuxNLogConfig
-> **標籤:** 無
+> 首次發表：2021-06-17
 
 ---
 

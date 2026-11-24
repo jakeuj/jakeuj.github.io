@@ -1,14 +1,12 @@
 # ABP.IO WEB應用程式框架 指定 Audit 時區
 
-> **原文發布日期:** 2023-01-09
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/01/09/ABP-Audit-TimeZone-Pacific-Standard-Time
-> **標籤:** 無
+> 首次發表：2023-01-09
 
 ---
 
 指定審計使用太平洋標準時間 (CreationTime…ETC)
 
-![指定審計使用太平洋標準時間 (CreationTime…ETC)](https://dotblogsfile.blob.core.windows.net/user/jakeuj/570f744e-c327-4e46-b680-7b38c0b55e86/1673922949.png.png)
+![指定審計使用太平洋標準時間 (CreationTime…ETC)](dotblogs-570f744e-1673922949.jpg)
 
 結論
 

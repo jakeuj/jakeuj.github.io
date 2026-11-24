@@ -1,8 +1,6 @@
 # DotNetCore IIS Hosting Bundle
 
-> **原文發布日期:** 2021-05-10
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/05/10/DotNetCoreHostingBundleIIS
-> **標籤:** 無
+> 首次發表：2021-05-10
 
 ---
 
@@ -24,11 +22,11 @@ ASP.NET Core Runtime - Windows Hosting Bundle Installer
 
 各版本下載位置：https://dotnet.microsoft.com/download
 
-![各版本下載位置：https://dotnet.microsoft.com/download](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637926.png)
+![各版本下載位置：https://dotnet.microsoft.com/download](dotblogs-66a63053-1620637926.jpg)
 
 Download .Net Core Runtime => Hosting Bundle
 
-![Download .Net Core Runtime = Hosting Bundle](https://dotblogsfile.blob.core.windows.net/user/御星幻/66a63053-da7e-468b-b76f-c2782e9f4d08/1620637980.png)
+![Download .Net Core Runtime = Hosting Bundle](dotblogs-66a63053-1620637980.jpg)
 
 這沒裝好會跑出 web.config 解析錯誤，大概是 IIS 不認識 AspNetCore Module V2
 

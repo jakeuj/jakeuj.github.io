@@ -1,8 +1,6 @@
 # ABP.IO UnitTest UnitOfWork
 
-> **原文發布日期:** 2022-10-28
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/10/28/abp--UnitTest-UnitOfWork
-> **標籤:** 無
+> 首次發表：2022-10-28
 
 ---
 

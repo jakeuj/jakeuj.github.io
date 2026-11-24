@@ -1,8 +1,6 @@
 # ABP.IO Background Job
 
-> **原文發布日期:** 2022-04-27
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/04/27/abp-Background-Job
-> **標籤:** 無
+> 首次發表：2022-04-27
 
 ---
 
@@ -120,7 +118,7 @@ public class RegistrationService : ApplicationService
 
 ## 延伸
 
-[ABP.IO WEB應用程式框架 Hangfire Background Worker | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/04/26/abp-Hangfire-Background-Worker)
+[ABP.IO WEB應用程式框架 Hangfire Background Worker](ABP.IO-WEB應用程式框架-Hangfire-Background-Job-And-Worker.md)
 
 ## 補充
 

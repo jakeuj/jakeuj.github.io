@@ -1,8 +1,6 @@
 # 更新 Entity Framework tools 版本
 
-> **原文發布日期:** 2021-08-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/08/04/Dotnet-Tool-Update-EF
-> **標籤:** 無
+> 首次發表：2021-08-04
 
 ---
 

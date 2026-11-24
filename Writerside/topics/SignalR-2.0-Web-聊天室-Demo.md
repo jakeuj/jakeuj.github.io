@@ -1,8 +1,6 @@
 # SignalR 2.0 Web 聊天室 Demo
 
-> **原文發布日期:** 2016-02-15
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2016/02/15/SignalR
-> **標籤:** 無
+> 首次發表：2016-02-15
 
 ---
 
@@ -14,21 +12,21 @@ SignalR 介紹：[SignalR 再次超越你對 Web 的想像](https://blogs.msdn.m
 
 1.於Visual Studio建立C# ASP.NET Web 應用程式專案，框架使用.NET Framework 4.6.1，名稱為 SignalRChat 並按確定以新增專案。
 
-![1.於Visual Studio建立C# ASP.NET Web 應用程式專案，框架使用.NET Framework 4.6.1，名稱為 SignalRChat](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455514977_61584.png)
+![1.於Visual Studio建立C# ASP.NET Web 應用程式專案，框架使用.NET Framework 4.6.1，名稱為 SignalRChat](dotblogs-7cfa04e7-1455514977_61584.png)
 
 2.在 新增 ASP.NET 專案，選擇MVC，並於右方點擊"變更驗證"，改為"無驗證"，並按下確定以建立專案。
 
-![2.在 新增 ASP.NET 專案，選擇MVC，並於右方點擊"變更驗證"，改為"無驗證"，並按下確定以建立專案。](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515109_02551.png)![2.在 新增 ASP.NET 專案，選擇MVC，並於右方點擊"變更驗證"，改為"無驗證"，並按下確定以建立專案。 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515229_08279.png)
+![2.在 新增 ASP.NET 專案，選擇MVC，並於右方點擊"變更驗證"，改為"無驗證"，並按下確定以建立專案。](dotblogs-7cfa04e7-1455515109_02551.png)![2.在 新增 ASP.NET 專案，選擇MVC，並於右方點擊"變更驗證"，改為"無驗證"，並按下確定以建立專案。 2](dotblogs-7cfa04e7-1455515229_08279.png)
 
 3.透過 NuGet 來安裝 SignalR 套件，使用 "套件管理器主控台" 輸入以下指令進行安裝：
 
 install-package Microsoft.AspNet.SignalR
 
-![install-package Microsoft.AspNet.SignalR](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515234_55711.png)![install-package Microsoft.AspNet.SignalR 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515437_33615.png)
+![install-package Microsoft.AspNet.SignalR](dotblogs-7cfa04e7-1455515234_55711.png)![install-package Microsoft.AspNet.SignalR 2](dotblogs-7cfa04e7-1455515437_33615.png)
 
 4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。
 
-![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515460_10531.png)![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515467_46743.png)![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515518_26136.png)
+![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。](dotblogs-7cfa04e7-1455515460_10531.png)![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。 2](dotblogs-7cfa04e7-1455515467_46743.png)![4.於專案跟目錄，新增一個 SignalR Hub Class (v2) 類別，且命名為 ChatHub.cs，並建立。 3](dotblogs-7cfa04e7-1455515518_26136.png)
 
 5.修改其內容以實作 SignalR Server
 
@@ -48,7 +46,7 @@ namespace SignalRChat
 }
 ```
 
-![5.修改其內容以實作 SignalR Server](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455515527_68475.png)
+![5.修改其內容以實作 SignalR Server](dotblogs-7cfa04e7-1455515527_68475.png)
 
 6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容
 
@@ -71,7 +69,7 @@ namespace SignalRChat
 }
 ```
 
-![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525465_26172.png)![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525471_62621.png)![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525482_10774.png)
+![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容](dotblogs-7cfa04e7-1455525465_26172.png)![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容 2](dotblogs-7cfa04e7-1455525471_62621.png)![6.加上一個新項目 -- OWIN啟動類別（OWIN startup class），命名為"Startup.cs"，並修改其內容 3](dotblogs-7cfa04e7-1455525482_10774.png)
 
 7.開啟Controllers/HomeController.cs，並增加Action方法，名稱為Chat，內容如下
 
@@ -82,11 +80,11 @@ public ActionResult Chat()
 }
 ```
 
-![7.開啟Controllers/HomeController.cs，並增加Action方法，名稱為Chat，內容如下](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525520_05254.png)
+![7.開啟Controllers/HomeController.cs，並增加Action方法，名稱為Chat，內容如下](dotblogs-7cfa04e7-1455525520_05254.png)
 
 8.於方案總管 Views/Home 目錄下按右鍵，新增檢視，名稱為Chat
 
-![8.於方案總管 Views/Home 目錄下按右鍵，新增檢視，名稱為Chat](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525527_49625.png)![8.於方案總管 Views/Home 目錄下按右鍵，新增檢視，名稱為Chat 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525531_28335.png)
+![8.於方案總管 Views/Home 目錄下按右鍵，新增檢視，名稱為Chat](dotblogs-7cfa04e7-1455525527_49625.png)![8.於方案總管 Views/Home 目錄下按右鍵，新增檢視，名稱為Chat 2](dotblogs-7cfa04e7-1455525531_28335.png)
 
 9.將剛剛新增的 Chat.cshtml 內容修改為以下Code
 
@@ -151,11 +149,11 @@ public ActionResult Chat()
 }
 ```
 
-![/Scripts/jquery.signalR-2.2.0.min.js](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455525535_21303.png)
+![/Scripts/jquery.signalR-2.2.0.min.js](dotblogs-7cfa04e7-1455525535_21303.png)
 
 前端與後端的關係示意圖
 
-![前端與後端的關係示意圖](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1457317970_8194.png)
+![前端與後端的關係示意圖](dotblogs-7cfa04e7-1457317970_8194.png)
 
 10.將此專案全部儲存，準備編譯並執行以上範例程式。
 
@@ -163,7 +161,7 @@ F5執行DEBUG模式，並將頁面往指定位於/home/chat
 
 即可輸入暱稱後開始進行聊天。
 
-![即可輸入暱稱後開始進行聊天。](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455526430_74698.png)![即可輸入暱稱後開始進行聊天。 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/7cfa04e7-1b79-483b-97e4-f19c33d78f76/1455526560_08495.png)
+![即可輸入暱稱後開始進行聊天。](dotblogs-7cfa04e7-1455526430_74698.png)![即可輸入暱稱後開始進行聊天。 2](dotblogs-7cfa04e7-1455526560_08495.png)
 
 11.參照：http://www.asp.net/signalr/overview/getting-started/tutorial-getting-started-with-signalr-and-mvc
 

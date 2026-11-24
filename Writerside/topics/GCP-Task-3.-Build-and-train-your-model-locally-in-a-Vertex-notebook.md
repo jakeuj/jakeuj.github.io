@@ -1,8 +1,6 @@
 # GCP Task 3. Build and train your model locally in a Vertex notebook
 
-> **原文發布日期:** 2023-09-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/09/05/GCP-Build-and-train-your-model-locally-in-a-Vertex-notebook
-> **標籤:** 無
+> 首次發表：2023-09-05
 
 ---
 
@@ -29,7 +27,7 @@ See the tutorial for additional coverage on fine-tuning BERT models using Tensor
 
 ※ 這邊要搜尋 `# TODO` 而不是 `#TODO` 否則會找不到正確位置 (我這邊是找 `TODO`)
 
-![※ 這邊要搜尋 # TODO 而不是 #TODO 否則會找不到正確位置 (我這邊是找 TODO)](https://dotblogsfile.blob.core.windows.net/user/小小朱/c999bdd2-9d06-4929-93db-3e4a12333a0b/1693901944.png.png)
+![※ 這邊要搜尋 # TODO 而不是 #TODO 否則會找不到正確位置 (我這邊是找 TODO)](dotblogs-c999bdd2-1693901944.jpg)
 
 參照
 

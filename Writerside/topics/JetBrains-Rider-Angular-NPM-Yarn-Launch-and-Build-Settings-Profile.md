@@ -1,8 +1,6 @@
 # JetBrains Rider Angular 設定
 
-> **原文發布日期:** 2019-03-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/03/26/RiderAngularLaunch
-> **標籤:** 無
+> 首次發表：2019-03-26
 
 ---
 
@@ -12,11 +10,11 @@ Rider 開發 Angular 的啟動設定 自動開啟主頁面
 
 Argument：-o
 
-![Argument：-o](https://dotblogsfile.blob.core.windows.net/user/jakeuj/e6602e36-03b4-4c8b-ad36-77a45c421a79/1553595559_66288.jpg)
+![Argument：-o](dotblogs-e6602e36-1553595559_66288.jpg)
 
 ng build --prod
 
-![ng build --prod](https://dotblogsfile.blob.core.windows.net/user/jakeuj/e6602e36-03b4-4c8b-ad36-77a45c421a79/1559131227_82419.PNG)
+![ng build --prod](dotblogs-e6602e36-1559131227_82419.png)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 

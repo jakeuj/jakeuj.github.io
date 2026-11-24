@@ -1,8 +1,6 @@
 # Powershell Test-NetConnection Port
 
-> **原文發布日期:** 2024-05-15
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/05/15/Powershell-Test-NetConnection-Port
-> **標籤:** 無
+> 首次發表：2024-05-15
 
 ---
 

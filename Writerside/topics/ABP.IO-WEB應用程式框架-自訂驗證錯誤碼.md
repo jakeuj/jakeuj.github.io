@@ -1,14 +1,12 @@
 # ABP.IO WEB應用程式框架 自訂驗證錯誤碼
 
-> **原文發布日期:** 2023-04-25
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/04/25/ABP-CustomExceptionToErrorInfoConverter
-> **標籤:** 無
+> 首次發表：2023-04-25
 
 ---
 
 Restful API 預設驗證錯誤回傳 HttpStatusCode 400
 
-![Restful API 預設驗證錯誤回傳 HttpStatusCode 400](https://dotblogsfile.blob.core.windows.net/user/小小朱/cca35751-832f-4c1c-b77c-1454629d143f/1682405338.png.png)
+![Restful API 預設驗證錯誤回傳 HttpStatusCode 400](dotblogs-cca35751-1682405338.jpg)
 
 Code
 

@@ -1,8 +1,6 @@
 # SignalR 2 Console Server
 
-> **原文發布日期:** 2019-08-12
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/08/12/tutorial-signalr-self-host
-> **標籤:** 無
+> 首次發表：2019-08-12
 
 ---
 

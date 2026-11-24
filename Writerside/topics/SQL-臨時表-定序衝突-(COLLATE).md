@@ -1,8 +1,6 @@
 # SQL 臨時表 定序衝突 (COLLATE)
 
-> **原文發布日期:** 2021-12-20
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/12/20/SQL-TempTable-COLLATE
-> **標籤:** 無
+> 首次發表：2021-12-20
 
 ---
 

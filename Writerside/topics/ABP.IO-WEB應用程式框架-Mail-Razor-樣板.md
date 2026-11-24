@@ -1,8 +1,6 @@
 # ABP.IO WEB應用程式框架 Mail Razor 樣板
 
-> **原文發布日期:** 2022-11-08
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2022/11/08/ABP-Mail-Razor
-> **標籤:** 無
+> 首次發表：2022-11-08
 
 ---
 
@@ -10,7 +8,7 @@
 
 ## 前置
 
-[ABP.IO WEB應用程式框架 Mail 樣板 | Jakeuj - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2022/11/07/abp-mail-template)
+[ABP.IO WEB應用程式框架 Mail 樣板](ABP.IO-WEB應用程式框架-Mail-樣板.md)
 
 ### 結論
 

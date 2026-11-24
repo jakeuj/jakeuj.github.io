@@ -1,8 +1,6 @@
 # CheapSSL Comodo SSL 設定
 
-> **原文發布日期:** 2020-12-26
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2020/12/26/SSLIIS
-> **標籤:** 無
+> 首次發表：2020-12-26
 
 ---
 
@@ -63,16 +61,16 @@
 
 1. 建立憑證要求
    Windows Server 2012 => IIS 8 => 服務器證書 => 創建證書申請
-   ![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608988876.png)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608988886.png)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608991145.png)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 4](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608988902.png)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 5](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608988909.png)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 6](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608988916.png)做到這步要先到網頁購買並建立憑證，建立過程會需要將以上文字檔內容貼到InputCsr欄位。​
+   ![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請](dotblogs-9f823204-1608988876.jpg)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 2](dotblogs-9f823204-1608988886.jpg)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 3](dotblogs-9f823204-1608991145.jpg)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 4](dotblogs-9f823204-1608988902.jpg)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 5](dotblogs-9f823204-1608988909.jpg)![Windows Server 2012 = IIS 8 = 服務器證書 = 創建證書申請 6](dotblogs-9f823204-1608988916.jpg)做到這步要先到網頁購買並建立憑證，建立過程會需要將以上文字檔內容貼到InputCsr欄位。​
 2. 購買憑證
    購買網址：<https://cheapsslsecurity.com/comodo/positivessl.html>
    依需求數量購買並完成線上刷卡結帳
 3. 建立憑證
    於訂單頁面點擊 Generate Cert 開始建立憑證
    訂單網址：<https://cheapsslsecurity.com/client/ordersummary.html>
-   ![訂單網址頁面](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608986491.png)![訂單網址頁面 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608986497.png)![訂單網址頁面 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608986507.png)做到這步需要把IIS產生的文字檔內容複製貼上到中間InputCsr欄位
-   ![InputCsr 欄位](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608989085.png)接續上一步驟，點完繼續之後會看到以下畫面，請點擊 Download Auth File 按鈕下載驗證檔案到目標站台目錄  /.well-known/pki-validation/
-   ![Download Auth File 按鈕](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608990910.png)![Download Auth File 按鈕 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608991529.png)如果剛剛還沒下載驗證檔案，可以在這裡點擊 Download Auth File 按鈕下載到目標站台目錄  /.well-known/pki-validation/
+   ![訂單網址頁面](dotblogs-9f823204-1608986491.jpg)![訂單網址頁面 2](dotblogs-9f823204-1608986497.jpg)![訂單網址頁面 3](dotblogs-9f823204-1608986507.jpg)做到這步需要把IIS產生的文字檔內容複製貼上到中間InputCsr欄位
+   ![InputCsr 欄位](dotblogs-9f823204-1608989085.jpg)接續上一步驟，點完繼續之後會看到以下畫面，請點擊 Download Auth File 按鈕下載驗證檔案到目標站台目錄  /.well-known/pki-validation/
+   ![Download Auth File 按鈕](dotblogs-9f823204-1608990910.jpg)![Download Auth File 按鈕 2](dotblogs-9f823204-1608991529.jpg)如果剛剛還沒下載驗證檔案，可以在這裡點擊 Download Auth File 按鈕下載到目標站台目錄  /.well-known/pki-validation/
 4. 驗證網址
    這邊需要到dns將domain指到目標網站Server的IP並於IIS繫結domain到目標站台​，
    並於該站台根目錄建立 /.well-known/pki-validation/ 資料夾目錄結構
@@ -80,19 +78,19 @@
 
    ※ 但是Windows目錄不能包含小點點 .
    所以這邊用 添加虛擬目錄 的方式建立對應目錄結構
-   ![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608990221.png)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608989944.png)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 3](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608990206.png)
+   ![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構](dotblogs-9f823204-1608990221.jpg)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 2](dotblogs-9f823204-1608989944.jpg)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 3](dotblogs-9f823204-1608990206.jpg)
    確保輸入網址 **http://example.com/.well-known/pki-validation/BBFAA6385EB410B8DC58D4D31E871BCC.txt**
    可以看到該檔案的內容
-   ![可以看到該檔案的內容](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608990303.png)到這邊即驗證完URL所有權
+   ![可以看到該檔案的內容](dotblogs-9f823204-1608990303.jpg)到這邊即驗證完URL所有權
 5. 完成證書申請
    訂單網址：<https://cheapsslsecurity.com/client/ordersummary.html>
-   ![訂單網址頁面](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608991862.png)進去之後下載憑證檔案
-   ![下載憑證檔案](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608992232.png)下載並解壓縮之後到 Windows Server 2012 => IIS 8 => 服務器證書 => 完成證書申請
-   ![完成證書申請](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608992688.png)![完成證書申請 2](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608992765.png)到這就完成了SSL
+   ![訂單網址頁面](dotblogs-9f823204-1608991862.jpg)進去之後下載憑證檔案
+   ![下載憑證檔案](dotblogs-9f823204-1608992232.jpg)下載並解壓縮之後到 Windows Server 2012 => IIS 8 => 服務器證書 => 完成證書申請
+   ![完成證書申請](dotblogs-9f823204-1608992688.jpg)![完成證書申請 2](dotblogs-9f823204-1608992765.jpg)到這就完成了SSL
 6. 繫結到網站 https
 
    ※ 需要服務器名稱指示 千萬記得勾選！
-   ![※ 需要服務器名稱指示 千萬記得勾選！](https://dotblogsfile.blob.core.windows.net/user/jakeuj/9f823204-e6ce-4ff8-b15e-bd886efc4f59/1608993181.png)
+   ![※ 需要服務器名稱指示 千萬記得勾選！](dotblogs-9f823204-1608993181.jpg)
 
    ## ※ 需要服務器名稱指示 千萬記得勾選
 

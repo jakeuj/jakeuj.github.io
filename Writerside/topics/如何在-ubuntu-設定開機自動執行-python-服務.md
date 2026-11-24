@@ -1,8 +1,6 @@
 # 如何在 ubuntu 設定開機自動執行 python 服務
 
-> **原文發布日期:** 2023-10-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/10/04/ubuntu-systemctl-python
-> **標籤:** 無
+> 首次發表：2023-10-04
 
 ---
 
@@ -13,7 +11,7 @@
 1. 環境設定
    [设置 Python 开发环境  |  Google Cloud](https://cloud.google.com/python/docs/setup?hl=zh-cn#linux)
 2. 取得專案程式碼
-   [如何在 linux 從 github clone repo | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2023/10/04/ssh-git-clone)
+   [如何在 linux 從 github clone repo](如何在-linux-從-github-clone-repo.md)
 
 ## 新增服務
 

@@ -1,8 +1,6 @@
 # Rider 列出類別內的方法清單
 
-> **原文發布日期:** 2019-12-05
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/12/05/RiderFindFunction
-> **標籤:** 無
+> 首次發表：2019-12-05
 
 ---
 

@@ -1,8 +1,6 @@
 # Visual Studio 2012 .Net 4.5 Validator Error 解決方案
 
-> **原文發布日期:** 2012-10-04
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/10/04/75269
-> **標籤:** 無
+> 首次發表：2012-10-04
 
 ---
 

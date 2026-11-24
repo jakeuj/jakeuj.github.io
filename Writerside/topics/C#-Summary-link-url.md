@@ -1,14 +1,12 @@
 # C# Summary link url
 
-> **原文發布日期:** 2023-08-31
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2023/08/31/CSharp-Summary-Href
-> **標籤:** 無
+> 首次發表：2023-08-31
 
 ---
 
 筆記一下註解參照超連結
 
-![筆記一下註解參照超連結](https://dotblogsfile.blob.core.windows.net/user/小小朱/e7f933a8-df6c-45b1-94d4-aae5c5a685b1/1693470393.png.png)
+![筆記一下註解參照超連結](dotblogs-e7f933a8-1693470393.jpg)
 
 結論
 

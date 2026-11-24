@@ -1,8 +1,6 @@
 # 委派 delegate C# 基本概念具現化
 
-> **原文發布日期:** 2012-10-30
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2012/10/30/CSharp-delegate
-> **標籤:** 無
+> 首次發表：2012-10-30
 
 ---
 

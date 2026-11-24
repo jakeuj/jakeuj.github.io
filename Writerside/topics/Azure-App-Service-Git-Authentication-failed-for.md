@@ -1,8 +1,6 @@
 # Azure App Service Git Authentication failed for
 
-> **原文發布日期:** 2021-02-23
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2021/02/23/AzureAppServiceGit
-> **標籤:** 無
+> 首次發表：2021-02-23
 
 ---
 

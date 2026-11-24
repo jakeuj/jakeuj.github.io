@@ -1,8 +1,6 @@
 # Angular woff json 404 &amp; the web.config asset path must start with the project source root {id="Angular-Woff-Json-404-And-Web-Config-Asset-Path"}
 
-> **原文發布日期:** 2019-02-19
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2019/02/19/angularwebconfig
-> **標籤:** 無
+> 首次發表：2019-02-19
 
 ---
 

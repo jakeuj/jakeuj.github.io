@@ -1,8 +1,6 @@
 # GCP Cloud SQL Postgres 向量搜尋
 
-> **原文發布日期:** 2024-01-24
-> **原文連結:** https://www.dotblogs.com.tw/jakeuj/2024/01/24/using-pgvector-llms-and-langchain-with-google-cloud-databases
-> **標籤:** 無
+> 首次發表：2024-01-24
 
 ---
 
@@ -10,7 +8,7 @@
 
 並加入 namespace 字串陣列以達到原本 Vertext AI 向量搜尋中的篩選限制命名空間
 
-![並加入 namespace 字串陣列以達到原本 Vertext AI 向量搜尋中的篩選限制命名空間](https://dotblogsfile.blob.core.windows.net/user/小小朱/bee17aac-33fa-45bc-aa33-20ce4dc99000/1706066202.png.png)
+![並加入 namespace 字串陣列以達到原本 Vertext AI 向量搜尋中的篩選限制命名空間](dotblogs-bee17aac-1706066202.jpg)
 
 ## 結論
 
@@ -45,7 +43,7 @@ LIMIT 1
 
 1. 於向量表加入新文字陣列欄位 namespace
 
-![於向量表加入新文字陣列欄位 namespace](https://dotblogsfile.blob.core.windows.net/user/小小朱/bee17aac-33fa-45bc-aa33-20ce4dc99000/1706069069.png.png)
+![於向量表加入新文字陣列欄位 namespace](dotblogs-bee17aac-1706069069.jpg)
 
     2. 更新 namespace 資料 1, {val1,val2}
 
@@ -63,7 +61,7 @@ LIMIT 2;
 
 可以看到會找到符合的資料 1 與 4
 
-![可以看到會找到符合的資料 1 與 4](https://dotblogsfile.blob.core.windows.net/user/小小朱/bee17aac-33fa-45bc-aa33-20ce4dc99000/1706069540.png.png)
+![可以看到會找到符合的資料 1 與 4](dotblogs-bee17aac-1706069540.jpg)
 
     5. 加入 where 條件 `AND 'val1' =  ANY (namespace)`
 
@@ -76,7 +74,7 @@ ORDER BY similarity DESC
 LIMIT 2;
 ```
 
-![5. 加入 where 條件 AND 'val1' = ANY (namespace)](https://dotblogsfile.blob.core.windows.net/user/小小朱/bee17aac-33fa-45bc-aa33-20ce4dc99000/1706069157.png.png)
+![5. 加入 where 條件 AND 'val1' = ANY (namespace)](dotblogs-bee17aac-1706069157.jpg)
 
 可以看到資料 4 的 namespace 因為不包含 `val1` 所以不會出現在搜尋結果
 
@@ -88,7 +86,7 @@ LIMIT 2;
 
 ## 延伸閱讀
 
-[GCP Cloud SQL Proxy 本地連線不開白名單 | 御用小本本 - 點部落 (dotblogs.com.tw)](https://www.dotblogs.com.tw/jakeuj/2023/12/08/gcp-cloud-sql-onnect-auth-proxy)
+[GCP Cloud SQL Proxy 本地連線不開白名單](GCP-Cloud-SQL-Proxy-本地連線不開白名單.md)
 
 ![PSNProfiles 卡片](https://card.psnprofiles.com/1/jakeuj.png)
 
