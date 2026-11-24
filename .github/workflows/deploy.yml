@@ -11,6 +11,7 @@ on:
       - "data/posts.json"
       - "scripts/publication.py"
       - "scripts/seo_metadata.py"
+      - "scripts/algolia_index.py"
       - "data/seo-noindex.txt"
       - "portal/**"
       - "!portal/**/*.md"
@@ -78,11 +79,7 @@ jobs:
         run: |
           rm -rf algolia-indexes
           unzip -O UTF-8 -qq "artifacts/${{ env.ALGOLIA_ARTIFACT }}" -d algolia-indexes
-          find algolia-indexes -type f -name '*.json' -print0 | while IFS= read -r -d '' file; do
-            tmp="${file}.tmp"
-            jq 'del(.contentBoost)' "$file" > "$tmp"
-            mv "$tmp" "$file"
-          done
+          python3 scripts/algolia_index.py algolia-indexes
           (
             cd algolia-indexes
             zip -X -qr "../${{ env.ALGOLIA_ARTIFACT }}" .
@@ -277,6 +274,8 @@ jobs:
   publish-indexes:
     needs: [build, test, deploy]
     runs-on: ubuntu-latest
+    # The publisher's JVM does not exit after an API error, so it would otherwise hang for hours.
+    timeout-minutes: 15
     steps:
       - name: Download artifact
         uses: actions/download-artifact@v4
@@ -325,3 +324,8 @@ jobs:
               --version "$CONFIG_JSON_VERSION" \
               --index-directory algolia-indexes/ \
               2>&1 | tee algolia-update-index-log.txt'
+
+          if grep -q "AlgoliaApiException" algolia-update-index-log.txt; then
+            echo "::error::Algolia rejected a search record; see the log above."
+            exit 1
+          fi
