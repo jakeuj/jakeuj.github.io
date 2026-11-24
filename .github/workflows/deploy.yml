@@ -116,7 +116,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url || steps.deployment_last.outputs.page_url }}
     # Requires the build job results
     needs: [build, test]
     runs-on: ubuntu-latest
@@ -268,8 +268,35 @@ jobs:
       with:
         path: dir
     
+    # deploy-pages finds the artifact by name and gives up at once when the artifact service does not
+    # list it yet, which can take seconds after the upload (actions/deploy-pages issue 451).
+    # Wait before the first lookup, then retry; the job fails only if the last attempt fails.
+    # Retry inside this job: re-running the job uploads a second github-pages artifact, which is rejected.
+    - name: Wait for the Pages artifact to be listed
+      run: sleep 15
+
     - name: Deploy to GitHub Pages
       id: deployment
+      continue-on-error: true
+      uses: actions/deploy-pages@v4
+
+    - name: Wait before the second deploy attempt
+      if: steps.deployment.outcome == 'failure'
+      run: sleep 30
+
+    - name: Deploy to GitHub Pages (second attempt)
+      id: deployment_retry
+      if: steps.deployment.outcome == 'failure'
+      continue-on-error: true
+      uses: actions/deploy-pages@v4
+
+    - name: Wait before the last deploy attempt
+      if: steps.deployment_retry.outcome == 'failure'
+      run: sleep 60
+
+    - name: Deploy to GitHub Pages (last attempt)
+      id: deployment_last
+      if: steps.deployment_retry.outcome == 'failure'
       uses: actions/deploy-pages@v4
   publish-indexes:
     needs: [build, test, deploy]
