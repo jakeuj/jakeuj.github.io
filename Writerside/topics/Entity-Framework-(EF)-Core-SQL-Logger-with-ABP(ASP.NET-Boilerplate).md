@@ -18,7 +18,7 @@ EntityFrameworkModule.cs
 
 private readonly ILoggerFactory _loggerFactory;
 
-public OBManEntityFrameworkModule(ILoggerFactory loggerFactory)
+public MyProjectEntityFrameworkModule(ILoggerFactory loggerFactory)
 {
   _loggerFactory = loggerFactory;
 }

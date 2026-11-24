@@ -24,7 +24,7 @@
 
 Example:
 
-- oc login --token=sha256~EfumjEgIpAkCjkFjuXMEgtKKF3M\_gkxatCK69NhVR55 --server=https://api.sandbox.x8i5.p1.openshiftapps.com:6443
+- `oc login --token=<token> --server=<server>`
 
 建立前端服務
 

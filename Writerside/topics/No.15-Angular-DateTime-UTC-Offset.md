@@ -28,7 +28,7 @@ Sample
 public override void Initialize()
 {
     Clock.Provider = ClockProviders.Utc;
-    IocManager.RegisterAssemblyByConvention(typeof(ObManWebHostModule).GetAssembly());
+    IocManager.RegisterAssemblyByConvention(typeof(MyProjectWebHostModule).GetAssembly());
 }
 ```
 

@@ -128,8 +128,8 @@ Configure Done!!!
 
 ```
 EnvName:        Test
-EnvId:          we-123ce75d8ec33f6ed3adaea0
-AppId:          wa-123ce75cf968dd14cea1267d
+EnvId:          we-xxxxxxxxxxxxxxxxxxxxxxxx
+AppId:          wa-xxxxxxxxxxxxxxxxxxxxxxxx
 AppName:        Test
 Status:         RUNNING
 Stack:          ASP.NET Core 3.1 / Alibaba Cloud Linux 2.1903

@@ -108,13 +108,13 @@ Id=jake@domain.onaliyun.com, Pwd={自動生成密碼}
 
 在這可以編輯成自己的域名
 
-比如 jakeuj
+比如 example
 
 這樣以後在登入的時候可以改用以下帳號登入
 
-[admin@jakeuj.onaliyun.com](mailto:admin@jakeuj.onaliyun.com)
+`admin@example.onaliyun.com`
 
-(https://signin.aliyun.com/jakeuj.onaliyun.com/login.htm)
+(`https://signin.aliyun.com/example.onaliyun.com/login.htm`)
 
 6.設置 密碼錯誤次數
 

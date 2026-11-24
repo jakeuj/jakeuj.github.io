@@ -168,7 +168,7 @@ public class SendGridAppService : SendGridTestAppService
 
     public async Task GetAsync(CancellationToken cancellationToken)
     {
-        await _emailSender.SendAsync("jakeuj@hotmail.com", "test", "test");
+        await _emailSender.SendAsync("user@example.com", "test", "test");
     }
 }
 ```
@@ -205,7 +205,7 @@ public async Task Should_Get_Email_Of_A_User()
     await stream.WriteAsync(Encoding.Default.GetBytes("Test"));
     stream.Position = 0;
 
-    var mailMessage = new MailMessage("jakeuj@hotmail.com", "jakeuj@hotmail.com","test", "test")
+    var mailMessage = new MailMessage("from@example.com", "to@example.com","test", "test")
     {
         //Stream contentStream, string? name, string? mediaType
         Attachments = { new Attachment(stream,"test.txt") }

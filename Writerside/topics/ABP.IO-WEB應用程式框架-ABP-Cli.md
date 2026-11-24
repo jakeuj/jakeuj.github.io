@@ -24,7 +24,7 @@
 `abp new WillProj -v 6.0.3`
 
 ```
-❯ abp new EuOrder --ui none -csf --preview
+❯ abp new Test --ui none -csf --preview
 [15:20:44 INF] ABP CLI (https://abp.io)
 [15:20:45 INF] Creating your project...
 [15:20:45 INF] Project name: Test

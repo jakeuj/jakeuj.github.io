@@ -14,7 +14,7 @@ Override GetList 方法實作篩選
 
 ```
 
-public class PrizeWheelAppService:ObManAsyncCrudAppService<
+public class PrizeWheelAppService:MyProjectAsyncCrudAppService<
     Master_PrizeWheel,
     PrizeWheelDto,
     PrizeWheelDto,
@@ -34,8 +34,8 @@ public class PrizeWheelAppService:ObManAsyncCrudAppService<
 
 ```
 
-public abstract class ObManAsyncCrudAppService<TEntity, TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
-    : ObManAppServiceBase,IObManAsyncCrudAppService<TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
+public abstract class MyProjectAsyncCrudAppService<TEntity, TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
+    : MyProjectAppServiceBase,IMyProjectAsyncCrudAppService<TGetOutputDto, TGetListOutputDto, TKey, TGetListInput, TCreateInput, TUpdateInput>
     where TEntity : class, I`Entity<TKey>`, new()
     where TGetListInput :IPagedAndSortedResultRequest,IHasServerId
     where TGetOutputDto : IEntityDto<TKey>
@@ -43,7 +43,7 @@ public abstract class ObManAsyncCrudAppService<TEntity, TGetOutputDto, TGetListO
 {
     protected readonly IConnectionFactory ConnectionFactory;
 
-    protected ObManAsyncCrudAppService(IConnectionFactory connectionFactory)
+    protected MyProjectAsyncCrudAppService(IConnectionFactory connectionFactory)
     {
         ConnectionFactory = connectionFactory;
     }
@@ -199,7 +199,7 @@ public static class StringBuilderCrudExtensions
 
 ```
 
-public class ActivityAppService : ObManAsyncCrudAppService<
+public class ActivityAppService : MyProjectAsyncCrudAppService<
         Master_Activity,
         ActivityDto,
         ActivityDto,
@@ -227,7 +227,7 @@ public class ActivityAppService : ObManAsyncCrudAppService<
 
 ```
 
-public class GetAllActivitiesInput : ObManPagedAndSortedResultRequestDto
+public class GetAllActivitiesInput : MyProjectPagedAndSortedResultRequestDto
 {
     public ActivityTypeEnum? Type { get; set; }
     public DateTime? StartTime { get; set; }

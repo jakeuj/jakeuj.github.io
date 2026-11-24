@@ -74,12 +74,12 @@
 4. 驗證網址
    這邊需要到dns將domain指到目標網站Server的IP並於IIS繫結domain到目標站台​，
    並於該站台根目錄建立 /.well-known/pki-validation/ 資料夾目錄結構
-   放入上面下載的驗證檔案 BBFAA6385EB410B8DC58D4D31E871BCC.txt
+   放入上面下載的驗證檔案 validation-file.txt
 
    ※ 但是Windows目錄不能包含小點點 .
    所以這邊用 添加虛擬目錄 的方式建立對應目錄結構
    ![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構](dotblogs-9f823204-1608990221.jpg)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 2](dotblogs-9f823204-1608989944.jpg)![所以這邊用 添加虛擬目錄 的方式建立對應目錄結構 3](dotblogs-9f823204-1608990206.jpg)
-   確保輸入網址 **http://example.com/.well-known/pki-validation/BBFAA6385EB410B8DC58D4D31E871BCC.txt**
+   確保輸入網址 **http://example.com/.well-known/pki-validation/validation-file.txt**
    可以看到該檔案的內容
    ![可以看到該檔案的內容](dotblogs-9f823204-1608990303.jpg)到這邊即驗證完URL所有權
 5. 完成證書申請

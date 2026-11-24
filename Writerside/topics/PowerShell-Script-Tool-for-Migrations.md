@@ -25,9 +25,9 @@ PowerShell 腳本用來管理 Migrations
 param (
     [string]$Cmd = $(throw "Cmd parameter is required."),
     [string]$MigrationName = $null,
-    [string]$DbContextName = "OBManMigrationsDbContext",
-    [string]$StartupProjectPath = "src\Wow.OBMan.Web",
-    [string]$MigrationProjectPath = "src\Wow.OBMan.EntityFrameworkCore.DbMigrations",
+    [string]$DbContextName = "MyProjectMigrationsDbContext",
+    [string]$StartupProjectPath = "src\MyCompany.MyProject.Web",
+    [string]$MigrationProjectPath = "src\MyCompany.MyProject.EntityFrameworkCore.DbMigrations",
     [string]$ScriptOutputPath = "sql\$DbContextName\"
 )
 Write-Host "Start."

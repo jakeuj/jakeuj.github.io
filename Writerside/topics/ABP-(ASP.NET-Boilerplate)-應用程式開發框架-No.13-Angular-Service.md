@@ -23,7 +23,7 @@ public const string Pages_Events = "Pages.Events";
 
 2.於資料庫新增權限資料
 
-Core.Authorization.OBManAuthorizationProvider.cs
+Core.Authorization.MyProjectAuthorizationProvider.cs
 
 ```
 
@@ -32,7 +32,7 @@ context.CreatePermission(PermissionNames.Pages_Events, L("Events"));
 
 3.多國語系檔
 
-英文：Core.Localization.SourceFiles.OBMan.xml
+英文：Core.Localization.SourceFiles.MyProject.xml
 
 ```
 
@@ -40,7 +40,7 @@ context.CreatePermission(PermissionNames.Pages_Events, L("Events"));
 <text name="Events">Events</text>
 ```
 
-中文：Core.Localization.SourceFiles.OBMan-zh-Hans.xml
+中文：Core.Localization.SourceFiles.MyProject-zh-Hans.xml
 
 ```
 
@@ -50,7 +50,7 @@ context.CreatePermission(PermissionNames.Pages_Events, L("Events"));
 
 裡面就XML文件，Key Value Pair，
 
-這邊先把剛剛OBManAuthorizationProvider.cs裡面的L("Events")做一下翻譯，
+這邊先把剛剛MyProjectAuthorizationProvider.cs裡面的L("Events")做一下翻譯，
 
 之後Angular裡面有用到L('XXX')的有需要可以自己加到這邊來翻譯
 

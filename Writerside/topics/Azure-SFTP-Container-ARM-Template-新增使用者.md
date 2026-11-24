@@ -25,14 +25,14 @@
             }
         },
         "containerIP": {
-            "defaultValue": "201.247.244.37",
+            "defaultValue": "203.0.113.10",
             "type": "String",
             "metadata": {
                 "description": "既有容器 IP"
             }
         },
         "storageAccountName": {
-            "defaultValue": "sftpstgqvzlilkzsngya",
+            "defaultValue": "sftpstgxxxxxxxxxxxxx",
             "type": "String",
             "metadata": {
                 "description": "既有儲存體帳號名稱"

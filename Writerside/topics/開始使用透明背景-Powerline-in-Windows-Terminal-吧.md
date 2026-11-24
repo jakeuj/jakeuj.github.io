@@ -96,7 +96,7 @@ Set-ExecutionPolicy RemoteSigned
     // 背景透明度
     "backgroundImageOpacity": 0.2,
     // 背景圖片
-    "backgroundImage": "C:\\Users\\jake.chu\\Pictures\\332769.jpg",
+    "backgroundImage": "C:\\Users\\UserName\\Pictures\\332769.jpg",
     // 主題設定
     "colorScheme": "Tango Dark",
     // 字型設定(請找PowerLine字型)

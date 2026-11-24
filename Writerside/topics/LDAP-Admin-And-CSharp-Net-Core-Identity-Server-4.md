@@ -24,7 +24,7 @@ LDAP：輕型目錄存取協定(Lightweight Directory Access Protocol)
 
 至於 AD 本身就像是電腦資料夾
 
-C:\Users\jake.chu\Music
+C:\Users\UserName\Music
 
 類似這種目錄結構的感覺
 

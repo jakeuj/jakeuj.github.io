@@ -31,7 +31,7 @@ project = src/TestProject.HttpApi.Host/TestProject.HttpApi.Host.csproj
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy ASP.Net Core app to Azure Web App - euorder
+name: Build and deploy ASP.Net Core app to Azure Web App - myproject
 
 on:
   push:

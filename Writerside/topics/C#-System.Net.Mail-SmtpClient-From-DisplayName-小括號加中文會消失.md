@@ -41,10 +41,10 @@ public async Task Should_Get_Chinese_From_Mail()
         Subject = "測試小括號中文",
         Body = "有括號時中文會被消失",
         From = new MailAddress(
-            "jakeuj@hotmail.com", displayName, Encoding.UTF8)
+            "from@example.com", displayName, Encoding.UTF8)
     };
 
-    mail.To.Add("jakeuj@gmail.com");
+    mail.To.Add("to@example.com");
 
     //Act
     using (var smtpClient = new SmtpClient("smtp.gmail.com", 587)
