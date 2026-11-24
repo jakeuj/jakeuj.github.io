@@ -30,7 +30,7 @@ Project.EntityFrameworkCore.ProjectEntityFrameworkCoreModule.cs
 Configure<AbpDbContextOptions>(options =>
 {
     /* The main point to change your DBMS.
-     * See also PlmAPIMigrationsDbContextFactory for EF Core tooling. */
+     * See also ProjectMigrationsDbContextFactory for EF Core tooling. */
     options.UseSqlServer();
 
     //TODO: Debug 用完需註解

@@ -48,7 +48,7 @@ steps:
     submodules: true
   - task: AzureStaticWebApp@0
     inputs:
-      app_location: '/src/PlmAPI.Blazor'
+      app_location: '/src/MyProject.Blazor'
       output_location: 'wwwroot'
       azure_static_web_apps_api_token: $(deployment_token)
 ```

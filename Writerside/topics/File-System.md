@@ -104,7 +104,7 @@ Retrieve all file names in a folder using the `GetFileNameList` extension method
 
 Create a extension method to get file name list from directory.
 
-`public static class NbEdiExtensions`
+`public static class MyProjectExtensions`
 
 ```c#
 public static List<string> GetFileNameList(

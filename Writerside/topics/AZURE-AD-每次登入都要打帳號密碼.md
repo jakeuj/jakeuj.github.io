@@ -28,7 +28,7 @@ private void ConfigureAuthentication(ServiceConfigurationContext context,
             options.Authority = configuration["AuthServer:Authority"];
             options.RequireHttpsMetadata =
                 Convert.ToBoolean(configuration["AuthServer:RequireHttpsMetadata"]);
-            options.Audience = "PlmAPI";
+            options.Audience = "MyProject";
         })
         .AddOpenIdConnect("AzureAdOpenId", "Azure AD OpenId", options =>
         {

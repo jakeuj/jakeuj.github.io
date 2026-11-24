@@ -192,8 +192,8 @@ appsettings.json
 "AzureAd": {
     "Instance": "https://login.microsoftonline.com/",
     "Domain": "xxxx.onmicrosoft.com",
-    "ClientId": "30fa3c26-xxxx-4342-8acc-9d3400c28ad5",
-    "TenantId": "da99111d-385d-xxxx-b8bf-c06f82284e39",
+    "ClientId": "<client-id>",
+    "TenantId": "<tenant-id>",
     "CallbackPath": "/signin-azuread-oidc",
     "ClientSecret": "define.from.appsettings.secrets.json"
   }

@@ -10,7 +10,7 @@
 
 ```
 USE master
-CREATE LOGIN TestAccount WITH PASSWORD='@pa1xc*xMfkrv^~y_nqy'
+CREATE LOGIN TestAccount WITH PASSWORD='<password>'
 CREATE USER TestApp FOR LOGIN TestAccount
 GO
 

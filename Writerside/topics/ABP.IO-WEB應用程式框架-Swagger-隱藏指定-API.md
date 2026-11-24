@@ -34,7 +34,7 @@ public class HideIdentityUserFilter : IDocumentFilter
 services.AddAbpSwaggerGen(
     options =>
     {
-        options.SwaggerDoc("v1", new OpenApiInfo {Title = "PlmAPI API", Version = "v1"});
+        options.SwaggerDoc("v1", new OpenApiInfo {Title = "MyProject API", Version = "v1"});
         options.DocInclusionPredicate((docName, description) => true);
         options.CustomSchemaIds(type => type.FullName);
         // add filter

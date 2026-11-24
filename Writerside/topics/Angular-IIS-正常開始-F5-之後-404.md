@@ -6,9 +6,9 @@
 
 Angular IIS 正常開始 F5 之後 404
 
-[http://127.0.0.1:4200/](http://139.9.52.196:4200/app/home) => OK
+`http://127.0.0.1:4200/` => OK
 
-=> [http://127.0.0.1:4200/app/home](http://139.9.52.196:4200/app/home) => OK
+=> `http://127.0.0.1:4200/app/home` => OK
 
 => F5或網址列ENTER重新讀取URL => 404
 

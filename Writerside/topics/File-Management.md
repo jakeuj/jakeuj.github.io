@@ -57,7 +57,7 @@ public async Task<Guid?> CreateBackupAsync(IRemoteStreamContent Content)
 
 ### 代码解释
 
-该代码定义了一个名为 `TestFileManagementAppService` 的类，它继承自 `NbEdiAppService`，并提供了一个方法用于创建备份文件夹并将文件存储到其中。以下是代码的详细解释：
+该代码定义了一个名为 `TestFileManagementAppService` 的类，它继承自 `MyProjectAppService`，并提供了一个方法用于创建备份文件夹并将文件存储到其中。以下是代码的详细解释：
 
 ### 构造函数
 
