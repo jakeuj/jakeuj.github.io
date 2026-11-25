@@ -4,7 +4,9 @@
       "topic": "sshuttle-bypass-restricted-network-via-linux-host.md",
       "url": "https://jakeuj.com/sshuttle-bypass-restricted-network-via-linux-host.html",
       "published": "2026-11-13",
-      "date_basis": "建立筆記日期；2026-11-13，整理以 sshuttle 透過第二台同時連著受限網路與乾淨外網的 Linux 主機繞過封鎖的做法，環境已去識別化；正式 URL 待 Writerside 建置產物核對"
+      "date_basis": "建立筆記日期；2026-11-13，整理以 sshuttle 透過雙網卡 Linux 主機使用獨立外網出口的做法，環境已去識別化；正式 URL 已依既有公開頁 canonical 確認",
+      "updated": "2026-11-13",
+      "update_summary": "新增直接連外網、只將公司 TCP 與 DNS 送進隧道的模式，補上 Linux 持久路由、DNS 生命週期及 pf 清理驗證。"
     },
     {
       "topic": "bandit-save-editor.md",

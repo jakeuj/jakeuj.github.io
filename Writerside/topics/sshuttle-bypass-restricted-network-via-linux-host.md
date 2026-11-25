@@ -1,117 +1,246 @@
-# 用 sshuttle 透過第二台 Linux 主機的乾淨外網,繞過受限網路封鎖
+# 用 sshuttle 透過雙網卡 Linux：外網出口與公司內網分流
 
-<web-summary>受限網路擋掉遊戲或特定服務的連線時,若有一台同時連著受限網路與另一條乾淨外網的 Linux 主機,可用 sshuttle 把本機流量透明導出去,只需 SSH、不用在主機上安裝或設定。</web-summary>
+<web-summary>用 sshuttle 經雙網卡 Linux 切換兩種連線方式：在受限網路內使用獨立外網出口，或直接連外網、只把公司內網與 DNS 送進隧道，並驗證路由、服務連線與關閉清理。</web-summary>
 
-如果你的電腦在一個會封鎖特定連線(某些線上遊戲、特定 port 或被 DNS 過濾的網域)的受限網路裡,但你能 SSH 到一台**同時接著「受限網路」和「另一條不受過濾的外網」**的 Linux 主機,最快的解法是在本機用 sshuttle:
+大部分流量都是一般上網、只有少數連線需要公司跳板機或內部網站時，可以讓 Mac 直接接獨立外網，再用 sshuttle 只承接公司網段。Mac 留在公司網路時，則保留原本「內網直連、公開 TCP 經 Linux 出去」的方式，依目前網路選用。
 
-```bash
-sshuttle --dns -r user@linux-host 0/0 -x 10.0.0.0/8
+| 模式 | Mac 所在網路 | 經過 Linux 的流量 | 維持直連的流量 |
+| --- | --- | --- | --- |
+| A：獨立外網出口 | 公司或其他受限網路 | 公開 IPv4 TCP 與一般 DNS | 被排除的公司／私有網段 |
+| B：公司內網分流 | Linux 所在的獨立外網區網 | 指定公司網段 TCP、公司網域 DNS | 一般上網及其他 DNS |
+
+> 主機名稱、帳號、IP、網域、介面與連線設定名稱皆為示意值，請替換成實際環境。公網與獨立區網示意位址使用 RFC 5737 文件範圍；公司範例使用私有網段，並不代表所有環境都應攔截整個 `10.0.0.0/8`。
+
+## 網路條件與運作方式
+
+假設 Linux 同時接著兩個網路：
+
+| 項目 | 示意設定 |
+| --- | --- |
+| Linux 公司介面 | `wlan0`，`10.40.10.20/24` |
+| 公司閘道／NetworkManager profile | `10.40.10.1`／`corp-wifi` |
+| Linux 獨立外網介面 | `eth0`，`192.0.2.10/24` |
+| 外網預設閘道 | `192.0.2.1`，metric 100 |
+| Linux 在外網區網的 mDNS 名稱 | `relay.local` |
+| 公司 DNS | `10.40.0.53` |
+| RDP 跳板機／內部網站 | `10.40.20.10:3389`／`portal.corp.example.com`（`10.40.30.40`） |
+
+sshuttle 在 Mac 以 pf 攔截指定目的地的 TCP，經 SSH 把資料送到 Linux，再由 Linux 重新向目標建立連線。因此 Linux 自己的路由表決定最後使用哪張網卡；Mac 上指定公司網段，不會自動替 Linux 補上公司路由。
+
+代理本身只需要 Linux 上相容的 Python 與既有 SSH，不需遠端 root 或另外安裝 sshuttle。若缺公司路由，初始化該路由仍需要 Linux 管理權限；Mac 端設定 pf 也需要 sudo。
+
+這裡的「獨立外網區網」是另一條線路上的 LAN。Mac 與 Linux 同在該區網時才可直接用 `.local`；Linux 能連外網，不代表從家中或手機熱點就能連進來。名稱解析問題可參考 [macOS mDNS 與 SSH hostname](macos-mdns-ssh-hostname-resolution.md)。
+
+## 模式 A：從受限網路使用獨立外網出口 {#outbound}
+
+```text
+Mac（公司網路）
+├─ 公司／私有網段 → 直連
+└─ 公開 IPv4 TCP、一般 DNS → SSH → Linux → 獨立外網
 ```
 
-它會把電腦的 TCP 與 DNS 透明地導到那台主機、從它的乾淨外網出去;伺服器端不用裝任何東西、不用 sudo,只走已經通的 SSH(port 22)。
-
-> 本文中的主機名稱、使用者名稱、IP、網段與對外 IP 皆為示意值,請替換成你自己的環境。範例 IP 使用文件保留範圍(RFC 5737:`192.0.2.0/24`、`198.51.100.0/24`、`203.0.113.0/24`)。
-
-## 情境
-
-- 本機(例如 macOS)在受限網路內,對外 IP 走受過濾的 gateway,連某些服務會逾時,甚至連網域都解析不出來。
-- 受限網路裡有一台 Linux 主機,你有它的 SSH 金鑰登入。
-- 這台 Linux 主機有**第二張網卡接另一條外網**(家用線、獨立 ISP、行動熱點等),而且它的預設路由就走那條線,對外 IP 不經過受限網路的過濾。
-
-典型例子:連線型遊戲(例如 Battle.net 類的登入加上遊戲連線 port 1119 / 3724)在受限網路被擋,但那台 Linux 主機能正常上網。
-
-## 為什麼這樣可行
-
-sshuttle 在本機設定 pf/iptables,把去往目標的 TCP 連線透明攔截,改用 SSH 通道送到遠端主機,再由遠端主機**以它自己的身分**向目標建立連線。那台主機的連線遵循它自己的路由表——既然它的預設路由走那條乾淨外網,導過去的流量就從那條線出去,繞過了本機所在受限網路的封鎖。
-
-它只用已經通的 SSH port 22,遠端端只需要 Python(以你的 SSH 身分執行、不用 sudo、不改動遠端防火牆),所以對共用主機幾乎零干擾、關掉即無痕。
-
-## 前置檢查
-
-先確認那台 Linux 主機真的從乾淨外網出去,而不是繞回受限 gateway:
+先在 Linux 確認公開目的地走外網介面：
 
 ```bash
-# 在 Linux 主機上:預設路由應指向乾淨外網那張網卡
 ip route show default
 ip route get 1.1.1.1
-
-# 對外 IP 應是那條乾淨線的,而不是受限網路的
-curl -s https://ifconfig.co
+curl -4 -s https://ifconfig.co/ip
 ```
 
-如果主機有兩條預設路由,`metric` 較小者優先;確認 `ip route get 1.1.1.1` 走的是乾淨外網那張介面。
+兩張網卡都有預設路由時，較小的 metric 優先；同時要留意更具體的路由。範例預期公開目的地經 `eth0`、`192.0.2.1` 出去。
 
-## 操作步驟
+Mac 安裝並以前景啟動：
 
-<procedure>
-<step>
-<p>本機安裝 sshuttle(macOS 用 Homebrew):</p>
-<code-block lang="bash">
+```bash
 brew install sshuttle
-</code-block>
-</step>
-<step>
-<p>啟動隧道。`0/0` 代表其餘流量全導,`-x` 把受限網段排除、維持直連,`--dns` 讓 DNS 查詢也走遠端解析:</p>
-<code-block lang="bash">
-sshuttle --dns -r user@linux-host 0/0 -x 10.0.0.0/8
-</code-block>
-<p>第一次會要求輸入本機密碼(macOS 用 pfctl 設定攔截規則)。sshuttle 會自動把 SSH 目標主機本身排除,不會把連到它的流量繞進隧道。</p>
-</step>
-<step>
-<p>隧道開著時再啟動你要用的應用或遊戲。不玩時按 <code>Ctrl-C</code>(或 <code>sshuttle --stop</code>)即回復原本網路。</p>
-</step>
-</procedure>
 
-想轉背景執行可加 `--daemon`,收掉用 `sshuttle --stop`。
-
-## 驗證方式
-
-隧道開著時,在本機確認對外 IP 已改走乾淨外網:
-
-```bash
-curl -s https://ifconfig.co
-# 應回那條乾淨外網的對外 IP(例如 203.0.113.10),而非受限網路的(例如 198.51.100.20)
+sshuttle --dns -r user@10.40.10.20 0/0 \
+  -x 10.0.0.0/8 -x 172.16.0.0/12 -x 192.168.0.0/16
 ```
 
-確認原本被擋的服務 port 現在連得通。注意 `nc -z` 這種半開探測在 sshuttle 下常誤報 fail,請用實際連線測試:
+`0/0` 代表所有 IPv4 位址，三個 `-x` 讓私有網段直連；`--dns` 把系統一般 DNS 查詢送到遠端。隧道開啟後再啟動應用程式，結束時按 Ctrl-C。
 
-```bash
-# 用真實 TCP 連線測試(以遊戲登入 / 連線 port 為例)
-python3 - <<'PY'
-import socket
-for host, port in [("example-service.net", 1119), ("example-service.net", 443)]:
-    ip = socket.gethostbyname(host)
-    s = socket.socket(); s.settimeout(6)
-    try:
-        s.connect((ip, port)); print(f"{host}:{port} OPEN ({ip})")
-    except Exception as e:
-        print(f"{host}:{port} fail: {e}")
-    finally:
-        s.close()
-PY
+這個模式適合 Mac 必須留在受限網路的情況。若絕大多數流量都要連外、Mac 也能直接接獨立外網，模式 B 可以減少經過 SSH 的一般上網流量。
+
+## 模式 B：直接上外網，只將公司網段送進隧道 {#inbound}
+
+```text
+Mac（獨立外網區網）
+├─ 一般網站、遊戲、下載 → 直接上網
+└─ 公司 TCP、公司網域 DNS → SSH → Linux → 公司網路
 ```
 
-同時確認受限網路內部資源仍直連(因為 `-x` 排除了那個網段),例如還能 SSH 到內網主機、開內部服務。
+這裡調整的是要承接的目的網段，SSH 仍由 Mac 主動連 Linux，不需要改用 SSH `-R`。
 
-若 hostname 一開始就解析不出來,可先參考 [macOS mDNS 與 SSH hostname](macos-mdns-ssh-hostname-resolution.md) 區分「解析不到」與「連不上」。
+### 確認兩端路由 {#inbound-routes}
 
-## 限制與注意
+先在 Mac 確認目前網路與 SSH：
 
-- **只帶 TCP 與 DNS,不帶 UDP。** 多數遊戲的核心連線是 TCP,可正常玩;但 UDP 語音(例如語音聊天)不會通。
-- **隧道開著時,所有未被 `-x` 排除的流量都走那條外網**,包含一般瀏覽,對外 IP 會變。只在需要時開啟。
-- 每次啟動要輸入一次本機密碼(pfctl)。
-- 若那台 Linux 是共用主機,sshuttle 不在上面留任何設定、也不影響其他人的服務;但仍應避免佔用過多頻寬。
+```bash
+route -n get default
+ipconfig getifaddr en0
+ssh -4 -o BatchMode=yes -o ConnectTimeout=5 user@relay.local 'hostname'
+```
 
-## 進階:需要 UDP 時改用 WireGuard
+`en0` 請換成實際預設介面。接著在 Linux 查公司 DNS、跳板機與公開目的地：
 
-若需要 UDP(語音、其他遊戲)或想要常駐、免每次輸密碼,改在那台 Linux 架 WireGuard,TCP/UDP 全包。代價是:
+```bash
+ip route get 10.40.0.53
+ip route get 10.40.20.10
+ip route get 1.1.1.1
+```
 
-- 伺服器端要一次性 `sudo` 安裝 `wireguard-tools`、建立介面、加 NAT(`MASQUERADE` 由 wg 網段出乾淨外網那張網卡);若主機上的 Docker 把 `FORWARD` chain 預設設成 `DROP`,PostUp 要明確補上 wg 網段的 `FORWARD ACCEPT`。
-- 需要本機到伺服器之間有一個 UDP port 能通;受限網路若把它擋掉,得再用 `udp2raw` 或 `wstunnel` 把 WireGuard 包成 TCP。
+常見問題是 Linux 只有 `10.40.10.0/24` 的直連公司路由，其他公司 IP 都落到外網預設路由。此時即使 Mac 已設定 sshuttle，服務仍會逾時。
 
-一般只是要讓 TCP 遊戲能玩,sshuttle 就足夠,不需要動到伺服器設定。
+若實際公司資源確實都在 `10.0.0.0/8`，可在 Linux 的 NetworkManager profile 新增公司路由。先讀既有設定，確認沒有相同項目，再執行新增：
+
+```bash
+nmcli -g ipv4.routes connection show corp-wifi
+
+sudo nmcli connection modify corp-wifi \
+  +ipv4.routes "10.0.0.0/8 10.40.10.1 600"
+sudo nmcli device reapply wlan0
+```
+
+`+ipv4.routes` 保留其他靜態路由；`device reapply` 嘗試將設定套用到已連線介面，不需為了這條路由重啟網卡。公司流量應改走 `wlan0`，公開目的地仍走外網預設路由。只需要少數公司網段時，就列出實際 CIDR，避免攔截其他私有網路或容器網段。
+
+`nmcli -g` 會回傳 `10.0.0.0/8 10.40.10.1 600` 這種可解析格式；不要拿一般顯示模式的 `{ ip = ..., nh = ..., mt = ... }` 格式去驗證，否則可能把成功新增誤判成失敗。
+
+### 啟動公司 TCP 與指定 DNS 的隧道 {#inbound-start}
+
+Mac 的第一個終端機以前景執行：
+
+```bash
+sshuttle -v --method pf \
+  -e 'ssh -4 -o BatchMode=yes -o ConnectTimeout=5 -o ServerAliveInterval=15 -o ServerAliveCountMax=3' \
+  -r user@relay.local \
+  --ns-hosts 10.40.0.53 --to-ns 10.40.0.53 \
+  10.0.0.0/8
+```
+
+這裡沒有 `0/0`，所以公開 IPv4 TCP 不會被這條隧道攔截。`--ns-hosts` 只承接送往指定 DNS 伺服器的普通 DNS 查詢，`--to-ns` 指定遠端使用的 DNS。兩者要搭配後續 macOS 的公司網域設定，才是完整的 DNS 分流。
+
+先確認公司 DNS 可經隧道查詢：
+
+```bash
+dig +time=2 +tries=1 @10.40.0.53 portal.corp.example.com A
+```
+
+只有 `Connected to server.` 還不足以代表 pf 已完成設定；先用實際查詢確認，再啟用系統 DNS 分流。
+
+## 公司網域的 DNS 分流 {#split-dns}
+
+只承接公司 TCP，並不能讓外網 DNS 自動解析公司網站。直接照搬模式 A 的 `--dns`，則會把一般 DNS 也送進 Linux。
+
+在 Mac 第二個終端機開啟 `scutil`：
+
+```bash
+sudo scutil
+```
+
+接著在 scutil 提示符號輸入下列內容。這是 scutil 的指令，不是另開 shell 執行的 Bash：
+
+```text
+d.init
+d.add ServerAddresses * 10.40.0.53
+d.add SupplementalMatchDomains * corp.example.com internal.example.net
+d.add SupplementalMatchDomainsNoSearch # 1
+add State:/Network/Service/example-corp-tunnel/DNS temporary
+```
+
+保持這個 scutil 工作階段開著。`corp.example.com` 與 `internal.example.net` 才使用公司 DNS，其他網域沿用外網 DNS。請列出真正需要公司解析的網域；`.local` 仍交給原本的 mDNS。
+
+`temporary` 設定屬於目前工作階段，輸入 `quit`、或該工作階段結束後就會撤除。若使用 heredoc 傳送上述內容後立刻結束 scutil，暫時設定也會立刻被撤除。
+
+在另一個終端機確認系統已採用設定：
+
+```bash
+scutil --dns
+sudo dscacheutil -flushcache
+dscacheutil -q host -a name portal.corp.example.com
+```
+
+`dig @公司DNS` 是直接查指定伺服器，`dscacheutil` 才能用來確認 macOS 系統解析；瀏覽器若自訂 DNS over HTTPS，也要確認公司網域使用系統 DNS。
+
+手動使用兩個工作階段時，停止前先在 scutil 輸入 `quit`，再對 sshuttle 按 Ctrl-C。若 SSH 提前中斷，也要結束仍開著的 scutil，撤除公司 DNS 分流。
+
+### 整合為啟動器的生命週期 {#launcher-lifecycle}
+
+要自動處理清理，可由同一個控制器管理 sshuttle 與 scutil 子程序：
+
+1. 檢查目前區網、SSH、Linux 公司路由及重複啟動。
+2. 取得 Mac sudo 驗證，啟動 sshuttle，確認經 pf 的公司 DNS 查詢成功。
+3. 啟動 scutil 並持有 stdin，建立暫時 resolver，再確認系統解析。
+4. 遇到 Ctrl-C、啟動失敗、SSH 中斷或 DNS 子程序退出，關閉 scutil 工作階段並停止本次隧道。
+
+暫時工作階段結束即可撤除 DNS，不必在長時間連線後再次 sudo 才能清理，也不必留下永久的 `/etc/resolver` 檔案。只處理自己建立的子程序，保留既有連線與其他 pf 使用者的設定。
+
+## 驗證服務與分流 {#verification}
+
+以實際服務協定驗證連線：
+
+```bash
+# HTTPS 應建立 TLS，並收到目標服務的 HTTP 回應
+curl -I --connect-timeout 5 --max-time 10 https://portal.corp.example.com/
+
+# 公開 HTTPS 也應繼續可用
+curl -4 -I --connect-timeout 5 --max-time 10 https://example.com/
+```
+
+RDP 請用遠端桌面工具連到 `10.40.20.10:3389`，確認能到登入流程。`nc -z` 或 Python `socket.connect()` 可能先被本機透明代理接受，因此成功建立 TCP 仍不能單獨證明 Linux 已連上真正目標。
+
+網站回 HTTP 403 代表已收到伺服器回應，應再檢查網址、登入狀態與網站規則；不要把它等同於路由或 TLS 逾時。實際能否使用頁面，仍以使用者的瀏覽器操作確認。
+
+模式 A 可比較隧道前後的對外 IP；模式 B 的 Mac 與 Linux 如果共用同一條外網，對外 IP 可能原本就相同，應改看 pf 的目的網段與 sshuttle 的 `Accept TCP` 日誌。
+
+以日誌中的實際 anchor 名稱取代以下 `sshuttle-12300`：
+
+```bash
+sudo pfctl -a sshuttle-12300 -sn
+sudo pfctl -a sshuttle-12300 -sr
+sudo pfctl -s info
+```
+
+模式 B 的 TCP 攔截目的地應為指定公司網段，DNS 則限指定伺服器的 port 53。讀取本次規則時使用 `-sn`／`-sr`；`-s all` 即使指定 anchor，仍可能帶出全域連線狀態與計數器。
+
+## 停止、故障與回復 {#cleanup}
+
+驗證至少包括正常 Ctrl-C，以及只中斷測試隧道的 SSH 連線。兩者都應撤除公司 DNS 與本次攔截規則，讓公開上網持續正常；刻意模擬斷線時看到 `fatal: ssh connection ... exited` 是預期現象。
+
+pf 的 anchor 名稱可能在規則被清空後仍保留。清理驗收應比對啟動前後的 NAT／過濾規則與 pf 啟用狀態，而不是要求所有 anchor 名稱消失。若啟動前已有其他程式使用 pf，關閉隧道後也可能仍維持 Enabled；應回復原先狀態，不要全域清空 pf 或強制關掉其他程式的防火牆。
+
+本例使用前景 Ctrl-C。sshuttle 2.0.0 沒有 `--stop` 選項；需要背景執行時，應使用明確的 pidfile 管理該次程序，並另行管理 DNS 工作階段。
+
+若只出現 `warning: closed channel 16 got cmd=TCP_STOP_SENDING len=0`，代表已關閉的 channel 又收到停止傳送通知，單憑這行不能判定整條 SSH 隧道故障；應搭配服務狀態、SSH 是否退出與清理結果判斷。
+
+Linux 公司路由是持久設定，關閉 Mac 隧道不會自動移除。確定不再需要這條新增路由時，先關閉隧道，再在 Linux 移除精確項目：
+
+```bash
+sudo nmcli connection modify corp-wifi \
+  -ipv4.routes "10.0.0.0/8 10.40.10.1 600"
+sudo nmcli device reapply wlan0
+```
+
+只移除這次新增且仍相符的路由，保留其他項目；若要再次使用模式 B，先恢復公司路由。
+
+## macOS pf 模式的範圍 {#limitations}
+
+- 支援 TCP 與 DNS，不承接一般 UDP；RDP 的 UDP 加速、UDP 語音或其他協定要另外評估。
+- `0/0` 只包含 IPv4；IPv6 需獨立規劃，不能據此宣稱全部流量都進入隧道。
+- sshuttle 本身不需改遠端 NAT／FORWARD；必要的公司路由初始化則是另外的網路設定。
+- Linux 是共用主機時，路由變更會影響它向公司網段發起的連線；新增前核對範圍，保留外網預設路由及既有服務設定。
+
+## 進階：需要 UDP 時改用 WireGuard {#udp-wireguard}
+
+若需要一般 UDP 或常駐 VPN，可另行評估 WireGuard。它需要 Linux 管理權限、轉送與路由／NAT 設定，並處理既有 Docker 防火牆規則；Mac 到伺服器之間也需要可用的傳輸路徑。僅需公司 RDP TCP 與內部網站時，先用已可驗證的 sshuttle 分流即可。
 
 ## 參考資料
 
-- [sshuttle 官方文件](https://sshuttle.readthedocs.io/)
+- [sshuttle Usage](https://sshuttle.readthedocs.io/en/stable/usage.html)
+- [sshuttle 選項與 DNS 說明](https://sshuttle.readthedocs.io/en/stable/manpage.html)
+- [sshuttle 平台支援範圍](https://sshuttle.readthedocs.io/en/stable/requirements.html)
+- [sshuttle 的 pf 清理實作](https://github.com/sshuttle/sshuttle/blob/master/sshuttle/methods/pf.py)
+- [sshuttle channel 處理實作](https://github.com/sshuttle/sshuttle/blob/master/sshuttle/ssnet.py)
+- [NetworkManager nmcli](https://networkmanager.dev/docs/api/latest/nmcli.html)
+- [Apple SystemConfiguration 暫時工作階段](https://github.com/apple-oss-distributions/configd/blob/main/SystemConfiguration.fproj/SCDynamicStore.h)
 - [WireGuard 官方網站](https://www.wireguard.com/)

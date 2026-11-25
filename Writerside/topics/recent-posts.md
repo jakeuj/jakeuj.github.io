@@ -8,9 +8,9 @@
 
 ## 2026 {#year-2026-1}
 
-- [用 sshuttle 透過第二台 Linux 主機的乾淨外網,繞過受限網路封鎖](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
+- [用 sshuttle 透過雙網卡 Linux：外網出口與公司內網分流](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
 
-  受限網路擋掉遊戲或特定服務的連線時,若有一台同時連著受限網路與另一條乾淨外網的 Linux 主機,可用 sshuttle 把本機流量透明導出去,只需 SSH、不用在主機上安裝或設定。
+  用 sshuttle 經雙網卡 Linux 切換兩種連線方式：在受限網路內使用獨立外網出口，或直接連外網、只把公司內網與 DNS 送進隧道，並驗證路由、服務連線與關閉清理。
 
 - [塔防山賊模擬器存檔修改器：山寨帳房的用法與實作](bandit-save-editor.md) — 2026-10-27
 
