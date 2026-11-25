@@ -201,3 +201,9 @@
 - [MiniExcel 用樣板產生 Excel：1.x 與 2.0 寫法、串流回傳與常見錯誤](https://jakeuj.com/c-net-excel-miniexcel.html) — 2023-06-13
 
   MiniExcel 用 Excel 樣板產生檔案：1.x 的 SaveAsByTemplate、2.0 的 FillTemplate、API 直接回傳串流、合計公式，以及升級 2.0 的編譯錯誤與 ValueTuple 例外的實測結果。
+
+## 2022 {#year-2022-1}
+
+- [SQL Server 服務無法啟動 Error 1069：帳號密碼與 LocalDB 的判斷](MSSQL-Local-Db-服務無法啟動-Error-1069.md) — 2022-03-14
+
+  Error 1069 是 Windows 服務無法用設定的帳號登入。依服務帳號判斷密碼要留空或更新，用事件 7038、7041 找原因；LocalDB 不是 Windows 服務，改用 sqllocaldb 排查。

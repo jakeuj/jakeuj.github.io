@@ -81,6 +81,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
   改以 1.47.1 與 2.0.0 實測重寫：新增 2.0 的 FillTemplate 寫法、API 串流回傳、合計公式、可用型別對照、常見錯誤，以及升級 2.0 的編譯錯誤。
 
+- [SQL Server 服務無法啟動 Error 1069：帳號密碼與 LocalDB 的判斷](MSSQL-Local-Db-服務無法啟動-Error-1069.md) — 2026-11-25
+
+  依微軟文件重寫：先分服務帳號類型，再用事件 7038、7041 找原因；更正 LocalDB 不是 Windows 服務，補上 LocalDB 排查與 PowerShell 服務名稱的引號陷阱。
+
 - [用 sshuttle 透過雙網卡 Linux：外網出口與公司內網分流](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
 
   新增直接連外網、只將公司 TCP 與 DNS 送進隧道的模式，補上 Linux 持久路由、DNS 生命週期及 pf 清理驗證。
@@ -92,10 +96,6 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 - [Evennia 開發 MUD 遊戲起手筆記](evennia-mud-development.md) — 2026-10-07
 
   更新 Evennia 6.1.0 與 Python 版本依據、中文文件範圍，補上 uv lock 專案與套件升級流程，串接中文指令及時間狀態實作筆記。
-
-- [ROG Astral LC RTX 5090 冷排風扇不亮、不轉：磁吸接頭暫時恢復後復發](rog-astral-lc-rtx5090-fan-connector.md) — 2026-10-07
-
-  冷排風扇再次停止；壓回磁吸接頭只暫時恢復。補上 Fan 2 為 88% 卻回報 0 RPM 的負載讀值與相似論壇案例，狀態改為已復發、待檢修。
 
 <!-- publications:end -->
 

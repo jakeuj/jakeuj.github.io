@@ -121,7 +121,7 @@
             <toc-element topic="sql-server-option-hash-join.md"/>
             <toc-element topic="MSSQL-抓半年內的資料.md" />
             <toc-element topic="MSSQL-2008-R2-TLS-1.2.md" />
-            <toc-element topic="MSSQL-Local-Db-服務無法啟動-Error-1069.md" />
+            <toc-element topic="MSSQL-Local-Db-服務無法啟動-Error-1069.md" toc-title="SQL Server Error 1069" />
             <toc-element topic="SQL-臨時表-定序衝突-(COLLATE).md" />
             <toc-element topic="MSSQL-text-請改用-varchar(max).md" />
             <toc-element topic="SQL-UPDATE-大量更新.md" />

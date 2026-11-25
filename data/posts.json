@@ -289,6 +289,14 @@
       "date_basis": "原文首次發表日期 2023-06-13；正式 URL 已依既有公開頁 canonical 確認",
       "updated": "2026-11-25",
       "update_summary": "改以 1.47.1 與 2.0.0 實測重寫：新增 2.0 的 FillTemplate 寫法、API 串流回傳、合計公式、可用型別對照、常見錯誤，以及升級 2.0 的編譯錯誤。"
+    },
+    {
+      "topic": "MSSQL-Local-Db-服務無法啟動-Error-1069.md",
+      "url": "https://jakeuj.com/mssql-local-db-服務無法啟動-error-1069.html",
+      "published": "2022-03-14",
+      "date_basis": "原文首次發表日期 2022-03-14；正式 URL 已依既有公開頁 canonical 與 og:url 確認",
+      "updated": "2026-11-25",
+      "update_summary": "依微軟文件重寫：先分服務帳號類型，再用事件 7038、7041 找原因；更正 LocalDB 不是 Windows 服務，補上 LocalDB 排查與 PowerShell 服務名稱的引號陷阱。"
     }
   ],
   "featured": [
