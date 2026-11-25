@@ -195,3 +195,9 @@
 - [Evennia 開發 MUD 遊戲起手筆記](evennia-mud-development.md) — 2026-04-20
 
   用 Python 3.14 與 uv 建立 Evennia 6.1 遊戲專案，完成初始化、資料庫 migration 與第一個繁體中文指令，並理解 game dir、CmdSets、Typeclasses 與持久化資料的分工。
+
+## 2023 {#year-2023-1}
+
+- [MiniExcel 用樣板產生 Excel：1.x 與 2.0 寫法、串流回傳與常見錯誤](https://jakeuj.com/c-net-excel-miniexcel.html) — 2023-06-13
+
+  MiniExcel 用 Excel 樣板產生檔案：1.x 的 SaveAsByTemplate、2.0 的 FillTemplate、API 直接回傳串流、合計公式，以及升級 2.0 的編譯錯誤與 ValueTuple 例外的實測結果。

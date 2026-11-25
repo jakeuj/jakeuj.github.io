@@ -77,6 +77,10 @@ Jakeuj 筆記本整理 .NET、ABP、Azure、GCP、Docker、AI 工具、macOS 與
 
 ## 重大更新
 
+- [MiniExcel 用樣板產生 Excel：1.x 與 2.0 寫法、串流回傳與常見錯誤](https://jakeuj.com/c-net-excel-miniexcel.html) — 2026-11-25
+
+  改以 1.47.1 與 2.0.0 實測重寫：新增 2.0 的 FillTemplate 寫法、API 串流回傳、合計公式、可用型別對照、常見錯誤，以及升級 2.0 的編譯錯誤。
+
 - [用 sshuttle 透過雙網卡 Linux：外網出口與公司內網分流](sshuttle-bypass-restricted-network-via-linux-host.md) — 2026-11-13
 
   新增直接連外網、只將公司 TCP 與 DNS 送進隧道的模式，補上 Linux 持久路由、DNS 生命週期及 pf 清理驗證。

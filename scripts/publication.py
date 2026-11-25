@@ -98,9 +98,18 @@ def md(value):
     )
 
 
+def target(post):
+    """Topic link, or the public URL when the file name would break a Markdown link.
+
+    Older topics have names such as C#-.Net-Excel-(MiniExcel).md; "#" reads as an anchor and
+    parentheses end the link early.
+    """
+    return post["url"] if re.search(r"[#()\[\]<>\s]", post["topic"]) else post["topic"]
+
+
 def entries(posts):
     return "\n\n".join(
-        f"- [{md(p['title'])}]({p['topic']}) — {p['published']}\n\n  {md(p['summary'])}"
+        f"- [{md(p['title'])}]({target(p)}) — {p['published']}\n\n  {md(p['summary'])}"
         for p in posts
     )
 
@@ -121,7 +130,7 @@ def render(data):
     )[:5]
     if updates:
         home += "\n\n## 重大更新\n\n" + "\n\n".join(
-            f"- [{md(p['title'])}]({p['topic']}) — {p['updated']}\n\n  {md(p['update_summary'])}"
+            f"- [{md(p['title'])}]({target(p)}) — {p['updated']}\n\n  {md(p['update_summary'])}"
             for p in updates
         )
     recent = "# 最新文章\n\n<web-summary>依發布日期瀏覽 Jakeuj 的近期技術文章，涵蓋雲端、開發工具與實作排錯筆記。</web-summary>\n\n這裡收錄已整理發布日期的文章，尚未涵蓋全部歷史文章；其他筆記可從左側分類瀏覽。\n\n[訂閱新文章 RSS](https://jakeuj.com/feed.xml) · [返回首頁](Default.md)\n"

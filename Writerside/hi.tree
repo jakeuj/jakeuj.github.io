@@ -87,7 +87,7 @@
             <toc-element topic="C#-Summary-link-url.md" />
             <toc-element topic="C#-Linq-動態組裝-Expression-產生-WHERE-條件.md" />
             <toc-element topic="C#-Linq-OrderByDescending-Contains.md" />
-            <toc-element topic="C#-.Net-Excel-(MiniExcel).md" />
+            <toc-element topic="C#-.Net-Excel-(MiniExcel).md" toc-title="MiniExcel 樣板產生 Excel" />
             <toc-element topic="C#-.Net-7-XML-Deserialize.md" />
             <toc-element topic="Linq-加總兩個欄位.md" />
             <toc-element topic="LINQ-Join-with-Multiple-Conditions-in-On-Clause.md" />

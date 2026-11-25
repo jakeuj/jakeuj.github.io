@@ -281,6 +281,14 @@
       "url": "https://jakeuj.com/coolpc-quote-share-github-pages.html",
       "published": "2026-10-27",
       "date_basis": "建立筆記日期；2026-10-27，依公開 repo jakeuj/architect-pc-builder（commit 70f737e）的 README、技能文件與 workflow 整理；正式 URL 待 Writerside 建置產物核對"
+    },
+    {
+      "topic": "C#-.Net-Excel-(MiniExcel).md",
+      "url": "https://jakeuj.com/c-net-excel-miniexcel.html",
+      "published": "2023-06-13",
+      "date_basis": "原文首次發表日期 2023-06-13；正式 URL 已依既有公開頁 canonical 確認",
+      "updated": "2026-11-25",
+      "update_summary": "改以 1.47.1 與 2.0.0 實測重寫：新增 2.0 的 FillTemplate 寫法、API 串流回傳、合計公式、可用型別對照、常見錯誤，以及升級 2.0 的編譯錯誤。"
     }
   ],
   "featured": [

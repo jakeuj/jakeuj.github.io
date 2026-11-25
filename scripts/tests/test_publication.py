@@ -41,6 +41,14 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(items[0].findtext("guid"), data["posts"][0]["url"])
         self.assertIn("## 重大更新", p.render(data)[0])
 
+    def test_unsafe_topic_names_link_to_the_public_url(self):
+        safe = {"topic": "a-b.md", "url": "https://jakeuj.com/a-b.html"}
+        self.assertEqual(p.target(safe), "a-b.md")
+        for name in ("C#-x.md", "a-(b).md", "[Git]-a.md", "a b.md"):
+            post = {"topic": name, "url": "https://jakeuj.com/x.html"}
+            self.assertEqual(p.target(post), "https://jakeuj.com/x.html")
+        self.assertEqual(p.target({"topic": "初始安裝.md", "url": "u"}), "初始安裝.md")
+
     def test_new_post_enters_feed_and_oldest_leaves(self):
         data = self.data
         new = copy.deepcopy(data["posts"][0])
