@@ -563,7 +563,7 @@
             <toc-element topic="ASP.NET-Web-Forms-下拉式選單繫結資料庫並加入額外預設值.md" />
             <toc-element topic="C#-Web-Site-Project-(WSP)-使用-roslyn-以支援新版-C#.md" />
             <toc-element topic="如何在舊的-ASP.NET-WebSite-使用新版-C#-語言特性-(7.3).md" />
-            <toc-element topic="Convert-Web-site-(WSP)-to-Web-Application-(WAP)-with-Visual-Studio-2019.md" />
+            <toc-element topic="Convert-Web-site-(WSP)-to-Web-Application-(WAP)-with-Visual-Studio-2019.md" toc-title="WSP 轉 WAP" />
             <toc-element topic="WebForm-Log4Net.md" />
             <toc-element topic="[2021]-檔案上傳到件-Uploadify-升級到-UploadiFive-的筆記.md" />
             <toc-element topic="下載圖片檔案上傳到遠端伺服器API轉存.md" />
