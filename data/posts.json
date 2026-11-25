@@ -306,6 +306,7 @@
   ],
   "excluded": {
     "recent-posts.md": "自動生成的近期文章索引",
+    "abp-asp-net-boilerplate-tutorial-00-index.md": "點部落舊文搬家，原發布日 2016-07-28，不是新文章",
     "abp-io-tutorial-00-index.md": "點部落舊文搬家，原發布日 2021-07-15，不是新文章",
     "csharp-system-text-json-ignore-null.md": "點部落舊文搬家，原發布日 2023-02-20，不是新文章",
     "edge-delete-localhost-hsts.md": "點部落舊文搬家，原發布日 2024-01-03，不是新文章",

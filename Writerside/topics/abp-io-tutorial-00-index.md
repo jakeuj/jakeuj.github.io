@@ -3,37 +3,17 @@
 <web-summary>ABP.IO 新手教學系列索引，涵蓋快速開始、圖書管理教學、建立服務端分段教學，以及授權、背景工作與多資料庫等專題。</web-summary>
 
 > 首次發表：2021-07-15
-
-ABP.IO 是一個開源應用程序框架,專注於基於ASP.NET Core的Web應用程序開發,但也支持開發其他類型的應用程序.
-
-ABP.IO 不僅僅是一個框架，更提供了一個基於DDD和最佳實踐方案
-
-ABP.IO 是用於建立現代Web應用程式的完整架構和強大的基礎設施! 遵循最佳實作和約定，為您提供SOLID開發經驗.
-
-![ABP.IO 是用於建立現代Web應用程式的完整架構和強大的基礎設施! 遵循最佳實作和約定，為您提供SOLID開發經驗.](dotblogs-87bcc78e-1631867412.jpg)
-
-## 前言
-
-2016 年已有發布過一次 ABP 的新手教學
-
-當時只有 .Net framework 版本
-
-這次主要針對新版 .Net Core 的 ABP.IO 再做一次筆記
-
-## 簡介
-
-基本上跟原版 ABP 大致也差不多
-
-這邊就先照搬2016年的簡介再來用一次
-
-> 應用程式常有許多重複性的功能例如：**授權，驗證，異常處理，日誌，本地化，數據庫連接管理，設置管理，審計日誌****等**。
-> 應用程式也需要規劃**分層**和**模塊化**架構，**領域驅動設計（DDD），依賴注入****等等**。
 >
-> 因為開發這些都是非常耗時的，並且對於每個項目單獨創建是很困難的，所以很多公司都會創建自己私有的框架。通過使用私有的框架，他們總是可以快速地開發新的應用，同時應用的Bug又會更少。當然了，不是所有的公司都是那麼幸運了，大多數公司還是沒有**時間，預算和團隊**來開發他們自己的私人框架。即使他們有可能構建這麼一個框架，**寫文檔，培訓開發者以及維護**也是很難的。
->
-> ABP是一個**開源的且文檔友好的應用框架**，起始的想法是，“開發一款為所有公司和開發者通用的框架！”。它不僅僅是一個框架，更提供了一個基於**DDD**和**最佳實踐**的健壯的**體系模型**。​
+> **更新日期：** 2026-11-25
 
-## 目錄
+這是我 2021 年改用 ABP.IO（ABP Framework）時寫的系列筆記索引，用 Angular 加 EF Core，重點放在後端 API。
+
+我在 2016 年寫過一次 [ASP.NET Boilerplate 新手教學](abp-asp-net-boilerplate-tutorial-00-index.md)，當時只有 .NET Framework 版本。這個系列改用 .NET Core 版的 ABP.IO 再做一次，用起來的感想是觀念大致和原版差不多。
+
+> 「快速開始」和「開發教學」是照官方教學做的筆記，內文有不少整理或翻譯自官方文件。系列寫於 2021 年，新專案請以 [ABP 官方文件](https://abp.io/docs/latest)為準。
+{style="note"}
+
+## 目錄 {#contents}
 
 1. 新手教學
    1. [快速開始](ABP.IO-WEB應用程式框架-新手教學-No.01-快速開始.md)
@@ -69,7 +49,10 @@ ABP.IO 是用於建立現代Web應用程式的完整架構和強大的基礎設
    10. [BackgroundWorker UOW 例外](ABP.IO-WEB應用程式框架-BackgroundWorker-UOW-例外.md)
    11. [UnitTest 讀取 appsettings.json](ABP.IO-WEB應用程式框架-UnitTest-讀取-appsettings.json.md)
 
-## 參照
+## 參考來源 {#references}
 
-1. [ABP (ASP.NET Boilerplate) 新手教學 No.0 索引](abp-asp-net-boilerplate-tutorial-00-index.md)
-2. [ABP.IO 官方網站](https://abp.io/)
+- [ABP.IO 官方網站](https://abp.io/)
+- [官方教學：Book Store](https://abp.io/docs/latest/tutorials/book-store)
+- [ABP (ASP.NET Boilerplate) 新手教學 No.0 索引](abp-asp-net-boilerplate-tutorial-00-index.md)
+
+2026-11-25 更新：移除原本取自[介绍（tkbSimplest）](https://www.cnblogs.com/farb/p/ABPIntro.html)和 [ABP 官方簡體中文文件](https://github.com/abpframework/abp/blob/4.4.0/docs/zh-Hans/Index.md)的簡介，以及一張官方文件的分層圖，想看完整介紹請讀原文。
